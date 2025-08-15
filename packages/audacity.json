@@ -1,0 +1,14 @@
+{
+    "type": "executable",
+    "version": "3.7.5",
+    "description": "Audacity is a free, open-source, cross-platform audio software for multi-track recording and editing.",
+    "homepage": "https://www.audacityteam.org/",
+    "license": "GPL-2.0-or-later",
+    "dependencies": [],
+    "url": "https://github.com/audacity/audacity/releases/download/Audacity-3.7.5/audacity-win-3.7.5-64bit.exe",
+    "hash": "d618903c6368785e35a0d6933a741f7efb75d869ca0897cb690d323c720d27c9",
+    "installer": {
+        "args": ["/VERYSILENT", "/NORESTART"]
+    },
+    "bin": "audacity.exe"
+}

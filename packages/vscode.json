@@ -1,0 +1,14 @@
+{
+    "type": "executable",
+    "version": "1.103.1",
+    "description": "Visual Studio Code is a free source-code editor made by Microsoft for Windows, Linux and macOS.",
+    "homepage": "https://code.visualstudio.com/",
+    "license": "MIT",
+    "dependencies": [],
+    "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user",
+    "hash": "cd365bcec1ae4723dcf88f722226d52d4ef6d87898afaef1edf406f966688e6e",
+    "installer": {
+        "args": ["/VERYSILENT", "/NORESTART"]
+    },
+    "bin": "Code.exe"
+}

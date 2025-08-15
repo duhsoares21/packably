@@ -1,0 +1,14 @@
+{
+    "type": "executable",
+    "version": "4.5.1",
+    "description": "Blender is the free and open-source 3D creation suite. It supports the entirety of the 3D pipeline.",
+    "homepage": "https://www.blender.org/",
+    "license": "GPL-3.0-or-later",
+    "dependencies": [],
+    "url": "https://ftp.halifax.rwth-aachen.de/blender/release/Blender4.5/blender-4.5.1-windows-x64.msi",
+    "hash": "2dc8e4bf6fe2ba93027ca752e2dec90c761037b7578204662a564d503ccb40a1",
+    "installer": {
+        "args": ["/quiet"]
+    },
+    "bin": "blender.exe"
+}

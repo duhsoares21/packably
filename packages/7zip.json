@@ -1,0 +1,14 @@
+{
+    "type": "executable",
+    "version": "25.01",
+    "description": "7-Zip is a free and open-source file archiver with a high compression ratio.",
+    "homepage": "https://www.7-zip.org/",
+    "license": "GNU LGPL",
+    "dependencies": [],
+    "url": "https://www.7-zip.org/a/7z2501-x64.exe",
+    "hash": "78afa2a1c773caf3cf7edf62f857d2a8a5da55fb0fff5da416074c0d28b2b55f",
+    "installer": {
+        "args": ["/S"]
+    },
+    "bin": "7z.exe"
+}

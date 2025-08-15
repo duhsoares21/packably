@@ -1,0 +1,14 @@
+{
+    "type": "executable",
+    "version": "5.2.11",
+    "description": "Krita is a professional free and open-source painting program. It is made by artists that want to see affordable art tools for everyone.",
+    "homepage": "https://krita.org/",
+    "license": "GNU General Public License",
+    "dependencies": [],
+    "url": "https://download.kde.org/stable/krita/5.2.11/krita-x64-5.2.11-setup.exe",
+    "hash": "5e779c479292facb3b998bda06c574702daaffb3c54e9d7b178309fc16b82836",
+    "installer": {
+        "args": ["/VERYSILENT", "/NORESTART"]
+    },
+    "bin": "krita.exe"
+}
