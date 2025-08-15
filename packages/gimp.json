@@ -1,0 +1,13 @@
+{
+    "type":"executable",
+    "version": "3.0.4",
+    "description": "GIMP is an acronym for GNU Image Manipulation Program. It is a freely distributed program for such tasks as photo retouching, image composition and image authoring.",
+    "homepage": "https://www.gimp.org/",
+    "license": "GNU General Public License",
+    "url": "https://download.gimp.org/gimp/v3.0/windows/gimp-3.0.4-setup.exe",
+    "hash": "385e36fe577cbdbfc71ba79d6c046d6f4eaabc01effd7f067bf15fd98410b2a1",
+    "installer": {
+        "args": ["/VERYSILENT", "/NORESTART"]
+    },
+    "bin": "gimp.exe",
+}
