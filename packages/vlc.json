@@ -10,7 +10,8 @@
     "installer": {
         "args": ["/S"]
     },
-    "bin": "vlc.exe"
+    "bin": "vlc-3.0.21\\vlc.exe"
 }
+
 
 
