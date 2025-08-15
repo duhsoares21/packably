@@ -1,15 +1,16 @@
 {
-    "type": "executable",
+    "type": "zip",
     "version": "3.0.21",
     "description": "VLC media player is a free and open-source, portable, cross-platform media player software and streaming media server.",
     "homepage": "https://www.videolan.org/vlc/",
     "license": "GPL-2.0-or-later",
     "dependencies": [],
-    "url": "https://artifacts.videolan.org/vlc-3.0/nightly-win64/20250815-0216/vlc-3.0.21-win64-0c74bb94.msi",
-    "hash": "78516122d0a65e3c01a8d329e7527ae5e8976a7c25765e4fbbb439a6b11a1301",
+    "url": "https://artifacts.videolan.org/vlc-3.0/nightly-win64/20250815-0216/vlc-3.0.21-win64-0c74bb94.zip",
+    "hash": "c9d6b6e399caf37b15185184bacfa26b4185a1d98ef16f542a663f194843a2af",
     "installer": {
         "args": ["/S"]
     },
     "bin": "vlc.exe"
 }
+
 
