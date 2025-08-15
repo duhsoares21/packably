@@ -9,5 +9,5 @@
     "installer": {
         "args": ["/VERYSILENT", "/NORESTART"]
     },
-    "bin": "gimp.exe",
+    "bin": "gimp.exe"
 }
