@@ -6,11 +6,12 @@
     "license": "GNU LGPL",
     "dependencies": [],
     "url": "https://www.7-zip.org/a/7z2501-x64.msi",
-    "hash": "78afa2a1c773caf3cf7edf62f857d2a8a5da55fb0fff5da416074c0d28b2b55f",
+    "hash": "e7eb0b7ed5efa4e087b7b17f191797f7af5b7f442d1290c66f3a21777005ef57",
     "installer": {
         "args": []
     },
     "bin": "7z.exe"
 }
+
 
 
