@@ -10,5 +10,6 @@
     "installer": {
         "args": ["/VERYSILENT", "/NORESTART"]
     },
-    "bin": "inkscape.exe"
+    "bin": "bin\\inkscape.exe"
 }
+
