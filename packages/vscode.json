@@ -5,10 +5,11 @@
     "homepage": "https://code.visualstudio.com/",
     "license": "MIT",
     "dependencies": [],
-    "url": "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user",
+    "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/VSCodeUserSetup-x64-1.103.1.exe",
     "hash": "cd365bcec1ae4723dcf88f722226d52d4ef6d87898afaef1edf406f966688e6e",
     "installer": {
         "args": ["/VERYSILENT", "/NORESTART"]
     },
     "bin": "Code.exe"
 }
+
