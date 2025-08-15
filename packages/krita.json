@@ -10,5 +10,6 @@
     "installer": {
         "args": ["/VERYSILENT", "/NORESTART"]
     },
-    "bin": "krita.exe"
+    "bin": "bin\\krita.exe"
+
 }
