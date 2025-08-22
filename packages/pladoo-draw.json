@@ -1,6 +1,6 @@
 {
     "type":"executable",
-    "version": "2.2",
+    "version": "2.3",
     "description": "PladooDraw - Uma aplicação de desenho inspirada pelo Paint.",
     "homepage": "https://github.com/duhsoares21/PladooDraw",
     "license": "PDSAL1.0",
