@@ -1,11 +1,11 @@
 {
     "type":"executable",
-    "version": "2.3",
+    "version": "2.4",
     "description": "PladooDraw - Uma aplicação de desenho inspirada pelo Paint.",
     "homepage": "https://github.com/duhsoares21/PladooDraw",
     "license": "PDSAL1.0",
-    "url": "https://github.com/duhsoares21/PladooDraw/releases/download/PladooDraw2.3/PladooDraw-Install.exe",
-    "hash": "361b4985e9b5271a53bb590dcc0c28545a56e8c4e7db1a440c96afcf73641d94",
+    "url": "https://github.com/duhsoares21/PladooDraw/releases/download/PladooDraw2.4/PladooDraw-Install.exe",
+    "hash": "c7231943a42e2197cddb3428dc46ffe6b2ff6dcc1162c9541a1525a0e5c28adc",
     "dependencies": [
         "https://github.com/duhsoares21/PladooDraw/releases/download/Dependencia/VC_redist.x86.exe"
     ],
