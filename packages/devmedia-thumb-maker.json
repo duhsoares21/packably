@@ -1,0 +1,17 @@
+{
+    "type":"zip",
+    "version": "1.0",
+    "description": "DevMedia Thumb Maker",
+    "homepage": "https://www.devmedia.com.br",
+    "license": "",
+    "url": "https://github.com/duhsoares21/DevMediaThumbMaker/releases/download/DevMediaThumbMaker1.0/DevMediaThumbMaker.zip",
+    "hash": "0771c93b7bd37efdeb0777c9e8d3894958715fbcb029b53c80a5b6aa2c3c52ba",
+    "dependencies": [],
+    "installer": {
+        "args": ["/VERYSILENT", "/NORESTART"]
+    },
+    "bin": "DevMediaThumbMaker.exe",
+    "autoupdate": {
+        "url": "https://github.com/duhsoares21/DevMediaThumbMaker/releases/download/DevMediaThumbMaker1.0/DevMediaThumbMaker.zip"
+    }
+}
