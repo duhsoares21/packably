@@ -5,7 +5,7 @@
     "homepage": "https://github.com/duhsoares21/PladooDraw",
     "license": "PDSAL1.0",
     "url": "https://github.com/duhsoares21/PladooDraw/releases/download/PladooDraw3.0.1/PladooDraw-Install.exe",
-    "hash": "7411222a74e7ca908f30080a80ea52de56c994f0183b857f6cece06bc8ff092e",
+    "hash": "561e6d5dee663c243cd2e2c1ee8557da0b21485f8514d8bba9a514aec970d722",
     "dependencies": [
         "https://github.com/duhsoares21/PladooDraw/releases/download/Dependencia/VC_redist.x86.exe"
     ],
