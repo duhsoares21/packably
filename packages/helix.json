@@ -10,5 +10,5 @@
     "installer": {
         "args": ["/S"]
     },
-    "bin": "hx.exe"
+    "bin": "helix-25.07.1-x86_64-windows\\hx.exe"
 }
