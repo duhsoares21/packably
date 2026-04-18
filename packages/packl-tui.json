@@ -1,0 +1,19 @@
+{
+  "type": "exe",
+  "version": "0.1.0",
+  "description": "Terminal user interface plugin for Packl. Requires Packl to be installed.",
+  "homepage": "https://github.com/duhsoares21/Packl",
+  "license": "MIT",
+  "dependencies": [
+    "packl"
+  ],
+  "url": "https://github.com/duhsoares21/Packl/releases/download/packl-tui-v0.1.0/packl-tui.exe",
+  "hash": "54635385F9E018B37F00343A031CD4DD920F6AEF9F34C4338FE096572CD4DB8D",
+  "installer": {
+    "args": []
+  },
+  "bin": "packl-tui.exe",
+  "autoupdate": {
+    "url": "https://github.com/duhsoares21/Packl/releases/download/packl-tui-v$version/packl-tui.exe"
+  }
+}
