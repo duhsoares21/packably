@@ -1,0 +1,18 @@
+﻿{
+    "type":  "other",
+    "version":  "4.4",
+    "description":  "A Program for Creating and Analysing Classical Ciphers.",
+    "homepage":  "http://lpb.canb.auug.org.au/adfa/src/jkrypto/index.html",
+    "license":  "Unknown",
+    "dependencies":  [
+
+                     ],
+    "url":  "http://lpb.canb.auug.org.au/adfa/src/jkrypto/jkrypto.jar",
+    "hash":  "1bdc94ccf4268b5124631056d842a654663aeb7350f13832df9f0ecfed214a5d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "jkrypto.ps1"
+}

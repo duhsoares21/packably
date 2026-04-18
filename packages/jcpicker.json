@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "6.2",
+    "description":  "Just Color Picker - Free portable offline colour picker and colour editor for web designers and digital artists.",
+    "homepage":  "https://annystudio.com/software/colorpicker/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://annystudio.com/jcpicker.exe",
+    "hash":  "5b3043406da50d21655d116063599ef39292c072b54403db22b5c97360f43f8c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "jcpicker.exe",
+    "autoupdate":  {
+                       "url":  "https://annystudio.com/jcpicker.exe"
+                   }
+}

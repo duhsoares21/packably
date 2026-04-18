@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "5.15",
+    "description":  "Personal and small-business financial-accounting software",
+    "homepage":  "https://www.gnucash.org/",
+    "license":  "GPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Gnucash/gnucash/releases/download/5.15/gnucash-5.15.setup.exe",
+    "hash":  "6e10f34f92a1464b45436372a70cdbd16636b14b2842431b72251ded780858bd",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\gnucash-cli.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Gnucash/gnucash/releases/download/$version/gnucash-$match2.setup.exe"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.8.0",
+    "description":  "A simple rclone GUI",
+    "homepage":  "https://github.com/kapitainsky/RcloneBrowser",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/kapitainsky/RcloneBrowser/releases/download/1.8.0/rclone-browser-1.8.0-a0b66c6-windows-64-bit.exe",
+    "hash":  "sha512:1d465a5417f57ed3c203464ccebf3badef7217ad2bb8766ad5c08827082dd6ed1a4e9b3cdfa12ba71d53e0846ea4f3d123b18bfc414952c909676daca0442a0b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "RcloneBrowser.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/kapitainsky/RcloneBrowser/releases/download/$version/rclone-browser-$version-$matchCommit-windows-64-bit.exe"
+                   }
+}

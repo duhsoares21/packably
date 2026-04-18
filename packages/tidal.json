@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.41.3",
+    "description":  "A music streaming service that offers music with high fidelity sound quality",
+    "homepage":  "https://tidal.com/",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.tidal.com/desktop/TIDALSetup.exe#/dl.7z",
+    "hash":  "9a8ecf3757ea500b0ad2cb6905888c6e45c102fa74ac72b8a63686473299ab3e",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "TIDAL.exe",
+    "autoupdate":  {
+                       "url":  "https://download.tidal.com/desktop/TIDALSetup.exe#/dl.7z"
+                   }
+}

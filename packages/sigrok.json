@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.7.2",
+    "description":  "A command line utility for the sigrok software.",
+    "homepage":  "https://sigrok.org/",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://sigrok.org/download/binary/sigrok-cli/sigrok-cli-0.7.2-x86_64-installer.exe#/dl.7z",
+    "hash":  "27ddf838c992381f3d9c52ad9d5a7ec7db382d9aea1905d44538a7c7bd368446",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "sigrok-cli.exe",
+    "autoupdate":  {
+                       "url":  "https://sigrok.org/download/binary/sigrok-cli/sigrok-cli-$version-x86_64-installer.exe#/dl.7z"
+                   }
+}

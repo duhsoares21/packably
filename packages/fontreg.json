@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.1.3",
+    "description":  "Windows Font Registration \u0026 Installation Utility.",
+    "homepage":  "https://code.kliu.org/misc/fontreg/",
+    "license":  "Unknown",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://code.kliu.org/misc/fontreg/fontreg-2.1.3-redist.7z",
+    "hash":  "md5:fb3f2c347e5831ccdc0b140e55bf9175",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "FontReg.exe",
+    "autoupdate":  {
+                       "url":  "http://code.kliu.org/misc/fontreg/fontreg-$version-redist.7z"
+                   }
+}

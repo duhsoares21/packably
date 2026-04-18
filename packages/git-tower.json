@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "11.2.549",
+    "description":  "An easy to use GUI client for Git with powerful features.",
+    "homepage":  "https://www.git-tower.com",
+    "license":  "Shareware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.git-tower.com/apps/tower3-win/549-edda0eda/Tower-11.2.549.exe#/dl.7z",
+    "hash":  "sha1:a931449d1c73a91d0469967cde53a376c3f077aa",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Tower.exe",
+    "autoupdate":  {
+                       "url":  "https://www.git-tower.com/apps/tower3-win/$matchRelease/Tower-$version.exe#/dl.7z"
+                   }
+}

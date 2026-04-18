@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.6.44.0",
+    "description":  "Statistical spreadsheet",
+    "homepage":  "https://www.jamovi.org",
+    "license":  "AGPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://dl.jamovi.org/jamovi-2.6.44.0-win-x64.zip",
+    "hash":  "9fe50ca8abde5e5c54a05350acdd7598a86afd7296a03f902693dc609b810a60",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\jamovi.exe",
+    "autoupdate":  {
+                       "url":  "https://dl.jamovi.org/jamovi-$version-win-x64.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.4.66",
+    "description":  "Apache HTTP server benchmarking tool (\u0027ab\u0027)",
+    "homepage":  "https://www.apachelounge.com",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://fossies.org/windows/www/httpd-2.4.66-251206-Win64-VS17.zip",
+    "hash":  "7c78cda3aed9a6b5af7af640b6b961ae0566ab933bbbca3d39ef5dd3912386f3",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\ab.exe",
+    "autoupdate":  {
+                       "url":  "https://fossies.org/windows/www/httpd-$version-$matchDate-$matchArch-VS17.zip"
+                   }
+}

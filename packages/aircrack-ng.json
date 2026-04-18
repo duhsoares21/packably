@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.7",
+    "description":  "A suite of tools to assess WiFi network security",
+    "homepage":  "https://www.aircrack-ng.org/",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.aircrack-ng.org/aircrack-ng-1.7-win.zip",
+    "hash":  "sha1:872ef4f731080626d7cee893ef42c8f630ce90cd",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\Aircrack-ng GUI.exe",
+    "autoupdate":  {
+                       "url":  "https://download.aircrack-ng.org/aircrack-ng-$version-win.zip"
+                   }
+}

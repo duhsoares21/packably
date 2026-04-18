@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.2026.04.15.08.45.stable_02",
+    "description":  "Modern, Rust-based terminal with AI built in so you and your team can build great software, faster.",
+    "homepage":  "https://www.warp.dev/",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://releases.warp.dev/stable/v0.2026.04.15.08.45.stable_02/WarpSetup.exe",
+    "hash":  "2233d90182bbc49722a24f947b32de512bfbfc7a8ecb97992574986d6d161ae2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "warp.exe",
+    "autoupdate":  {
+                       "url":  "https://releases.warp.dev/stable/v$version/WarpSetup.exe"
+                   }
+}

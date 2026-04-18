@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.3.1",
+    "description":  "This is the official CLI for the IPinfo.io IP address API",
+    "homepage":  "https://github.com/ipinfo/cli",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/ipinfo/cli/releases/download/ipinfo-3.3.1/ipinfo_3.3.1_windows_amd64.zip",
+    "hash":  "fd72d65840c4f5e15767cf30d4aea8bd584e3e049fb81f0c8227c82c203b810f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ipinfo.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/ipinfo/cli/releases/download/ipinfo-$version/ipinfo_$version_windows_amd64.zip"
+                   }
+}

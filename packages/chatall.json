@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.85.110",
+    "description":  "Concurrently chat with ChatGPT, Bing Chat, bard, Alpaca, Vincuna, Claude, ChatGLM, MOSS, iFlytek Spark, ERNIE and more, discover the best answers",
+    "homepage":  "http://chatall.ai",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/ai-shifu/ChatALL/releases/download/v1.85.110/ChatALL-1.85.110-win-x64.exe#/dl.7z",
+    "hash":  "sha512:7436e161be40b02e647601e61cd2eccfaab60f7a55deb391f2a08a095eb38e191d0dd7a02cc34364bf4c5ecee98e7a752e14584d286d329b518db53d39e06ff0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ChatALL.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/ai-shifu/ChatALL/releases/download/v$version/ChatALL-$version-win-x64.exe#/dl.7z"
+                   }
+}

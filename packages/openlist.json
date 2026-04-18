@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.2.1",
+    "description":  "A file list program that supports multiple storages, powered by Gin and SolidJS, fork of AList.",
+    "homepage":  "https://oplist.org/",
+    "license":  "AGPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/OpenListTeam/OpenList/releases/download/v4.2.1/openlist-windows-amd64.zip",
+    "hash":  "md5:160e8327bff51b5071aab80fd82ec523",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "openlist.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/OpenListTeam/OpenList/releases/download/v$version/openlist-windows-amd64.zip"
+                   }
+}

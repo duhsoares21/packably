@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.1.1867",
+    "description":  "A manga reader compatible with Tachiyomi extensions and backups",
+    "homepage":  "https://github.com/Suwayomi/Suwayomi-Server",
+    "license":  "MPL-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Suwayomi/Suwayomi-Server/releases/download/v2.1.1867/Suwayomi-Server-v2.1.1867-windows-x64.zip",
+    "hash":  "ab6687d278e0dd0984f67abbc853511a7e764f84b126a35d09bfd9b0307321ff",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "suwayomi.ps1",
+    "autoupdate":  {
+                       "url":  "https://github.com/Suwayomi/Suwayomi-Server/releases/download/v$version/Suwayomi-Server-v$version-windows-x64.zip"
+                   }
+}

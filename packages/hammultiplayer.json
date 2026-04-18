@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.117.38154.1909",
+    "description":  "Small and portable Multi-Medias Player.",
+    "homepage":  "http://hammultiplayer.org",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "http://hammultiplayer.org/Softs/HamMultiPlayer.exe",
+    "hash":  "sha1:a8d1bca8fe99b0f11ef8dc4da9b67cc4efb480fc",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "HamMultiPlayer.exe",
+    "autoupdate":  {
+                       "url":  "http://hammultiplayer.org/Softs/HamMultiPlayer.exe"
+                   }
+}

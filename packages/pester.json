@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "5.7.1",
+    "description":  "Pester is a test and mock framework for PowerShell.",
+    "homepage":  "https://pester.dev",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://globalcdn.nuget.org/packages/pester.5.7.1.nupkg",
+    "hash":  "3c6dad5fb143faf19709dfb28c31c873989944705a087e160e23b7ce462e37a1",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://globalcdn.nuget.org/packages/pester.$version.nupkg"
+                   }
+}

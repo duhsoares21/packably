@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.10.17",
+    "description":  "Apache Ant is a Java library and command-line tool for compiling, assembling, testing and running Java and non-Java applications.",
+    "homepage":  "https://ant.apache.org/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://dlcdn.apache.org//ant/binaries/apache-ant-1.10.17-bin.zip",
+    "hash":  "sha512:5205a3c87902dd356a6bfcfc5d07659361d1c74627716662d7b31ab47817388dd1d985cfc27ca81a607827cb58d9e36d2d2fbf87a961a5dd4eeabfbde380aa71",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://dlcdn.apache.org//ant/binaries/apache-ant-$version-bin.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.22.0",
+    "description":  "A software framework, for scalable cross-language services development.",
+    "homepage":  "https://thrift.apache.org/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://dlcdn.apache.org/thrift/0.22.0/thrift-0.22.0.exe#/thrift.exe",
+    "hash":  "md5:644eb8694deeaba7a911ed137a32737a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "thrift.exe",
+    "autoupdate":  {
+                       "url":  "https://dlcdn.apache.org/thrift/$version/thrift-$version.exe#/thrift.exe"
+                   }
+}

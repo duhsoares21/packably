@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.5",
+    "description":  "Screenshot Tool",
+    "homepage":  "https://lightscreen.com.ar",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/ckaiser/Lightscreen/releases/download/v2.5/LightscreenSetup-2.5.exe",
+    "hash":  "626479bfd6b160df9be29ff169937575e371b50d258c2ad51bf4dcbd8e8251aa",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "lightscreen.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/ckaiser/Lightscreen/releases/download/v$version/LightscreenSetup-$version.exe"
+                   }
+}

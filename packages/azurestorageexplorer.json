@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.43.0",
+    "description":  "Easily manage the contents of Azure storage account.",
+    "homepage":  "https://azure.microsoft.com/en-us/features/storage-explorer/",
+    "license":  "CC-BY-4.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/microsoft/AzureStorageExplorer/releases/download/v1.43.0/StorageExplorer-windows-x64.exe",
+    "hash":  "0d6ff1c282cffa003a4c281d92bcc3a4d6581e1158855c19fa54444a7d1de481",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "StorageExplorer.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/microsoft/AzureStorageExplorer/releases/download/v$version/StorageExplorer-windows-x64.exe"
+                   }
+}

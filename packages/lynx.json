@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.9.2",
+    "description":  "Text web browser.",
+    "homepage":  "https://invisible-island.net/lynx/lynx.html",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+                         "cacert"
+                     ],
+    "url":  "https://invisible-island.net/archives/lynx/current/lynx-newssl2.9.2-setup.exe",
+    "hash":  "12165dfb4e0608a7cd25a088e439a64b6573fff07c32757e989211a04d3b20d7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "lynx.exe",
+    "autoupdate":  {
+                       "url":  "https://invisible-island.net/archives/lynx/current/lynx-newssl$version-setup.exe"
+                   }
+}

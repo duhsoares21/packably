@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "0.10.0",
+    "description":  "Take potentially dangerous PDFs, office documents, or images and convert them to a safe PDF.",
+    "homepage":  "https://dangerzone.rocks/",
+    "license":  "AGPL-3.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/freedomofpress/dangerzone/releases/download/v0.10.0/Dangerzone-0.10.0.msi",
+    "hash":  "2b40f5a863b2f9a2843e2c8174a6d4ba562c32494e15a9151fe4ac7f3ad7d9b6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "dangerzone-cli.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/freedomofpress/dangerzone/releases/download/v$version/Dangerzone-$version.msi"
+                   }
+}

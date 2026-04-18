@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "7.6",
+    "description":  "Tool for modifying/debugging single player games and applications.",
+    "homepage":  "https://cheatengine.org",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://raw.githubusercontent.com/ScoopInstaller/Binary/master/cheat-engine/CheatEngine76.7z",
+    "hash":  "87d58e73fac883aea6c3a09e7497acbf1c6ebdd12a8a76152f0438e9f9927559",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Cheat Engine.exe"
+}

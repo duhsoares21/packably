@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.7.0",
+    "description":  "Feature-rich Interactive Jira Command Line",
+    "homepage":  "https://github.com/ankitpokhrel/jira-cli",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/ankitpokhrel/jira-cli/releases/download/v1.7.0/jira_1.7.0_windows_x86_64.zip",
+    "hash":  "84b205a187ff498533088a8077a294e4245323a66b33f2d963430d27323923a2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "jira.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/ankitpokhrel/jira-cli/releases/download/v$version/jira_$version_windows_x86_64.zip"
+                   }
+}

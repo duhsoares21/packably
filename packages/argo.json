@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.0.4",
+    "description":  "Workflow engine for orchestrating parallel jobs on Kubernetes",
+    "homepage":  "https://github.com/argoproj/argo-workflows",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/argoproj/argo-workflows/releases/download/v4.0.4/argo-windows-amd64.exe.gz",
+    "hash":  "f6d410d58f3a10050f62a8780de2a9a89cccd2cdd50df5e7f102e555d50eaef2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "argo.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/argoproj/argo-workflows/releases/download/v$version/argo-windows-amd64.exe.gz"
+                   }
+}

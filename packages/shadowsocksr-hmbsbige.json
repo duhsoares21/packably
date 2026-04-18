@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "6.1.0",
+    "description":  "ShadowsocksR for Windows maintained by HMBSbige.",
+    "homepage":  "https://github.com/HMBSbige/ShadowsocksR-Windows",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/6.1.0/ShadowsocksR-6.1.0.7z",
+    "hash":  "adbe1e1bd5d71896fd70000551798b77173abd50de56395b11b4bb05e7f8e937",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ShadowsocksR.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/HMBSbige/ShadowsocksR-Windows/releases/download/$version/ShadowsocksR-$version.7z"
+                   }
+}

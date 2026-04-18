@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.18",
+    "description":  "Cross-platform, easy to use, fast and functional audio editor.",
+    "homepage":  "https://www.ocenaudio.com/",
+    "license":  "Unknown",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.ocenaudio.com/downloads/index.php/ocenaudio_windows64.zip?version=v3.18",
+    "hash":  "sha1:ecaf13ad6e2c7e8a62a9bdb584ddd210f484d8a2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ocenaudio.exe",
+    "autoupdate":  {
+                       "url":  "https://www.ocenaudio.com/downloads/index.php/ocenaudio_windows64.zip?version=v$version"
+                   }
+}

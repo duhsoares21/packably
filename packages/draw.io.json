@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "29.6.6",
+    "description":  "Professional diagramming",
+    "homepage":  "https://www.diagrams.net",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/jgraph/drawio-desktop/releases/download/v29.6.6/draw.io-29.6.6-windows-installer.exe#/dl.7z",
+    "hash":  "5c74a37a72442bcb60cfa0908a305c4882012de92ead259ae24c1e93d1311981",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "draw.io.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/jgraph/drawio-desktop/releases/download/v$version/draw.io-$version-windows-installer.exe#/dl.7z"
+                   }
+}

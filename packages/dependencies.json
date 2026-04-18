@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.11.1",
+    "description":  "A rewrite of the old legacy software \u0027depends.exe\u0027 in C# for Windows devs to troubleshoot dll load dependencies issues.",
+    "homepage":  "https://github.com/lucasg/Dependencies",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/lucasg/Dependencies/releases/download/v1.11.1/Dependencies_x64_Release.zip",
+    "hash":  "7d22dc00f1c09fd4415d48ad74d1cf801893e83b9a39944b0fce6dea7ceaea99",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Dependencies.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/lucasg/Dependencies/releases/download/v$version/Dependencies_x64_Release.zip"
+                   }
+}

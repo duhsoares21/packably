@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.0.10",
+    "description":  "Tray application for Syncthing",
+    "homepage":  "https://github.com/Martchus/syncthingtray",
+    "license":  "GPL-2.0-only,...",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Martchus/syncthingtray/releases/download/v2.0.10/syncthingtray-2.0.10-x86_64-w64-mingw32.exe.zip",
+    "hash":  "10a255540c385673fddcd7309a223bd4c5de0ddba5c4eda944837c3f90a24ed3",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "syncthingtray-cli.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Martchus/syncthingtray/releases/download/v$version/syncthingtray-$version-x86_64-w64-mingw32.exe.zip"
+                   }
+}

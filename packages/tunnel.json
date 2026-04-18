@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.5.15",
+    "description":  "Expose local servers to the internet securely.",
+    "homepage":  "https://github.com/labstack/tunnel-client",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/labstack/tunnel-client/releases/download/v0.5.15/tunnel_0.5.15_windows_64-bit.zip",
+    "hash":  "b9ddc128565f2ccf077b5a5b8d20e7545be49c96fd6b6f986635de16367ef00c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "tunnel.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/labstack/tunnel-client/releases/download/v$version/tunnel_$version_windows_64-bit.zip"
+                   }
+}

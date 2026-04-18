@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "14.3",
+    "description":  "A backup program for disk arrays",
+    "homepage":  "https://www.snapraid.it",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/amadvance/snapraid/releases/download/v14.3/snapraid-14.3-windows-x64.zip",
+    "hash":  "223dc51189ab4b9d11a2cd47c39190b4fb22f3b515b75975fe6123fddb6d6fea",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "snapraid.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/amadvance/snapraid/releases/download/v$version/snapraid-$version-windows-x64.zip"
+                   }
+}

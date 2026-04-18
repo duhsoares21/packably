@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.13.1",
+    "description":  "A cross-platform command-line tool to convert images into ascii art and print them on the console. Now supports braille art!",
+    "homepage":  "https://github.com/TheZoraiz/ascii-image-converter/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/TheZoraiz/ascii-image-converter/releases/download/v1.13.1/ascii-image-converter_Windows_amd64_64bit.zip",
+    "hash":  "f1695fe93fafaf44b23ccc8470a4cdd4f60dba4ec8d04be5c17bffc7c8324e9b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ascii-image-converter.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/TheZoraiz/ascii-image-converter/releases/download/v$version/ascii-image-converter_Windows_amd64_64bit.zip"
+                   }
+}

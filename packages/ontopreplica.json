@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.5.1-fix",
+    "description":  "A real-time always-on-top â€œreplicaâ€ of a window",
+    "homepage":  "https://github.com/LorenzCK/OnTopReplica",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/LorenzCK/OnTopReplica/releases/download/v3.5.1-fix/OnTopReplica-v3.5.1-fix.zip",
+    "hash":  "3206460ce10eb563ac3acc600cb2d7143a569b745fd2a11937aac2d60dba5236",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "OnTopReplica.exe"
+}

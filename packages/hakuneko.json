@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "6.1.7",
+    "description":  "Manga and anime downloader",
+    "homepage":  "https://hakuneko.download",
+    "license":  "Unlicense",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/manga-download/hakuneko/releases/download/v6.1.7/hakuneko-desktop_6.1.7_windows-portable_amd64.zip",
+    "hash":  "170e50b5e95a945fac9172f2ab7f2b8015c486f91468a6311593ac33075073f2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "hakuneko.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/manga-download/hakuneko/releases/download/v$version/hakuneko-desktop_$version_windows-portable_amd64.zip"
+                   }
+}

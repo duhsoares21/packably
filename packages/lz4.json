@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.10.0",
+    "description":  "Fast LZ compression algorithm library and tool",
+    "homepage":  "https://www.lz4.org",
+    "license":  "GPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/lz4/lz4/releases/download/v1.10.0/lz4_win64_v1_10_0.zip",
+    "hash":  "8cb562a53189dfc8a53ec12469b91f1b51a5075036061a86b55738183bf4ab74",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "lz4.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/lz4/lz4/releases/download/v$version/lz4_win64_v$underscoreVersion.zip"
+                   }
+}

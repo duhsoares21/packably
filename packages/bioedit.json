@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "7.7.1.0",
+    "description":  "Biological sequence alignment editor.",
+    "homepage":  "https://thalljiscience.github.io/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://thalljiscience.github.io/BioEditFullFolder.zip",
+    "hash":  "a1436374942bd6454859b38c22a784a76aacec983e76341954974dd13ee7259f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "BioEdit.exe"
+}

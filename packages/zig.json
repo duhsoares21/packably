@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.16.0",
+    "description":  "General-purpose programming language designed for robustness, optimality, and maintainability.",
+    "homepage":  "https://ziglang.org/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://ziglang.org/download/0.16.0/zig-x86_64-windows-0.16.0.zip",
+    "hash":  "68659eb5f1e4eb1437a722f1dd889c5a322c9954607f5edcf337bc3684a75a7e",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "zig.exe",
+    "autoupdate":  {
+                       "url":  "https://ziglang.org/download/$version/zig-x86_64-windows-$version.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "149.0.2",
+    "description":  "EME-free version of the Firefox browser, with DRM-support disabled by default.",
+    "homepage":  "https://www.firefox.com/",
+    "license":  "MPL-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://archive.mozilla.org/pub/firefox/releases/149.0.2/win64-EME-free/en-US/Firefox%20Setup%20149.0.2.exe#/dl.7z",
+    "hash":  "sha512:a0ab4addb74f5a778027905a352ed5fc915f7a9b6028a0f0b90e3064dcb14e582df2ad16caf933efa1bb13945166018c53890b444688d1d51904c6af03c4564f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "firefox.exe",
+    "autoupdate":  {
+                       "url":  "https://archive.mozilla.org/pub/firefox/releases/$version/win64-EME-free/en-US/Firefox%20Setup%20$version.exe#/dl.7z"
+                   }
+}

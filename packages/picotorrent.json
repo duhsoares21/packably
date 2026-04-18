@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.25.0",
+    "description":  "A tiny, hackable BitTorrent client with low memory usage, high performance and a native user interface.",
+    "homepage":  "https://picotorrent.org",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/picotorrent/picotorrent/releases/download/v0.25.0/PicoTorrent-0.25.0-x64.zip",
+    "hash":  "375c2445db76b7d51b7cd351b1c5b40f895fb15b502da6073e19aaf6cb08cd76",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "PicoTorrent.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/picotorrent/picotorrent/releases/download/v$version/PicoTorrent-$version-x64.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "8.5.5",
+    "description":  "A popular general-purpose scripting language that is especially suited to web development. (non-thread safe)",
+    "homepage":  "https://www.php.net/",
+    "license":  "PHP-3.01",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.php.net/~windows/releases/archives/php-8.5.5-nts-Win32-vs17-x64.zip",
+    "hash":  "107f64f689eec2a0966b4d8a42f0e34e8dfa04c5097c9548e35fb951cba0a464",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "php.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.php.net/~windows/releases/archives/php-$version-nts-Win32-vs17-x64.zip"
+                   }
+}

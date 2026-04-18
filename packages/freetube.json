@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.24.0-beta",
+    "description":  "The private YouTube client",
+    "homepage":  "https://freetubeapp.io",
+    "license":  "AGPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/FreeTubeApp/FreeTube/releases/download/v0.24.0-beta/freetube-0.24.0-beta-win-x64-portable.7z",
+    "hash":  "2e0b59e3d2071daa2732f22ecf08c8143a19fbf26608bf9b086b5fff5c202ce8",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "FreeTube.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/FreeTubeApp/FreeTube/releases/download/v$version/freetube-$version-win-x64-portable.7z"
+                   }
+}

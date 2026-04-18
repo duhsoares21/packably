@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.15",
+    "description":  "An extremely fast file finder",
+    "homepage":  "https://antibody-software.com/wizfile/",
+    "license":  "Unknown",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://antibody-software.com/files/wizfile_3_15_portable.zip",
+    "hash":  "d7a1fd121a7182219dcc74d467314b8a764830118321a07410951b66a8b40824",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://antibody-software.com/files/wizfile_$underscoreVersion_portable.zip"
+                   }
+}

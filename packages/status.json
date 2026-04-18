@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.37.0-7a514a",
+    "description":  "A messenger, crypto wallet, and Web3 browser.",
+    "homepage":  "https://status.app/",
+    "license":  "MPL-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/status-im/status-desktop/releases/download/2.37.0/StatusIm-Desktop-2.37.0-7a514a-x86_64.7z",
+    "hash":  "f01f44da683cd6770a07dca05b358d938626d53b8de5d9f438ed8980a4f801a8",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Status.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/status-im/status-desktop/releases/download/$matchVer/StatusIm-Desktop-$version-x86_64.7z"
+                   }
+}

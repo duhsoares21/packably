@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.3.7",
+    "description":  "High-level, cross-platform, multi-paradigm programming language and compiler",
+    "homepage":  "https://haxe.org",
+    "license":  "MIT,Zlib,BSD-3-Clause,...",
+    "dependencies":  [
+                         "neko"
+                     ],
+    "url":  "https://github.com/HaxeFoundation/haxe/releases/download/4.3.7/haxe-4.3.7-win64.zip",
+    "hash":  "29f7acb0fb9fc66a2b9f6bd9453af3474ccb14ebd9fd0142f351d7311c4010c9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "haxe.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/HaxeFoundation/haxe/releases/download/$version/haxe-$version-win64.zip"
+                   }
+}

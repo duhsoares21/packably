@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.14.8",
+    "description":  "Create and manage infrastructure as code using simple declarative configuration files.",
+    "homepage":  "https://www.terraform.io",
+    "license":  "BUSL-1.1",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://releases.hashicorp.com/terraform/1.14.8/terraform_1.14.8_windows_amd64.zip",
+    "hash":  "a237008008019589c600ecb0ae0842c9ea4ca5601f7c54ddbc64d274037b0abb",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "terraform.exe",
+    "autoupdate":  {
+                       "url":  "https://releases.hashicorp.com/terraform/$version/terraform_$version_windows_amd64.zip"
+                   }
+}

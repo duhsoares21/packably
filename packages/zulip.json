@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "5.12.3",
+    "description":  "Desktop client for Zulip, an open source team chat application",
+    "homepage":  "https://zulipchat.com",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/zulip/zulip-desktop/releases/download/v5.12.3/zulip-5.12.3-x64.nsis.7z",
+    "hash":  "sha512:55b5bc48242d87ceb313921cf728fb5d20dc4445683c7acf9bb197819fb66f728dc63565879d2af6447afd47c79468bf6d6f70a879398f89de6e316debe01fa6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Zulip.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/zulip/zulip-desktop/releases/download/v$version/zulip-$version-x64.nsis.7z"
+                   }
+}

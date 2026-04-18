@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.3.2",
+    "description":  "Terminal multiplexer for Windows - tmux alternative for PowerShell and Windows Terminal",
+    "homepage":  "https://psmux.pages.dev",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/psmux/psmux/releases/download/v3.3.2/psmux-v3.3.2-windows-x64.zip",
+    "hash":  "449989d4fc9592c362a26f993e1e9c959728178b337d0e0ff04787afcd74cf9c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "psmux.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/psmux/psmux/releases/download/v$version/psmux-v$version-windows-x64.zip"
+                   }
+}

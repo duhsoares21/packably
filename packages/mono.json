@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "6.12.0.206",
+    "description":  "Cross platform, open source .NET framework.",
+    "homepage":  "https://www.mono-project.com/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.mono-project.com/archive/6.12.0/windows-installer/mono-6.12.0.206-x64-0.msi",
+    "hash":  "4125f57d97cfa88257915edc969e913de198cd8e22396a29849037479a0ac368",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://download.mono-project.com/archive/$matchShort/windows-installer/mono-$version-x64-0.msi"
+                   }
+}

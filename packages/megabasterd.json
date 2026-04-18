@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "8.22",
+    "description":  "Yet another unofficial (and ugly) cross-platform MEGA downloader/uploader/streaming suite.",
+    "homepage":  "https://github.com/tonikelope/megabasterd",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/tonikelope/megabasterd/releases/download/v8.22/MegaBasterd_8.22.jar#/MegaBasterd.jar",
+    "hash":  "4a31af5c8eeeb2559747b34222dc63f43a0ca8a558bb9bdba256d7954e90d003",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "MegaBasterd.bat",
+    "autoupdate":  {
+                       "url":  "https://github.com/tonikelope/megabasterd/releases/download/v$version/MegaBasterd_$version.jar#/MegaBasterd.jar"
+                   }
+}

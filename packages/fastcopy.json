@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "5.11.2",
+    "description":  "The Fastest copy/backup software.",
+    "homepage":  "https://fastcopy.jp/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://fastcopy.jp/archive/FastCopy5.11.2_installer.exe",
+    "hash":  "70b273dd08c15d40fac59a217b93be195bacfa47acabd031463a6df800d29fea",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "FastCopy.exe",
+    "autoupdate":  {
+                       "url":  "https://fastcopy.jp/archive/FastCopy$version_installer.exe"
+                   }
+}

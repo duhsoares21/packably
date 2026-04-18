@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.19.4",
+    "description":  "Fast logfile viewer with support for huge logfiles (\u003e10 GB)",
+    "homepage":  "https://github.com/esrlabs/chipmunk",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/esrlabs/chipmunk/releases/download/3.19.4/chipmunk@3.19.4-win64-portable.tgz",
+    "hash":  "82f6f2e7a0f59e062d4bba5957bcbe30268e974f55ae8a71d776146352208b3c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "chipmunk.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/esrlabs/chipmunk/releases/download/$version/chipmunk@$version-win64-portable.tgz"
+                   }
+}

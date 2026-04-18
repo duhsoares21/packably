@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.17.0",
+    "description":  "Hex viewer, which uses colored output to distinguish different categories of bytes.",
+    "homepage":  "https://github.com/sharkdp/hexyl",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/sharkdp/hexyl/releases/download/v0.17.0/hexyl-v0.17.0-x86_64-pc-windows-msvc.zip",
+    "hash":  "ab5c3442cff63f585553d4fce330eaa1ef1bd2584643f1a0e29ab7c13fc9566d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "hexyl.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/sharkdp/hexyl/releases/download/v$version/hexyl-v$version-x86_64-pc-windows-msvc.zip"
+                   }
+}

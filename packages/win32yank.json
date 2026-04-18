@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.1.1",
+    "description":  "A clipboard tool for Windows",
+    "homepage":  "https://github.com/equalsraf/win32yank",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/equalsraf/win32yank/releases/download/v0.1.1/win32yank-x64.zip",
+    "hash":  "247c9a05b94387a884b49d3db13f806b1677dfc38020f955f719be6902260cd6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "win32yank.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/equalsraf/win32yank/releases/download/v$version/win32yank-x64.zip"
+                   }
+}

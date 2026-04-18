@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "3.40.5233",
+    "description":  "Secure messaging, file sharing, voice calls and video conferences",
+    "homepage":  "https://wire.com/",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://wire-app.wire.com/win/prod/wire-3.40.5233-full.nupkg",
+    "hash":  "sha1:dfabe837693b06c9487bb118e6a22e0bf0dde833",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Wire.exe",
+    "autoupdate":  {
+                       "url":  "https://wire-app.wire.com/win/prod/wire-$version-full.nupkg"
+                   }
+}

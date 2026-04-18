@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.2.20220510",
+    "description":  "JetBrains dotMemory unit testing framework for testing .NET memory issues.",
+    "homepage":  "https://www.jetbrains.com/dotmemory/unit",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.jetbrains.com/resharper/JetBrains.dotMemoryUnit.3.2.20220510.zip",
+    "hash":  "6f85246c8828b7d874d21befa403b866fd87a4a51f1bff19ec5f3d559b55c1ab",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "dotMemoryUnit.exe",
+    "autoupdate":  {
+                       "url":  "https://download.jetbrains.com/resharper/JetBrains.dotMemoryUnit.$version.zip"
+                   }
+}

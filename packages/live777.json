@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.8.1",
+    "description":  "A very simple, high performance, edge WebRTC SFU.",
+    "homepage":  "https://live777.pages.dev",
+    "license":  "MPL-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/binbat/live777/releases/download/v0.8.1/live777-v0.8.1-x86_64-pc-windows-msvc.zip",
+    "hash":  "fceb9b08297688aa109f0b233f4a3e0aec235bbd8eee9a8677bde12045227e5d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "live777.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/binbat/live777/releases/download/v$version/live777-v$version-x86_64-pc-windows-msvc.zip"
+                   }
+}

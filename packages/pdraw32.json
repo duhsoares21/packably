@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.1.154",
+    "description":  "Tool for DNA cloning, sequence analysis and plasmid/DNA plotting",
+    "homepage":  "http://www.acaclone.com/",
+    "license":  "Shareware",
+    "dependencies":  [
+
+                     ],
+    "url":  "http://www.acaclone.com/download/pDRAW32setup154.zip",
+    "hash":  "3160b550cbd7bc49d5fa1e716db7d32325afd7b3f444c012401b853d8424f13c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "pDRAW32.exe",
+    "autoupdate":  {
+                       "url":  "http://www.acaclone.com/download/pDRAW32setup$patchVersion.zip"
+                   }
+}

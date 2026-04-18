@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "25.08.3",
+    "description":  "Communications and data transfer between devices over local networks",
+    "homepage":  "https://kdeconnect.kde.org/",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.kde.org/stable/release-service/25.08.3/windows/kdeconnect-kde-windows-cl-msvc2022-x86_64.7z",
+    "hash":  "dc2b5e96351d5bd2bb8d15152a039225a6b7068c432c1c37f13250945aa3de31",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\kdeconnect-cli.exe",
+    "autoupdate":  {
+                       "url":  "https://download.kde.org/stable/release-service/$version/windows/kdeconnect-kde-windows-cl-$matchLib-x86_64.7z"
+                   }
+}

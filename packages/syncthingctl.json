@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.0.10",
+    "description":  "Command line app to control Syncthing",
+    "homepage":  "https://github.com/Martchus/syncthingtray",
+    "license":  "GPL-2.0-only,...",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Martchus/syncthingtray/releases/download/v2.0.10/syncthingctl-2.0.10-x86_64-w64-mingw32.exe.zip",
+    "hash":  "8ffa5399ee719687acc62fc91cb29105b54c10b597e46988344dd60de7c0bdc7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "syncthingctl.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Martchus/syncthingtray/releases/download/v$version/syncthingctl-$version-x86_64-w64-mingw32.exe.zip"
+                   }
+}

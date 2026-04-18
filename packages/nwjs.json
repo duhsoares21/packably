@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.110.1",
+    "description":  "An app runtime based on Chromium and NodeJS",
+    "homepage":  "https://nwjs.io",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://dl.nwjs.io/v0.110.1/nwjs-v0.110.1-win-x64.zip",
+    "hash":  "5b87edfbaecbf2760b1b4ab2f07696b89fdb8a79ea4ec3e6be29cf446b270107",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "nwjs\\nw.exe",
+    "autoupdate":  {
+                       "url":  "https://dl.nwjs.io/v$version/nwjs-v$version-win-x64.zip"
+                   }
+}

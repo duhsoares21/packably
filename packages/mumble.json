@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.5.857",
+    "description":  "Low-latency and high quality voice chat primarily intended for use while gaming.",
+    "homepage":  "https://www.mumble.info/",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/mumble-voip/mumble/releases/download/v1.5.857/mumble_client-1.5.857.x64.exe",
+    "hash":  "ae42369b95a9aa9cd6fde8fbee29b70503a25028ec4f14abcecab41f5e23fe06",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "mumble.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/mumble-voip/mumble/releases/download/v$version/mumble_client-$version.x64.exe"
+                   }
+}

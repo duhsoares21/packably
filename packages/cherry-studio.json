@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.9.1",
+    "description":  "A desktop client that supports for multiple LLM providers.",
+    "homepage":  "https://cherry-ai.com",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/CherryHQ/cherry-studio/releases/download/v1.9.1/Cherry-Studio-1.9.1-x64-portable.exe#/cherry-studio.exe",
+    "hash":  "541b60bc4f36a35624af02f6efabba62c84a1d8d035660d7978df8d53434ecf6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "cherry-studio.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/CherryHQ/cherry-studio/releases/download/v$version/Cherry-Studio-$version-x64-portable.exe#/cherry-studio.exe"
+                   }
+}

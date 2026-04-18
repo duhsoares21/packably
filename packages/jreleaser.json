@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.23.0",
+    "description":  "Release projects quickly and easily with JReleaser",
+    "homepage":  "https://jreleaser.org",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/jreleaser/jreleaser/releases/download/v1.23.0/jreleaser-1.23.0.zip",
+    "hash":  "69232072d4c8ed71fd579211c38a6dd25c5a10b9b6cbd70bcaf2117fc5c2ed61",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\jreleaser.bat",
+    "autoupdate":  {
+                       "url":  "https://github.com/jreleaser/jreleaser/releases/download/v$version/jreleaser-$version.zip"
+                   }
+}

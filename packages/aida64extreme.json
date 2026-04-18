@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "8.25.8200",
+    "description":  "System information, diagnostics, and auditing application",
+    "homepage":  "https://www.aida64.com",
+    "license":  "Shareware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.aida64.com/aida64extreme825.zip",
+    "hash":  "485e93473948527292dba5e12fd41c1cc5b964af35a208e5d648251240e1f591",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "aida64.exe",
+    "autoupdate":  {
+                       "url":  "https://download.aida64.com/aida64extreme$majorVersion$minorVersion.zip"
+                   }
+}

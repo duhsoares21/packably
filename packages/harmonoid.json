@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.3.22",
+    "description":  "Plays \u0026 manages your music library. Looks beautiful \u0026 juicy. Playlists, visuals, synced lyrics, pitch shift, volume boost \u0026 more.",
+    "homepage":  "https://harmonoid.com/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/alexmercerind2/harmonoid-releases/releases/download/v0.3.22/harmonoid-windows-x64-exe.zip",
+    "hash":  "d6d919528ad5d3b6238669d093cb982e420edeb0a7d0559b447124479a16edea",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "harmonoid.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/alexmercerind2/harmonoid-releases/releases/download/v$version/harmonoid-windows-x64-exe.zip"
+                   }
+}

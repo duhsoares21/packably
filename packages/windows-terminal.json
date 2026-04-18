@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.24.10921.0",
+    "description":  "The new Windows Terminal, and the original Windows console host - all in the same place!",
+    "homepage":  "https://github.com/microsoft/terminal",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/microsoft/terminal/releases/download/v1.24.10921.0/Microsoft.WindowsTerminal_1.24.10921.0_x64.zip",
+    "hash":  "4f64736da2f075a517e0f40ecac2a8acc9cd22076e6a7eddf84a86a3917b725e",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "WindowsTerminal.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/microsoft/terminal/releases/download/v$version/Microsoft.WindowsTerminal_$version_x64.zip"
+                   }
+}

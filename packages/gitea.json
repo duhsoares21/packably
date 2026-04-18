@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.25.5",
+    "description":  "A painless self-hosted Git service",
+    "homepage":  "https://gitea.io/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://dl.gitea.com/gitea/1.25.5/gitea-1.25.5-windows-4.0-amd64.exe.xz",
+    "hash":  "a424b24eb728fb783788b5047f260bed93168dee6d8285830145a14d4f5e195f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "gitea.exe",
+    "autoupdate":  {
+                       "url":  "https://dl.gitea.com/gitea/$version/gitea-$version-windows-4.0-amd64.exe.xz"
+                   }
+}

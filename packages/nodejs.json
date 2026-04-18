@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "25.9.0",
+    "description":  "An asynchronous event driven JavaScript runtime designed to build scalable network applications.",
+    "homepage":  "https://nodejs.org",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://nodejs.org/dist/v25.9.0/node-v25.9.0-win-x64.7z",
+    "hash":  "064e90165f1c4bce4b208b05105f6a2aaa714b93ef218358f218245ef47611b2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://nodejs.org/dist/v$version/node-v$version-win-x64.7z"
+                   }
+}

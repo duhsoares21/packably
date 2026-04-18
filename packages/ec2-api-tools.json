@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.7.3.0",
+    "description":  "Command-line utilities that wrap the Amazon EC2 API actions.",
+    "homepage":  "https://aws.amazon.com/developertools/351",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://s3.amazonaws.com/ec2-downloads/ec2-api-tools-1.7.3.0.zip",
+    "hash":  "md5:1cc368f2c1d2045262b59749dca37d50",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  ""
+}

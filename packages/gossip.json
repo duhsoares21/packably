@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "0.14.0",
+    "description":  "Desktop client for Nostr written in Rust",
+    "homepage":  "https://github.com/mikedilger/gossip",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/mikedilger/gossip/releases/download/v0.14.0/gossip.0.14.0.msi",
+    "hash":  "fae7063d0e2741ec55cccc51753ed4c5f9be374665b25323cf6c31179c4f4736",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "gossip.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/mikedilger/gossip/releases/download/v$matchTag/gossip.$version.msi"
+                   }
+}

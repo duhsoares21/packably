@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "5.40.2715",
+    "description":  "Audio player",
+    "homepage":  "https://www.aimp.ru",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.aimp.ru/?do=download.file\u0026id=31#/dl.zip",
+    "hash":  "7ec5c7bbc3f6c1e51b3273a2aba7744b29d1ae13bd79fabaa8a0879a2cee09be",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "AIMP.exe",
+    "autoupdate":  {
+                       "url":  "https://www.aimp.ru/?do=download.file\u0026id=31#/dl.zip"
+                   }
+}

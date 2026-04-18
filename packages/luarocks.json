@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.13.0",
+    "description":  "The package manager for Lua modules",
+    "homepage":  "https://luarocks.org",
+    "license":  "MIT",
+    "dependencies":  [
+                         "lua"
+                     ],
+    "url":  "https://luarocks.github.io/luarocks/releases/luarocks-3.13.0-windows-64.zip",
+    "hash":  "0897ade5d459d55cd1962a948153745a6749feb345403c68aaa9207388557ab9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "luarocks.exe",
+    "autoupdate":  {
+                       "url":  "https://luarocks.github.io/luarocks/releases/luarocks-$version-windows-64.zip"
+                   }
+}

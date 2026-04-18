@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "3.2.5",
+    "description":  "A lock-free deduplication cloud backup tool",
+    "homepage":  "https://duplicacy.com/",
+    "license":  "Shareware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/gilbertchen/duplicacy/releases/download/v3.2.5/duplicacy_win_x64_3.2.5.exe#/duplicacy.exe",
+    "hash":  "598b3614faaa7a7a999fe690abd32d9316918c7cbc507cbf63a0a35a490a0a54",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "duplicacy.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/gilbertchen/duplicacy/releases/download/v$version/duplicacy_win_x64_$version.exe#/duplicacy.exe"
+                   }
+}

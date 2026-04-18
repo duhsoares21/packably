@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "7.34.0",
+    "description":  "An open-core software configuration management tool.",
+    "homepage":  "https://puppetlabs.com",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.puppetlabs.com/windows/puppet/puppet-agent-7.34.0-x64.msi",
+    "hash":  "c7725c18c5054e79494a64452aed444cf1dae86f9864b863544f6c98c4b23302",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Puppet Labs\\Puppet\\bin\\facter.bat",
+    "autoupdate":  {
+                       "url":  "https://downloads.puppetlabs.com/windows/puppet/puppet-agent-$version-x64.msi"
+                   }
+}

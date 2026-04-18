@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.1.1",
+    "description":  "Permanently free DeepL API written in Golang.",
+    "homepage":  "https://github.com/OwO-Network/DeepLX",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/OwO-Network/DeepLX/releases/download/v1.1.1/deeplx_windows_amd64.exe#/deeplx.exe",
+    "hash":  "27b259d605107de74563bec8e1ac6498b9848f995786f675233776c11e16b5d0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "deeplx.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/OwO-Network/DeepLX/releases/download/v$version/deeplx_windows_amd64.exe#/deeplx.exe"
+                   }
+}

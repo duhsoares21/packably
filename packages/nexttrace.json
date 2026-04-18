@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.6.2",
+    "description":  "An open source visual route tracking CLI tool",
+    "homepage":  "https://nxtrace.github.io/NTrace-core/",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/nxtrace/NTrace-core/releases/download/v1.6.2/nexttrace_windows_amd64.exe#/nexttrace.exe",
+    "hash":  "1b45079ac2b5ba8ee285d99a7105c52808e2bbf996586fad7d416b020b0280e4",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "nexttrace.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/nxtrace/NTrace-core/releases/download/v$version/nexttrace_windows_amd64.exe#/nexttrace.exe"
+                   }
+}

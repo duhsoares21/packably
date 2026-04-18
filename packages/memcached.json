@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.6.41",
+    "description":  "Distributed memory object caching system",
+    "homepage":  "https://memcached.org",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/nono303/memcached/archive/1.6.41.zip",
+    "hash":  "91f48ac6f14fa8f0556a328684c1b1904318dc106c50562684908d3fe8cbb15d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "memcached.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/nono303/memcached/archive/$version.zip"
+                   }
+}

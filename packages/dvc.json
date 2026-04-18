@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "3.60.1",
+    "description":  "Data \u0026 models versioning for ML projects, make them shareable and reproducible",
+    "homepage":  "https://dvc.org/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://r2.dvc.org/dvc-pkgs/exe/dvc-3.60.1.exe",
+    "hash":  "00f5144ce1cce867094f78dc5edc4bfdeb2d4f9484d4130f82e959d84c24f945",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "dvc.exe",
+    "autoupdate":  {
+                       "url":  "https://r2.dvc.org/dvc-pkgs/exe/dvc-$version.exe"
+                   }
+}

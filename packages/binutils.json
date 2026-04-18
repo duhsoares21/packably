@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.46",
+    "description":  "GNU Binutils",
+    "homepage":  "https://www.gnu.org/software/binutils/",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/ezwinports/binutils-2.46-w32-bin.zip",
+    "hash":  "sha1:ca80438d02020f3dcfb08423aff6617e6707e52d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\addr2line.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/ezwinports/binutils-$version-w32-bin.zip"
+                   }
+}

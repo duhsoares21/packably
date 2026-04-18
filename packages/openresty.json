@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.29.2.1",
+    "description":  "Dynamic web platform based on NGINX and LuaJIT.",
+    "homepage":  "https://openresty.org",
+    "license":  "BSD-2-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://openresty.org/download/openresty-1.29.2.1-win64.zip",
+    "hash":  "44586213135d21aa2c48eec533b4c207bdfecda53bd9b6d5563f1aac544aca4b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "nginx.exe",
+    "autoupdate":  {
+                       "url":  "https://openresty.org/download/openresty-$version-win64.zip"
+                   }
+}

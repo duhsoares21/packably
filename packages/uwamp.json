@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.1.0",
+    "description":  "Wamp Server with Apache MySQL PHP and SQLite.",
+    "homepage":  "https://www.uwamp.com/en/",
+    "license":  "Unknown",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.uwamp.com/file/UwAmp.zip",
+    "hash":  "6f0478caa44da0bf7fb9138392062f042008827118ca0c65395af8fbbd4ff1a3",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "UwAmp.exe",
+    "autoupdate":  {
+                       "url":  "https://www.uwamp.com/file/UwAmp.zip"
+                   }
+}

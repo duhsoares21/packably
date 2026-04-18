@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "53.1",
+    "description":  "Open-source bioinformatics software for manipulating DNA/RNA/protein sequences, viewing 3D molecular structures, and more.",
+    "homepage":  "http://ugene.net/",
+    "license":  "GPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/ugeneunipro/ugene/releases/download/53.1/ugene-53.1-win-x86-64.zip",
+    "hash":  "71be27b6ce4100347c2c7a851e62ace84abdddd1d79bfb0bb8ab89dfbf81e9fe",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ugenecl.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/ugeneunipro/ugene/releases/download/$version/ugene-$version-win-x86-64.zip"
+                   }
+}

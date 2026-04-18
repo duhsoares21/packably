@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.5.2042",
+    "description":  "A small, yet powerful privacy dashboard app for Windows 10 and Windows 11.",
+    "homepage":  "https://wpd.app/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://wpd.app/get/latest.zip",
+    "hash":  "8C9105CC81AC94F291A8D18B4AC0A88B51488BF49AA9A076490B1C42AACABE09",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "WPD.exe",
+    "autoupdate":  {
+                       "url":  "https://wpd.app/get/latest.zip"
+                   }
+}

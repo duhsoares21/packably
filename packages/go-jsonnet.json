@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.21.0",
+    "description":  "A data templating language for app and tool developers",
+    "homepage":  "https://jsonnet.org/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/google/go-jsonnet/releases/download/v0.21.0/go-jsonnet_Windows_x86_64.tar.gz",
+    "hash":  "81d71a287ee5dfd0860831eeac281a7327ce8876d5fe9a8b7e19726dbbc0ce4f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "jsonnet.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/google/go-jsonnet/releases/download/v$version/go-jsonnet_Windows_x86_64.tar.gz"
+                   }
+}

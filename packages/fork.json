@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "2.18.0",
+    "description":  "A fast and friendly git client for Mac and Windows",
+    "homepage":  "https://git-fork.com/",
+    "license":  "Shareware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://cdn.fork.dev/update/win/Fork-2.18.0-full.nupkg",
+    "hash":  "sha1:7bc63165180cac146950be631d4c06bf4949a06a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Fork.exe",
+    "autoupdate":  {
+                       "url":  "https://cdn.fork.dev/update/win/Fork-$version-full.nupkg"
+                   }
+}

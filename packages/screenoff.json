@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.1",
+    "description":  "[Archived] Turn off Windows laptop monitor screen in a click, without putting it to Sleep.",
+    "homepage":  "https://www.thewindowsclub.com/screenoff-turn-off-windows-laptop-screen",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://web.archive.org/web/20220519202920if_/https://www.thewindowsclub.com/downloads/Scrof.zip",
+    "hash":  "3c459278dd005b0e334d66a794b7904e73789d4720b13109c1dadbe1e2156fce",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ScreenOff.exe"
+}

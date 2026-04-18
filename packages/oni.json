@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.3.9",
+    "description":  "A retro-futuristic editor, combining Vim-style modal editing with the aesthetics and language features of modern editors.",
+    "homepage":  "https://www.onivim.io/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/onivim/oni/releases/download/v0.3.9/Oni-0.3.9-win.zip",
+    "hash":  "da3bfd8cc9c3c86eada5e72740c435052eaba2bc638d3daa6c12b59d2b11f8b2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "oni.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/onivim/oni/releases/download/v$version/Oni-$version-win.zip"
+                   }
+}

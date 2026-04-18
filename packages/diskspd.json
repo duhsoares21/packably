@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.2",
+    "description":  "A storage performance tool.",
+    "homepage":  "https://github.com/microsoft/diskspd",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/microsoft/diskspd/releases/download/v2.2/DiskSpd.ZIP",
+    "hash":  "496df11e6375c1d564af3f8f2990734d9afc2b558469fd57b1bffa9313a5a6ce",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "diskspd.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/microsoft/diskspd/releases/download/v$version/DiskSpd.ZIP"
+                   }
+}

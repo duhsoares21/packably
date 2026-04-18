@@ -1,0 +1,18 @@
+﻿{
+    "type":  "other",
+    "version":  "3.50a",
+    "description":  "A free real-time log file monitoring tool",
+    "homepage":  "https://www.baremetalsoft.com/baretail/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.baremetalsoft.com/baretail/download.php?p=m#/baretail.exe",
+    "hash":  "160d6a3bdc9d64677643376f82e559eb4112289e6b6d722b5b3b32699d18bca9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "baretail.exe"
+}

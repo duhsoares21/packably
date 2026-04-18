@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "1.2.0",
+    "description":  "Launch programs on new virtual desktops.",
+    "homepage":  "https://github.com/eksime/VDesk",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/eksime/VDesk/releases/download/v1.2.0/VDeskSetup.msi",
+    "hash":  "f3971a8845f3baabf2d988187f17ffe21b0397b17e4a68fb1ad92bc6010fde6f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "vdesk.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/eksime/VDesk/releases/download/v$version/VDeskSetup.msi"
+                   }
+}

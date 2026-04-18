@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "8.2.1",
+    "description":  "Scan documents to PDF and more, as simply as possible",
+    "homepage":  "https://www.naps2.com/",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/cyanfish/naps2/releases/download/v8.2.1/naps2-8.2.1-win-x64.zip",
+    "hash":  "c042fca4c94fd9abb3569feedfc9df5d3f27b4789a283eb8ba4ac2ff1cc32df7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "App\\NAPS2.Console.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/cyanfish/naps2/releases/download/v$version/naps2-$version-win-x64.zip"
+                   }
+}

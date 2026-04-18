@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.1",
+    "description":  "A small utility that allows administration of MikroTik RouterOS using a fast and simple GUI.",
+    "homepage":  "https://mikrotik.com/winbox",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.mikrotik.com/routeros/winbox/4.1/WinBox_Windows.zip",
+    "hash":  "3201236cc21b19a2889066d2faea9dd4ccf0a4e54c895d747388451a20bbd752",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "WinBox.exe",
+    "autoupdate":  {
+                       "url":  "https://download.mikrotik.com/routeros/winbox/$version/WinBox_Windows.zip"
+                   }
+}

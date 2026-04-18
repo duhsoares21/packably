@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.7.3.0",
+    "description":  "An open source tool that allows easy creation of beautiful particle effects for games and movies. ",
+    "homepage":  "https://effekseer.github.io/en/index.html",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/effekseer/Effekseer/releases/download/1.7.3.0/Effekseer1.7.3.0Win.zip",
+    "hash":  "155212c5ec4d365eb1a4a5cbe25a03cfc59893723ec6680e462de4f49e605b69",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Tool\\Effekseer.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/effekseer/Effekseer/releases/download/$version/Effekseer$versionWin.zip"
+                   }
+}

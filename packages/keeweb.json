@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.18.7",
+    "description":  "A password manager compatible with KeePass",
+    "homepage":  "https://keeweb.info",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/keeweb/keeweb/releases/download/v1.18.7/KeeWeb-1.18.7.win.x64.zip",
+    "hash":  "8bca3bd04172863f14b649763e7dc0696230e94b11b4ba9ea6158822057b1551",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "KeeWeb.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/keeweb/keeweb/releases/download/v$version/KeeWeb-$version.win.x64.zip"
+                   }
+}

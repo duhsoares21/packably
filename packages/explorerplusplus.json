@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.4.0",
+    "description":  "Lightweight and fast file manager",
+    "homepage":  "https://explorerplusplus.com",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.explorerplusplus.com/stable/1.4.0/explorerpp_x64.zip",
+    "hash":  "81ec54586dfef888b886d409afa22e31f22d4f6ba35d52d93074b4ee64b79b0c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "explorer++.exe",
+    "autoupdate":  {
+                       "url":  "https://download.explorerplusplus.com/stable/$version/explorerpp_x64.zip"
+                   }
+}

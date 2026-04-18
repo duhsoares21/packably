@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.3.11",
+    "description":  "A hardware-accelerated GPU terminal emulator focusing to run in desktops and browsers",
+    "homepage":  "https://github.com/raphamorim/rio",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/raphamorim/rio/releases/download/v0.3.11/Rio-portable-x86_64.exe#/rio.exe",
+    "hash":  "2e9b02baf3b3c15296ec9ffadbff3ccb49b21c43594730507006069a3bd198d8",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "rio.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/raphamorim/rio/releases/download/v$version/Rio-portable-x86_64.exe#/rio.exe"
+                   }
+}

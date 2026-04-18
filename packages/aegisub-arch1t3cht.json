@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "12",
+    "description":  "Cross-platform advanced subtitle editor, with new feature branches. Read the README on the feature branch.",
+    "homepage":  "https://github.com/arch1t3cht/Aegisub",
+    "license":  "https://github.com/arch1t3cht/Aegisub/blob/feature/LICENCE",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/arch1t3cht/Aegisub/releases/download/feature_12/Windows.MSVC.Release.wx.master.-.portable.zip",
+    "hash":  "0d242ae0333f1e9aa9ff734274d06d22fe4b4763717255c6b78af1af109672ef",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "aegisub.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/arch1t3cht/Aegisub/releases/download/feature_$version/Windows.MSVC.Release.wx.master.-.portable.zip"
+                   }
+}

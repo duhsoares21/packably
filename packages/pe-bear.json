@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.7.1",
+    "description":  "Reversing tool for PE files",
+    "homepage":  "https://hshrzd.wordpress.com/pe-bear/",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/hasherezade/pe-bear/releases/download/v0.7.1/PE-bear_0.7.1_qt5_x64_win_vs19.zip",
+    "hash":  "b46ef7f2adb91653139f48d0824d0f70416bf391b93f1ee590312999b94f044d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "PE-bear.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/hasherezade/pe-bear/releases/download/v$version/PE-bear_$version_qt5_x64_win_vs19.zip"
+                   }
+}

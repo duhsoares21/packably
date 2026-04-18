@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.7",
+    "description":  "A small tool for restarting the Windows File Explorer.",
+    "homepage":  "https://www.sordum.org/restart-explorer",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.sordum.org/files/download/restart-explorer/Rexplorer_v1.7.zip",
+    "hash":  "0cd4fe0ee1d9f87a4635ff3742ef656b31cb04c0b6fa782febec6b2c687ae88c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Rexplorer.exe",
+    "autoupdate":  {
+                       "url":  "https://www.sordum.org/files/download/restart-explorer/Rexplorer_v$version.zip"
+                   }
+}

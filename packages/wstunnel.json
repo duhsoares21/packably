@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "10.5.2",
+    "description":  "Tunneling over websocket protocol",
+    "homepage":  "https://github.com/erebe/wstunnel",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/erebe/wstunnel/releases/download/v10.5.2/wstunnel_10.5.2_windows_amd64.tar.gz",
+    "hash":  "f1e030dcb0795edc1d2a8808c0c34a9fab7ddfb5a59eef8a47a46c8c63c22016",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "wstunnel.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/erebe/wstunnel/releases/download/v$version/wstunnel_$version_windows_amd64.tar.gz"
+                   }
+}

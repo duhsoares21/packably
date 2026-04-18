@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "5.13.2",
+    "description":  "A Vim-oriented toy box that allows the user to operate Windows with key bindings like Vim. The app consists of various useful features inspired by Vim and its plugins.",
+    "homepage":  "https://github.com/pit-ray/win-vind",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/pit-ray/win-vind/releases/download/v5.13.2/win-vind_5.13.2_64bit_portable.zip",
+    "hash":  "ad52fe93c289945d15636a96b2c16ecd5ec55a317f6e2f97b2ed2ee15f4b84d5",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "win-vind.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/pit-ray/win-vind/releases/download/v$version/win-vind_$version_64bit_portable.zip"
+                   }
+}

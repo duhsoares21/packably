@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "6.6",
+    "description":  "Grammar, Style and Spell Checker for +25 languages",
+    "homepage":  "https://languagetool.org/",
+    "license":  "LGPL-2.1-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://languagetool.org/download/LanguageTool-6.6.zip",
+    "hash":  "53600506b399bb5ffe1e4c8dec794fd378212f14aaf38ccef9b6f89314d11631",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "languagetool.bat",
+    "autoupdate":  {
+                       "url":  "https://languagetool.org/download/LanguageTool-$version.zip"
+                   }
+}

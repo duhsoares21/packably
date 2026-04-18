@@ -1,0 +1,22 @@
+﻿{
+    "type":  "zip",
+    "version":  "2024.07.10",
+    "description":  "A simple wrapper around curl to easily download files",
+    "homepage":  "https://curl.se/wcurl/",
+    "license":  "MIT",
+    "dependencies":  [
+                         "curl",
+                         "busybox"
+                     ],
+    "url":  "https://github.com/curl/wcurl/archive/2024.07.10.zip",
+    "hash":  "67e93b65cf27eb2f3f52f0e4fb7ce104e9e93899b87495512e1d861ba998ea7d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "sh.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/curl/wcurl/archive/$version.zip"
+                   }
+}

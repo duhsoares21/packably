@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.15.0",
+    "description":  "Async load test tool for web applications",
+    "homepage":  "https://gatling.io",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://repo1.maven.org/maven2/io/gatling/highcharts/gatling-charts-highcharts-bundle/3.15.0/gatling-charts-highcharts-bundle-3.15.0-bundle.zip",
+    "hash":  "sha1:2a956c8b36263503f6b4483cd6d47b6a3adfa31a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "gatling-test.bat",
+    "autoupdate":  {
+                       "url":  "https://repo1.maven.org/maven2/io/gatling/highcharts/gatling-charts-highcharts-bundle/$version/$matchName"
+                   }
+}

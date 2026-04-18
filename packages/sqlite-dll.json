@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.53.0",
+    "description":  "Precompiled DLLs for SQLite, a small, fast, self-contained, high-reliability and full-featured SQL database engine",
+    "homepage":  "https://www.sqlite.org/",
+    "license":  "Public Domain",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.sqlite.org/2026/sqlite-dll-win-x64-3530000.zip",
+    "hash":  "e2a923409653646d596024f5b64586533e555fe70fc11df012891ca5fb92e6a2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://www.sqlite.org/$matchYear/sqlite-dll-win-x64-$matchClean.zip"
+                   }
+}

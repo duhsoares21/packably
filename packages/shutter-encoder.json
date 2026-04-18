@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "20.0",
+    "description":  "Multimedia file converter",
+    "homepage":  "https://www.shutterencoder.com/",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.shutterencoder.com/Shutter%20Encoder%2020.0%20Windows%2064bits.zip",
+    "hash":  "226b8b40e54c426c307153d258e44b89597d7acffaa3f1b94bc5a53d7e9b63b2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Shutter Encoder.exe",
+    "autoupdate":  {
+                       "url":  "https://www.shutterencoder.com/Shutter%20Encoder%20$version%20Windows%2064bits.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.34.0",
+    "description":  "GIF encoder based on libimagequant (pngquant).",
+    "homepage":  "https://gif.ski",
+    "license":  "AGPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://gif.ski/gifski-1.34.0.zip",
+    "hash":  "2c76b8f2dac7269533df79d1b9eed6877e11c3e9a710390a606db2d853952560",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "gifski.exe",
+    "autoupdate":  {
+                       "url":  "https://gif.ski/gifski-$version.zip"
+                   }
+}

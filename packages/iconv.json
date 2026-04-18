@@ -1,0 +1,18 @@
+﻿{
+    "type":  "other",
+    "version":  "1.14-3",
+    "description":  "Convert characters from one code set to another.",
+    "homepage":  "https://sourceforge.net/projects/mingw/",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/mingw/MinGW/Base/libiconv/libiconv-1.14-3/libiconv-1.14-3-mingw32-bin.tar.lzma",
+    "hash":  "sha1:ce3c2e774ff1717a7540b5a75ac87cf486bc1117",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\iconv.exe"
+}

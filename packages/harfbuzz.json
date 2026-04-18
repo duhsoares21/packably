@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "14.1.0",
+    "description":  "Text shaping engine. Supports OpenType and Apple Advanced Typography.",
+    "homepage":  "https://harfbuzz.github.io/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/harfbuzz/harfbuzz/releases/download/14.1.0/harfbuzz-win64-14.1.0.zip",
+    "hash":  "6a27bc87342f545a17d06cf715ad8e8fda1806e5514eef2522f8ee8f9a58d24d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "hb-shape.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/harfbuzz/harfbuzz/releases/download/$version/harfbuzz-win64-$version.zip"
+                   }
+}

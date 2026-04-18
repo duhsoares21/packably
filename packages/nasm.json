@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.01",
+    "description":  "80x86 and x86-64 assembler designed for portability and modularity.",
+    "homepage":  "https://www.nasm.us",
+    "license":  "BSD-2-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.nasm.us/pub/nasm/releasebuilds/3.01/win64/nasm-3.01-win64.zip",
+    "hash":  "e0ba5157007abc7b1a65118a96657a961ddf55f7e3f632ee035366dfce039ca4",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "nasm.exe",
+    "autoupdate":  {
+                       "url":  "https://www.nasm.us/pub/nasm/releasebuilds/$version/win64/nasm-$version-win64.zip"
+                   }
+}

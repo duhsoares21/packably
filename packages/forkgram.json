@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "6.7.6",
+    "description":  "Fork of Telegram Desktop with quality-of-life enhancements.",
+    "homepage":  "https://t.me/forkgram",
+    "license":  "GPL-3.0-openssl-exception",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/forkgram/tdesktop/releases/download/v6.7.6/Telegram.zip",
+    "hash":  "f43d89bb48e51e02d899d00928b200c5082e4c3132c6599326a0de38de5067f1",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Telegram.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/forkgram/tdesktop/releases/download/v$version/Telegram.zip"
+                   }
+}

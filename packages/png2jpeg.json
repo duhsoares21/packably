@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.0.2.2",
+    "description":  "Simple command-lineimage converter from PNG to JPEG.",
+    "homepage":  "https://passgenwin.sourceforge.io/abpage/projects.xhtml#png2jpeg",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/png2jpeg/win64/png2jpeg-1.0.2.2-win64.zip",
+    "hash":  "sha1:93675df556bc98842cbe9771da528c5a8dd4e3d2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "png2jpeg.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/png2jpeg/win64/png2jpeg-$version-win64.zip"
+                   }
+}

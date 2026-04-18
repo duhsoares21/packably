@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.02",
+    "description":  "A Windows Explorer shell extension that lets you easily view, copy, and save icons contained within programs and libraries.",
+    "homepage":  "https://www.botproductions.com/iconview/iconview.html",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.botproductions.com/iconview/download/IconViewer3.02-Setup-x64.exe#/dl.7z",
+    "hash":  "3BE3664CFAC0B9270DA161C2C4C323499B4FE40A8E68A2D34CD4425B12EF223F",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "iconview.chm",
+    "autoupdate":  {
+                       "url":  "https://www.botproductions.com/iconview/download/IconViewer$version-Setup-x64.exe#/dl.7z"
+                   }
+}

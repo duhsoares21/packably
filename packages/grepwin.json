@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.1.12",
+    "description":  "Regular expression search and replace tool for Windows.",
+    "homepage":  "https://tools.stefankueng.com/grepWin.html",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/stefankueng/grepWin/releases/download/2.1.12/grepWin-x64-2.1.12_portable.zip",
+    "hash":  "55f0352144d67ae03c6f24db642d080c895833593b25b900339bc92a5b4d7234",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "grepWin.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/stefankueng/grepWin/releases/download/$version/grepWin-x64-$version_portable.zip"
+                   }
+}

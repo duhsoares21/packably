@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2026.1-261.22158.284",
+    "description":  "Cross-Platform IDE for Ruby on Rails by JetBrains.",
+    "homepage":  "https://www.jetbrains.com/ruby/",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.jetbrains.com/ruby/RubyMine-2026.1.win.zip",
+    "hash":  "5d6df3dffeb1e2a04d13c0357927595ca17470a687cd7e1984a8fe8951ff4857",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://download.jetbrains.com/ruby/RubyMine-$matchVer.win.zip"
+                   }
+}

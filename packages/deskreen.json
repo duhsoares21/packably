@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.2.14",
+    "description":  "Turn any device into a secondary screen for your computer (Community edition).",
+    "homepage":  "https://deskreen.com/",
+    "license":  "AGPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/pavlobu/deskreen/releases/download/v3.2.14/deskreen-ce-3.2.14-x64.exe#/dl.7z",
+    "hash":  "07395486a0ef007946810dc06ef07a0a3ac3ced5bd504013daccd43af1bfb9e6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Deskreen CE.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/pavlobu/deskreen/releases/download/v$version/deskreen-ce-$version-x64.exe#/dl.7z"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.3.12",
+    "description":  "FriCAS is a general purpose computer algebra system (CAS).",
+    "homepage":  "https://fricas.github.io/",
+    "license":  "BSD-3-Clause-Modification",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/fricas/fricas/releases/download/1.3.12/fricas-1.3.12-windows-x64.zip",
+    "hash":  "70a165585230c814ae260914b0d9ce382e1b185986af4147019da7c03b10a5a2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\FRICASsys.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/fricas/fricas/releases/download/$version/fricas-$version-windows-x64.zip"
+                   }
+}

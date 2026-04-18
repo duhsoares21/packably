@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.9.18",
+    "description":  "Feature-Rich TOML Toolkit.",
+    "homepage":  "https://tombi-toml.github.io/tombi/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/tombi-toml/tombi/releases/download/v0.9.18/tombi-cli-0.9.18-x86_64-pc-windows-msvc.zip",
+    "hash":  "aae50699d7494c2f7f40aa43a18b2d69be28c081c3eaf6ab28cb9512a0e9fa04",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "tombi.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/tombi-toml/tombi/releases/download/v$version/tombi-cli-$version-x86_64-pc-windows-msvc.zip"
+                   }
+}

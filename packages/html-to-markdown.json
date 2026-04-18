@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.5.0",
+    "description":  "A robust html-to-markdown converter that transforms HTML (even entire websites) into clean, readable Markdown.",
+    "homepage":  "https://html-to-markdown.com",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/JohannesKaufmann/html-to-markdown/releases/download/v2.5.0/html-to-markdown_Windows_x86_64.zip",
+    "hash":  "6f8e28c288afd776ce3d2bd07639d8ff5f6a9b541c1de30b371be455cc7c6049",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "html2markdown.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/JohannesKaufmann/html-to-markdown/releases/download/v$version/html-to-markdown_Windows_x86_64.zip"
+                   }
+}

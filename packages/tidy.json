@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "5.8.0",
+    "description":  "Tidy HTML and XML files",
+    "homepage":  "https://www.html-tidy.org/",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/htacg/tidy-html5/releases/download/5.8.0/tidy-5.8.0-win64.zip",
+    "hash":  "ffb2f86484c66e70e6a6da369cb8f0f459ad2ffec7c7ca80d09a13445ee51a40",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "tidy.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/htacg/tidy-html5/releases/download/$version/tidy-$version-win64.zip"
+                   }
+}

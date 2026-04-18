@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.2.24",
+    "description":  "A Windows command line utility that sends eMail using SMTP or post to usenet using NNTP.",
+    "homepage":  "https://www.blat.net",
+    "license":  "Public Domain",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/blat/Blat%20Full%20Version/64%20bit%20versions/blat3224_64.full.zip",
+    "hash":  "sha1:436c01bfa4dc14a255e63720d0745791bdd9910e",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "full\\blat.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/blat/Blat%20Full%20Version/64%20bit%20versions/blat$cleanVersion_64.full.zip"
+                   }
+}

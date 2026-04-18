@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2025.3.3",
+    "description":  "NVDA (NonVisual Desktop Access) is a free \u0027screen reader\u0027 which enables blind and vision impaired people to use computers. It reads the text on the screen in a computerized voice.",
+    "homepage":  "https://www.nvaccess.org/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.nvaccess.org/files/nvda/releases/2025.3.3/nvda_2025.3.3.exe#/dl.7z",
+    "hash":  "15b5e9864032565e7f895e4d80d767f180db0ec264e892240e675c426cfca921",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "nvda.exe",
+    "autoupdate":  {
+                       "url":  "https://www.nvaccess.org/files/nvda/releases/$version/nvda_$version.exe#/dl.7z"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "6.2.4",
+    "description":  "Multi-protocol and Java-based message broker",
+    "homepage":  "https://activemq.apache.org",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.apache.org/activemq/6.2.4/apache-activemq-6.2.4-bin.zip",
+    "hash":  "sha512:08786201ab343938d1596cd892ef40cf7e79c949e11b248ff1dbc0c1e1a912f3e08b531ec6f306c462de0e83ea00235c3bb9e8559faaf0aed07dfe6b0ee9b947",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\activemq.bat",
+    "autoupdate":  {
+                       "url":  "https://downloads.apache.org/activemq/$version/apache-activemq-$version-bin.zip"
+                   }
+}

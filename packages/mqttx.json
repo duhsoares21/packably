@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.13.0",
+    "description":  "MQTT 5.0 Desktop Client",
+    "homepage":  "https://mqttx.app",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/emqx/MQTTX/releases/download/v1.13.0/MQTTX-Setup-1.13.0-x64.exe#/dl.7z",
+    "hash":  "sha512:c9dd7f35a22a632a3167d2a03d393e353d98c83c449e21391f415351dd443b5c92ff4fde08b13e0a04efcd3f8ca242df25a52d1e2826bb30a4b6cf9cfb00b230",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "MQTTX.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/emqx/MQTTX/releases/download/v$version/MQTTX-Setup-$version-x64.exe#/dl.7z"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "2.5.4",
+    "description":  "(1MB Tiny) Freeware Image \u0026 Animation Viewer for Windows",
+    "homepage":  "https://www.nyam.pe.kr/dev/imagine/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.nyam.pe.kr/dev/imagine/download.php?arch=x64\u0026unicode=1\u0026full=0\u0026setup=0\u0026version=2.5.4#/dl.7z",
+    "hash":  "f85bd6a817403e7501e62fc99819fb970e5e59cc83bf1ce58e2162d7b4ca630d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://www.nyam.pe.kr/dev/imagine/download.php?arch=x64\u0026unicode=1\u0026full=0\u0026setup=0\u0026version=$version#/dl.7z"
+                   }
+}

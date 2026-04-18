@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.9.3",
+    "description":  "XML processor developed by The GNOME Project",
+    "homepage":  "https://www.zlatkovic.com/libxml.en.html",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.zlatkovic.com/pub/libxml/64bit/xmlsec1-1.2.20-win32-x86_64.7z",
+    "hash":  "0721e2284508d9b2d35bfd521b82499fb89a9594d54e1a9e100bed2db8d39fa6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\xmlcatalog.exe"
+}

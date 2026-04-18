@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.1.1",
+    "description":  "Simple python version management tool for switching between multiple versions of Python.",
+    "homepage":  "https://pyenv-win.github.io/pyenv-win/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/pyenv-win/pyenv-win/archive/v3.1.1.zip",
+    "hash":  "a7481ccaf1f2328702e4a854a65793e95639f40dc63dd89782d160536f6b1ed0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://github.com/pyenv-win/pyenv-win/archive/v$version.zip"
+                   }
+}

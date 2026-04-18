@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.3.2",
+    "description":  "A command line interface for pushing messages to Gotify server",
+    "homepage":  "https://gotify.net/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/gotify/cli/releases/download/v2.3.2/gotify-cli-windows-amd64.exe#/gotify-cli.exe",
+    "hash":  "2eede457b457507c7720ba6b9fda46808b8d55fda0cdc1247fec94329808f11b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "gotify-cli.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/gotify/cli/releases/download/v$version/gotify-cli-windows-amd64.exe#/gotify-cli.exe"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.7",
+    "description":  "A small tool for freeing up RAM memory.",
+    "homepage":  "https://www.sordum.org/reduce-memory/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.sordum.org/files/download/reduce-memory/ReduceMemory.zip",
+    "hash":  "a27dd1bd45b5065fc5dd4abd5e4ccae6a25848e1725d738a9ba82fffee691f80",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ReduceMemory.exe",
+    "autoupdate":  {
+                       "url":  "https://www.sordum.org/files/download/reduce-memory/ReduceMemory.zip"
+                   }
+}

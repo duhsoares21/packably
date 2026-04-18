@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.0.10",
+    "description":  "GPT fdisk is a disk partitioning tool loosely modeled on Linux fdisk, but used for modifying GUID Partition Table (GPT) disks.",
+    "homepage":  "https://sourceforge.net/projects/gptfdisk/",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/gptfdisk/gptfdisk/1.0.10/gdisk-binaries/gdisk-windows-1.0.10.zip",
+    "hash":  "sha1:eb6be12d1af21ea5c1bdfe8cdad649cc88692048",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "gdisk.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/gptfdisk/gptfdisk/$version/gdisk-binaries/gdisk-windows-$version.zip"
+                   }
+}

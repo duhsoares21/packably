@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.4.2",
+    "description":  "File sharing program using DC and ADC protocols",
+    "homepage":  "https://github.com/eiskaltdcpp/eiskaltdcpp",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/eiskaltdcpp/files/Windows/EiskaltDC++-2.4.2_x86_64-portable.7z",
+    "hash":  "sha1:9ed0cd684989e40a29d58e85960f908d780774c0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "eiskaltdcpp-daemon.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/eiskaltdcpp/files/Windows/EiskaltDC++-$version_x86_64-portable.7z"
+                   }
+}

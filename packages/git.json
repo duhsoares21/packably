@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.53.0.3",
+    "description":  "A free and open source distributed version control system.",
+    "homepage":  "https://gitforwindows.org",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/git-for-windows/git/releases/download/v2.53.0.windows.3/PortableGit-2.53.0.3-64-bit.7z.exe#/dl.7z",
+    "hash":  "b365da794b1d2225eb24d5f5e09ef7792cfd5fa26c3a3586210280c80dff3a2a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\sh.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/git-for-windows/git/releases/download/$matchTag/PortableGit-$version-64-bit.7z.exe#/dl.7z"
+                   }
+}

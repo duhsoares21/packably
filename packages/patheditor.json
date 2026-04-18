@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.0",
+    "description":  "A convenient GUI for editing the PATH environment variable",
+    "homepage":  "https://archive.codeplex.com/?p=patheditor2",
+    "license":  "BSD-2-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Alorel/patheditor2-mirror/releases/download/1.0/PathEditor-1.0-64bit.exe#/PathEditor.exe",
+    "hash":  "sha512:12614196fcda4e4fafab0f6dfd0ac95339e1a22c1217ba7ba22a82802623a90ea0fa18e96989378d540030856bd06c950eb8911ca454c731a848ce1fc8e377c6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "PathEditor.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Alorel/patheditor2-mirror/releases/download/$version/PathEditor-$version-64bit.exe#/PathEditor.exe"
+                   }
+}

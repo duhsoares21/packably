@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "4.13",
+    "description":  "A utility that helps format and create bootable USB flash drives.",
+    "homepage":  "https://rufus.ie/",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/pbatard/rufus/releases/download/v4.13/rufus-4.13.exe#/rufus.exe",
+    "hash":  "a314db019d608e3d9b2eda797ba5bbe4dfc91bcd621decd144a580080eb13b1b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "rufus.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/pbatard/rufus/releases/download/v$version/rufus-$version.exe#/rufus.exe"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "3.42",
+    "description":  "Flexible I/O Tester",
+    "homepage":  "https://github.com/axboe/fio",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/axboe/fio/releases/download/fio-3.42/fio-3.42-x64.msi",
+    "hash":  "d6bc1c0eb7a4b3bd2810e6c0ce605917a4671cc126c9dae5be7eb4891464a5c6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "fio.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/axboe/fio/releases/download/fio-$version/fio-$version-x64.msi"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.9.0",
+    "description":  "A fast and powerful alternative to grep.",
+    "homepage":  "https://sift-tool.org/",
+    "license":  "GPL-3.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://sift-tool.org/downloads/sift/sift_0.9.0_windows_amd64.zip",
+    "hash":  "cd69d0c8dc5b6ef7911bc2bacdc329ec6ee703c72c5e81d91100cdd53fa33c13",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "sift.exe",
+    "autoupdate":  {
+                       "url":  "https://sift-tool.org/downloads/sift/sift_$version_windows_amd64.zip"
+                   }
+}

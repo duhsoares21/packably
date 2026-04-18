@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.05.01",
+    "description":  "An FT2 compatible music tracker.",
+    "homepage":  "http://milkytracker.github.io/",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/milkytracker/MilkyTracker/releases/download/v1.05.01/milkytracker-1.05.01-win64.zip",
+    "hash":  "d2af55f26fe51ae411fd30890d7840d8327c78307b602b335b94fac5af6d3844",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "MilkyTracker.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/milkytracker/MilkyTracker/releases/download/v$version/milkytracker-$version-win64.zip"
+                   }
+}

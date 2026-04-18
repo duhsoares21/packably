@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.49.0",
+    "description":  "Email-based secure instant messaging",
+    "homepage":  "https://delta.chat/en/",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.delta.chat/desktop/v2.49.0/DeltaChat-2.49.0-Portable.x64.exe#/dl.7z",
+    "hash":  "8f70436cd37c00165a49b8c9f5d3569ebd7d044ebcb76325ca7f83af1123464d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "DeltaChat.exe",
+    "autoupdate":  {
+                       "url":  "https://download.delta.chat/desktop/v$version/DeltaChat-$version-Portable.x64.exe#/dl.7z"
+                   }
+}

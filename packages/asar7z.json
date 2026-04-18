@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.5",
+    "description":  "A plugin for 7-Zip that enables opening, modifying, and creating .asar archives used by Electron-based applications, while noting that encrypted .asar archives cannot be accessed without the specific encryption method defined by the developer.",
+    "homepage":  "https://www.tc4shell.com/en/7zip/asar/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.tc4shell.com/binary/Asar.zip",
+    "hash":  "ea17751b2d7d607dfc11612e71d0c9d36561e643cdfb2bfb16922a9a0ec6d250",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://www.tc4shell.com/binary/Asar.zip"
+                   }
+}

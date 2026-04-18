@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.9.9",
+    "description":  "A terminal tool that right-sizes LLM models to your system\u0027s RAM, CPU, and GPU.",
+    "homepage":  "https://github.com/AlexsJones/llmfit",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/AlexsJones/llmfit/releases/download/v0.9.9/llmfit-v0.9.9-x86_64-pc-windows-msvc.zip",
+    "hash":  "f322b83693f35029ab34f4d3c10e0a7fab9a6b0fab2b2940d278c4c3775329a6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "llmfit.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/AlexsJones/llmfit/releases/download/v$version/llmfit-v$version-x86_64-pc-windows-msvc.zip"
+                   }
+}

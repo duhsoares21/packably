@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "3.2.2",
+    "description":  "Dolby Encoding Engine Wrapper",
+    "homepage":  "https://github.com/pcroland/deew",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/pcroland/deew/releases/download/3.2.2/deew.exe",
+    "hash":  "59e9f52b8ee903fbb3c4cc6952eaaa82bb8b5db6a4875276fefac34cc3074a75",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "deew.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/pcroland/deew/releases/download/$version/deew.exe"
+                   }
+}

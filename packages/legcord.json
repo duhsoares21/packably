@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.2.4",
+    "description":  "A custom client designed to enhance your Discord experience while keeping everything lightweight.",
+    "homepage":  "https://legcord.app/",
+    "license":  "OSL-3.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Legcord/Legcord/releases/download/v1.2.4/Legcord-1.2.4-win-x64.zip",
+    "hash":  "5b702362a744b1c8e0759151e9abd5210bf9c1ee2610e82c2b9bd9f6bdd02eee",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Legcord.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Legcord/Legcord/releases/download/v$version/Legcord-$version-win-x64.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.1.2",
+    "description":  "A high-performance cache-store from Microsoft Research.",
+    "homepage":  "https://microsoft.github.io/garnet",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/microsoft/garnet/releases/download/v1.1.2/win-x64-based-readytorun.zip",
+    "hash":  "881e643b45f94dd2a88c2eb20adc4c18914e05d5210f340fe66fc039f5e03771",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "GarnetServer.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/microsoft/garnet/releases/download/v$version/win-x64-based-readytorun.zip"
+                   }
+}

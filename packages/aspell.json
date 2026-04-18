@@ -1,0 +1,18 @@
+﻿{
+    "type":  "other",
+    "version":  "0.60.8.2-1",
+    "description":  "A spellchecker commonly used with emacs.",
+    "homepage":  "http://aspell.net/",
+    "license":  "LGPL-2.1-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://mirror.msys2.org/mingw/mingw64/mingw-w64-x86_64-aspell-0.60.8.2-1-any.pkg.tar.zst",
+    "hash":  "dcc1ecbc3c4606a5c1fc2ffe57ad787f78ef4f9dcef5a60a05f2beb121d13fc4",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\aspell.exe"
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.4.9",
+    "description":  "A terminal interface for StackOverflow",
+    "homepage":  "https://github.com/samtay/so",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/samtay/so/releases/download/v0.4.9/so-x86_64-pc-windows-msvc.zip",
+    "hash":  "07668c141e524ddd08dbbc6723bcdf426dc91a7becbb8985e1a37bbb2276ec4f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "so.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/samtay/so/releases/download/v$version/so-x86_64-pc-windows-msvc.zip"
+                   }
+}

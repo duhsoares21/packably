@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.0.50",
+    "description":  "The new purpose-built IDE to harness magic",
+    "homepage":  "https://windsurf.com/",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://windsurf-stable.codeiumdata.com/win32-x64-user/stable/c973f91b37b89375b5b009109c2fe84d185fab48/WindsurfUserSetup-x64-2.0.50.exe",
+    "hash":  "8c15107fb3c0f6602c87da3e79ffe8621b0a703e45e48b5f471f42e86446ba7c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\windsurf.cmd",
+    "autoupdate":  {
+                       "url":  "https://windsurf-stable.codeiumdata.com/win32-x64-user/stable/$matchCode/WindsurfUserSetup-x64-$version.exe"
+                   }
+}

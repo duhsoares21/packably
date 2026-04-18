@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.16.1",
+    "description":  "Terminal-based slideshow tool",
+    "homepage":  "https://github.com/mfontanini/presenterm",
+    "license":  "BSD-2-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/mfontanini/presenterm/releases/download/v0.16.1/presenterm-0.16.1-x86_64-pc-windows-msvc.zip",
+    "hash":  "sha512:5687b68ae51aebf8de55b15e850ee48d4b9cbe15ed5ec2c7584698b7a492a26b514123604e5fa96b382c16f013fbfc3b7f68d2854d93502b79c2ebb4bac59c21",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "presenterm.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/mfontanini/presenterm/releases/download/v$version/presenterm-$version-x86_64-pc-windows-msvc.zip"
+                   }
+}

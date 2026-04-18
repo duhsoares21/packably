@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "14.3.0",
+    "description":  "A unified toolchain to create, integrate, and manage the AWS cloud services for your app.",
+    "homepage":  "https://docs.amplify.aws/cli",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/aws-amplify/amplify-cli/releases/download/v14.3.0/amplify-pkg-win.exe.tgz",
+    "hash":  "62f430fd2a43971679cdba7d4990e23d78e7dd4d3cec6c09858e8f0197bbc873",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "amplify.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/aws-amplify/amplify-cli/releases/download/v$version/amplify-pkg-win.exe.tgz"
+                   }
+}

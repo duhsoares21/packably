@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.2.0",
+    "description":  "Complementary command-line interface for Git.",
+    "homepage":  "https://frostming.github.io/legit/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/frostming/legit/releases/download/1.2.0/legit.exe",
+    "hash":  "2c4aa8a777141cad9171a7aec9b91d6570443644f7ca040903773620074d361b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "legit.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/frostming/legit/releases/download/$version/legit.exe"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "8.4.240527",
+    "description":  "A multi-processor disassembler and debugger that offers so many features it is hard to describe them all",
+    "homepage":  "https://hex-rays.com/ida-free/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://out7.hex-rays.com/files/idafree84_windows.exe",
+    "hash":  "a2fc7eae91860a6d05c946d1ee8ab59afd061e8fc5f965de4112d66b16ac2091",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ida64.exe",
+    "autoupdate":  {
+                       "url":  "https://out7.hex-rays.com/files/idafree$majorVersion$minorVersion_windows.exe"
+                   }
+}

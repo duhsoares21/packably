@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "1.9.8",
+    "description":  "A Windows tail utility for monitoring growing text log files.",
+    "homepage":  "http://snakenest.com/snaketail/",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/snakefoot/snaketail-net/releases/download/1.9.8/SnakeTail.v1.9.8.x64.msi",
+    "hash":  "e455f2e3476517daa56716a7cfdb7e4ef45f60e5681c0eaa82a73614e65e45ac",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "SnakeTail.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/snakefoot/snaketail-net/releases/download/$version/SnakeTail.v$version.x64.msi"
+                   }
+}

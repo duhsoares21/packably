@@ -1,0 +1,18 @@
+﻿{
+    "type":  "exe",
+    "version":  "5.6.1",
+    "description":  "SCIntilla based Text Editor",
+    "homepage":  "https://www.scintilla.org/SciTE.html",
+    "license":  "HPND",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.scintilla.org/Sc561.exe#/Sc1.exe",
+    "hash":  "1c82844e7aeb70774e565600be71034a50ed4aa6aab896515ec4485c8e49a605",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Sc1.exe"
+}

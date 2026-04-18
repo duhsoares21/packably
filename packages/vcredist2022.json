@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "14.50.35719.0",
+    "description":  "Microsoft Visual C++ Redistributable for Visual Studio 2015-2022",
+    "homepage":  "https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://aka.ms/vc14/vc_redist.x64.exe",
+    "hash":  "8995548dfffcde7c49987029c764355612ba6850ee09a7b6f0fddc85bdc5c280",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://aka.ms/vc14/vc_redist.x64.exe"
+                   }
+}

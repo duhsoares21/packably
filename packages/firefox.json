@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "149.0.2",
+    "description":  "Popular open source web browser.",
+    "homepage":  "https://www.firefox.com/",
+    "license":  "MPL-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://archive.mozilla.org/pub/firefox/releases/149.0.2/win64/en-US/Firefox%20Setup%20149.0.2.exe#/dl.7z",
+    "hash":  "sha512:fd0ea2b5e85800fa17d3803506a4a83405ccf06559beb275f7be1b6acfa4996358c9f36c7e34b57686ca5e804c6ab839969d153186dbd7370de2611316c45e24",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "firefox.exe",
+    "autoupdate":  {
+                       "url":  "https://archive.mozilla.org/pub/firefox/releases/$version/win64/en-US/Firefox%20Setup%20$version.exe#/dl.7z"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.8.1",
+    "description":  "A set of tools and utilities to create installers.",
+    "homepage":  "https://doc.qt.io/qtinstallerframework/ifw-overview.html",
+    "license":  "GPL-3.0-only,Qt Company GPL Exception 1.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.qt.io/official_releases/qt-installer-framework/4.8.1/QtInstallerFramework-windows-x64-4.8.1.exe#/dl.7z",
+    "hash":  "b0a7c6816dfaff7d571c9e5350fc08952f12022be87a28f6d8d36a78428c6210",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\archivegen.exe",
+    "autoupdate":  {
+                       "url":  "https://download.qt.io/official_releases/qt-installer-framework/$version/QtInstallerFramework-windows-x64-$version.exe#/dl.7z"
+                   }
+}

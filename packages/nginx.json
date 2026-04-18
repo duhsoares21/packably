@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.29.8",
+    "description":  "An HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server.",
+    "homepage":  "https://nginx.org",
+    "license":  "BSD-2-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://nginx.org/download/nginx-1.29.8.zip",
+    "hash":  "9ed580804bb83dce0197fcb29f2372411c7369d8b9866f137135ccd547ad22de",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "nginx.exe",
+    "autoupdate":  {
+                       "url":  "https://nginx.org/download/nginx-$version.zip"
+                   }
+}

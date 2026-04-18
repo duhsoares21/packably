@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "20260409",
+    "description":  "A set of utilities to manage, diagnose, troubleshoot, and monitor a Windows environment.",
+    "homepage":  "https://docs.microsoft.com/en-us/sysinternals/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.sysinternals.com/files/SysinternalsSuite.zip",
+    "hash":  "e7da9bf052e03968aea666877937037522ff447b838568c6b1be3ea24e3062e9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://download.sysinternals.com/files/SysinternalsSuite.zip"
+                   }
+}

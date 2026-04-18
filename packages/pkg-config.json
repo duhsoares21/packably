@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.26-1",
+    "description":  "A helper tool used when compiling applications and libraries.",
+    "homepage":  "https://www.freedesktop.org/wiki/Software/pkg-config/",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://ftp.gnome.org/pub/gnome/binaries/win32/dependencies/pkg-config_0.26-1_win32.zip",
+    "hash":  "e919821da1a61af45ac9d924914bb72d92ba9ead956c82b9d89128b1b90d37c3",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "pkg-config.exe"
+}

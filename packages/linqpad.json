@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "9.7.13",
+    "description":  "The .NET programmer\u0027s playground",
+    "homepage":  "https://www.linqpad.net",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://cdn.linqpad.net/public/LINQPad9.zip?cache=9.7.13.2777418",
+    "hash":  "783998de4bd7d515a19ce40a9b318fe7f076fc5211a9ec1775be0ea44103bc9a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://cdn.linqpad.net/public/LINQPad$majorVersion.zip?cache=$matchVer"
+                   }
+}

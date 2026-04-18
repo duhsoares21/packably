@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.10.6",
+    "description":  "An open-source ebook reader designed for immersive and deep reading experiences",
+    "homepage":  "https://readest.com/",
+    "license":  "AGPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/readest/readest/releases/download/v0.10.6/Readest_0.10.6_x64-portable.exe#/Readest.exe",
+    "hash":  "1230db7c2e2a864e19af8ffa92282d7b86fc97c6e0d22bc8367c4bde0f2258f0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Readest.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/readest/readest/releases/download/v$version/Readest_$version_x64-portable.exe#/Readest.exe"
+                   }
+}

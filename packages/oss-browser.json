@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.19.0",
+    "description":  "Alibaba cloud (Aliyun) oss file manager.",
+    "homepage":  "https://github.com/aliyun/oss-browser",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://oss-attachment.oss-cn-zhangjiakou.aliyuncs.com/ossbrowser/1.19.0/oss-browser-win32-x64.zip",
+    "hash":  "bd6311c50051966c8b165e52c7729b518df5f09f51d8c05a4552efb3cc72ebba",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "oss-browser.exe",
+    "autoupdate":  {
+                       "url":  "https://oss-attachment.oss-cn-zhangjiakou.aliyuncs.com/ossbrowser/$version/oss-browser-win32-x64.zip"
+                   }
+}

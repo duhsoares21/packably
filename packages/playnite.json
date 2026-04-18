@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "10.52",
+    "description":  "Video game library manager and launcher with support for 3rd party libraries like Steam, GOG, Origin, Battle.net, ...",
+    "homepage":  "https://playnite.link",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/JosefNemec/Playnite/releases/download/10.52/10.52.7z",
+    "hash":  "d1c2438ca76ec41879d5dc65367a35c1d37ee90190e7d551cc86c35854239db6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Playnite.DesktopApp.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/JosefNemec/Playnite/releases/download/$version/$matchFile"
+                   }
+}

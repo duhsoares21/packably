@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.2.0",
+    "description":  "A fast, free and fully customizable image viewer for Windows 10 and 11",
+    "homepage":  "https://picview.org",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Ruben2776/PicView/releases/download/4.2.0/PicView-v4.2.0-win-x64.zip",
+    "hash":  "d0b98a9a69b5274fdf0d6e80feae5b197aa16739f6b09537baaeeefcecc345ba",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "PicView.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Ruben2776/PicView/releases/download/$version/PicView-v$version-win-x64.zip"
+                   }
+}

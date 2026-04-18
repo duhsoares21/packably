@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.10.79",
+    "description":  "A smart search launcher for installed programs or files.",
+    "homepage":  "https://openningia.github.io/Launchy",
+    "license":  "Unknown",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/OpenNingia/Launchy/releases/download/launchy-v2.10.79/Launchy_Setup_x64-2.10.79.exe",
+    "hash":  "d14b2cc5ce7aba75e0189d7047e805b07d469cb92efc0f21c2f2f67177e0b17a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Launchy.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/OpenNingia/Launchy/releases/download/launchy-v$version/Launchy_Setup_x64-$version.exe"
+                   }
+}

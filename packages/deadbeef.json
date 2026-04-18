@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.10.0",
+    "description":  "DeaDBeeF (as in 0xDEADBEEF) is a modular cross-platform audio player.",
+    "homepage":  "https://deadbeef.sourceforge.io",
+    "license":  "GPL-2.0,...",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/deadbeef/travis/windows/1.10.0/deadbeef-1.10.0-windows-x86_64.zip",
+    "hash":  "sha1:fbd0b4bb6885029ddf0d0ea45e6d6572b73ae571",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "deadbeef.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/deadbeef/travis/windows/$version/deadbeef-$version-windows-x86_64.zip"
+                   }
+}

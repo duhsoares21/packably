@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.2.1",
+    "description":  "Microsoft Edit is an accessible editor that even users largely unfamiliar with terminals can easily use or simple needs.",
+    "homepage":  "https://github.com/microsoft/edit/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/microsoft/edit/releases/download/v1.2.1/edit-1.2.1-x86_64-windows.zip",
+    "hash":  "be3affb7e5e0cd856fc0fb9c8b2004e9fbbc364e69797f7c2e9d8fcc94bfc4ff",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "edit.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/microsoft/edit/releases/download/v$version/edit-$version-x86_64-windows.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.3.0",
+    "description":  "A small single file image viewer written in C/C++.",
+    "homepage":  "https://github.com/Wassimulator/CactusViewer",
+    "license":  "BSD 2-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Wassimulator/CactusViewer/releases/download/v2.3.0/CactusViewer.exe",
+    "hash":  "f9e4bea5427af9bf244ed57e67f1edc4fa20408bb64cc0f8b43ac030ae9cd234",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "cactusviewer.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Wassimulator/CactusViewer/releases/download/v$version/CactusViewer.exe"
+                   }
+}

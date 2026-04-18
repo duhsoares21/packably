@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "3.0.20",
+    "description":  "TLS/SSL toolkit (3.0.X LTS)",
+    "homepage":  "https://slproweb.com/products/Win32OpenSSL.html",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://slproweb.com/download/Win64OpenSSL-3_0_20.exe",
+    "hash":  "17a582ffbe9a1994d5dcb6b6486f1d564225c7c48829cf87caf3225b5b87def1",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://slproweb.com/download/Win64OpenSSL-$underscoreVersion.exe"
+                   }
+}

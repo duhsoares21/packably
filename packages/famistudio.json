@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.5.0",
+    "description":  "FamiStudio NES Music Editor",
+    "homepage":  "https://github.com/BleuBleu/FamiStudio",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/BleuBleu/FamiStudio/releases/download/4.5.0/FamiStudio450-WinPortableExe.zip",
+    "hash":  "6f9af6602fe2b1f979416f4e88587953a72f57fa0d5280861e36842cb23435e3",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "FamiStudio.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/BleuBleu/FamiStudio/releases/download/$version/FamiStudio$cleanVersion-WinPortableExe.zip"
+                   }
+}

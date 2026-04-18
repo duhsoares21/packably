@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "4.7.2",
+    "description":  "Terminal user interface for SSH",
+    "homepage":  "https://github.com/quantumsheep/sshs",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/quantumsheep/sshs/releases/download/4.7.2/sshs-windows-amd64.exe#/sshs.exe",
+    "hash":  "eb61e85b48086a7583da27a5aa1bcf13b71c0b492bef270ca80d47d2bd94f3b0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "sshs.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/quantumsheep/sshs/releases/download/$version/sshs-windows-amd64.exe#/sshs.exe"
+                   }
+}

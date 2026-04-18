@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.24",
+    "description":  "A free hex editor / disk editor",
+    "homepage":  "http://www.wxhexeditor.org",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/wxhexeditor/wxHexEditor/v0.24%20Beta/wxHexEditor-v0.24-Win64.zip",
+    "hash":  "sha1:b6439a267b3d46e2ae3083822fcf652adf51c75e",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/wxhexeditor/wxHexEditor/v$version%20Beta/wxHexEditor-v$version-Win64.zip"
+                   }
+}

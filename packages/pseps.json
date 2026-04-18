@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "1.0.0",
+    "description":  "Templating tool for PowerShell",
+    "homepage":  "https://straightdave.github.io/eps/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://cdn.powershellgallery.com/packages/eps.1.0.0.nupkg",
+    "hash":  "ddf192dcb6ae8eefd60e5b440c2d4fbd1bccd4bc49b59624357e831168463440",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://cdn.powershellgallery.com/packages/eps.$version.nupkg"
+                   }
+}

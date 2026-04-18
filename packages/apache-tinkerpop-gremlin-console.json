@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.8.1",
+    "description":  "A REPL environment for interactive development and analysis of Gremlin applications.",
+    "homepage":  "https://tinkerpop.apache.org",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.apache.org/tinkerpop/3.8.1/apache-tinkerpop-gremlin-console-3.8.1-bin.zip",
+    "hash":  "sha512:5e4aaabc9a2cd82a15a70844a5dc13b650230aa8a0febb238490096a65551de78516dbf593b247196e427344aeb483f4377a2d64024834e30b584377b672feda",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\gremlin-scoop.bat",
+    "autoupdate":  {
+                       "url":  "https://downloads.apache.org/tinkerpop/$version/apache-tinkerpop-gremlin-console-$version-bin.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "26.0.3",
+    "description":  "A fast, lightweight and extensible text editor for Windows. Useful for opening very large files.",
+    "homepage":  "https://www.emeditor.com/",
+    "license":  "Shareware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://emeditor.blob.core.windows.net/emed64_26.0.3_portable.zip",
+    "hash":  "4a11631a1c70cbc407b529376417dcb7b1aae8e2dfe92d6beb27d41b73b684e0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "EmEditor.exe",
+    "autoupdate":  {
+                       "url":  "https://emeditor.blob.core.windows.net/emed64_$version_portable.zip"
+                   }
+}

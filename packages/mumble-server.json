@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.5.857",
+    "description":  "Server kit for Mumble, a low-latency and high quality voice chat primarily intended for use while gaming.",
+    "homepage":  "https://www.mumble.info/",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/mumble-voip/mumble/releases/download/v1.5.857/mumble_server-1.5.857.x64.exe",
+    "hash":  "8f8765bd347e086a82e12d4e5a2bf085108b06284b2de195f7aa10b0cb2af817",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "mumble-server.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/mumble-voip/mumble/releases/download/v$version/mumble_server-$version.x64.exe"
+                   }
+}

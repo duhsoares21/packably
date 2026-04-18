@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "2.4.3",
+    "description":  "To-do lists, milestone management, forum-like messagening, file sharing and time tracking",
+    "homepage":  "https://basecamp.com",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://bc3-desktop.s3.amazonaws.com/windows/basecamp3-2.4.3-full.nupkg",
+    "hash":  "sha1:c1fc5f58441af7f2143c526a6c66583886383079",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Basecamp 3.exe",
+    "autoupdate":  {
+                       "url":  "https://bc3-desktop.s3.amazonaws.com/windows/basecamp3-$version-full.nupkg"
+                   }
+}

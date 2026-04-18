@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.26.2",
+    "description":  "An open source programming language that makes it easy to build simple, reliable, and efficient software.",
+    "homepage":  "https://golang.org",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://dl.google.com/go/go1.26.2.windows-amd64.zip",
+    "hash":  "98eb3570bade15cb826b0909338df6cc6d2cf590bc39c471142002db3832b708",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\go.exe",
+    "autoupdate":  {
+                       "url":  "https://dl.google.com/go/go$version.windows-amd64.zip"
+                   }
+}

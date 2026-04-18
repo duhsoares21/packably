@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.26.1",
+    "description":  "DirHash is a Windows console program that computes the hash of a given directory content or a single file",
+    "homepage":  "https://idrassi.github.io/DirHash",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/idrassi/DirHash/releases/download/DirHash_1.26.1/DirHash-1.26.1-x64.zip",
+    "hash":  "16a2c2ef448c02ae16aae7e4ef6dc8e2a9f8f280ea7ebf27ba6525ae15071367",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "DirHash.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/idrassi/DirHash/releases/download/DirHash_$version/DirHash-$version-x64.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.4.12",
+    "description":  "Formatter, linter, bundler, and more for JavaScript, TypeScript, JSON, HTML, Markdown, and CSS.",
+    "homepage":  "https://biomejs.dev/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/biomejs/biome/releases/download/%40biomejs%2Fbiome%402.4.12/biome-win32-x64.exe#/biome.exe",
+    "hash":  "bb4309a0c05caf7377fc071b770d503c5e052a45f8ddea3c9dca34890f202189",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "biome.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/biomejs/biome/releases/download/%40biomejs%2Fbiome%40$version/biome-win32-x64.exe#/biome.exe"
+                   }
+}

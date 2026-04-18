@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.3.4",
+    "description":  "Easily install prebuilt binaries from GitHub.",
+    "homepage":  "https://github.com/zyedidia/eget",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/zyedidia/eget/releases/download/v1.3.4/eget-1.3.4-windows_amd64.zip",
+    "hash":  "27ffb63d5e2e17a829653a4c65a9412fe45fae2be56478167e3b89aaa8ffe899",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "eget.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/zyedidia/eget/releases/download/v$version/eget-$version-windows_amd64.zip"
+                   }
+}

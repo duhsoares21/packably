@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.3.3",
+    "description":  "Aliyundrive WebDav Service",
+    "homepage":  "https://github.com/messense/aliyundrive-webdav",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/messense/aliyundrive-webdav/releases/download/v2.3.3/aliyundrive-webdav-v2.3.3.x86_64-pc-windows-msvc.zip",
+    "hash":  "6582ce142faba27bb8b3ee0295dda209a675653f84fd69403cf54be2eacb9e13",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "aliyundrive-webdav.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/messense/aliyundrive-webdav/releases/download/v$version/aliyundrive-webdav-v$version.x86_64-pc-windows-msvc.zip"
+                   }
+}

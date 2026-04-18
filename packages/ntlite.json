@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2026.04.10936",
+    "description":  "Cutting-edge Windows configuration tool",
+    "homepage":  "https://www.ntlite.com",
+    "license":  "Proprietary",
+    "dependencies":  [
+                         "innounp"
+                     ],
+    "url":  "https://downloads.ntlite.com/files/NTLite_setup_x64.exe",
+    "hash":  "22d98fe3519a9a41838b96072d55ec9430772a01efe412b4ebe31ea08b762bd3",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "NTLite.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.ntlite.com/files/NTLite_setup_x64.exe"
+                   }
+}

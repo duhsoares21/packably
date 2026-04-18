@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.3.0",
+    "description":  "Yet another SIP003 plugin based on IETF-QUIC.",
+    "homepage":  "https://github.com/shadowsocks/qtun",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/shadowsocks/qtun/releases/download/v0.3.0/qtun-windows-native-v0.3.0.zip",
+    "hash":  "3f4fd3857a2c09be776a080398f5b5162487e3b3293407f2d45fefe55b2e94fe",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "qtun-client.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/shadowsocks/qtun/releases/download/v$version/qtun-windows-native-v$version.zip"
+                   }
+}

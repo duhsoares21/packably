@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2025.1.82518",
+    "description":  "Web-based issue tracking and agile project management tool by JetBrains.",
+    "homepage":  "https://jetbrains.com/youtrack/",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.jetbrains.com/charisma/youtrack-2025.1.82518.zip",
+    "hash":  "26639a4cfa42c23228f60ca332c6366b05864fcf649cae0cc31e05b231745f74",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "youtrack.ps1",
+    "autoupdate":  {
+                       "url":  "https://download.jetbrains.com/charisma/youtrack-$version.zip"
+                   }
+}

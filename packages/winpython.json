@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.13.12.0",
+    "description":  "Free, open-source and portable Python distribution for Windows",
+    "homepage":  "https://winpython.github.io",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://sourceforge.net/projects/winpython/WinPython_3.13/3.13.12.0/WinPython64-3.13.12.0slim.7z",
+    "hash":  "00c5f73ec434bbc7c3450fc18cfd55fba050407153ee43637ac7a00f253b99d2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "scripts\\python.bat",
+    "autoupdate":  {
+                       "url":  "https://sourceforge.net/projects/winpython/WinPython_$majorVersion.$minorVersion/$version/WinPython64-$versionslim.7z"
+                   }
+}

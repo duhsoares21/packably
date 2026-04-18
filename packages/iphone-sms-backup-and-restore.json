@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.14.44",
+    "description":  "Backup \u0026 Restore iPhone SMS on computer with ease.",
+    "homepage":  "https://www.backuptrans.com/iphone-sms-backup-restore.html",
+    "license":  "Unknown",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.backuptrans.com/download/exe/iphone-sms-backup-and-restore_x64.exe#/dl.7z",
+    "hash":  "8577ada5750fdea9b7fa2f98aac59b1887a3529f7bca50f11fca1776e44e4f69",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "iPhoneSmsBackupAndRestore.exe",
+    "autoupdate":  {
+                       "url":  "https://www.backuptrans.com/download/exe/iphone-sms-backup-and-restore_x64.exe#/dl.7z"
+                   }
+}

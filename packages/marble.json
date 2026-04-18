@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.2.0",
+    "description":  "A virtual globe and world atlas â€” your swiss army knife for maps.",
+    "homepage":  "https://marble.kde.org/index.php",
+    "license":  "LGPL-2.1-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://files.kde.org/marble/downloads/windows/Marble-setup_2.2.0-1_x64.exe",
+    "hash":  "10b47fb07cae61d48ea9ade811261d3a7ff26b5e96f362e663a583d4d8773e10",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "marble-qt.exe",
+    "autoupdate":  {
+                       "url":  "https://files.kde.org/marble/downloads/windows/Marble-setup_$version$matchRelease_x64.exe"
+                   }
+}

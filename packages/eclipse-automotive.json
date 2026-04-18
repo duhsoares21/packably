@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.5.2",
+    "description":  "Eclipse IDE for Automotive Software Developers",
+    "homepage":  "https://projects.eclipse.org/projects/automotive",
+    "license":  "EPL-1.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://archive.eclipse.org/technology/epp/downloads/release/mars/2/eclipse-automotive-mars-2-incubation-win32-x86_64.zip",
+    "hash":  "sha512:902cbb27824f644d422978f7beab95c9ef3d1067470099b106d3fa7848073f2ba86831bd18f872c462e0cbd2b211015d17d1ba58f69c076ced8157202f7653cb",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "eclipse.exe"
+}

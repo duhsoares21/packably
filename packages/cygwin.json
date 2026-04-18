@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.938",
+    "description":  "A large collection of GNU and Open Source tools which provide functionality similar to a Linux distribution on Windows.",
+    "homepage":  "https://cygwin.com",
+    "license":  "GPL-3.0-or-later,X11,Public Domain",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://cygwin.com/setup/setup-2.938.x86_64.exe#/cygwin-setup.exe",
+    "hash":  "sha512:65bdaefce1dccb4b1abb8761c6f26d39187159f48567b644ceb3c51e617eded9194d5be3173197579b96a29041d08028057d12a9ed5935daa8a4850f0fcf198e",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "cygwin-setup.exe",
+    "autoupdate":  {
+                       "url":  "https://cygwin.com/setup/setup-$version.x86_64.exe#/cygwin-setup.exe"
+                   }
+}

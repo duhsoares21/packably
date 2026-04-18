@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.4.5",
+    "description":  "A clipboard manager built with Rust and GPUI",
+    "homepage":  "https://github.com/StudentWeis/ropy",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/StudentWeis/ropy/releases/download/0.4.5/ropy-x86_64-pc-windows-msvc.zip",
+    "hash":  "802c6c96edbfa07247acb402c49fd7ae2637d8121ea82427bcf1e52abbb00342",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ropy.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/StudentWeis/ropy/releases/download/$version/ropy-x86_64-pc-windows-msvc.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "3.2.3",
+    "description":  "Open Source Enterprise Deployment for Shiny and data science apps",
+    "homepage":  "https://shinyproxy.io",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://shinyproxy.io/downloads/shinyproxy-3.2.3.jar#/shinyproxy.jar",
+    "hash":  "66a416ca2cd1a9b6ec218ee7b2330033f59a1b0004aa78670c57929033954d01",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "shinyproxy.jar",
+    "autoupdate":  {
+                       "url":  "https://shinyproxy.io/downloads/shinyproxy-$version.jar#/shinyproxy.jar"
+                   }
+}

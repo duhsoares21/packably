@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2026.4.151333-latest",
+    "description":  "IDE for Kubernetes clusters",
+    "homepage":  "https://k8slens.dev",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://api.k8slens.dev/binaries/Lens%20Setup%202026.4.151333-latest.exe#/dl.7z",
+    "hash":  "ea1ce0137aa5a6d20e3330ac50cd48c9b3f5a8ab74de5bc2b309f6300c7fdffe",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Lens.exe",
+    "autoupdate":  {
+                       "url":  "https://api.k8slens.dev/binaries/Lens%20Setup%20$version.exe#/dl.7z"
+                   }
+}

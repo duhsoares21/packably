@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "1.4.3",
+    "description":  "ZLocation is the new Jump-Location",
+    "homepage":  "https://github.com/vors/ZLocation",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://cdn.powershellgallery.com/packages/zlocation.1.4.3.nupkg",
+    "hash":  "027f219447d0f02b364700c4a284a946389a946850eacf47efff5c300854aa46",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://cdn.powershellgallery.com/packages/zlocation.$version.nupkg"
+                   }
+}

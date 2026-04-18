@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.2.4",
+    "description":  "A powerful, cross-platform GUI for managing Rclone remotes with style and ease.",
+    "homepage":  "https://zarestia-dev.github.io/rclone-manager/",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Zarestia-Dev/rclone-manager/releases/download/v0.2.4/RClone.Manager_0.2.4_x64-setup.exe#/dl.7z",
+    "hash":  "adfb0416fbbe7906871a775241e34eb87ec1ec2b9e14cd3153294fd8426b994f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "rclone-manager.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Zarestia-Dev/rclone-manager/releases/download/v$version/RClone.Manager_$version_x64-setup.exe#/dl.7z"
+                   }
+}

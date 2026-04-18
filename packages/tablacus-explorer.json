@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "26.4.11",
+    "description":  "A tabbed file manager with Add-on support.",
+    "homepage":  "https://tablacus.github.io/explorer_en.html",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/tablacus/TablacusExplorer/releases/download/26.4.11/te260411.zip",
+    "hash":  "4f2dc25932f6e4e493aadb492414f0a2043093ea78b240739fa6d9cbfc73b388",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://github.com/tablacus/TablacusExplorer/releases/download/$version/$matchFilename.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "11.0.21",
+    "description":  "Implementation of the Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket technologies",
+    "homepage":  "https://tomcat.apache.org",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://archive.apache.org/dist/tomcat/tomcat-11/v11.0.21/bin/apache-tomcat-11.0.21-windows-x64.zip",
+    "hash":  "sha512:6ee4a5b255bf5e6556a3ab56974b1d8850d96e23f4c11332515ce1d62db40f1fbfadef10466547f9b7ebd7146c27085ac1361380b71881cc100e950295c9f1ef",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\catalina.bat",
+    "autoupdate":  {
+                       "url":  "https://archive.apache.org/dist/tomcat/tomcat-$majorVersion/v$version/bin/apache-tomcat-$version-windows-x64.zip"
+                   }
+}

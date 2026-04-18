@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.1.16",
+    "description":  "Office software suite for word processing, spreadsheets, presentations, graphics, databases and more",
+    "homepage":  "https://www.openoffice.org",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://archive.apache.org/dist/openoffice/4.1.16/binaries/en-GB/Apache_OpenOffice_4.1.16_Win_x86_install_en-GB.exe#/dl.7z",
+    "hash":  "sha512:d065625eafdb51ceca75ad32595e710846d14a414cab73a1f759d031e9000531406fb66dba64768bd3cbc28f21aa0a98dc44ff8612ee5b64555064b0d299989c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "program\\soffice.exe",
+    "autoupdate":  {
+                       "url":  "https://archive.apache.org/dist/openoffice/$version/binaries/en-GB/Apache_OpenOffice_$version_Win_x86_install_en-GB.exe#/dl.7z"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "2025.4-2886649",
+    "description":  "Provides access to versioned files in Helix Core through a graphical interface.",
+    "homepage":  "https://www.perforce.com/products/helix-core-apps/helix-visual-client-p4v",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://cdist2.perforce.com/perforce/r25.4/bin.ntx64/p4vinst64.msi",
+    "hash":  "d51c15eca3be3c039f8fcaec9926120d0812ce81d6c3a8218f55bafed189e8ab",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "p4.exe",
+    "autoupdate":  {
+                       "url":  "https://cdist2.perforce.com/perforce/r$matchYy.$matchRelease/bin.ntx64/p4vinst64.msi"
+                   }
+}

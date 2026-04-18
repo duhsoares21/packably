@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.8.0",
+    "description":  "A modern WinUI 3 wrapper for the Windows Task Scheduler.",
+    "homepage":  "https://github.com/TRGamer-tech/FluentTaskScheduler",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/TRGamer-tech/FluentTaskScheduler/releases/download/V1.8.0/Portable-x64.zip",
+    "hash":  "ac0f40da2857822689a6a6167cb3e044dd8eaff18ff84bf9a4432e43bb6ba030",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "FluentTaskScheduler.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/TRGamer-tech/FluentTaskScheduler/releases/download/V$version/Portable-x64.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.0.0",
+    "description":  "Integrate uGet Download Manager with Google Chrome, Chromium, Opera, Vivaldi and Mozilla Firefox",
+    "homepage":  "https://github.com/ugetdm/uget-integrator",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/ugetdm/uget-integrator/releases/download/v1.0.0/uget-integrator_win_1.0.0.zip",
+    "hash":  "6d25dab25839b6e0d944792e111b55f60aebf6d4980727e3c18636304eed8626",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "add_config.bat",
+    "autoupdate":  {
+                       "url":  "https://github.com/ugetdm/uget-integrator/releases/download/v$version/uget-integrator_win_$version.zip"
+                   }
+}

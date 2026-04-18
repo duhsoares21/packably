@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "7.9.7",
+    "description":  "HTTP/HTTPS proxy",
+    "homepage":  "https://lantern.io/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://media.githubusercontent.com/media/getlantern/lantern-binaries/main/lantern-installer-64-bit.exe#/dl.7z",
+    "hash":  "69480dbc2b3aab13e4ad4bc9989a39e14f0d90275206cdf9401b150ce3c85405",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "lantern.exe",
+    "autoupdate":  {
+                       "url":  "https://media.githubusercontent.com/media/getlantern/lantern-binaries/main/lantern-installer-64-bit.exe#/dl.7z"
+                   }
+}

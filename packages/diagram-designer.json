@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "1.30.0",
+    "description":  "Vector graphics editor for creating flowcharts, UML class diagrams, illustrations and slide shows.",
+    "homepage":  "https://logicnet.dk/DiagramDesigner/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.fosshub.com/Diagram-Designer.html/DiagramDesignerSetup.1.30.0.msi",
+    "hash":  "0df1070ecc634204d93f4a85394f1f9680d9cd1a6d184e123dc980e59ede3d6f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "DiagramDesigner.exe",
+    "autoupdate":  {
+                       "url":  "https://www.fosshub.com/Diagram-Designer.html/DiagramDesignerSetup.$version.msi"
+                   }
+}

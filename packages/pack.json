@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.40.2",
+    "description":  "Buildpack CLI",
+    "homepage":  "https://github.com/buildpacks/pack",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/buildpacks/pack/releases/download/v0.40.2/pack-v0.40.2-windows.zip",
+    "hash":  "d5f8eb5fd88e637920a6b6be7d30a0e482542c6adf75d90c1d72e3c71cffe31e",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "pack.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/buildpacks/pack/releases/download/v$version/pack-v$version-windows.zip"
+                   }
+}

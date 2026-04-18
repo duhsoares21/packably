@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.3.0",
+    "description":  "Free disk backup, clone, and wipe utility with CLI support",
+    "homepage":  "https://multidrive.io",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/atola-technology/multidrive/releases/download/v1.3.0/MultiDrive_1.3.zip",
+    "hash":  "4d5eb73da5c42520904c959865a3b1ac2e6ecf125f92b05484dce69dec12a6fe",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "mdcli.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/atola-technology/multidrive/releases/download/v$version/MultiDrive_$majorVersion.$minorVersion.zip"
+                   }
+}

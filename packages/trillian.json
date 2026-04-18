@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "6.6.0.14",
+    "description":  "Modern and secure instant messaging",
+    "homepage":  "https://www.trillian.im",
+    "license":  "Freemium",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://trillian.im/get/windows/6.6/trillian-v6.6.0.14.msi",
+    "hash":  "df118389c625b8887001318168cf4c7df04944d8fe6760b51a150ffbb230c260",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "trillian.exe",
+    "autoupdate":  {
+                       "url":  "https://trillian.im/get/windows/$majorVersion.$minorVersion/trillian-v$version.msi"
+                   }
+}

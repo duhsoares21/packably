@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.0.8",
+    "description":  "Tool for writing an Raspberry Pi OS images to SD cards.",
+    "homepage":  "https://www.raspberrypi.org/software",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/raspberrypi/rpi-imager/releases/download/v2.0.8/imager-v2.0.8.exe",
+    "hash":  "3a2eddf6598a6f1570ce683a76b2bfbe0e4b9ebfb24cde91ac0005140675cbf7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "rpi-imager.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/raspberrypi/rpi-imager/releases/download/v$version/imager-v$version.exe"
+                   }
+}

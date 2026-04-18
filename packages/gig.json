@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.8.3",
+    "description":  "Generate .gitignore files from your terminal (mostly) offline!",
+    "homepage":  "https://github.com/shihanng/gig",
+    "license":  "MIT",
+    "dependencies":  [
+                         "fzf"
+                     ],
+    "url":  "https://github.com/shihanng/gig/releases/download/v0.8.3/gig_0.8.3_Windows_x86_64.tar.gz",
+    "hash":  "e2dfa2759b87c503f509e9468704803893b41d56fb04127460ee9607f2eabf23",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "gig.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/shihanng/gig/releases/download/v$version/gig_$version_Windows_x86_64.tar.gz"
+                   }
+}

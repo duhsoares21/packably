@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.8.10",
+    "description":  "A book/document editor to build PDF, Epub, Mobi and HTML books, documents and slides.",
+    "homepage":  "https://asciidocfx.com",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/asciidocfx/AsciidocFX/releases/download/v1.8.10/AsciidocFX_Windows.zip",
+    "hash":  "a0d470db785877b05e3cc03396b1388cdc7fee8d992fcc156dc212bc22af0f46",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "AsciidocFX.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/asciidocfx/AsciidocFX/releases/download/v$version/AsciidocFX_Windows.zip"
+                   }
+}

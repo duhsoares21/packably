@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "r2083",
+    "description":  "vgmstream command line interface",
+    "homepage":  "https://github.com/vgmstream/vgmstream",
+    "license":  "VGMStream Team",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/vgmstream/vgmstream/releases/download/r2083/vgmstream-win64.zip",
+    "hash":  "7c221de99e5041826e24018df7d47fbcc473ca41ee3cf81bf33cbb804c0486e6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "vgmstream-cli.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/vgmstream/vgmstream/releases/download/$version/vgmstream-win64.zip"
+                   }
+}

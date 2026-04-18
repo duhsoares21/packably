@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "9.7.0",
+    "description":  "A Remote Desktop Software That Actually Works",
+    "homepage":  "https://anydesk.com/",
+    "license":  "Shareware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.anydesk.com/AnyDesk.exe",
+    "hash":  "2ac2da18754e34bb6bab866ebba03a741a487648aadda7b25d88e2b2b5fa8df6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "AnyDesk.exe",
+    "autoupdate":  {
+                       "url":  "https://download.anydesk.com/AnyDesk.exe"
+                   }
+}

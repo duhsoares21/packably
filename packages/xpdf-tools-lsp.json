@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2026-Mar-23",
+    "description":  "All language support packages for xpdf-tools",
+    "homepage":  "https://www.xpdfreader.com/",
+    "license":  "GPL-2.0-only|GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://dl.xpdfreader.com/xpdf-arabic.tar.gz",
+    "hash":  "5ac306d5678a72b8907bb920ed4781e7c878de50a0f7043847f9ab4c02010c61",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://dl.xpdfreader.com/xpdf-arabic.tar.gz"
+                   }
+}

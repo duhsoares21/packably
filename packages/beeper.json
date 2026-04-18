@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.2.742",
+    "description":  "Universal chat app powered by Matrix",
+    "homepage":  "https://www.beeper.com/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://beeper-desktop.download.beeper.com/builds/Beeper%20x64%204.2.742.exe#/dl.7z",
+    "hash":  "73a52fdd88a86fb80c3163752a57028c258a791cfe967a6dddfbdc40adf25a69",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Beeper.exe",
+    "autoupdate":  {
+                       "url":  "https://beeper-desktop.download.beeper.com/builds/Beeper%20x64%20$version.exe#/dl.7z"
+                   }
+}

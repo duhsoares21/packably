@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "26.4.2.0",
+    "description":  "Install ArchLinux as a WSL Instance",
+    "homepage":  "https://github.com/yuk7/ArchWSL",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/yuk7/ArchWSL/releases/download/26.4.2.0/Arch.zip",
+    "hash":  "c0a6edebb4687f3c4204ddf441e844b2cb6be3a2f9db6259b80d52164a5677fb",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Arch.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/yuk7/ArchWSL/releases/download/$version/Arch.zip"
+                   }
+}

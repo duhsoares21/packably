@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.0.3.3",
+    "description":  "A free .NET performance profiler and execution analyzer.",
+    "homepage":  "https://www.getcodetrack.com",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.getcodetrack.com/releases/codetrack_1_0_3_3.zip",
+    "hash":  "455eccfcc568004bf6108ba9ad8dbbc32cdecb84c6c62153c8f181ca984d68ce",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "CodeTrack.exe",
+    "autoupdate":  {
+                       "url":  "https://www.getcodetrack.com/releases/codetrack_$underscoreVersion.zip"
+                   }
+}

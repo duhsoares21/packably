@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.4.0-1",
+    "description":  "The user-friendly, lightweight, and fast email client",
+    "homepage":  "https://www.claws-mail.org",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.claws-mail.org/win32/claws-mail-4.4.0-1-64bit.exe#/dl.7z",
+    "hash":  "0fad3f06f7a758535f08a13d992450555d57a10726fc11c52407c3fcdda57ef8",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "claws-mail.exe",
+    "autoupdate":  {
+                       "url":  "https://www.claws-mail.org/win32/claws-mail-$version-64bit.exe#/dl.7z"
+                   }
+}

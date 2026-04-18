@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.29.1",
+    "description":  "Educational drag-and-drop programming environment",
+    "homepage":  "https://scratch.mit.edu/about",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.scratch.mit.edu/desktop/Scratch%203.29.1%20Setup.exe#/dl.7z",
+    "hash":  "dfca2f1a842aea69a2b0a22ca66fa7852f86259e3da4f576f8ae7fa16f1e9134",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Scratch 3.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.scratch.mit.edu/desktop/Scratch%20$version%20Setup.exe#/dl.7z"
+                   }
+}

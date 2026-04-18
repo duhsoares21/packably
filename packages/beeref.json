@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.3.3",
+    "description":  "A Simple Reference Image Viewer",
+    "homepage":  "https://beeref.org",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/rbreu/beeref/releases/download/v0.3.3/BeeRef-0.3.3.exe#/BeeRef.exe",
+    "hash":  "f3aca2f402d8110c7acd2c4db0e8fcd505fe39890456b34f7852409a0effef55",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "beeref.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/rbreu/beeref/releases/download/v$version/BeeRef-$version.exe#/BeeRef.exe"
+                   }
+}

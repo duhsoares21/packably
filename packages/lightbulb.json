@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.7",
+    "description":  "Computer screen gamma adjuster based on the current time",
+    "homepage":  "https://github.com/Tyrrrz/LightBulb",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Tyrrrz/LightBulb/releases/download/2.7/LightBulb.win-x64.zip",
+    "hash":  "60889e7b50754f438f9a819ba9e322fca4c254fd94c870446c2ea7bf259fcf5c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "LightBulb.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Tyrrrz/LightBulb/releases/download/$version/LightBulb.win-x64.zip"
+                   }
+}

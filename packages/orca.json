@@ -1,0 +1,18 @@
+﻿{
+    "type":  "msi",
+    "version":  "5.0.18362.1",
+    "description":  "Windows Installer Table Editor",
+    "homepage":  "https://docs.microsoft.com/en-us/windows/desktop/Msi/orca-exe",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.microsoft.com/download/4/2/2/42245968-6A79-4DA7-A5FB-08C0AD0AE661/windowssdk/Installers/Orca-x86_en-us.msi",
+    "hash":  "e54009ca30533e74b599d14853ceb83fb2514f70d2de890ad17aa99f1743b89b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Orca.exe"
+}

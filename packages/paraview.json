@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "6.1.0",
+    "description":  "Open-source, multi-platform data analysis and visualization application.",
+    "homepage":  "https://www.paraview.org/",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.paraview.org/paraview-downloads/download.php?submit=Download\u0026version=v6.1\u0026type=binary\u0026os=Windows\u0026downloadFile=ParaView-6.1.0-Windows-Python3.12-msvc2017-AMD64.zip#/dl.zip",
+    "hash":  "md5:33f77e20085decb92d6b7aecada709e0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\paraview.exe",
+    "autoupdate":  {
+                       "url":  "https://www.paraview.org/paraview-downloads/download.php?submit=Download\u0026version=v$majorVersion.$minorVersion\u0026type=binary\u0026os=Windows\u0026downloadFile=ParaView-$version-Windows-Python$matchPythonver-msvc$matchMsvcver-AMD64.zip#/dl.zip"
+                   }
+}

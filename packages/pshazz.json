@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.2022.03.09",
+    "description":  "Give your powershell some pizazz.",
+    "homepage":  "https://github.com/lukesampson/pshazz",
+    "license":  "Unlicense",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/lukesampson/pshazz/archive/2d74b2c0820a7106fa563c1db048827e7becebf8.zip",
+    "hash":  "70f4779f07390c007ffa9576fda8b6050a62756a5efdd96617a5cd11cd879e98",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\pshazz.ps1",
+    "autoupdate":  {
+                       "url":  "https://github.com/lukesampson/pshazz/archive/$matchSha.zip"
+                   }
+}

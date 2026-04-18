@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "1.19.10",
+    "description":  "Julia installer and version multiplexer",
+    "homepage":  "https://github.com/JuliaLang/juliaup",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://julialang-s3.julialang.org/juliaup/winmsi/Julia-v1.19.10-x64.msi",
+    "hash":  "c548487d7dcf71935526be7929e986c5ca3caca5c794efc94fb91b722b77248e",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "juliaup.exe",
+    "autoupdate":  {
+                       "url":  "https://julialang-s3.julialang.org/juliaup/winmsi/Julia-v$version-x64.msi"
+                   }
+}

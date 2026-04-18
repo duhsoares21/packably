@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.8.1",
+    "description":  "Blazing fast TUI download manager built in Go for power users",
+    "homepage":  "https://github.com/surge-downloader/Surge",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/surge-downloader/Surge/releases/download/v0.8.1/Surge_0.8.1_windows_amd64.zip",
+    "hash":  "abe523e5a5a867d667a27742a3a22c8a7c3e7e9a95abef5ec0bfe7e690b88ca1",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "surge.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/surge-downloader/Surge/releases/download/v$version/Surge_$version_windows_amd64.zip"
+                   }
+}

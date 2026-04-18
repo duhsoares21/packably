@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.0.6",
+    "description":  "Password manager application with strong encryption (AES-256)",
+    "homepage":  "https://github.com/gaborbata/jpass",
+    "license":  "MIT|GPL-3.0|LGPL-3.0|Apache-2.0|BSD-3-Clause|CC-BY-4.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/gaborbata/jpass/releases/download/v1.0.6/jpass-1.0.6-RELEASE.zip",
+    "hash":  "ba390f0cc63aa88c5b667c3fe6d2c69d15aad2afa5f196beca110a331309173b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "jpass.bat",
+    "autoupdate":  {
+                       "url":  "https://github.com/gaborbata/jpass/releases/download/v$version/jpass-$version-RELEASE.zip"
+                   }
+}

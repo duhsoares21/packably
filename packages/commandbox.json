@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "6.3.1",
+    "description":  "A standalone, native tool for Windows, Mac, and Linux that will provide you with a Command Line Interface (CLI) for developer productivity, tool interaction, package management, embedded CFML server, application scaffolding, and some sweet ASCII art",
+    "homepage":  "https://www.ortussolutions.com/products/commandbox",
+    "license":  "LGPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.ortussolutions.com/ortussolutions/commandbox/6.3.1/commandbox-jre-win64-6.3.1.zip",
+    "hash":  "43ec9d99f4c65e94db811f8e11f94c7cad9634a2eb01593ed9ef6192f9dd7e2c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "box.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.ortussolutions.com/ortussolutions/commandbox/$version/commandbox-jre-win64-$version.zip"
+                   }
+}

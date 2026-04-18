@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.43.0",
+    "description":  "A collection of JavaScript tools written in Rust.",
+    "homepage":  "https://github.com/oxc-project/oxc",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/oxc-project/oxc/releases/download/apps_v1.43.0/oxlint-win32-x64.zip",
+    "hash":  "7df7f8623c612376eb746343521fe1054a5cb7c12e4d574b606f38fa772a98c2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "oxlint.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/oxc-project/oxc/releases/download/apps_v$version/oxlint-win32-x64.zip"
+                   }
+}

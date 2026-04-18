@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2026-03-13",
+    "description":  "Natively supported free encoder binary for use with the Converter foobar2000 component",
+    "homepage":  "https://www.foobar2000.org/encoderpack",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.foobar2000.org/files/Free_Encoder_Pack-2026-03-13.exe#/dl.7z",
+    "hash":  "2510d5706889c19ebf6e26d400b18c3b0962b1289b55bfbbea52fcefb6768627",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://www.foobar2000.org/files/Free_Encoder_Pack-$version.exe#/dl.7z"
+                   }
+}

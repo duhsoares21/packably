@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.1",
+    "description":  "Win32 audio player with support for Winamp plugins",
+    "homepage":  "https://www.un4seen.com/xmplay.html",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.un4seen.com/files/xmplay41.zip",
+    "hash":  "f364d9490d722d1ff21b9a027d803cbf4d5489422b39b782580085bbc463dd5e",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "xmplay.exe",
+    "autoupdate":  {
+                       "url":  "https://www.un4seen.com/files/xmplay$majorVersion$minorVersion.zip"
+                   }
+}

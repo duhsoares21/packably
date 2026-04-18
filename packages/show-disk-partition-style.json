@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.1",
+    "description":  "A simple app for showing disk partion style.",
+    "homepage":  "https://www.sordum.org/show-disk-partition-style",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.sordum.org/files/download/show-disk-partition-style/DPStyle.zip",
+    "hash":  "40de4da4d8ce528e8dffced5391d0a526a8debbefd36dd335cbd5d752cb1e1f6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://www.sordum.org/files/download/show-disk-partition-style/DPStyle.zip"
+                   }
+}

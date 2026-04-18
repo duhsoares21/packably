@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "2.16.0",
+    "description":  "Allows you to maintain all the necessary cruft for packaging and building projects separate from the code you intentionally write. Built on-top of and fully compatible with CookieCutter.",
+    "homepage":  "https://github.com/cruft/cruft",
+    "license":  "MIT",
+    "dependencies":  [
+                         "python"
+                     ],
+    "url":  "https://files.pythonhosted.org/packages/py3/c/cruft/cruft-2.16.0-py3-none-any.whl",
+    "hash":  "96adb81f814300a9db0fca690eaa063547f5d3c25f486ac0a366cf8da5cdfb79",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "cruft\\Scripts\\cruft.exe",
+    "autoupdate":  {
+                       "url":  "https://files.pythonhosted.org/packages/py3/c/cruft/cruft-$version-py3-none-any.whl"
+                   }
+}

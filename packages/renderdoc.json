@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "1.43",
+    "description":  "A stand-alone graphics debugging tool",
+    "homepage":  "https://renderdoc.org",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://renderdoc.org/stable/1.43/RenderDoc_1.43_64.msi",
+    "hash":  "6010390ec8c5fcc1e1b4f173c3a9cc1dc9095b533062dfe1ab1a0ce800d16571",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "qrenderdoc.exe",
+    "autoupdate":  {
+                       "url":  "https://renderdoc.org/stable/$version/RenderDoc_$version_64.msi"
+                   }
+}

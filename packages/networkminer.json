@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "3.1",
+    "description":  "Network Forensic Analysis Tool",
+    "homepage":  "https://www.netresec.com/?page=NetworkMiner",
+    "license":  "GPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.netresec.com/?download=NetworkMiner#/dl.zip",
+    "hash":  "782e3d4d0b917a5aadf59966ab7d21ab30dbd593eff14e426f2b580a2e3f89e1",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "NetworkMiner.exe",
+    "autoupdate":  {
+                       "url":  "https://www.netresec.com/?download=NetworkMiner#/dl.zip"
+                   }
+}

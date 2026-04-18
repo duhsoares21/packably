@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.7.6",
+    "description":  "EPUB ebook editor",
+    "homepage":  "https://sigil-ebook.com",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Sigil-Ebook/Sigil/releases/download/2.7.6/Sigil-2.7.6-Windows-x64-Setup.exe",
+    "hash":  "6015d5312e9ed45f84a763ff2a76d4ce74c69c0e40773ba94b69c5457a077692",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Sigil.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Sigil-Ebook/Sigil/releases/download/$version/Sigil-$version-Windows-x64-Setup.exe"
+                   }
+}

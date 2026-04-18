@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "1.60.0",
+    "description":  "The hackable text editor",
+    "homepage":  "https://atom.io/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/atom/atom/releases/download/v1.60.0/atom-x64-1.60.0-full.nupkg",
+    "hash":  "sha1:81ddc41fb724182b950e2f4b413ee5bc9410b730",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "AtomPortable\\resources\\cli\\atom.cmd",
+    "autoupdate":  {
+                       "url":  "https://github.com/atom/atom/releases/download/v$version/atom-x64-$version-full.nupkg"
+                   }
+}

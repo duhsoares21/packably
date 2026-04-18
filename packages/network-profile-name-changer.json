@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.4",
+    "description":  "A simple app that allows for easy changes to the names of network profiles.",
+    "homepage":  "https://www.sordum.org/network-profile-name-changer",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.sordum.org/files/download/network-profile-name-changer/NetPnc.zip",
+    "hash":  "64c59994f60e1de40447cca87dbef1ad0dc9dbc191e444809e5c430f2783aa36",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "NetPnc.exe",
+    "autoupdate":  {
+                       "url":  "https://www.sordum.org/files/download/network-profile-name-changer/NetPnc.zip"
+                   }
+}

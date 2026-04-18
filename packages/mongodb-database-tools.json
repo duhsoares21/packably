@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "100.14.0",
+    "description":  "A collection of command-line utilities for working with a MongoDB deployment.",
+    "homepage":  "https://docs.mongodb.com/database-tools/",
+    "license":  "SSPL-1.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-100.14.0.msi",
+    "hash":  "66887285752ba3c1c26d7303a33692b0b10a99420443b45a4a7063a3e1a55999",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://fastdl.mongodb.org/tools/db/mongodb-database-tools-windows-x86_64-$version.msi"
+                   }
+}

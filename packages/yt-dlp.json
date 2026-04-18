@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2026.03.17",
+    "description":  "A youtube-dl fork with additional features and fixes.",
+    "homepage":  "https://github.com/yt-dlp/yt-dlp",
+    "license":  "Unlicense",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/yt-dlp/yt-dlp/releases/download/2026.03.17/yt-dlp.exe",
+    "hash":  "3db811b366b2da47337d2fcfdfe5bbd9a258dad3f350c54974f005df115a1545",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "yt-dlp.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/yt-dlp/yt-dlp/releases/download/$version/yt-dlp.exe"
+                   }
+}

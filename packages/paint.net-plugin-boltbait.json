@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "6.11",
+    "description":  "Collection of paint.net plugins by BoltBait",
+    "homepage":  "https://boltbait.com/pdn/",
+    "license":  "Freeware",
+    "dependencies":  [
+                         "extras/paint.net"
+                     ],
+    "url":  "https://boltbait.com/pdn/BoltBaitPack611.zip",
+    "hash":  "f90abe9930b49d081e7aff602f7087ef223277b7c0a89dd576c5afabb735b3cd",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://boltbait.com/pdn/BoltBaitPack$cleanVersion.zip"
+                   }
+}

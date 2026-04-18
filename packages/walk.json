@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.13.0",
+    "description":  "Terminal file manager",
+    "homepage":  "https://github.com/antonmedv/walk",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/antonmedv/walk/releases/download/v1.13.0/walk_windows_amd64.exe#/walk.exe",
+    "hash":  "ca1cc15e0a7e57799bb22f5307a1546662c6ad1e8dcf9831df0ad1f2a4c6e242",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "walk.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/antonmedv/walk/releases/download/v$version/walk_windows_amd64.exe#/walk.exe"
+                   }
+}

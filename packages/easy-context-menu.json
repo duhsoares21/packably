@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.6",
+    "description":  "A simple app for editing the context menu.",
+    "homepage":  "https://www.sordum.org/easy-context-menu",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.sordum.org/files/easy-context-menu/ec_menu.zip",
+    "hash":  "0a1fdf8b57e9863628f9b204f991150cac800f926600a75fbe95313d5477a795",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://www.sordum.org/files/easy-context-menu/ec_menu.zip"
+                   }
+}

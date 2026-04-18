@@ -1,0 +1,22 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.11.0",
+    "description":  "A cli application that allows you to create terminal GIFs as code for integration testing and demoing your CLI tools (ex. neofetch/winfetch).",
+    "homepage":  "https://github.com/charmbracelet/vhs",
+    "license":  "MIT",
+    "dependencies":  [
+                         "ttyd",
+                         "ffmpeg"
+                     ],
+    "url":  "https://github.com/charmbracelet/vhs/releases/download/v0.11.0/vhs_0.11.0_Windows_x86_64.zip",
+    "hash":  "e3d87403b25e1e88addec6548bdbfdbee772a5c313c9f6f96c495b8e163f18ba",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "vhs.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/charmbracelet/vhs/releases/download/v$version/vhs_$version_Windows_x86_64.zip"
+                   }
+}

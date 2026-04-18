@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "16.0.0.6",
+    "description":  "Unicode Character Map for Windows",
+    "homepage":  "https://www.babelstone.co.uk/Software/BabelMap.html",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.babelstone.co.uk/Software/Download/BabelMap.zip",
+    "hash":  "9a604dd61529751e1d715e214c1f6ed4fdfe77d1b4d54545c0401fc51d35bfcd",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "BabelMap.exe",
+    "autoupdate":  {
+                       "url":  "https://www.babelstone.co.uk/Software/Download/BabelMap.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.8.0.0",
+    "description":  "A free sound editor, audio editor, wav editor software for editing, processing and recording sounds, wav and mp3 files.",
+    "homepage":  "https://www.wavosaur.com/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.wavosaur.com/download/files/Wavosaur.1.8.0.0-x64.zip",
+    "hash":  "5807d9b719b27504739c7ca8daa2a652229a503be5e0df2723dea0967f4b58e0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Wavosaur.exe",
+    "autoupdate":  {
+                       "url":  "https://www.wavosaur.com/download/files/Wavosaur.$version-x64.zip"
+                   }
+}

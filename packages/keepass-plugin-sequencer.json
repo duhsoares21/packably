@@ -1,0 +1,18 @@
+﻿{
+    "type":  "other",
+    "version":  "0.1.1",
+    "description":  "Custom password generator algorithm plugin for KeePass 2.x to generate word sequences.",
+    "homepage":  "https://github.com/fireout/keepasssequencer",
+    "license":  "Unknown",
+    "dependencies":  [
+                         "extras/keepass"
+                     ],
+    "url":  "https://github.com/fireout/keepasssequencer/releases/download/release/0.1.1/Sequencer.dll",
+    "hash":  "507cc90aa1c47cf213775c7fdb2eb39c8f4d34e9edab98d524dd2d9493b79661",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  ""
+}

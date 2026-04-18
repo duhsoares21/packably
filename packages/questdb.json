@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "9.3.5",
+    "description":  "An open source SQL database designed to process time series data, faster.",
+    "homepage":  "https://questdb.io",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/questdb/questdb/releases/download/9.3.5/questdb-9.3.5-no-jre-bin.tar.gz",
+    "hash":  "4efca6374df443d93da8f6c1bebb4770e8d3f4a20bc34b730a57b5a5d23b063f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "questdb.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/questdb/questdb/releases/download/$version/questdb-$version-no-jre-bin.tar.gz"
+                   }
+}

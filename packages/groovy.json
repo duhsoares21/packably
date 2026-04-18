@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "5.0.5",
+    "description":  "A powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform aimed at improving developer productivity thanks to a concise, familiar and easy to learn syntax.",
+    "homepage":  "https://www.groovy-lang.org",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://groovy.jfrog.io/artifactory/dist-release-local/groovy-zips/apache-groovy-binary-5.0.5.zip",
+    "hash":  "eec490f4710cbb0811b935f78b4ec3da6d5eb19a25c692b3c7284ef9a1fc5182",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\grape.bat",
+    "autoupdate":  {
+                       "url":  "https://groovy.jfrog.io/artifactory/dist-release-local/groovy-zips/apache-groovy-binary-$version.zip"
+                   }
+}

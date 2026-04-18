@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.56.4",
+    "description":  "A Twitch VOD/Clip/Chat Downloader and Chat Renderer.",
+    "homepage":  "https://github.com/lay295/TwitchDownloader",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/lay295/TwitchDownloader/releases/download/1.56.4/TwitchDownloaderGUI-1.56.4-Windows-x64.zip",
+    "hash":  "d708373e4806cf3720261920edabf9a27e89f976c561b65d7f5f8767b4dcf56c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "TwitchDownloaderWPF.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/lay295/TwitchDownloader/releases/download/$version/TwitchDownloaderGUI-$version-Windows-x64.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.17.2",
+    "description":  "Official Go implementation of the Ethereum protocol",
+    "homepage":  "https://geth.ethereum.org",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://gethstore.blob.core.windows.net/builds/geth-alltools-windows-amd64-1.17.2-be4dc0c4.zip",
+    "hash":  "md5:a3c057528fb33a68679a14f48236c9e2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "abigen.exe",
+    "autoupdate":  {
+                       "url":  "https://gethstore.blob.core.windows.net/builds/geth-alltools-windows-amd64-$version-$matchSha.zip"
+                   }
+}

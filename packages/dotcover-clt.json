@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2024.3.7",
+    "description":  "JetBrains dotCover Command Line Tools that enable analysing code coverage outside of Visual Studio.",
+    "homepage":  "https://www.jetbrains.com/dotcover/download/#section=commandline",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.jetbrains.com/resharper/dotUltimate.2024.3.7/JetBrains.dotCover.CommandLineTools.windows-x64.2024.3.7.zip",
+    "hash":  "2f9fc79bd94fb06e6e626a257e9c9bb1609ac314691b71bc05d771aa13e71fa9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "dotCover.exe",
+    "autoupdate":  {
+                       "url":  "https://download.jetbrains.com/resharper/dotUltimate.$version/JetBrains.dotCover.CommandLineTools.windows-x64.$version.zip"
+                   }
+}

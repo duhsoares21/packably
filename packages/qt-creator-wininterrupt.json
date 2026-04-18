@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "19.0.0",
+    "description":  "Qt Creator wininterupt",
+    "homepage":  "https://doc.qt.io/qtcreator/index.html",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+                         "extras/qt-creator"
+                     ],
+    "url":  "https://download.qt.io/official_releases/qtcreator/19.0/19.0.0/installer_source/windows_x64/wininterrupt.7z",
+    "hash":  "md5:33e9357e05a989dc0618b5221efb7672",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://download.qt.io/official_releases/qtcreator/$majorVersion.$minorVersion/$version/installer_source/windows_x64/wininterrupt.7z"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "15.8a",
+    "description":  "Developer\u0027s tool for browsing source code.",
+    "homepage":  "https://cscope.sourceforge.net/",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/cscope-win32/cscope-15.8a-win64rev1-static.zip",
+    "hash":  "649410e79bd2127108b89ee639612615b8e1c4fa427f987b973793430107c69f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "cscope.exe",
+    "autoupdate":  {
+                       "url":  "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/cscope-win32/cscope-$version-win64rev1-static.zip"
+                   }
+}

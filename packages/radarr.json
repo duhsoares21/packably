@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "6.1.1.10360",
+    "description":  "A movie collection manager with several features for Usenet and BitTorrent users.",
+    "homepage":  "https://radarr.video/",
+    "license":  "GPL-3.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Radarr/Radarr/releases/download/v6.1.1.10360/Radarr.master.6.1.1.10360.windows-core-x64.zip",
+    "hash":  "cc4fdffc4a82a3805e53aa9c016749fd17247eb21dd6764b1b53ced471695bb7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Radarr.Console.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Radarr/Radarr/releases/download/v$version/Radarr.master.$version.windows-core-x64.zip"
+                   }
+}

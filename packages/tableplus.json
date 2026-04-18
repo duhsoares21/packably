@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "6.9.2.334",
+    "description":  "Relational database explorer",
+    "homepage":  "https://tableplus.com",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://files.tableplus.com/windows/6.9.2/TablePlusSetup.exe",
+    "hash":  "385ea30b038bb0ada8cd47b7647e5b78f05f58229b82af258dcb10ad34b60c15",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "TablePlus.exe",
+    "autoupdate":  {
+                       "url":  "https://files.tableplus.com/windows/$matchHead/TablePlusSetup.exe"
+                   }
+}

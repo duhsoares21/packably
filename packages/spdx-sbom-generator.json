@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.0.15",
+    "description":  "A tool to help those in the community that want to generate SPDX Software Bill of Materials (SBOMs) with current package managers.",
+    "homepage":  "https://github.com/spdx/spdx-sbom-generator",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/spdx/spdx-sbom-generator/releases/download/v0.0.15/spdx-sbom-generator-v0.0.15-windows-amd64.zip",
+    "hash":  "md5:f8f6c233714a62837df09dac20e4a951",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "spdx-sbom-generator.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/spdx/spdx-sbom-generator/releases/download/v$version/spdx-sbom-generator-v$version-windows-amd64.zip"
+                   }
+}

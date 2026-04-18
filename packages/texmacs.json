@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.1.4",
+    "description":  "a free wysiwyw word processor, structured document explorer, structured editor for Scheme/AST, typesetting system based on TeX algorithm, user friendly interface for many external systems for computer algebra, numerical analysis, statistics, etc.",
+    "homepage":  "http://texmacs.org/",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "http://www.texmacs.org/Download/ftp/tmftp/windows/TeXmacs-2.1.4-installer.exe",
+    "hash":  "915dc8f19c73cc5d482d737e831cd4204319a10f9b6e98f33f39a1955e207958",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\texmacs.exe",
+    "autoupdate":  {
+                       "url":  "http://www.texmacs.org/Download/ftp/tmftp/windows/TeXmacs-$version-installer.exe"
+                   }
+}

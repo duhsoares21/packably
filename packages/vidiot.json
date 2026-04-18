@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.1.0",
+    "description":  "A non-linear video editor targeted for home video editing.",
+    "homepage":  "https://sourceforge.net/projects/vidiot",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/vidiot/Vidiot-2.1.0-win64.zip",
+    "hash":  "sha1:36dc2ca47814417026a4474b90132c02b5752002",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "vidiot.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/vidiot/Vidiot-$version-win64.zip"
+                   }
+}

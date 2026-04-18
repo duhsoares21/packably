@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "5.1.0",
+    "description":  "Universal SQL client",
+    "homepage":  "http://www.squirrelsql.org",
+    "license":  "LGPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/squirrel-sql/1-stable/5.1.0-plainzip/squirrelsql-5.1.0-standard.zip",
+    "hash":  "sha1:dea144d7b600cf56241d2f0bf389ec2f5f089603",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "squirrelcli\\squirrelcli.bat",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/squirrel-sql/1-stable/$version-plainzip/squirrelsql-$version-standard.zip"
+                   }
+}

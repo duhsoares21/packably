@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "5.0.2",
+    "description":  "GNU Privacy Guard for Windows is encryption software for files and emails.",
+    "homepage":  "https://www.gpg4win.org",
+    "license":  "GPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://files.gpg4win.org/gpg4win-5.0.2.exe",
+    "hash":  "11864cdc6dedd58c5448ab1c0868886e56bdad96972bc06dcd44b80f9e527051",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://files.gpg4win.org/gpg4win-$version.exe"
+                   }
+}

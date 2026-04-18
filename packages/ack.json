@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "3.9.0",
+    "description":  "A tool like grep, optimized for programmers",
+    "homepage":  "https://beyondgrep.com/",
+    "license":  "Artistic-2.0",
+    "dependencies":  [
+                         "perl"
+                     ],
+    "url":  "https://beyondgrep.com/ack-v3.9.0#/ack-single-file",
+    "hash":  "b8916abc9d42ebe8cc82264e047ccff5cbc976401e32a3dc6fc01c551c0cb5f8",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ack.bat",
+    "autoupdate":  {
+                       "url":  "https://beyondgrep.com/ack-v$version#/ack-single-file"
+                   }
+}

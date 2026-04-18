@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "20260101",
+    "description":  "A Stable \u0026 Secure Tunnel based on KCP with N:M multiplexing and FEC.",
+    "homepage":  "https://github.com/xtaci/kcptun",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/xtaci/kcptun/releases/download/v20260101/kcptun-windows-amd64-20260101.tar.gz",
+    "hash":  "sha1:71df59011cf478142d4786504c0d1582e4df6d07",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://github.com/xtaci/kcptun/releases/download/v$version/kcptun-windows-amd64-$version.tar.gz"
+                   }
+}

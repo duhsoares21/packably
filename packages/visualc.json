@@ -1,0 +1,18 @@
+﻿{
+    "type":  "other",
+    "version":  "16.00.30319.01",
+    "description":  "The command-line compiler functions of VS 2010 C++.",
+    "homepage":  "https://www.visualstudio.com",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://go.microsoft.com/fwlink/?LinkId=165122\u0026clcid=0x409#/vs_expbsln_x64_enu.cab",
+    "hash":  "5bd5a2c3ae77f2882ac2316174e96d05c0ad6676fb7416c2a1eafc2a87f5cc0b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  ""
+}

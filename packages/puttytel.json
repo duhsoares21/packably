@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.83",
+    "description":  "A Telnet-only client that is not included in putty all-in-one archive/installer",
+    "homepage":  "https://www.chiark.greenend.org.uk/~sgtatham/putty/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://the.earth.li/~sgtatham/putty/latest/w64/puttytel.exe",
+    "hash":  "sha512:6d9afa48e9f80ab10ced56806f09a9e2a2fc52435a22d2119b71c83e9f5c0d8da5552d5abc249628438e228a1ac1c422a9a48a88d3eeaf9d515a9852caa78b16",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "puttytel.exe",
+    "autoupdate":  {
+                       "url":  "https://the.earth.li/~sgtatham/putty/latest/w64/puttytel.exe"
+                   }
+}

@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.4.1",
+    "description":  "Desktop application for Library Genesis",
+    "homepage":  "https://github.com/libgenapps/LibgenDesktop",
+    "license":  "Unknown",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/libgenapps/LibgenDesktop/releases/download/1.4.1/LibgenDesktop.Portable.64-bit.zip",
+    "hash":  "3560006aa20d9be09b6b37cf818364e3b7e0862313a15eb7ce3e8840b2af7c47",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "LibgenDesktop.exe"
+}

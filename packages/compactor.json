@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.10.1",
+    "description":  "A user interface for Windows 10 filesystem compression",
+    "homepage":  "https://github.com/Freaky/Compactor",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Freaky/Compactor/releases/download/v0.10.1/Compactor-0.10.1.7z",
+    "hash":  "1dc75fd5dad212e0cbf29a363632e0299945183d722b2c00e527e54ed86de379",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Compactor.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Freaky/Compactor/releases/download/v$version/Compactor-$version.7z"
+                   }
+}

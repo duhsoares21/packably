@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "2026-03-19",
+    "description":  "CA certificates extracted from the Mozilla CA certificate store, in PEM format",
+    "homepage":  "https://curl.se/docs/caextract.html",
+    "license":  "MPL-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://curl.se/ca/cacert-2026-03-19.pem#/cacert.pem",
+    "hash":  "b6e66569cc3d438dd5abe514d0df50005d570bfc96c14dca8f768d020cb96171",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://curl.se/ca/cacert-$version.pem#/cacert.pem"
+                   }
+}

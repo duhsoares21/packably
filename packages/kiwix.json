@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.5.1",
+    "description":  "Store any website on your mobile phone or computer, easily.",
+    "homepage":  "https://www.kiwix.org/en/",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.kiwix.org/release/kiwix-desktop/kiwix-desktop_windows_x64_2.5.1.zip",
+    "hash":  "56ad5b3a86010c2c74db63a717d087cfbdcdbe71a0d7fca0655f90ef1d80593f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "kiwix-desktop.exe",
+    "autoupdate":  {
+                       "url":  "https://download.kiwix.org/release/kiwix-desktop/kiwix-desktop_windows_x64_$version.zip"
+                   }
+}

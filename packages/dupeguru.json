@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.3.1",
+    "description":  "Duplicates file finder",
+    "homepage":  "https://dupeguru.voltaicideas.net",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/arsenetar/dupeguru/releases/download/4.3.1/dupeGuru_win64_4.3.1.exe#/dl.7z",
+    "hash":  "28293dada3c88336b2b53aca00adf59f85cabf1362f8386a8ffc6be5e1742836",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://github.com/arsenetar/dupeguru/releases/download/$version/dupeGuru_win64_$version.exe#/dl.7z"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.1.0",
+    "description":  "npiperelay allows you to access Windows named pipes from WSL",
+    "homepage":  "https://github.com/jstarks/npiperelay",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/jstarks/npiperelay/releases/download/v0.1.0/npiperelay_windows_amd64.zip",
+    "hash":  "6b9ef61ffd17c03507a9a3d54d815dceb3dae669ac67fc3bf4225d1e764ce5f6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "npiperelay.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/jstarks/npiperelay/releases/download/v$version/npiperelay_windows_amd64.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.9.70",
+    "description":  "The preferred tooling for managing your App Engine applications in Go.",
+    "homepage":  "https://cloud.google.com/appengine/docs",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://storage.googleapis.com/appengine-sdks/featured/go_appengine_sdk_windows_amd64-1.9.70.zip",
+    "hash":  "d5ca6b2f06f022a08448a06c4d716f80ef4eff00ab35e528d5d0272618fd3b26",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "appcfg.ps1",
+    "autoupdate":  {
+                       "url":  "https://storage.googleapis.com/appengine-sdks/featured/go_appengine_sdk_windows_amd64-$version.zip"
+                   }
+}

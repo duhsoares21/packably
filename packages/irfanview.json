@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.73",
+    "description":  "A fast, compact and innovative graphic viewer (with PlugIns)",
+    "homepage":  "https://www.irfanview.com",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.irfanview.info/files/iview473_x64.zip",
+    "hash":  "433936d26b97057b16026ea6b6c2897e5941e38cd980e424172bc0d980242fd4",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://www.irfanview.info/files/iview$cleanVersion_x64.zip"
+                   }
+}

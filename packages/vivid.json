@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.11.1",
+    "description":  "A themeable LS_COLORS generator with a rich filetype database.",
+    "homepage":  "https://github.com/sharkdp/vivid",
+    "license":  "Apache-2.0|MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/sharkdp/vivid/releases/download/v0.11.1/vivid-v0.11.1-x86_64-pc-windows-msvc.zip",
+    "hash":  "2bc2700c9cae57c43c6abbb1063e755977972b81e8eb34f266750aabd02a9cf1",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "vivid.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/sharkdp/vivid/releases/download/v$version/vivid-v$version-x86_64-pc-windows-msvc.zip"
+                   }
+}

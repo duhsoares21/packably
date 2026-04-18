@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.5.0",
+    "description":  "Free Lossless Audio Codec - command line tools",
+    "homepage":  "https://xiph.org/flac/",
+    "license":  "BSD-3-Clause,GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/xiph/flac/releases/download/1.5.0/flac-1.5.0-win.zip",
+    "hash":  "53f1500f0d6e7c61379d7fee50d4a9f7f504c650009506d9ba015530d76c0dde",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "flac.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/xiph/flac/releases/download/$version/flac-$version-win.zip"
+                   }
+}

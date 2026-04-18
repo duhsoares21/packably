@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "23.07.24",
+    "description":  "Customizable Windows terminal with tabs, splits, quake-style, hotkeys and more.",
+    "homepage":  "https://conemu.github.io",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/ConEmu/ConEmu/releases/download/v23.07.24/ConEmuPack.230724.7z",
+    "hash":  "2a9b98ebecaede62665ef427b05b3a5ccdac7bd3202414fc0f4c10825b4f4ea2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://github.com/ConEmu/ConEmu/releases/download/v$version/ConEmuPack.$cleanVersion.7z"
+                   }
+}

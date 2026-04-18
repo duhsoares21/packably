@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.01",
+    "description":  "Lightweight Lua IDE with code completion, syntax highlighting, live coding, code analyzer and debugging support",
+    "homepage":  "https://studio.zerobrane.com",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.zerobrane.com/ZeroBraneStudioEduPack-2.01-win32.zip",
+    "hash":  "3e200bb0c3ef6201d50cd34e5a7c9712a63600168dabe1ea6003ef01032affa4",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "zbstudio.exe",
+    "autoupdate":  {
+                       "url":  "https://download.zerobrane.com/ZeroBraneStudioEduPack-$version-win32.zip"
+                   }
+}

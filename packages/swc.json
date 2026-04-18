@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.15.26",
+    "description":  "A super-fast TypeScript / JavaScript compiler written in Rust",
+    "homepage":  "https://swc.rs",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/swc-project/swc/releases/download/v1.15.26/swc-win32-x64-msvc.exe#/swc.exe",
+    "hash":  "6fb66e07fa2fbe5ac9f3838168d9cb467bb46793eb1b6e2176533c4e25810c0a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "swc.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/swc-project/swc/releases/download/v$version/swc-win32-x64-msvc.exe#/swc.exe"
+                   }
+}

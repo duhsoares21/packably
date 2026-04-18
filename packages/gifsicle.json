@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.95",
+    "description":  "Command-line tool for creating, editing, and getting information about GIF images and animations",
+    "homepage":  "https://www.lcdf.org/gifsicle/",
+    "license":  "LGPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://eternallybored.org/misc/gifsicle/releases/gifsicle-1.95-win64.zip",
+    "hash":  "7e47dd0bfd5ee47f911464c57faeed89a8709a7625dd1c449b16579889539ee8",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "gifsicle.exe",
+    "autoupdate":  {
+                       "url":  "https://eternallybored.org/misc/gifsicle/releases/gifsicle-$version-win64.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.7.10",
+    "description":  "Battle Encoder ShirasÃ©. A small tool that controls per-process CPU usage.",
+    "homepage":  "http://mion.faireal.net/BES",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "http://mion.faireal.net/archive/BES/bes_1.7.10.zip",
+    "hash":  "md5:228fb7dfedd2ff558fbf17ae03423151",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bes.exe",
+    "autoupdate":  {
+                       "url":  "http://mion.faireal.net/archive/BES/bes_$version.zip"
+                   }
+}

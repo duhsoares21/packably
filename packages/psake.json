@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.9.0",
+    "description":  "A build automation tool, now with less XML.",
+    "homepage":  "https://github.com/psake/psake",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://nuget.org/api/v2/package/psake/4.9.0#/dl.7z",
+    "hash":  "b2e0b4abf252de17bdec2c4af1c1a412d7b787c67e758304557ec9057d9f6ff2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "psake.ps1",
+    "autoupdate":  {
+                       "url":  "https://nuget.org/api/v2/package/psake/$version#/dl.7z"
+                   }
+}

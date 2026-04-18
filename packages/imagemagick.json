@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "7.1.2-19",
+    "description":  "Create, edit, compose, and convert 200+ bitmap image formats.",
+    "homepage":  "https://imagemagick.org/",
+    "license":  "ImageMagick",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/ImageMagick/ImageMagick/releases/download/7.1.2-19/ImageMagick-7.1.2-19-Q16-HDRI-x64-dll.exe",
+    "hash":  "ec81a887716c5b624b6d51b3d7598bb0c975c53750f423d908bdaf96b6307555",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://github.com/ImageMagick/ImageMagick/releases/download/$version/ImageMagick-$version-Q16-HDRI-x64-dll.exe"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.4.6",
+    "description":  "A free and open-source task manager that supports composite tasks, prioritization, effort tracking, and categorization. It is designed to offer flexible yet straightforward task management suitable for both simple and advanced workflows.",
+    "homepage":  "https://www.taskcoach.org",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/taskcoach/taskcoach/Release-1.4.6/X-TaskCoach_1.4.6_rev1.zip",
+    "hash":  "sha1:ceb1af5c1e25a33bff799c259742342caa64e8eb",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "X-TaskCoach.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/taskcoach/taskcoach/Release-$version/X-TaskCoach_$version_rev1.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "17.1",
+    "description":  "GNU Debugger",
+    "homepage":  "https://www.gnu.org/software/gdb/",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://nuwen.net/files/mingw/components-20.0.7z",
+    "hash":  "561d873b7f95dbb39a34b7ab00050dc6028808310a847721a8aea5e5b0bff1c9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\gdb.exe",
+    "autoupdate":  {
+                       "url":  "https://nuwen.net/files/mingw/components-$matchComponents.7z"
+                   }
+}

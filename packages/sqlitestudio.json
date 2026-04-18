@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.4.21",
+    "description":  "A SQLite database manager",
+    "homepage":  "https://sqlitestudio.pl",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/pawelsalawa/sqlitestudio/releases/download/3.4.21/sqlitestudio-3.4.21-windows-x64.zip",
+    "hash":  "5d1f4974fe1d7517a7bd23f86985eaf934149625e3cefc6c98bba473a1658620",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "SQLiteStudio.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/pawelsalawa/sqlitestudio/releases/download/$version/sqlitestudio-$version-windows-x64.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.5.0",
+    "description":  "Compute various size metrics for a Git repository, flagging those that might cause problems.",
+    "homepage":  "https://github.com/github/git-sizer",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/github/git-sizer/releases/download/v1.5.0/git-sizer-1.5.0-windows-amd64.zip",
+    "hash":  "52093c1cba0bb8e00da14c9eef678eb052fc729c32419415817076f06b5c85d8",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "git-sizer.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/github/git-sizer/releases/download/v$version/git-sizer-$version-windows-amd64.zip"
+                   }
+}

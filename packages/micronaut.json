@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.10.12",
+    "description":  "Micronaut - A modern, JVM-based (Java, Groovy, Kotlin), full-stack framework for building modular and testable microservice and serverless applications",
+    "homepage":  "https://micronaut.io",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/micronaut-projects/micronaut-starter/releases/download/v4.10.12/micronaut-cli-4.10.12.zip",
+    "hash":  "dd4f0f71faaab2e93ed1a86fb1ff4dbb9333f799bc0b1e22b852478be71c8c64",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\mn.bat",
+    "autoupdate":  {
+                       "url":  "https://github.com/micronaut-projects/micronaut-starter/releases/download/v$version/micronaut-cli-$version.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "132",
+    "description":  "DBMS-independent SQL query tool",
+    "homepage":  "https://www.sql-workbench.eu",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.sql-workbench.eu/Workbench-Build132-with-optional-libs.zip",
+    "hash":  "sha1:a42e54dce574df8429ca4aea0616f59f588049e0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "sqlwbconsole.cmd",
+    "autoupdate":  {
+                       "url":  "https://www.sql-workbench.eu/Workbench-Build$version-with-optional-libs.zip"
+                   }
+}

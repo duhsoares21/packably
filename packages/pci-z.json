@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.0-2017.07.01",
+    "description":  "PCI-Z is designed for detecting unknown hardware on your Windows based PC",
+    "homepage":  "https://www.pci-z.com/",
+    "license":  "Unknown",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.pci-z.com/current/x64/PCI-Z.exe",
+    "hash":  "sha1:b7f3084e77c5629e84d660f0e4f9021374be4c3b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "PCI-Z.exe",
+    "autoupdate":  {
+                       "url":  "https://www.pci-z.com/current/x64/PCI-Z.exe"
+                   }
+}

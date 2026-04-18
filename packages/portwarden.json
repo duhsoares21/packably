@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.0.0",
+    "description":  "Create Encrypted Backups of Your Bitwarden Vault with Attachments",
+    "homepage":  "https://github.com/vwxyzjn/portwarden",
+    "license":  "MIT",
+    "dependencies":  [
+                         "bitwarden-cli"
+                     ],
+    "url":  "https://github.com/vwxyzjn/portwarden/releases/download/1.0.0/portwarden_windows_amd64.exe#/portwarden.exe",
+    "hash":  "8477ccab21716a6c3f89302dd44756ae05181d9ec34ccd3aad22a9b43bf79ef6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "portwarden.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/vwxyzjn/portwarden/releases/download/$version/portwarden_windows_amd64.exe"
+                   }
+}

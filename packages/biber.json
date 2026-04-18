@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.21",
+    "description":  "Biber is a BibTeX replacement for users of biblatex, with full Unicode support.",
+    "homepage":  "https://biblatex-biber.sourceforge.net/",
+    "license":  "Artistic-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/biblatex-biber/biblatex-biber/current/binaries/Windows/biber-MSWIN64.zip",
+    "hash":  "sha1:ee3ffda40abd7d420427620d6db3203923cda4c7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "biber.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/biblatex-biber/biblatex-biber/current/binaries/Windows/biber-MSWIN64.zip"
+                   }
+}

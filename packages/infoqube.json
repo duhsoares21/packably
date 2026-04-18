@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "128.6",
+    "description":  "information management system",
+    "homepage":  "http://www.infoqube.biz/",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://infoqubeim.com/downloadarea/InfoQubeV128.6Portable.zip",
+    "hash":  "f51a79860b87a1d1051bdd076e1cd85eb2f975ba66b2b1ef0a9c30b7a1146f92",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "InfoQube.exe",
+    "autoupdate":  {
+                       "url":  "https://infoqubeim.com/downloadarea/InfoQubeV$versionPortable.zip"
+                   }
+}

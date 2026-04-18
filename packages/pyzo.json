@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.21.0",
+    "description":  "The Interactive editor for scientific Python",
+    "homepage":  "https://pyzo.org/",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/pyzo/pyzo/releases/download/v4.21.0/pyzo-4.21.0-win64.zip",
+    "hash":  "e6fc65ddc629eb44bd16b74cb9b3e078f544c26755c81930d6b3fe154a7c8329",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "pyzo.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/pyzo/pyzo/releases/download/v$version/pyzo-$version-win64.zip"
+                   }
+}

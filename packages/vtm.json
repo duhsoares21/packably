@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2026.04.16",
+    "description":  "Text-based desktop environment",
+    "homepage":  "https://github.com/directvt/vtm",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/directvt/vtm/releases/download/v2026.04.16/vtm_windows_x86_64.7z",
+    "hash":  "5133f156e662979be7e0d6250f811a3ca4cebf064272bef80866a05391096737",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "vtm.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/directvt/vtm/releases/download/v$version/vtm_windows_x86_64.7z"
+                   }
+}

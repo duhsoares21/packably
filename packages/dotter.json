@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.13.4",
+    "description":  "Dotfile manager and templater",
+    "homepage":  "https://github.com/SuperCuber/dotter",
+    "license":  "Unlicense",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/SuperCuber/dotter/releases/download/v0.13.4/dotter-windows-x64-msvc.exe#/dotter.exe",
+    "hash":  "0cc48fdbfcf8e6f788f388dea7694d497baf1967c381b0d0ad9f8ceff68996d9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "dotter.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/SuperCuber/dotter/releases/download/v$version/dotter-windows-x64-msvc.exe#/dotter.exe"
+                   }
+}

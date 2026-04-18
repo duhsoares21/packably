@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "14742923",
+    "description":  "The official Android command line tools",
+    "homepage":  "https://developer.android.com/studio#command-line-tools-only",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://dl.google.com/android/repository/commandlinetools-win-14742923_latest.zip",
+    "hash":  "cc610ccbe83faddb58e1aa68e8fc8743bb30aa5e83577eceb4cc168dae95f9ee",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://dl.google.com/android/repository/commandlinetools-win-$version_latest.zip"
+                   }
+}

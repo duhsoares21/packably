@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2026.1-261.22158.331",
+    "description":  "Cross-Platform IDE for Rust by JetBrains.",
+    "homepage":  "https://www.jetbrains.com/rust/",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.jetbrains.com/rustrover/RustRover-2026.1.exe#/dl.7z",
+    "hash":  "9595c2a58d8f0211cc7990ad637c0ea12103360b5b81f26fd17a518990004a99",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "IDE\\bin\\rustrover64.exe",
+    "autoupdate":  {
+                       "url":  "https://download.jetbrains.com/rustrover/RustRover-$matchVer.exe#/dl.7z"
+                   }
+}

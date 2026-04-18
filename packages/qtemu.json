@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.0-beta1",
+    "description":  "Graphical User Interface for QEMU written in Qt",
+    "homepage":  "https://gitlab.com/qtemu/gui",
+    "license":  "GPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://gitlab.com/qtemu/releases/-/raw/main/3.0-beta1/qtemu_3.0-beta1-portable.zip",
+    "hash":  "8a321287ff7a40a9d2084f0de868d967576c594efb9f889ee985eba6cb16b0d3",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "qtemu.exe",
+    "autoupdate":  {
+                       "url":  "https://gitlab.com/qtemu/releases/-/raw/main/$version/qtemu_$version-portable.zip"
+                   }
+}

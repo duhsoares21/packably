@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "9.6.0",
+    "description":  "The world\u0027s most popular open-source database",
+    "homepage":  "https://dev.mysql.com/downloads/mysql/#info-tab",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://dev.mysql.com/get/Downloads/MySQL-9.6/mysql-9.6.0-winx64.msi",
+    "hash":  "md5:958d5341704e70a78de25a1fda9809da",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\ibd2sdi.exe",
+    "autoupdate":  {
+                       "url":  "https://dev.mysql.com/get/Downloads/MySQL-$majorVersion.$minorVersion/mysql-$version-winx64.msi"
+                   }
+}

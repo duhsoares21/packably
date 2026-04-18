@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.27.0",
+    "description":  "A lightweight PDF, XPS, and E-book viewer",
+    "homepage":  "https://mupdf.com",
+    "license":  "AGPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://casper.mupdf.com/downloads/archive/mupdf-1.27.0-windows.zip",
+    "hash":  "f3e60b630453301914e52fb8ec001f6ab56cdb90daf39e533deae3ff214fcff8",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "mupdf.exe",
+    "autoupdate":  {
+                       "url":  "https://casper.mupdf.com/downloads/archive/mupdf-$version-windows.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "140.9.1",
+    "description":  "Extended Support Release of Firefox: the popular open source web browser",
+    "homepage":  "https://www.firefox.com/browsers/enterprise/",
+    "license":  "MPL-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://archive.mozilla.org/pub/firefox/releases/140.9.1esr/win64/en-US/Firefox%20Setup%20140.9.1esr.exe#/dl.7z",
+    "hash":  "sha512:33adb4143bd02e28c85578d3331d6e8645cf38a790ec724eb3c94baea917dda9c074e74b86df132e67a3fcf152a0404bb3aef5c3ecb738b45bebde226275f8fe",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "firefox.exe",
+    "autoupdate":  {
+                       "url":  "https://archive.mozilla.org/pub/firefox/releases/$versionesr/win64/en-US/Firefox%20Setup%20$versionesr.exe#/dl.7z"
+                   }
+}

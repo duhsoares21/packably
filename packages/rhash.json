@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.4.6",
+    "description":  "A console utility for computing and verifying hash sums of files.",
+    "homepage":  "https://rhash.sourceforge.net/",
+    "license":  "0BSD",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/rhash/rhash/1.4.6/rhash-1.4.6-win64.zip",
+    "hash":  "sha1:b3f8ff5dc1426339b702affc2f5130e4d04beca5",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "rhash.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/rhash/rhash/$version/rhash-$version-win64.zip"
+                   }
+}

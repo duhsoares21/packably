@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.8.0",
+    "description":  "Apache Kafka. A distributed streaming platform.",
+    "homepage":  "https://kafka.apache.org/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.apache.org/kafka/3.8.0/kafka_2.12-3.8.0.tgz",
+    "hash":  "sha1:8dc3f9b70ecddeeca0d72965ec6c7bafe7e60c71",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\windows\\connect-distributed.bat",
+    "autoupdate":  {
+                       "url":  "https://downloads.apache.org/kafka/$version/kafka_2.12-$version.tgz"
+                   }
+}

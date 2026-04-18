@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "4.43.0",
+    "description":  "Selenium Manager is a command-line tool developed in Rust to allow cross platform execution.",
+    "homepage":  "https://www.selenium.dev/documentation/selenium_manager/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/SeleniumHQ/selenium_manager_artifacts/releases/download/selenium-manager-37c0444/selenium-manager-windows.exe#/selenium-manager.exe",
+    "hash":  "0eda265ac88a3a1848a7f2ec63ae0884b553314f77f829bde41b14f2f7db441a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "selenium-manager.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/SeleniumHQ/selenium_manager_artifacts/releases/download/$matchManagerversion/selenium-manager-windows.exe#/selenium-manager.exe"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.3.1",
+    "description":  "Family of tools designed to build, test and package software",
+    "homepage":  "https://cmake.org",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Kitware/CMake/releases/download/v4.3.1/cmake-4.3.1-windows-x86_64.zip",
+    "hash":  "03a610be931546474e46a442d171ef10532f4fc847de9cf76b7a8065bbef6a23",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\cmake.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Kitware/CMake/releases/download/v$version/cmake-$version-windows-x86_64.zip"
+                   }
+}

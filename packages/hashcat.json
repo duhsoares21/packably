@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "7.1.2",
+    "description":  "Advanced password recovery tool",
+    "homepage":  "https://hashcat.net/hashcat/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://hashcat.net/files/hashcat-7.1.2.7z",
+    "hash":  "80db0316387794ce9d14ed376da75b8a7742972485b45db790f5f8260307ff98",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "hashcat.cmd",
+    "autoupdate":  {
+                       "url":  "https://hashcat.net/files/hashcat-$version.7z"
+                   }
+}

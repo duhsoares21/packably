@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2025.3-253.28294.432",
+    "description":  "Domain-Specific language creator by JetBrains.",
+    "homepage":  "https://www.jetbrains.com/mps/",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.jetbrains.com/mps/2025.3/MPS-2025.3.exe#/dl.7z",
+    "hash":  "929324480b241e11ab3e73f22f74a5a8555950183ff666b257aef05518bd2a93",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "IDE\\bin\\mps.bat",
+    "autoupdate":  {
+                       "url":  "https://download.jetbrains.com/mps/$majorVersion.$minorVersion/MPS-$matchHead.exe#/dl.7z"
+                   }
+}

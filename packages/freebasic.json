@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.10.1",
+    "description":  "BASIC compiler for Microsoft Windows, DOS and Linux",
+    "homepage":  "https://www.freebasic.net",
+    "license":  "GPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/fbc/FreeBASIC-1.10.1/Binaries-Windows/FreeBASIC-1.10.1-win64.zip",
+    "hash":  "sha1:35bb59771e2aed80cc0d3c51d3b53df86c781798",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "fbc.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/fbc/FreeBASIC-$version/Binaries-Windows/FreeBASIC-$version-win64.zip"
+                   }
+}

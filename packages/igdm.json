@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.0.4",
+    "description":  "Desktop application for Instagram DMs",
+    "homepage":  "https://github.com/igdmapps/igdm",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/igdmapps/igdm/releases/download/v3.0.4/IGdm.3.0.4.exe#/dl.7z",
+    "hash":  "94815a5f8d60916c1915f6437731cefedffe9324f548dff8bad92c76703dc9b7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://github.com/igdmapps/igdm/releases/download/v$version/IGdm.$version.exe#/dl.7z"
+                   }
+}

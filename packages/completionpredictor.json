@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "0.1.1",
+    "description":  "Command-line intellisense based on PowerShell auto-completion, used as a plugin for PSReadLine.",
+    "homepage":  "https://github.com/PowerShell/CompletionPredictor",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://cdn.powershellgallery.com/packages/completionpredictor.0.1.1.nupkg",
+    "hash":  "51dc843aead6b2d7af9622a42507f6634c81fdd1f51d36bc74519720400f40e0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://cdn.powershellgallery.com/packages/completionpredictor.$version.nupkg"
+                   }
+}

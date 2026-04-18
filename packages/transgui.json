@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "5.18.0",
+    "description":  "A feature rich front-end to remotely control Transmission daemon via its RPC protocol.",
+    "homepage":  "https://github.com/transmission-remote-gui/transgui",
+    "license":  "GPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/transmission-remote-gui/transgui/releases/download/v5.18.0/transgui-5.18.0-x86_64-win64.zip",
+    "hash":  "3bef7b1ff5da7126559383e4627fd7ffec1df14f5db54eae6447cb0e4abd22ef",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "transgui.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/transmission-remote-gui/transgui/releases/download/v$version/transgui-$version-x86_64-win64.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "2.5.2",
+    "description":  "Very simple and easy to use implementation of a DHCP Server",
+    "homepage":  "https://www.dhcpserver.de",
+    "license":  "Unknown",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.dhcpserver.de/cms/wp-content/plugins/download-attachments/includes/download.php?id=625#/dl.zip",
+    "hash":  "24a9794ab6a47b8e7650af1748d881e77dd739858013cca64af8e731904f376c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "dhcpsrv.exe",
+    "autoupdate":  {
+                       "url":  "https://www.dhcpserver.de/cms/wp-content/plugins/download-attachments/includes/download.php?id=$matchId#/dl.zip"
+                   }
+}

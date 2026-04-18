@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2026.941",
+    "description":  "Easy-to-use file manager.",
+    "homepage":  "https://freecommander.com",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://freecommander.com/downloads/FreeCommanderXE-32_portable941.zip",
+    "hash":  "50fd15b7568122799b1b1f682405e5f9803a0e1103b8c9617dfb172c1d6b14d7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "freecommander.exe",
+    "autoupdate":  {
+                       "url":  "https://freecommander.com/downloads/FreeCommanderXE-32_portable$minorVersion.zip"
+                   }
+}

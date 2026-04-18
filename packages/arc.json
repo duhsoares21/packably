@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "3.5.0",
+    "description":  "Easily create \u0026 extract archives, and compress \u0026 decompress files of various formats.",
+    "homepage":  "https://github.com/mholt/archiver",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/mholt/archiver/releases/download/v3.5.0/arc_3.5.0_windows_amd64.exe#/arc.exe",
+    "hash":  "bd89e2cb031f6984758cb8333925778393d25f27928efcf756e084952067b4df",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "arc.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/mholt/archiver/releases/download/v$version/arc_$version_windows_amd64.exe#/arc.exe"
+                   }
+}

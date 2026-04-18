@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "130.0.5847.41",
+    "description":  "A fast, secure, easy-to-use browser.",
+    "homepage":  "https://www.opera.com",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://get.geo.opera.com/pub/opera/desktop/130.0.5847.41/win/Opera_130.0.5847.41_Setup_x64.exe",
+    "hash":  "17a5f86f4b5aa01b19de22f7f31db09b0c5617fb4c03b19795ca5bdd9d2f53a3",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "opera.exe",
+    "autoupdate":  {
+                       "url":  "https://get.geo.opera.com/pub/opera/desktop/$version/win/Opera_$version_Setup_x64.exe"
+                   }
+}

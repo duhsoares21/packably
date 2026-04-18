@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.37.6",
+    "description":  "ngrok is your app\u0027s front door. ngrok is a globally distributed reverse proxy that secures, protects and accelerates your applications and network services, no matter where you run them. ngrok supports delivering HTTP, TLS or TCP-based applications.",
+    "homepage":  "https://ngrok.com/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://bin.ngrok.com/a/7CSBSEZTqUr/ngrok-v3-3.37.6-windows-amd64.zip",
+    "hash":  "add0599359f6f5f80d2053f3c2d9edb52baf8a1cb50724a70dddceee10838069",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ngrok.exe",
+    "autoupdate":  {
+                       "url":  "https://bin.ngrok.com/a/$matchHash64bit/ngrok-v$majorVersion-$version-windows-amd64.zip"
+                   }
+}

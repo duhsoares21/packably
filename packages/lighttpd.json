@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.4.49-1",
+    "description":  "An HTTP server designed and optimized for high performance environments. Here is the Cygwin compilation migrated from WLMP project",
+    "homepage":  "http://lighttpd.dtech.hu",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "http://lighttpd.dtech.hu/lighttpd-1.4.49-1-win64-ssl.zip",
+    "hash":  "md5:3ea70d40dcee9412f1e42381b11d5582",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "lighttpd.exe",
+    "autoupdate":  {
+                       "url":  "http://lighttpd.dtech.hu/lighttpd-$version-win64-ssl.zip"
+                   }
+}

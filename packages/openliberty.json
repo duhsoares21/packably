@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "26.0.0.3",
+    "description":  "Server runtime available to JavaTM developers",
+    "homepage":  "https://openliberty.io/",
+    "license":  "EPL-1.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/26.0.0.3/openliberty-26.0.0.3.zip",
+    "hash":  "bf394f83897a5aa4d0564604637e934c8f64b9fcb06a8dfcec2a49feed951778",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\binaryLog.bat",
+    "autoupdate":  {
+                       "url":  "https://public.dhe.ibm.com/ibmdl/export/pub/software/openliberty/runtime/release/$version/openliberty-$version.zip"
+                   }
+}

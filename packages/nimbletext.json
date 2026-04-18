@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "4.0.0.34617",
+    "description":  "Text manipulation and code generation tool",
+    "homepage":  "https://nimbletext.com",
+    "license":  "Unknown",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://nimbletext.com/Download/NimbleText.exe",
+    "hash":  "6eb9409d42992e4631a6c1ef3fd557a196ad225450072f3b14e76331999387bd",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "NimbleText.exe",
+    "autoupdate":  {
+                       "url":  "https://nimbletext.com/Download/NimbleText.exe"
+                   }
+}

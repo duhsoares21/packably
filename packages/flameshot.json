@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "13.3.0",
+    "description":  "Powerful yet simple to use screenshot software",
+    "homepage":  "https://flameshot.org",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/flameshot-org/flameshot/releases/download/v13.3.0/flameshot-13.3.0-win64.zip",
+    "hash":  "653d183bfaa13535b263ee811df5a49a93e99daffb20df5aa7e89c389e5bc8f4",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\flameshot.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/flameshot-org/flameshot/releases/download/v$version/flameshot-$version-win64.zip"
+                   }
+}

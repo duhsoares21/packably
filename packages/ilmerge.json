@@ -1,0 +1,18 @@
+﻿{
+    "type":  "other",
+    "version":  "3.0.41",
+    "description":  "A static linker for .NET assemblies developed by Microsoft .NET team.",
+    "homepage":  "https://github.com/dotnet/ILMerge",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://globalcdn.nuget.org/packages/ilmerge.3.0.41.nupkg",
+    "hash":  "9121fe69cbde20180aff5f7ff0ca18c857c6b6de375ae3fbe48ff189b51f1637",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ILMerge.exe"
+}

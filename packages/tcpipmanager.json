@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.1.1.29",
+    "description":  "Keep track of network configuration in different locations.",
+    "homepage":  "http://tcpipmanager.sourceforge.net",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/tcpipmanager/tcpipmanager_stable/TCP_IP_Manager_v4.1.1_%28Build_29%29/TCP_IP_Manager_v4.1.1.29_x64.7z",
+    "hash":  "sha1:19a96bb50e254434aebef65e10bf691fadbc6355",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "TCP_IP_Manager.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/tcpipmanager/tcpipmanager_stable/TCP_IP_Manager_v$matchVer_%28Build_$matchBuild%29/TCP_IP_Manager_v$version_x64.7z"
+                   }
+}

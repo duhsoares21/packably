@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.15.4",
+    "description":  "SAFE Browser Application",
+    "homepage":  "https://github.com/maidsafe/safe_browser",
+    "license":  "BSD-3-Clause|MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/maidsafe/safe_browser/releases/download/v0.15.4/safe-browser-v0.15.4-win-x64.exe#/dl.7z",
+    "hash":  "e68a48632d6354dfe6ecc09b5606a0ddcaa3cbe9353bc941ab6fc0bba9e7fb7a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "SAFE Browser.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/maidsafe/safe_browser/releases/download/v$version/safe-browser-v$version-win-x64.exe#/dl.7z"
+                   }
+}

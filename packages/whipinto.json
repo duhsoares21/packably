@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.8.1",
+    "description":  "RTP/RTSP to WHIP tool.",
+    "homepage":  "https://live777.pages.dev",
+    "license":  "MPL-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/binbat/live777/releases/download/v0.8.1/whipinto-v0.8.1-x86_64-pc-windows-msvc.exe#/whipinto.exe",
+    "hash":  "b7398e7f680acad8f4148f675a3c5febb5f3f1facab14c948e59e19cddf3e90e",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "whipinto.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/binbat/live777/releases/download/v$version/whipinto-v$version-x86_64-pc-windows-msvc.exe#/whipinto.exe"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "5.4.8-1",
+    "description":  "A powerful, efficient, lightweight, embeddable scripting language.",
+    "homepage":  "https://www.lua.org",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://mirror.msys2.org/mingw/clang64/mingw-w64-clang-x86_64-lua-5.4.8-1-any.pkg.tar.zst",
+    "hash":  "18d6fb9747d174a8707ad875c8c7fa1d7872a42af95beedd6837911a9df9cb82",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\lua.exe",
+    "autoupdate":  {
+                       "url":  "https://mirror.msys2.org/mingw/clang64/mingw-w64-clang-x86_64-lua-$version-any.pkg.tar.zst"
+                   }
+}

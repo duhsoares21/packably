@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.3",
+    "description":  "The True Audio lossless audio encoder/decoder",
+    "homepage":  "http://tta.tausoft.org/",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/tta/tta/ttaenc-win/tta-2.3-64bit-sse4.zip",
+    "hash":  "sha1:191cf10870a73bc8e62147b76b7be08d61bf0795",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "tta.exe"
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "26.1.0.086.1709",
+    "description":  "Oracle SQL Developer Command Line (SQLcl)",
+    "homepage":  "https://www.oracle.com/database/sqldeveloper/technologies/sqlcl",
+    "license":  "Oracle Free Use License",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.oracle.com/otn_software/java/sqldeveloper/sqlcl-26.1.0.086.1709.zip",
+    "hash":  "488f497878dfcaf5ed174d33f1ea68ca35f572d39f094b03b9882a8bab21a117",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\sql.exe",
+    "autoupdate":  {
+                       "url":  "https://download.oracle.com/otn_software/java/sqldeveloper/sqlcl-$version.zip"
+                   }
+}

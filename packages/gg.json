@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "0.39.1",
+    "description":  "A GUI for Jujutsu, a Git-compatible DVCS",
+    "homepage":  "https://github.com/gulbanana/gg",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/gulbanana/gg/releases/download/v0.39.1/gg_0.39.1_x64_en-US.msi",
+    "hash":  "276427fd8d80847ef256232564830957806a15c891a6a958591b43fe5c5293c8",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "gg.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/gulbanana/gg/releases/download/v$version/gg_$version_x64_en-US.msi"
+                   }
+}

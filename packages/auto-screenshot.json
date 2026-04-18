@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.16.2",
+    "description":  "Automatic screenshots at fixed time intervals",
+    "homepage":  "https://github.com/artem78/AutoScreenshot",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/artem78/AutoScreenshot/releases/download/v1.16.2/AutoScreenshot_v1.16.2_Windows_portable.zip",
+    "hash":  "83ebaa47471819f3f72ec969b0de976067bfd7042eb91797ecf904bc9883d602",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "AutoScreenshot.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/artem78/AutoScreenshot/releases/download/v$version/AutoScreenshot_v$version_Windows_portable.zip"
+                   }
+}

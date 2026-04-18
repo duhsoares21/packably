@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.22",
+    "description":  "Audio player",
+    "homepage":  "http://www.vuplayer.com",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/jfchapman/VUPlayer/releases/download/v4.22/VUPlayer4_64bit.zip",
+    "hash":  "1545a937b3567bd9881d597d810118de5a51ba86b56f8221fc87c0a159c71d08",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "VUPlayer.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/jfchapman/VUPlayer/releases/download/v$version/VUPlayer$majorVersion_64bit.zip"
+                   }
+}

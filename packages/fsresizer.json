@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.5",
+    "description":  "An image converter and renaming tool",
+    "homepage":  "https://www.faststone.org/FSResizerDetail.htm",
+    "license":  "Shareware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.faststonesoft.net/DN/FSResizer45.zip",
+    "hash":  "bc6de20d6424f7bd27c7e3d69861dacc24ecdc23effff982bcda262e66f2a9f7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "FSResizer.exe",
+    "autoupdate":  {
+                       "url":  "https://www.faststonesoft.net/DN/FSResizer$cleanVersion.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.4.182",
+    "description":  "A modern media center that\u0027s a one-stop solution for your video entertainment. You discover, watch and organize video content from easy to install addons.",
+    "homepage":  "https://www.stremio.com/",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://dl.strem.io/shell-win/v4.4.182/Stremio+4.4.182.exe#/dl.7z",
+    "hash":  "543d2dc82df188b4e1242000f21e9d2c7376f4a30646fc5038816986b5dccd85",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "stremio.exe",
+    "autoupdate":  {
+                       "url":  "https://dl.strem.io/shell-win/v$version/Stremio+$version.exe#/dl.7z"
+                   }
+}

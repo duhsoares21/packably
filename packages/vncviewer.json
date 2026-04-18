@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "7.15.1",
+    "description":  "Control VNC enabled computers.",
+    "homepage":  "https://www.realvnc.com/download/viewer",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.realvnc.com/download/file/viewer.files/VNC-Viewer-7.15.1-Windows-64bit.exe#/vncviewer.exe",
+    "hash":  "39195c0abe53dc8fc2a57beeb6df9accf72226d46688845bf864c4d639030d84",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "vncviewer.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.realvnc.com/download/file/viewer.files/VNC-Viewer-$version-Windows-64bit.exe#/vncviewer.exe"
+                   }
+}

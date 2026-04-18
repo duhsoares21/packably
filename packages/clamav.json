@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.5.2",
+    "description":  " Open source (GPLv2) anti-virus toolkit",
+    "homepage":  "https://www.clamav.net",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Cisco-Talos/clamav/releases/download/clamav-1.5.2/clamav-1.5.2.win.x64.zip",
+    "hash":  "6f868ed7a7e5a15aced82c53a4fa9f3f42fa9d7f7de14a606ba8db0756518eed",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "clambc.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Cisco-Talos/clamav/releases/download/clamav-$version/clamav-$version.win.x64.zip"
+                   }
+}

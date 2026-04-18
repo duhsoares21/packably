@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.5.0.0",
+    "description":  "Hex and Disk Editor",
+    "homepage":  "https://mh-nexus.de/en/hxd/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://mh-nexus.de/downloads/HxDPortableSetup.zip",
+    "hash":  "sha512:156aa7184501e2de21d1205651d800d1524ede8006c31cd97f2cff20002524d69d28c2d0d6bdd6d0cacf171ecb9a2ce90f96d115596ba4a3512533cc4a27ac30",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "HxD.exe",
+    "autoupdate":  {
+                       "url":  "https://mh-nexus.de/downloads/HxDPortableSetup.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "7.20",
+    "description":  "Powerful archive manager",
+    "homepage":  "https://rarlab.com/",
+    "license":  "Shareware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.rarlab.com/rar/winrar-x64-720.exe#/dl.7z",
+    "hash":  "86cd474922b9af0930e308a6136e87b855b843c0c687ff2505eb7a839afd4886",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Rar.exe",
+    "autoupdate":  {
+                       "url":  "https://www.rarlab.com/rar/winrar-x64-$cleanVersion.exe#/dl.7z"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.9.0",
+    "description":  "A serial terminal that runs as a Windows console application.",
+    "homepage":  "https://github.com/fasteddy516/SimplySerial",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/fasteddy516/SimplySerial/releases/download/v0.9.0/SimplySerial_0.9.0_standalone.zip",
+    "hash":  "9562f36d06705c37f191fa44df1834414141a53eadbdf67f9701d67036b6d6aa",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ss.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/fasteddy516/SimplySerial/releases/download/v$version/SimplySerial_$version_standalone.zip"
+                   }
+}

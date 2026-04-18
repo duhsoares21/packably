@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "26.4.15",
+    "description":  "Plain-text notepad and todo-list manager with markdown support and Nextcloud / ownCloud integration",
+    "homepage":  "https://www.qownnotes.org/",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/pbek/QOwnNotes/releases/download/v26.4.15/QOwnNotes.zip",
+    "hash":  "e07154d908d1523cbb13f4a6c3846efb7fca12e87d6dc6ad1bf0368eb10b7c21",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "QOwnNotes.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/pbek/QOwnNotes/releases/download/v$version/QOwnNotes.zip"
+                   }
+}

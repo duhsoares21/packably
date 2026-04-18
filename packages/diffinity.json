@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.9.5",
+    "description":  "Diff and merging tool with focus on accurate and easy to read source code diffs.",
+    "homepage":  "https://www.truehumandesign.se/s_diffinity.php",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.truehumandesign.se/download/diffinityInstaller.exe#/dl.7z",
+    "hash":  "550d1a9e831e66ec27e1e179712bd05d79d0842d27f148f8c26947a054f6d7ef",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Diffinity.exe",
+    "autoupdate":  {
+                       "url":  "https://www.truehumandesign.se/download/diffinityInstaller.exe#/dl.7z"
+                   }
+}

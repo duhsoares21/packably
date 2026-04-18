@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.1.0",
+    "description":  "A no-frills GUI for Redshift.",
+    "homepage":  "https://codeberg.org/ltguillaume/redshift-tray",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://codeberg.org/ltguillaume/redshift-tray/releases/download/3.1.0/redshift-tray_3.1.0.zip",
+    "hash":  "4b9ac69b44da7aa449e6105e4767b5ddc21cae2ae973c2fbaee83cf03d1bbbfa",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "redshift.exe",
+    "autoupdate":  {
+                       "url":  "https://codeberg.org/ltguillaume/redshift-tray/releases/download/$version/redshift-tray_$version.zip"
+                   }
+}

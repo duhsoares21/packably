@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "0.9.3",
+    "description":  "A visual programming environment for audio experimentation, prototyping and education",
+    "homepage":  "https://plugdata.org/",
+    "license":  "GPL-3.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/plugdata-team/plugdata/releases/download/v0.9.3/plugdata-Win64.msi",
+    "hash":  "3be7a5b73328b999f962050b75043a63db31222d4f5e4fd1676bd2ea3f4daeb0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "plugdata/plugdata.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/plugdata-team/plugdata/releases/download/v$version/plugdata-Win64.msi"
+                   }
+}

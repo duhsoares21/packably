@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.112.0.359-0d79a49f",
+    "description":  "Official Plex client",
+    "homepage":  "https://www.plex.tv/apps-devices/#modal-devices-plex-for-windows",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.plex.tv/plex-desktop/1.112.0.359-0d79a49f/windows/Plex-1.112.0.359-0d79a49f-x86_64.exe#/dl.7z",
+    "hash":  "sha1:a0fb043583a7ab2d41ad4f369b4e3fe0d282bd20",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Plex.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.plex.tv/plex-desktop/$version/windows/Plex-$version-x86_64.exe#/dl.7z"
+                   }
+}

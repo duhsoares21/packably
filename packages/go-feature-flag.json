@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.52.1",
+    "description":  "Simple, complete, and lightweight feature flag solution",
+    "homepage":  "https://gofeatureflag.org",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/thomaspoignant/go-feature-flag/releases/download/v1.52.1/go-feature-flag_1.52.1_Windows_x86_64.tar.gz",
+    "hash":  "3869d7ffdfbc2db9427ebc332dd40a45509c9372c6b0d7f7f0d9877e3db4131c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "go-feature-flag.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/thomaspoignant/go-feature-flag/releases/download/v$version/go-feature-flag_$version_Windows_x86_64.tar.gz"
+                   }
+}

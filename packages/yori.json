@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "2.60",
+    "description":  "CMD replacement shell that supports backquotes, job control, improves tab completion, file matching, aliases, command history, and more.",
+    "homepage":  "http://www.malsmith.net/yori/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "http://www.malsmith.net/download/?obj=yori/2.60/yori-ypm-amd64.cab#/ypm.7z",
+    "hash":  "e09097345852a27f3feaa57f8d42bf766138b03cea74ed8acac6f6e2f670b8cd",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "yori.exe",
+    "autoupdate":  {
+                       "url":  "http://www.malsmith.net/download/?obj=yori/$version/yori-ypm-amd64.cab#/ypm.7z"
+                   }
+}

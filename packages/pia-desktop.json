@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.7-08412",
+    "description":  "Private Internet Access - Desktop VPN Client for Windows/macOS/Linux",
+    "homepage":  "https://github.com/pia-foss/desktop",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://privateinternetaccess-storage.s3.amazonaws.com/pub/pia_desktop/builds/pia-windows-x64-3.7-08412.exe#/dl.7z",
+    "hash":  "0b3e64adcbb0921c2e17669e61226690d7ac6c71ed5052e13d784287974ae451",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "openvpn_updown.bat",
+    "autoupdate":  {
+                       "url":  "https://privateinternetaccess-storage.s3.amazonaws.com/pub/pia_desktop/builds/pia-windows-x64-$version.exe#/dl.7z"
+                   }
+}

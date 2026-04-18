@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.1.4",
+    "description":  "The package manager for Kubernetes.",
+    "homepage":  "https://helm.sh",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://get.helm.sh/helm-v4.1.4-windows-amd64.zip",
+    "hash":  "bd60f567f667631a2c9b698dfabe5e3cd52eaaf4264163c0a9cae566db8560e8",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "helm.exe",
+    "autoupdate":  {
+                       "url":  "https://get.helm.sh/helm-v$version-windows-amd64.zip"
+                   }
+}

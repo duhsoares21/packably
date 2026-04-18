@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "28.4.2",
+    "description":  "A programming language used to build massively scalable soft real-time systems with requirements on high availability.",
+    "homepage":  "https://www.erlang.org",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/erlang/otp/releases/download/OTP-28.4.2/otp_win64_28.4.2.exe#/dl.7z",
+    "hash":  "9c9320f5077f196d796d8af1b35629d646c02189e7bb5f020d80a8e677d46990",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\erl.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/erlang/otp/releases/download/OTP-$version/otp_win64_$version.exe#/dl.7z"
+                   }
+}

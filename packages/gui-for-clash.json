@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.23.2",
+    "description":  "A GUI program for Clash developed by vue3 + wails.",
+    "homepage":  "https://github.com/GUI-for-Cores/GUI.for.Clash",
+    "license":  "GPL-3.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/GUI-for-Cores/GUI.for.Clash/releases/download/v1.23.2/GUI.for.Clash-windows-amd64.zip",
+    "hash":  "23ec3523dcd68331ca736789fb318e86567a1fc79ff8ebf443c755e83756fae5",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "GUI.for.Clash.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/GUI-for-Cores/GUI.for.Clash/releases/download/v$version/GUI.for.Clash-windows-amd64.zip"
+                   }
+}

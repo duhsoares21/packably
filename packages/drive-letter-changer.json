@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.4",
+    "description":  "A simple app that allows you to change the letter of your hard drives.",
+    "homepage":  "https://www.sordum.org/drive-letter-changer",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.sordum.org/files/download/drive-letter-changer/dChanger.zip",
+    "hash":  "4c5b4782ecd04404391ef7b9c899fde4e94624ce5fe93460b5a015db3395bf4a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://www.sordum.org/files/download/drive-letter-changer/dChanger.zip"
+                   }
+}

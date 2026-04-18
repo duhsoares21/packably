@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.11.0",
+    "description":  "An assembler for various ARM and MIPS platforms.",
+    "homepage":  "https://github.com/Kingcom/armips",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Kingcom/armips/releases/download/v0.11.0/armips-v0.11.0-windows-x86.7z",
+    "hash":  "ead4c8282867255c9e47cd8855383422d82e31908721405a5b7191b95125262b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "armips.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Kingcom/armips/releases/download/v$version/armips-v$version-windows-x86.7z"
+                   }
+}

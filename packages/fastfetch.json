@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.61.0",
+    "description":  "A maintained, feature-rich and performance oriented, neofetch like system information tool",
+    "homepage":  "https://github.com/fastfetch-cli/fastfetch",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/fastfetch-cli/fastfetch/releases/download/2.61.0/fastfetch-windows-amd64.7z",
+    "hash":  "a31f0933c7227beb1c8087139719d8e51ea653e0ed6e83e61f7adee03928e186",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "fastfetch.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/fastfetch-cli/fastfetch/releases/download/$version/fastfetch-windows-amd64.7z"
+                   }
+}

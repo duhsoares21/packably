@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "10.33.0",
+    "description":  "A fast and disk space efficient Node package manager.",
+    "homepage":  "https://pnpm.io/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/pnpm/pnpm/releases/download/v10.33.0/pnpm-win-x64.exe#/pnpm.exe",
+    "hash":  "afc96009dc39fe23a835d65192049e6a995f342496b175585dc2beda7d42d33f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "pnpm.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/pnpm/pnpm/releases/download/v$version/pnpm-win-x64.exe#/pnpm.exe"
+                   }
+}

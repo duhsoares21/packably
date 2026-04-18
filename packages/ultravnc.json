@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.6.4.0",
+    "description":  "UltraVNC Server and Viewer can display the screen of one computer (Server) on the screen of another (Viewer).",
+    "homepage":  "https://uvnc.com",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://uvnc.eu/download/1640/UltraVNC_1640.zip",
+    "hash":  "910ab4df4441c4f415c59007501e23ea2db331aa5dfa6ecbd5e583f34362d975",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "vncviewer.exe",
+    "autoupdate":  {
+                       "url":  "https://uvnc.eu/download/$cleanVersion/UltraVNC_$cleanVersion.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "6.2.0.2996",
+    "description":  "Remove sensitive data from your hard drive by overwriting it several times with carefully selected patterns",
+    "homepage":  "https://eraser.heidi.ie/",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://sourceforge.net/project/eraser/Eraser%206/6.2/Eraser%206.2.0.2996.exe#/dl.7z",
+    "hash":  "sha1:03028ce564f2b42b2a33320a91593d1e9672d925",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Eraser.exe",
+    "autoupdate":  {
+                       "url":  "https://sourceforge.net/project/eraser/Eraser%20$majorVersion/$majorVersion.$minorVersion/Eraser%20$version.exe#/dl.7z"
+                   }
+}

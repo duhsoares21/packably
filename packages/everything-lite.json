@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.4.1.1032",
+    "description":  "Locate files and folders by name instantly. (lite version, does not contain IPC and ETP/FTP/HTTP servers)",
+    "homepage":  "https://www.voidtools.com",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.voidtools.com/Everything-1.4.1.1032.x64.Lite.zip",
+    "hash":  "bee05d4f64721fce51b026f52fb2420725c964c7b7be235c7042a58d4408ee24",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Everything.exe",
+    "autoupdate":  {
+                       "url":  "https://www.voidtools.com/Everything-$version.x64.Lite.zip"
+                   }
+}

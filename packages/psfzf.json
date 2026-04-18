@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "2.7.10",
+    "description":  "A PowerShell wrapper around the fuzzy finder fzf",
+    "homepage":  "https://github.com/kelleyma49/PSFzf",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://cdn.powershellgallery.com/packages/psfzf.2.7.10.nupkg",
+    "hash":  "a79d172b272029949ad60847187d4a0c1debf1610cc31b7daae53d68f6a93ec5",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://cdn.powershellgallery.com/packages/psfzf.$version.nupkg"
+                   }
+}

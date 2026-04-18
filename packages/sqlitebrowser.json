@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.13.1",
+    "description":  "DB Browser for SQLite (DB4S) project",
+    "homepage":  "https://sqlitebrowser.org/",
+    "license":  "MPL-2.0|GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.13.1/DB.Browser.for.SQLite-v3.13.1-win64.zip",
+    "hash":  "22375e275ec42d96de1d3b8e9ea4ed86d2a3505c4d0ffcbd1af67aa4003e5e4d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "DB Browser for SQLite.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v$version/DB.Browser.for.SQLite-v$version-win64.zip"
+                   }
+}

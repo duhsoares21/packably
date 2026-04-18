@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.15.16",
+    "description":  "A strongly-typed language that compiles to Javascript",
+    "homepage":  "https://www.purescript.org/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/purescript/purescript/releases/download/v0.15.16/win64.tar.gz",
+    "hash":  "sha1:4d841a3bcd9dae8cb547931584b608d06aa157a3",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "purs.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/purescript/purescript/releases/download/v$version/win64.tar.gz"
+                   }
+}

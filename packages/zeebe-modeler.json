@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.11.0",
+    "description":  "Desktop Application for modeling Zeebe Workflows with BPMN",
+    "homepage":  "https://github.com/zeebe-io/zeebe-modeler",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/zeebe-io/zeebe-modeler/releases/download/v0.11.0/zeebe-modeler-0.11.0-win-x64.zip",
+    "hash":  "5b07d336b3ec9b635381ccf58ae026dae85973e19b288e267df680bf15b2cf20",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Zeebe Modeler.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/zeebe-io/zeebe-modeler/releases/download/v$version/zeebe-modeler-$version-win-x64.zip"
+                   }
+}

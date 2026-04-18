@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.2.1024",
+    "description":  "Free antispy tool for Windows 10",
+    "homepage":  "https://www.oo-software.com/en/shutup10",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://dl5.oo-software.com/files/ooshutup10/OOSU10.exe",
+    "hash":  "01d64c068d6b949ff8b919c30d82ae0007ae3ad35006f63f04880005a33d51e9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "OOSU10.exe",
+    "autoupdate":  {
+                       "url":  "https://dl5.oo-software.com/files/ooshutup10/OOSU10.exe"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.7.0.0",
+    "description":  "MonitorProfileSwitcher is a utility to easily switch between multiple monitor profiles on Windows.",
+    "homepage":  "https://sourceforge.net/projects/monitorswitcher/",
+    "license":  "MPL-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://sourceforge.net/projects/monitorswitcher/files/MonitorProfileSwitcher_v0700.zip",
+    "hash":  "sha1:a6dcfb3f398c383098608e76b74eeb571579bd19",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "MonitorSwitcher.exe",
+    "autoupdate":  {
+                       "url":  "https://sourceforge.net/projects/monitorswitcher/files/MonitorProfileSwitcher_v$cleanVersion.zip"
+                   }
+}

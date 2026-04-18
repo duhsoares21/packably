@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.6.2",
+    "description":  "HTML Language Server \u0026 Templating Language Library",
+    "homepage":  "https://github.com/kristoff-it/superhtml",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/kristoff-it/superhtml/releases/download/v0.6.2/x86_64-windows.zip",
+    "hash":  "d5566c96355389bb86d0e98cdf5b3603ff816fc49db5bd42a0a88d4ee72586c6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "superhtml.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/kristoff-it/superhtml/releases/download/v$version/x86_64-windows.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "15.24.0",
+    "description":  "butler is the itch.io command-line tools - all by itself.",
+    "homepage":  "https://itch.io/docs/butler",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://broth.itch.zone/butler/windows-amd64/15.24.0/archive/default#download.zip",
+    "hash":  "03ddb047b62bf40319897ef539853d2f08ea2636002eed0e245c4a5668268240",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "butler.exe",
+    "autoupdate":  {
+                       "url":  "https://broth.itch.zone/butler/windows-amd64/$version/archive/default#download.zip"
+                   }
+}

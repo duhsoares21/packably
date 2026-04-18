@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "9.7.25.29417",
+    "description":  "An instant messaging tool that gives you the best way to keep in touch with your friends and family.",
+    "homepage":  "https://im.qq.com",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://dldir1.qq.com/qqfile/qq/PCQQ9.7.25/QQ9.7.25.29417.exe#/dl.7z",
+    "hash":  "804a72f08e692a6317abb31445990e4ddc66dbc163967b5d0c4db360b250ae05",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Bin\\QQScLauncher.exe",
+    "autoupdate":  {
+                       "url":  "https://dldir1.qq.com/qqfile/qq/PCQQ$matchHead/QQ$version.exe#/dl.7z"
+                   }
+}

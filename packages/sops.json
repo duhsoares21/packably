@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "3.12.2",
+    "description":  "Editor of encrypted files that supports YAML, JSON, ENV, INI and BINARY formats and encrypts with AWS KMS, GCP KMS, Azure Key Vault and PGP",
+    "homepage":  "https://github.com/getsops/sops",
+    "license":  "MPL-2.0",
+    "dependencies":  [
+                         "gpg"
+                     ],
+    "url":  "https://github.com/getsops/sops/releases/download/v3.12.2/sops-v3.12.2.amd64.exe#/sops.exe",
+    "hash":  "5e777b1854ab2a6271d8f66375970e1fe3eea838251c309de151d16a2bdf13a2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "sops.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/getsops/sops/releases/download/v$version/sops-v$version.amd64.exe#/sops.exe"
+                   }
+}

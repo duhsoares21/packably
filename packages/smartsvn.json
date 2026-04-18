@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "14.5.1",
+    "description":  "Subversion client",
+    "homepage":  "https://www.smartsvn.com/",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.smartsvn.com/downloads/smartsvn/smartsvn-windows-portable-14_5_1.zip",
+    "hash":  "sha1:1c8835e9851eec37ddc151415a3e0a45cbbe0ccb",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\smartsvnc.exe",
+    "autoupdate":  {
+                       "url":  "https://www.smartsvn.com/downloads/smartsvn/smartsvn-windows-portable-$underscoreVersion.zip"
+                   }
+}

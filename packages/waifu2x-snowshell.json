@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.6.1",
+    "description":  "GUI Shell for waifu2x-caffe, waifu2x-converter-cpp and waifu2x-ncnn-vulkan.",
+    "homepage":  "https://github.com/YukihoAA/waifu2x_snowshell",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/YukihoAA/waifu2x_snowshell/releases/download/v2.6.1/waifu2x-snowshell_v2.6.1.zip",
+    "hash":  "b2a33d542cbd9ac49ed7445a51043ab959bd935a78106294bff45595ea5ba346",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "waifu2x_snowshell.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/YukihoAA/waifu2x_snowshell/releases/download/v$version/waifu2x-snowshell_v$version.zip"
+                   }
+}

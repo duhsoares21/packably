@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.10.1",
+    "description":  "A software construction tool",
+    "homepage":  "https://scons.org/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/scons/scons-local/4.10.1/scons-local-4.10.1.zip",
+    "hash":  "sha1:5d5be60161d19e07220e3e61333ee237e85ff51a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "scons.ps1",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/scons/scons-local/$version/scons-local-$version.zip"
+                   }
+}

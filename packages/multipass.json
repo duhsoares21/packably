@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "1.16.1",
+    "description":  "A lightweight VM manager, designed for developers who want a fresh Ubuntu environment with a single command.",
+    "homepage":  "https://multipass.run",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/canonical/multipass/releases/download/v1.16.1/multipass-1.16.1%2Bwin-win64.msi",
+    "hash":  "5b697c4312f2267041adf001ba750ff8b8fcf4fd68675493661cb30af742f283",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\multipass.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/canonical/multipass/releases/download/v$version/multipass-$version%2Bwin-win64.msi"
+                   }
+}

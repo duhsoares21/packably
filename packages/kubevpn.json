@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.10.1",
+    "description":  "KubeVPN offers a Cloud Native Dev Environment that connects to kubernetes cluster network.",
+    "homepage":  "https://www.kubevpn.dev/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/kubenetworks/kubevpn/releases/download/v2.10.1/kubevpn_v2.10.1_windows_amd64.zip",
+    "hash":  "808e0a15bef0598760e499dd20062fdc7f0ceb703dccec1b794dcd4818ada14c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "kubevpn.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/kubenetworks/kubevpn/releases/download/v$version/kubevpn_v$version_windows_amd64.zip"
+                   }
+}

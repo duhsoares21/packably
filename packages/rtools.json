@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "4.5.6768.6492",
+    "description":  "Tools for building packages for R under Microsoft Windows, or for building R itself.",
+    "homepage":  "https://cloud.r-project.org/bin/windows/Rtools",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://cloud.r-project.org/bin/windows/Rtools/rtools45/files/rtools45-6768-6492.exe",
+    "hash":  "614c7378150a012e70b16edcfe5236dcead47f491f1f54203ea8d451c7743a75",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://cloud.r-project.org/bin/windows/Rtools/rtools45/files/rtools45-$match1-$match2.exe"
+                   }
+}

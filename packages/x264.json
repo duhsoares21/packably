@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "3222",
+    "description":  "H.264/MPEG-4 AVC video encoder",
+    "homepage":  "https://www.videolan.org/developers/x264.html",
+    "license":  "GPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://artifacts.videolan.org/x264/release-win64/x264-r3222-b35605a.exe#/x264.exe",
+    "hash":  "ca622e7a1ed7efd0953d8dbb9eb08672ca45d80ce962d63d637b79462a7de3ed",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "x264.exe",
+    "autoupdate":  {
+                       "url":  "https://artifacts.videolan.org/x264/release-win64/x264-r$version-$matchCommit.exe#/x264.exe"
+                   }
+}

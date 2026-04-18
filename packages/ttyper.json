@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.6.0",
+    "description":  "Terminal-based typing test.",
+    "homepage":  "https://github.com/max-niederman/ttyper",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/max-niederman/ttyper/releases/download/v1.6.0/ttyper-x86_64-pc-windows-msvc.zip",
+    "hash":  "9b332a3f551739b02a3fc5c266b2b2c1546780aa2b25ef313b05039f1c738a27",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ttyper.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/max-niederman/ttyper/releases/download/v$version/ttyper-x86_64-pc-windows-msvc.zip"
+                   }
+}

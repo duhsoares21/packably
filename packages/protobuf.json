@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "34.1",
+    "description":  "Protocol compiler used to compile .proto files.",
+    "homepage":  "https://github.com/protocolbuffers/protobuf",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/protocolbuffers/protobuf/releases/download/v34.1/protoc-34.1-win64.zip",
+    "hash":  "6d7ebdc75e9c1f0026d4fb28f17ef1d0aae77d36744d83a9e052d79ba493724f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\protoc.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/protocolbuffers/protobuf/releases/download/v$version/protoc-$version-win64.zip"
+                   }
+}

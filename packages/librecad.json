@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.2.1.4",
+    "description":  "Cross-platform 2D CAD program.",
+    "homepage":  "https://librecad.org",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/LibreCAD/LibreCAD/releases/download/v2.2.1.4/LibreCAD-v2.2.1.3-12-gd1ca469c9-win64-msvc.exe#/dl.7z",
+    "hash":  "c6e1ddfa67c24539f3bbb41f5614f6f0d9a30da4c94bfff1c4305ddb9fde5f76",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "LibreCAD.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/LibreCAD/LibreCAD/releases/download/$matchTag/LibreCAD-$matchString-win64-msvc.exe#/dl.7z"
+                   }
+}

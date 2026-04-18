@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "26.4.0.121862",
+    "description":  "Platform for continuous inspection of code quality and security using static analysis for 20+ programming languages.",
+    "homepage":  "https://www.sonarsource.com/products/sonarqube/",
+    "license":  "LGPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-26.4.0.121862.zip",
+    "hash":  "3bf5d9b8cc545df1f148878675a5d04e306f846eb4d3ba72577cf82d2bb287b8",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\windows-x86-64\\StartSonar.bat",
+    "autoupdate":  {
+                       "url":  "https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-$version.zip"
+                   }
+}

@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.1",
+    "description":  "Easily drag windows when pressing the Alt key",
+    "homepage":  "https://stefansundin.github.io/altdrag/",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/stefansundin/altdrag/releases/download/v1.1/AltDrag-1.1.zip",
+    "hash":  "5e1cf4fd8bfbdeca672cd53141019471b344317c81fdefe1ae9cb3f96183bdf9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "AltDrag.exe"
+}

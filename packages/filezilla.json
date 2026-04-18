@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "3.70.4",
+    "description":  "Fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface.",
+    "homepage":  "https://filezilla-project.org",
+    "license":  "GPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://packages.chocolatey.org/filezilla.3.70.4.nupkg",
+    "hash":  "95db8c2744f3e4f89ee9e574b0d1ecc5e1d1c9a45ba9f71dfb995c51572c3a36",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "filezilla.exe",
+    "autoupdate":  {
+                       "url":  "https://packages.chocolatey.org/filezilla.$version.nupkg"
+                   }
+}

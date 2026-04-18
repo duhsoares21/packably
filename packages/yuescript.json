@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.33.10",
+    "description":  "A moonscipt dialect that is derived from the Moonscript language and continuously adopting new features to be more up to date. Just like moonscipt, it also compiles into Lua.",
+    "homepage":  "https://yuescript.org/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/pigpigyyy/Yuescript/releases/download/v0.33.10/yue-windows-x64.7z",
+    "hash":  "4bdb7f53178a9c634faae9625d0852dee1d32c4906c36ec5ab355d39cdb4ea74",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "yue.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/pigpigyyy/Yuescript/releases/download/v$version/yue-windows-x64.7z"
+                   }
+}

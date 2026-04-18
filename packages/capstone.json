@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.0.2",
+    "description":  "Capstone disassembly/disassembler framework",
+    "homepage":  "https://github.com/capstone-engine/capstone",
+    "license":  "BSD-3-Clause-Clear",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/capstone-engine/capstone/releases/download/4.0.2/capstone-4.0.2-win64.zip",
+    "hash":  "eae21d2a5baeed5de40ff07bd4baca5195cbf63b16919bf4e0ca2e4a4eb14bbc",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "cstool.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/capstone-engine/capstone/releases/download/$version/capstone-$version-win64.zip"
+                   }
+}

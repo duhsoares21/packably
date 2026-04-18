@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.1.5",
+    "description":  "Improved JPEG encoder",
+    "homepage":  "https://github.com/mozilla/mozjpeg",
+    "license":  "BSD-3-Clause,IJG,Zlib",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/garyzyg/mozjpeg-windows/releases/download/4.1.5/mozjpeg-x64.zip",
+    "hash":  "176ef4f632b09dca449e27bc11df090c1222528dff9f583a14bbd026a0c8eb2f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "cjpeg-static.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/garyzyg/mozjpeg-windows/releases/download/$version/mozjpeg-x64.zip"
+                   }
+}

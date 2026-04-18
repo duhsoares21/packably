@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.4.0",
+    "description":  "Parsing HTML at the command line",
+    "homepage":  "https://github.com/ericchiang/pup",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/ericchiang/pup/releases/download/v0.4.0/pup_v0.4.0_windows_amd64.zip",
+    "hash":  "6755cbd43e94eaf173689e93e914c7056a2249c2977e5b90024fb397f9b45ba4",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "pup.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/ericchiang/pup/releases/download/v$version/pup_v$version_windows_amd64.zip"
+                   }
+}

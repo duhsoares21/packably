@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "3.6.1001",
+    "description":  "Monitors SMART attributes of a particular hard disk drive.",
+    "homepage":  "https://www.passmark.com/products/diskcheckup/",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.passmark.com/downloads/diskcheckup.exe#/dl.exe",
+    "hash":  "f61fdd007189a1e1991327c1982a3d1eeb97cab73105909bbb99e462e45a579b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "DiskCheckup64.exe",
+    "autoupdate":  {
+                       "url":  "https://www.passmark.com/downloads/diskcheckup.exe#/dl.exe"
+                   }
+}

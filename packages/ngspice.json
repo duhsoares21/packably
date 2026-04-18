@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "46",
+    "description":  "SPICE simulator for electric and electronic circuits",
+    "homepage":  "http://ngspice.sourceforge.net",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/ngspice/ng-spice-rework/46/ngspice-46_64.7z",
+    "hash":  "sha1:2b873a86c682997c357a0a1452f0421e67e28217",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\ngspice_con.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/ngspice/ng-spice-rework/$version/ngspice-$version_64.7z"
+                   }
+}

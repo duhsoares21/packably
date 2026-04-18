@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.5.1",
+    "description":  "A free tool for creating space skyboxes with stars and nebulas.",
+    "homepage":  "http://alexcpeterson.com/spacescape/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/spacescape/win/spacescape-0.5.1.zip",
+    "hash":  "sha1:de592d5eadb32bbf0ae63fe90fcbb6586865c510",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Spacescape.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/spacescape/win/spacescape-$version.zip"
+                   }
+}

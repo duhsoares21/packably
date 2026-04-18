@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.34",
+    "description":  "Powerful and easy-to-use tool to edit metadata of audio files.",
+    "homepage":  "https://www.mp3tag.de/en/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.mp3tag.de/mp3tag-v3.34-x64-setup.exe#/dl.7z",
+    "hash":  "bcb898d0a1fd9a87503c8d6d04083dc350d6de51e472a78e605e0e80ba9189bc",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "mp3tag.exe",
+    "autoupdate":  {
+                       "url":  "https://download.mp3tag.de/mp3tag-v$version-x64-setup.exe#/dl.7z"
+                   }
+}

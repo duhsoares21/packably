@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.6.9403",
+    "description":  "The ultimate music player to easily manage, find, and play music, podcasts, web radio stations, etc",
+    "homepage":  "https://getmusicbee.com",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.videohelp.com/download/MusicBeePortable_3_6.zip",
+    "hash":  "aff35dc919b4a620847ca0c5269d1d75e93bf96bcabcbbdc0d058ce3e1d82c5d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "MusicBee.exe",
+    "autoupdate":  {
+                       "url":  "https://www.videohelp.com/download/MusicBeePortable_$majorVersion_$minorVersion.zip"
+                   }
+}

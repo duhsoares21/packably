@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "3.6.2.8",
+    "description":  "An All-In-One video converter and audio converter tool.",
+    "homepage":  "https://www.xmedia-recode.de/en/",
+    "license":  "Unknown",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.xmedia-recode.de/download/XMediaRecode3628_x64_setup.exe",
+    "hash":  "d49be8a7e28c660a07dd5c2597dc473edae8066ffe96bc4cfea752ce62e4385c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "XMedia Recode.exe",
+    "autoupdate":  {
+                       "url":  "https://www.xmedia-recode.de/download/XMediaRecode$cleanVersion_x64_setup.exe"
+                   }
+}

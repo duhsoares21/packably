@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.5.3",
+    "description":  "A better and stronger spiritual successor to BZip2",
+    "homepage":  "https://github.com/kspalaiologos/bzip3",
+    "license":  "LGPLv3",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/kspalaiologos/bzip3/releases/download/1.5.3/bzip3-x86_64.exe#/bzip3.exe",
+    "hash":  "9b52eb9b4a6293d1e554cf7bfc3f9dc14d53c4886c23cd4663330bf1e36dd66a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bzip3.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/kspalaiologos/bzip3/releases/download/$version/bzip3-x86_64.exe#/bzip3.exe"
+                   }
+}

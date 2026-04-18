@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.79.0",
+    "description":  "Self-managed Kubernetes cluster provisioning on Azure",
+    "homepage":  "https://github.com/Azure/aks-engine",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Azure/aks-engine/releases/download/v0.79.0/aks-engine-v0.79.0-windows-amd64.zip",
+    "hash":  "5c35c3d2b2aaff2d0d1946ffe84c88e8f60aca5eadf3cec899df4a1b02186e28",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "aks-engine.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Azure/aks-engine/releases/download/v$version/aks-engine-v$version-windows-amd64.zip"
+                   }
+}

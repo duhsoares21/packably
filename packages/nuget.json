@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "7.3.1",
+    "description":  "The package manager for .NET.",
+    "homepage":  "https://www.nuget.org/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://dist.nuget.org/win-x86-commandline/v7.3.1/NuGet.exe",
+    "hash":  "08ec6563b4a1ddd113d42531067539ffcd0c2d9632d839ad4eb58a0d5ddf1919",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "NuGet.exe",
+    "autoupdate":  {
+                       "url":  "https://dist.nuget.org/win-x86-commandline/v$version/NuGet.exe"
+                   }
+}

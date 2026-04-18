@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.3.0.0_stable_2026-04-14",
+    "description":  "A free, open source, backup client that securely stores encrypted, incremental, compressed backups on cloud storage services and remote file servers.",
+    "homepage":  "https://www.duplicati.com/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/duplicati/duplicati/releases/download/v2.3.0.0_stable_2026-04-14/duplicati-2.3.0.0_stable_2026-04-14-win-x64-gui.zip",
+    "hash":  "07b16c1c6b6ec583e1bd05f8bc1b634f0d9cbccb39180cbd0b0880f25755b9d9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Duplicati.CommandLine.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/duplicati/duplicati/releases/download/v$version/duplicati-$version-win-x64-gui.zip"
+                   }
+}

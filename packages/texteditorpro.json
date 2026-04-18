@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "36.1.0",
+    "description":  "Powerful text editor with syntax highlighting for multiple languages and scripts. Formerly known as EditBone",
+    "homepage":  "https://texteditor.pro/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.texteditor.pro/downloads/TextEditorPro64.7z",
+    "hash":  "6e25c45824f79c8691b789300148edf88c871a793d30a099d0ce7e9c54c6ef2f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "TextEditorPro.exe",
+    "autoupdate":  {
+                       "url":  "https://www.texteditor.pro/downloads/TextEditorPro64.7z"
+                   }
+}

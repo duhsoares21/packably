@@ -1,0 +1,18 @@
+﻿{
+    "type":  "other",
+    "version":  "4.30.2100.0",
+    "description":  "Microsoft XML Core Services (MSXML) runtime library",
+    "homepage":  "http://msdn.microsoft.com/en-us/library/ms763742.aspx",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.microsoft.com/download/A/2/D/A2D8587D-0027-4217-9DAD-38AFDB0A177E/msxml.msi#/setup.msi_",
+    "hash":  "47c2ae679c37815da9267c81fc3777de900ad2551c11c19c2840938b346d70bb",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  ""
+}

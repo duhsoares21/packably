@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "4.1.0.1",
+    "description":  "File renaming software for Windows.",
+    "homepage":  "https://www.bulkrenameutility.co.uk",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.s3.tgrmn.com/bru4/BRU_setup_4.1.0.1.exe",
+    "hash":  "md5:50da7720a426c444ddf27313ac9275ed",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Bulk Rename Utility.exe",
+    "autoupdate":  {
+                       "url":  "https://www.s3.tgrmn.com/bru4/BRU_setup_$version.exe"
+                   }
+}

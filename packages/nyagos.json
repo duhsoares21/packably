@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.4.19_0",
+    "description":  "The hybrid Commandline Shell betweeeeeeen UNIX \u0026 DOS.",
+    "homepage":  "https://github.com/zetamatta/nyagos",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/zetamatta/nyagos/releases/download/4.4.19_0/nyagos-4.4.19_0-windows-amd64.zip",
+    "hash":  "1d065008ffb06f57224f9adbead2f232ec33fc5f66c72135ed22164c6e2882c7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "nyagos.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/zetamatta/nyagos/releases/download/$version/nyagos-$version-windows-amd64.zip"
+                   }
+}

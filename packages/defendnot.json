@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.5.0",
+    "description":  "An even funnier way to disable windows defender.",
+    "homepage":  "https://github.com/es3n1n/defendnot",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/es3n1n/defendnot/releases/download/v1.5.0/x64.zip",
+    "hash":  "ff552765e35a810dfba462a66a0a67bf15f312fb63da378202f4074b2f5515ac",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "defendnot-loader.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/es3n1n/defendnot/releases/download/v$version/x64.zip"
+                   }
+}

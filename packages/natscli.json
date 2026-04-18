@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.3.2",
+    "description":  "The NATS Command Line Interface.",
+    "homepage":  "https://github.com/nats-io/natscli",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/nats-io/natscli/releases/download/v0.3.2/nats-0.3.2-windows-amd64.zip",
+    "hash":  "e69872f0bd2d308fefb9e723fd61a23b024a914dd95373aa0693ba01a3496439",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "nats.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/nats-io/natscli/releases/download/v$version/nats-$version-windows-amd64.zip"
+                   }
+}

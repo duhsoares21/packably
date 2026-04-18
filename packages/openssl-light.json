@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "4.0.0",
+    "description":  "TLS/SSL toolkit (Light)",
+    "homepage":  "https://slproweb.com/products/Win32OpenSSL.html",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+                         "innounp"
+                     ],
+    "url":  "https://slproweb.com/download/Win64OpenSSL_Light-4_0_0.exe",
+    "hash":  "539588b195f660e7fb32f2ed11e9d0c729ce71c975f89cc7f74b3b6e80e45f9e",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\openssl.exe",
+    "autoupdate":  {
+                       "url":  "https://slproweb.com/download/Win64OpenSSL_Light-$underscoreVersion.exe"
+                   }
+}

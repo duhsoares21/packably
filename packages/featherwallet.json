@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.8.1",
+    "description":  "A Monero SPV Wallet",
+    "homepage":  "https://featherwallet.org/",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://featherwallet.org/files/releases/win/feather-2.8.1-win.zip",
+    "hash":  "7ce53d73605d007d062a1636ec727fa7f151c5c08248122056c7d4224bd200f3",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "feather.exe",
+    "autoupdate":  {
+                       "url":  "https://featherwallet.org/files/releases/win/feather-$version-win.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "6.6.0",
+    "description":  "Update your software in 2 clicks. Stay away from malware.",
+    "homepage":  "https://www.adlice.com/ucheck/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.adlice.com/api?action=download\u0026app=ucheck\u0026type=x64#/UCheck_portable64.exe",
+    "hash":  "9808c96d94df1720a5d697224f8858b650cab0c96939c2393fa9738e5ad6548a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://download.adlice.com/api?action=download\u0026app=ucheck\u0026type=x64#/UCheck_portable64.exe"
+                   }
+}

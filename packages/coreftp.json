@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.2-1960",
+    "description":  "A FTP client",
+    "homepage":  "https://www.coreftp.com",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.coreftp.com/download/coreftplite64.exe#/dl.7z",
+    "hash":  "0b832bbb35115269a1c1bc2725a1dabf949799b1eb6e38303b567826e3b2ca74",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "coreftp.exe",
+    "autoupdate":  {
+                       "url":  "https://www.coreftp.com/download/coreftplite64.exe#/dl.7z"
+                   }
+}

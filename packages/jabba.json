@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.15.0",
+    "description":  "Java Version Manager",
+    "homepage":  "https://github.com/Jabba-Team/jabba",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Jabba-Team/jabba/releases/download/0.15.0/jabba-0.15.0-windows-amd64.exe#/jabba.exe",
+    "hash":  "8918f09b6632f7e3b3d14a74c9d07af86d589230804b38d09ee1412d29337a71",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\jabba.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Jabba-Team/jabba/releases/download/$version/jabba-$version-windows-amd64.exe#/jabba.exe"
+                   }
+}

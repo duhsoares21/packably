@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.40.1",
+    "description":  "Simple yet capable cross-platform IRC client",
+    "homepage":  "https://dxirc.org",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/dxirc/1.40.1/dxirc-1.40.1-bin.zip",
+    "hash":  "sha1:90b5b29ec6a833c28d3005ddb581f49c599bef08",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\dxirc-fox.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/dxirc/$version/dxirc-$version-bin.zip"
+                   }
+}

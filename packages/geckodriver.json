@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.36.0",
+    "description":  "WebDriver for the Firefox web browser.",
+    "homepage":  "https://github.com/mozilla/geckodriver",
+    "license":  "MPL-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-win64.zip",
+    "hash":  "4c23d54681d431b42575a66c3c89202a40add3ef45e64b94acac620a89774ad2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "geckodriver.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/mozilla/geckodriver/releases/download/v$version/geckodriver-v$version-win64.zip"
+                   }
+}

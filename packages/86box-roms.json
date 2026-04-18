@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "5.3",
+    "description":  "ROMs for the 86Box emulator.",
+    "homepage":  "https://github.com/86Box/roms",
+    "license":  "Proprietary",
+    "dependencies":  [
+                         "extras/86box"
+                     ],
+    "url":  "https://github.com/86Box/roms/archive/refs/tags/v5.3.zip",
+    "hash":  "9cf691a2feaa1d1494bb4247039b6a7669006a26e2e48151b883594f3be511d5",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://github.com/86Box/roms/archive/refs/tags/v$version.zip"
+                   }
+}

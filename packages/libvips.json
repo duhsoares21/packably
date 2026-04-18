@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "8.18.1",
+    "description":  "A demand-driven, horizontally threaded image processing library",
+    "homepage":  "https://www.libvips.org/",
+    "license":  "LGPL-2.1-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/libvips/build-win64-mxe/releases/download/v8.18.1/vips-dev-w64-all-8.18.1.zip",
+    "hash":  "9f4ead82f5f1937584f55016309fdc7b0fa67e575ce94fa0e2efbcc8028716b0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://github.com/libvips/build-win64-mxe/releases/download/v$version/vips-dev-w64-all-$version.zip"
+                   }
+}

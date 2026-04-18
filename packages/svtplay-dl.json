@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.179",
+    "description":  "Video downloader from various sites",
+    "homepage":  "https://svtplay-dl.se",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://svtplay-dl.se/download/4.179/svtplay-dl-amd64.zip",
+    "hash":  "0c05932e50e6e795f59c72f574730b09615070195450e1da25d68258fe0785e9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "svtplay-dl.exe",
+    "autoupdate":  {
+                       "url":  "https://svtplay-dl.se/download/$version/svtplay-dl-amd64.zip"
+                   }
+}

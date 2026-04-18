@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "10.2p1-3",
+    "description":  "A Windows installer package of Openssh for Windows that is actively maintained and current.",
+    "homepage":  "https://www.mls-software.com/opensshd.html",
+    "license":  "ISC",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.mls-software.com/files/setupssh-10.2p1-3.exe#/dl.7z",
+    "hash":  "sha1:807c50adeb9c597c0405d3f2357db5270a995b97",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\scp.exe",
+    "autoupdate":  {
+                       "url":  "https://www.mls-software.com/files/setupssh-$version.exe#/dl.7z"
+                   }
+}

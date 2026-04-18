@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "2.0.5",
+    "description":  "Visual Automation and Testing",
+    "homepage":  "https://sikulix.github.io/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://launchpad.net/sikuli/sikulix/2.0.5/+download/sikulixide-2.0.5.jar#/sikulix.jar",
+    "hash":  "f4b0b50c8e413094e78cd1d8fed02ae65f62f8c53ed00da0562fdedf4acff729",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "sikulix.jar",
+    "autoupdate":  {
+                       "url":  "https://launchpad.net/sikuli/sikulix/$version/+download/sikulixide-$version.jar#/sikulix.jar"
+                   }
+}

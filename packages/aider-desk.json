@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.61.1",
+    "description":  "Desktop application for Aider AI assistant",
+    "homepage":  "https://github.com/hotovo/aider-desk",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/hotovo/aider-desk/releases/download/v0.61.1/aider-desk-0.61.1-setup.exe#/dl.7z",
+    "hash":  "sha512:2159278ae12606a561d2af34787c79a0c9e8ba40fd244eaaeda2ff38c4ccafbdbbb6b73a2ff2df7c14d7ae131a8c75f160a3d0072027b1abda944efd0c38eb94",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Aider-desk.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/hotovo/aider-desk/releases/download/v$version/aider-desk-$version-setup.exe#/dl.7z"
+                   }
+}

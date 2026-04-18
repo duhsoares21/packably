@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "147.0.7727.102",
+    "description":  "Fast, secure, and free web browser, built for the modern web.",
+    "homepage":  "https://www.google.com/chrome/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://dl.google.com/release2/chrome/acvgrsrei7jvzxd7zat65etfjdxa_147.0.7727.102/147.0.7727.102_chrome_installer_uncompressed.exe#/dl.7z",
+    "hash":  "55809b1cdd008f1b1b8e9d39706a3d2883f7d1232393597e65fd186cca96e072",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "chrome.exe",
+    "autoupdate":  {
+                       "url":  "https://dl.google.com/release2/chrome/$matchArchx64#/dl.7z"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.42.1",
+    "description":  "An open-source RESTful search API written in Rust",
+    "homepage":  "https://github.com/meilisearch/meilisearch",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/meilisearch/meilisearch/releases/download/v1.42.1/meilisearch-windows-amd64.exe#/meilisearch.exe",
+    "hash":  "7f06a721bf75918df40b2f6c66c42227f108487c35f1ce3f9fdf735a19d63fe5",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "meilisearch.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/meilisearch/meilisearch/releases/download/v$version/meilisearch-windows-amd64.exe#/meilisearch.exe"
+                   }
+}

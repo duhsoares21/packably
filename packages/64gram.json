@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.2.0",
+    "description":  "Unofficial Telegram Desktop with some enhancements.",
+    "homepage":  "https://64gr.am",
+    "license":  "GPL-3.0-openssl-exception",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/TDesktop-x64/tdesktop/releases/download/v1.2.0/64Gram_1.2.0_x64.zip",
+    "hash":  "39f26cccf72ab1f7570424027e7a5ecdec54d3553b562af278988fe23f85cefb",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Telegram.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/TDesktop-x64/tdesktop/releases/download/v$version/64Gram_$version_x64.zip"
+                   }
+}

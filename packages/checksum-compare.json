@@ -1,0 +1,18 @@
+﻿{
+    "type":  "other",
+    "version":  "1.42",
+    "description":  "Calculates and checks SHA1/MD5 checksums.",
+    "homepage":  "https://checksumcompare.sanktuaire.com/home",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://checksumcompare.sanktuaire.com/download.php?file=portable2\u0026version=v1.42",
+    "hash":  "sha1:4f32ff3ed69e78de98e9060b7293c09ee2c8ceee",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Checksum compare.exe"
+}

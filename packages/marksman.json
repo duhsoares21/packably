@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2026-02-08",
+    "description":  "Write Markdown with code assist and intelligence in the comfort of your favourite editor.",
+    "homepage":  "https://github.com/artempyanykh/marksman",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/artempyanykh/marksman/releases/download/2026-02-08/marksman.exe",
+    "hash":  "a6d05beb08ebe41b0a9f09c98a438540421436fa5531424c22e0bb1d22529705",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "marksman.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/artempyanykh/marksman/releases/download/$version/marksman.exe"
+                   }
+}

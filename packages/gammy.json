@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.9.64",
+    "description":  "Adaptive screen brightness tool",
+    "homepage":  "https://github.com/Fushko/gammy",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Fushko/gammy/releases/download/v0.9.64/gammy_v0.9.64.zip",
+    "hash":  "2b44d815b6aba99994fd86bbf552df39cda5a0d6a4831dfe16a2d0ecaab724e5",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "gammy.exe"
+}

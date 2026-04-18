@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.1.0",
+    "description":  "Intuitive find \u0026 replace CLI (sed alternative)",
+    "homepage":  "https://github.com/chmln/sd",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/chmln/sd/releases/download/v1.1.0/sd-v1.1.0-x86_64-pc-windows-msvc.zip",
+    "hash":  "59837c2e7c911099aca1cc46b663bcdc5a949fd3e9fbbaf34fc73e5d5d71007c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "sd.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/chmln/sd/releases/download/v$version/sd-v$version-x86_64-pc-windows-msvc.zip"
+                   }
+}

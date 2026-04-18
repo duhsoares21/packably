@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.8.1",
+    "description":  "Capture directory sizes and memory guzzlers.",
+    "homepage":  "https://www.jam-software.com/treesize_free",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.jam-software.de/treesize_free/TreeSizeFree-Portable.zip",
+    "hash":  "6d85b1902186ea057a5d12511dce7a3b09788c321a66356e5dd8f32e4eeccb6a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "TreeSizeFree.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.jam-software.de/treesize_free/TreeSizeFree-Portable.zip"
+                   }
+}

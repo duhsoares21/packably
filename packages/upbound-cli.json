@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.47.0",
+    "description":  "Official CLI for interacting with Upbound Cloud, Upbound Enterprise, and Universal Crossplane (UXP).",
+    "homepage":  "https://docs.upbound.io/manuals/cli/overview/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://cli.upbound.io/stable/v0.47.0/bin/windows_amd64/up.exe",
+    "hash":  "611e8b94625c67e7e4deca74e3c501bbc8e96772d857d89eb863b71b98af2fad",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "up.exe",
+    "autoupdate":  {
+                       "url":  "https://cli.upbound.io/stable/v$version/bin/windows_amd64/up.exe"
+                   }
+}

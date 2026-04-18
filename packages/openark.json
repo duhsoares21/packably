@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.5.6",
+    "description":  "The Next Generation Anti-Rootkit (ARK) tool for Windows.",
+    "homepage":  "http://openark.blackint3.com:88",
+    "license":  "LGPL-2.1-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "http://file.blackint3.com:88/openark/files/openark/OpenArk-v1.5.6/OpenArk64.exe#/OpenArk.exe",
+    "hash":  "sha1:e62d8fc53696b0d65ecaf67563360c2da149c44e",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "OpenArk.exe",
+    "autoupdate":  {
+                       "url":  "http://file.blackint3.com:88/openark/files/openark/OpenArk-v$version/OpenArk64.exe#/OpenArk.exe"
+                   }
+}

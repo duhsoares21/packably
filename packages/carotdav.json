@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.16.3",
+    "description":  "A simple WebDAV / FTP / SFTP / Online Storages client for Windows OS",
+    "homepage":  "http://rei.to/carotdav_en.html",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "http://rei.to/CarotDAV1.16.3.portable.zip",
+    "hash":  "sha1:2af1c887d05e6251ba764c7895683ae03560b407",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "CarotDAV.exe",
+    "autoupdate":  {
+                       "url":  "http://rei.to/CarotDAV$version.portable.zip"
+                   }
+}

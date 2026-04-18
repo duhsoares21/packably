@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.3.3.0",
+    "description":  "File renaming software for Windows",
+    "homepage":  "https://www.bulkrenameutility.co.uk",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "http://www.s3.tgrmn.com/bru/BRC_Unicode_64.zip",
+    "hash":  "2e620a0fd6b27e974fe746d6372becf279bad2edf546fdd2ce4a5cf86ef0cdb6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "http://www.s3.tgrmn.com/bru/BRC_Unicode_64.zip"
+                   }
+}

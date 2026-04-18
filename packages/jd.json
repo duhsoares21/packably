@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.5.0",
+    "description":  "jd is a commandline utility and Go library for diffing and patching JSON values.",
+    "homepage":  "https://github.com/josephburnett/jd",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/josephburnett/jd/releases/download/v2.5.0/jd-amd64-windows.exe#/jd.exe",
+    "hash":  "08e078258477b3d981bdfc40987f824f825135d612c90c4f5fdce63fc69f949d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "jd.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/josephburnett/jd/releases/download/v$version/jd-amd64-windows.exe#/jd.exe"
+                   }
+}

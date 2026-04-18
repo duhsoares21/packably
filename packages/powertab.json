@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.1.0",
+    "description":  "Tab expansion module for PowerShell. Handles more content and provides a new, optional interface.",
+    "homepage":  "https://github.com/jasonmarcher/PowerTab",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/jasonmarcher/PowerTab/archive/v1.1.0.zip",
+    "hash":  "1dce26d05751363f35ceedaa7373ce1dbbc0fdab2362b99e7bbc216b81ef35a1",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://github.com/jasonmarcher/PowerTab/archive/v$version.zip"
+                   }
+}

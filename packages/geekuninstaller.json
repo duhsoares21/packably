@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.5.3.170",
+    "description":  "Basic uninstaller though powerful and lightning fast.",
+    "homepage":  "https://geekuninstaller.com/",
+    "license":  "Shareware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://geekuninstaller.com/geek.7z",
+    "hash":  "45eff98bf11d193675e45357699ad1c046ad8e3a7f47f61843831b804140aa9f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "geek.exe",
+    "autoupdate":  {
+                       "url":  "https://geekuninstaller.com/geek.7z"
+                   }
+}

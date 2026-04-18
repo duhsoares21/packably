@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "34.2.0",
+    "description":  "Mozilla-derived web browser focusing on efficiency and customization",
+    "homepage":  "https://www.palemoon.org",
+    "license":  "MPL-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://rm-eu.palemoon.org/release/Palemoon-Portable-34.2.0.win64.exe#/palemoon.7z",
+    "hash":  "e01b0f84eb9c37cc5e0401c84719ae860e4e85482527d4d6255f0069db14cdec",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Palemoon-Portable.exe",
+    "autoupdate":  {
+                       "url":  "https://rm-eu.palemoon.org/release/Palemoon-Portable-$version.win64.exe#/palemoon.7z"
+                   }
+}

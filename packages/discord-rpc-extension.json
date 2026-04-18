@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.3.0",
+    "description":  "Server for the Discord RPC Extension",
+    "homepage":  "https://github.com/lolamtisch/Discord-RPC-Extension",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/lolamtisch/Discord-RPC-Extension/releases/download/0.3.0/windows_64bit.zip",
+    "hash":  "5b1c290c678d3352f0f54805c7264088cee2464830e8cc07f42bd4f87540bd9b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "server_win.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/lolamtisch/Discord-RPC-Extension/releases/download/$version/windows_64bit.zip"
+                   }
+}

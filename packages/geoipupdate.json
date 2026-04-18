@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "7.1.1",
+    "description":  "GeoIP Update program to perform automatic updates of GeoIP2 and GeoIP Legacy binary databases.",
+    "homepage":  "https://dev.maxmind.com/geoip/geoipupdate/",
+    "license":  "Apache-2.0|MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/maxmind/geoipupdate/releases/download/v7.1.1/geoipupdate_7.1.1_windows_amd64.zip",
+    "hash":  "b0dddff44e04456349c6b18c0dc4032e7d110825c0666c9831c71389756b4679",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "geoipupdate.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/maxmind/geoipupdate/releases/download/v$version/geoipupdate_$version_windows_amd64.zip"
+                   }
+}

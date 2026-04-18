@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.3.0",
+    "description":  "Parallel S3 and local filesystem execution tool.",
+    "homepage":  "https://github.com/peak/s5cmd",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/peak/s5cmd/releases/download/v2.3.0/s5cmd_2.3.0_Windows-64bit.zip",
+    "hash":  "9d8a98c1d9f6284c6d54aeec3daeb5f1412fd101850ae756c1e70dd8ffe52166",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "s5cmd.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/peak/s5cmd/releases/download/v$version/s5cmd_$version_Windows-64bit.zip"
+                   }
+}

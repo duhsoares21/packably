@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "15.2.0",
+    "description":  "AVR toolchain for Windows by Zak Kemble",
+    "homepage":  "https://blog.zakkemble.net/avr-gcc-builds/",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/ZakKemble/avr-gcc-build/releases/download/v15.2.0-1/avr-gcc-15.2.0-x64-windows.zip",
+    "hash":  "3bcfdbdbff6e3576ef0bef9e119b16f7012657d30f002d6d9d4848a7efd4f8b7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\avr-addr2line.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/ZakKemble/avr-gcc-build/releases/download/v$version-1/avr-gcc-$version-x64-windows.zip"
+                   }
+}

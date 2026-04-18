@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.38.6",
+    "description":  "Terraform Language Server",
+    "homepage":  "https://github.com/hashicorp/terraform-ls",
+    "license":  "MPL-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://releases.hashicorp.com/terraform-ls/0.38.6/terraform-ls_0.38.6_windows_amd64.zip",
+    "hash":  "8dcc3a23a8166f5942575d64f6ff5467f6d501fa72bff89941b8cbaeb5ee3de2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "terraform-ls.exe",
+    "autoupdate":  {
+                       "url":  "https://releases.hashicorp.com/terraform-ls/$version/terraform-ls_$version_windows_amd64.zip"
+                   }
+}

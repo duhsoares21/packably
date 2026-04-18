@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.58.0.1076-38e019da",
+    "description":  "Plex Media Player. Play media.",
+    "homepage":  "https://www.plex.tv/apps-devices/#modal-devices-plex-media-player",
+    "license":  "GPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.plex.tv/plexmediaplayer/2.58.0.1076-38e019da/PlexMediaPlayer-2.58.0.1076-38e019da-windows-x64.exe",
+    "hash":  "sha1:7e8f7fb90c540ed98b01eba825bb70f851979adc",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "PlexMediaPlayer.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.plex.tv/plexmediaplayer/$version/PlexMediaPlayer-$version-windows-x64.exe"
+                   }
+}

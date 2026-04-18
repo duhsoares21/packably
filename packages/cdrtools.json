@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.02a09",
+    "description":  "Burn and read CDs, DVDs, and Blu-ray discs",
+    "homepage":  "https://sourceforge.net/projects/tumagcc/",
+    "license":  "CDDL-1.0,GPL-2.0-only,LGPL-2.1-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/tumagcc/schily-cdrtools-3.02a09.7z",
+    "hash":  "sha1:f1b6a74e8963a97acd66e166064ab4f907e5237a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "btcflash.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/tumagcc/schily-cdrtools-$version.7z"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "0.2.7",
+    "description":  "Graphical User Interface for FFmpeg with powerful features.",
+    "homepage":  "https://ffstudio.app",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Draver93/ff-studio/releases/download/v0.2.7/FFStudio_0.2.7_x64_en-US-1ff7715.msi",
+    "hash":  "f39a75caffc6d3543837e23332b73c4e68c5f3109dd86d438c09061affeb8478",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ffstudio.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Draver93/ff-studio/releases/download/v$version/FFStudio_0.2.7_x64_en-US-$matchCommit.msi"
+                   }
+}

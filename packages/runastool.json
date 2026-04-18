@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.5",
+    "description":  "A simple app that allows users to run a specific program with administrator privileges without the need to enter the administrator password.",
+    "homepage":  "https://www.sordum.org/runastool",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.sordum.org/files/download/runastool/RunAsTool.zip",
+    "hash":  "bfe64c76792dc3dd40206895ed49c0ca462f6f618485060c96fa2d57dddc1e60",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "RunAsTool.exe",
+    "autoupdate":  {
+                       "url":  "https://www.sordum.org/files/download/runastool/RunAsTool.zip"
+                   }
+}

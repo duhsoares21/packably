@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2026.1-261.22158.274",
+    "description":  "Cross-Platform IDE for JavaScript by JetBrains.",
+    "homepage":  "https://www.jetbrains.com/webstorm/",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.jetbrains.com/webstorm/WebStorm-2026.1.win.zip",
+    "hash":  "fae7cf6cbe183743e8664114a5ffccfb5d9433f5b6bd163f9670e8da9d13b38b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://download.jetbrains.com/webstorm/WebStorm-$matchVer.win.zip"
+                   }
+}

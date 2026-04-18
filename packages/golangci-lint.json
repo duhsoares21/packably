@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.11.4",
+    "description":  "Go language linters aggregator",
+    "homepage":  "https://golangci-lint.run/",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/golangci/golangci-lint/releases/download/v2.11.4/golangci-lint-2.11.4-windows-amd64.zip",
+    "hash":  "4932cfca5e75bf60fe1c576edf459e5e809e6644664a068185d64b84af3fad9e",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "golangci-lint.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/golangci/golangci-lint/releases/download/v$version/golangci-lint-$version-windows-amd64.zip"
+                   }
+}

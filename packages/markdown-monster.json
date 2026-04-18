@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.2.9",
+    "description":  "Markdown editing and weblog publishing tool",
+    "homepage":  "https://markdownmonster.west-wind.com",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/RickStrahl/MarkdownMonsterReleases/raw/master/CurrentRelease/MarkdownMonsterPortable.zip",
+    "hash":  "80e9c0e86194ea8d996435cad185245f965a7198c75e107ca5ced47c1b6971d3",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "mmcli.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/RickStrahl/MarkdownMonsterReleases/raw/master/CurrentRelease/MarkdownMonsterPortable.zip"
+                   }
+}

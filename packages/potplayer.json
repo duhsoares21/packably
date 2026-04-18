@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "260401",
+    "description":  "Highly customizable media player",
+    "homepage":  "https://potplayer.daum.net",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://t1.daumcdn.net/potplayer/PotPlayer/Version/260401/PotPlayerSetup64.exe#/dl.7z",
+    "hash":  "4cbb64031aeee6a10bafd9301bd97722c6c037545bcb5bdb1397e7602aa1faff",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://t1.daumcdn.net/potplayer/PotPlayer/Version/$version/PotPlayerSetup64.exe#/dl.7z"
+                   }
+}

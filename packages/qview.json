@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "7.1",
+    "description":  "Practical and minimal image viewer",
+    "homepage":  "https://interversehq.com/qview/",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/jurplel/qView/releases/download/7.1/qView-7.1-win64.zip",
+    "hash":  "dce9dc09be15c003d5bf4a73971b7e66790c66692db163813b9f266341bcaa25",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "qView.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/jurplel/qView/releases/download/$version/qView-$version-win64.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.2.0.6119",
+    "description":  "Hosts management \u0026 switching",
+    "homepage":  "https://oldj.github.io/SwitchHosts/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/oldj/SwitchHosts/releases/download/v4.2.0/SwitchHosts_windows_installer_x64_4.2.0.6119.exe#/dl.7z",
+    "hash":  "d173a61eb339c513060d6a9ddb43f156a75c2140ab8c6f540faa075d54ddb000",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "SwitchHosts.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/oldj/SwitchHosts/releases/download/v$matchHead/SwitchHosts_windows_installer_x64_$version.exe#/dl.7z"
+                   }
+}

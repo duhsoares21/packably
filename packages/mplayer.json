@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "38151",
+    "description":  "A multi-platform open source media player",
+    "homepage":  "http://mplayerwin.sourceforge.net/",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/mplayerwin/MPlayer-MEncoder/r38151/mplayer-svn-38151-x86_64.7z",
+    "hash":  "sha1:1801973760a1fad89705fd95dd3b1510c1b1e0b0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "mencoder.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/mplayerwin/MPlayer-MEncoder/r$version/mplayer-svn-$version-x86_64.7z"
+                   }
+}

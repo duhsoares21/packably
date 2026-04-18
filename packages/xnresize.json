@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.11",
+    "description":  "A fast and powerful image resizer",
+    "homepage":  "https://www.xnview.com/en/xnresize/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.xnview.com/XnResize-win-x64.zip",
+    "hash":  "d8799ce40bab1478a712ff34221e3584884a7679cdacd315907cadc194cc7149",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "XnResize.exe",
+    "autoupdate":  {
+                       "url":  "https://download.xnview.com/XnResize-win-x64.zip"
+                   }
+}

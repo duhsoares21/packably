@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.37.1",
+    "description":  "load or unload environment variables depending on the current directory",
+    "homepage":  "https://direnv.net",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/direnv/direnv/releases/download/v2.37.1/direnv.windows-amd64#/direnv.exe",
+    "hash":  "d96fc8b7cf020c2d4c1dbbc2ccec5fd1cab05b51c491f02c8527a7fa6c50a1cd",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "direnv.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/direnv/direnv/releases/download/v$version/direnv.windows-amd64#/direnv.exe"
+                   }
+}

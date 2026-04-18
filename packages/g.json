@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.8.0",
+    "description":  "A command-line tool that provides convenient management and switching of multiple versions of the Go environment.",
+    "homepage":  "https://github.com/voidint/g",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/voidint/g/releases/download/v1.8.0/g1.8.0.windows-amd64.zip",
+    "hash":  "93ad318012c8dc601b93ad44ce82b10fbdb23e169d831bb041061c0f6783c7e9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "g.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/voidint/g/releases/download/v$version/g$version.windows-amd64.zip"
+                   }
+}

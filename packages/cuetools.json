@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.2.6",
+    "description":  "A suite of tools for lossless audio/CUE sheet format conversion and verification.",
+    "homepage":  "http://cue.tools/wiki/Main_Page",
+    "license":  "GPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/gchudov/cuetools.net/releases/download/v2.2.6/CUETools_2.2.6.zip",
+    "hash":  "103b209502935c911f2162a5babfb21550476413aee13d88187e39783a2a2e32",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "CUETools.Ripper.Console.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/gchudov/cuetools.net/releases/download/v$version/CUETools_$version.zip"
+                   }
+}

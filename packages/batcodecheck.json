@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.42",
+    "description":  "Batch file (.bat) linter",
+    "homepage":  "https://www.robvanderwoude.com",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.robvanderwoude.com/files/batcodecheck.zip",
+    "hash":  "md5:959d965b15b09ebb19b75d0de296702e",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "BatCodeCheck.exe",
+    "autoupdate":  {
+                       "url":  "https://www.robvanderwoude.com/files/batcodecheck.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.3.0-alpha.0.14",
+    "description":  "Asymmetric team-based first-person shooter with real-time strategy elements",
+    "homepage":  "http://tremulous.net/",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/GrangerHub/tremulous/releases/download/v1.3.0-alpha.0.14/release-mingw32-x86_64.zip",
+    "hash":  "1baafdc4298a8ce38405b4465ec883fd1e7c3eda4b91869b7c1e32436a1c5d0e",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "tremulous.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/GrangerHub/tremulous/releases/download/v$version/release-mingw32-x86_64.zip"
+                   }
+}

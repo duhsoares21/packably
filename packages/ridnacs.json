@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "3.0",
+    "description":  "Disk space usage analyzer",
+    "homepage":  "https://www.splashsoft.de/ridnacs-disk-space-usage-analyzer/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.splashsoft.de/?download=520#/dl.zip",
+    "hash":  "e25052121994423edd757dc549ff8520dad87092bd1bba57c573dbdc59a38f9a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "RidNacs.exe",
+    "autoupdate":  {
+                       "url":  "https://www.splashsoft.de/?download=$matchPage#/dl.zip"
+                   }
+}

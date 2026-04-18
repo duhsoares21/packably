@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.6.10",
+    "description":  "A distributed, reliable key-value store for the most critical data of a distributed system",
+    "homepage":  "https://etcd.io/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/etcd-io/etcd/releases/download/v3.6.10/etcd-v3.6.10-windows-amd64.zip",
+    "hash":  "d15fdf099b94acf36e20373f788af4db1280d25c0c172e592ebb5ae997843825",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "etcd.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/etcd-io/etcd/releases/download/v$version/etcd-v$version-windows-amd64.zip"
+                   }
+}

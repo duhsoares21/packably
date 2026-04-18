@@ -1,0 +1,18 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.02",
+    "description":  "A command-line tool for working with PDFs.",
+    "homepage":  "https://www.pdflabs.com/tools/pdftk-server/",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/pdftk_server-2.02-win-setup.exe",
+    "hash":  "cc8f6a43fc91026bb739ad0ad9a124c24750d6127662fb3638ec1d44403aabd2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\pdftk.exe"
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "26.2.2",
+    "description":  "Powerful and free office suite, a successor to OpenOffice(.org).",
+    "homepage":  "https://libreoffice.org/",
+    "license":  "MPL-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.documentfoundation.org/libreoffice/stable/26.2.2/win/x86_64/LibreOffice_26.2.2_Win_x86-64.msi#/dl.msi_",
+    "hash":  "fa83774e81dae12bf26747b26e5a90d05f5e40330347f016c681fc5e019acadf",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "LibreOffice\\program\\soffice.exe",
+    "autoupdate":  {
+                       "url":  "https://download.documentfoundation.org/libreoffice/stable/$version/win/x86_64/LibreOffice_$version_Win_x86-64.msi#/dl.msi_"
+                   }
+}

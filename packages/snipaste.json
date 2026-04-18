@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.11.3",
+    "description":  "A snipping tool, which allows you to pin the screenshot back onto the screen.",
+    "homepage":  "https://www.snipaste.com/",
+    "license":  "Unknown",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.snipaste.com/archives/Snipaste-2.11.3-x64.zip",
+    "hash":  "sha1:850bd133114a6b24156d19e41a06f057555b21b5",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Snipaste.exe",
+    "autoupdate":  {
+                       "url":  "https://download.snipaste.com/archives/Snipaste-$version-x64.zip"
+                   }
+}

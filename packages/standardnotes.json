@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.201.21",
+    "description":  "A safe place for your notes, thoughts, and life\u0027s work.",
+    "homepage":  "https://standardnotes.org/",
+    "license":  "AGPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/standardnotes/app/releases/download/@standardnotes/desktop@3.201.21/standard-notes-3.201.21-win-x64.exe#/dl.7z",
+    "hash":  "sha512:16191fb303dd014e0e7f6815b498840365de1b2e2086825a2de6bf68f3a2b3ed7bf001e1dd3aff75d400add6936115a17ba555ee518be2f659557423832d9242",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Standard Notes.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/standardnotes/app/releases/download/@standardnotes/desktop@$version/standard-notes-$version-win-x64.exe#/dl.7z"
+                   }
+}

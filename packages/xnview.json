@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.52.5",
+    "description":  "Photo viewer, image resizer \u0026 batch converter",
+    "homepage":  "https://www.xnview.com/en/xnview-classic/",
+    "license":  "Freeware|Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.xnview.com/XnView-win-full.zip",
+    "hash":  "5df81ce077e649e95fcb85443c298720c4f0684cc265315424cf49a74e13d71d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "xnview.exe",
+    "autoupdate":  {
+                       "url":  "https://download.xnview.com/XnView-win-full.zip"
+                   }
+}

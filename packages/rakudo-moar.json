@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2026.03-01",
+    "description":  "The most mature, production-ready implementation of the Raku language",
+    "homepage":  "https://rakudo.org",
+    "license":  "Artistic-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://rakudo.org/dl/rakudo/rakudo-moar-2026.03-01-win-x86_64-msvc.zip",
+    "hash":  "42fea667a3650b2abf34e1c12e76d611b226b0e0d9e4c72acfc19846e7399a14",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\nqp.exe",
+    "autoupdate":  {
+                       "url":  "https://rakudo.org/dl/rakudo/rakudo-moar-$version-win-x86_64-msvc.zip"
+                   }
+}

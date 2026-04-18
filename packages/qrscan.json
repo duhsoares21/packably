@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.1.9",
+    "description":  "Scan a QR code in the terminal using the system camera or a given image",
+    "homepage":  "https://github.com/sayanarijit/qrscan",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/sayanarijit/qrscan/releases/download/v0.1.9/qrscan-0.1.9-x86_64-pc-windows-msvc.zip",
+    "hash":  "92c6f42490aa8b18d006dd40e76ce086bb335a8745ab13f824e0907cc01830f1",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "qrscan.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/sayanarijit/qrscan/releases/download/v$version/qrscan-$version-x86_64-pc-windows-msvc.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "3.4.3",
+    "description":  "Delete files blocked by something you do not know.",
+    "homepage":  "https://lockhunter.com/index.htm",
+    "license":  "Freeware",
+    "dependencies":  [
+                         "sudo"
+                     ],
+    "url":  "https://lockhunter.com/assets/exe/lockhuntersetup_3-4-3.exe",
+    "hash":  "02f738111a7ef929b8017277109ff3cb188ed0896fa385b79205da888afa266d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "lockhunter.exe",
+    "autoupdate":  {
+                       "url":  "https://lockhunter.com/assets/exe/lockhuntersetup_$dashVersion.exe"
+                   }
+}

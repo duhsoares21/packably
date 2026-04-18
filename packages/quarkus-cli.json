@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.34.5",
+    "description":  "A CLI for Quarkus Java framework",
+    "homepage":  "https://quarkus.io/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/quarkusio/quarkus/releases/download/3.34.5/quarkus-cli-3.34.5.zip",
+    "hash":  "5ffb449e6e11c36de501f4e87cab01ead063f1c542e9fa68f2118160ef9d9a61",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\quarkus.bat",
+    "autoupdate":  {
+                       "url":  "https://github.com/quarkusio/quarkus/releases/download/$version/quarkus-cli-$version.zip"
+                   }
+}

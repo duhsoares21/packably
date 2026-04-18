@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.83",
+    "description":  "A free implementation of SSH and Telnet, along with an xterm terminal emulator.",
+    "homepage":  "https://www.chiark.greenend.org.uk/~sgtatham/putty/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://the.earth.li/~sgtatham/putty/0.83/w64/putty.zip",
+    "hash":  "sha512:78160664fb14831a8d9d99c0221df8ba7c23f7f65fc5a707d3cb7f9245fda9a381f0b89ed3b79bf7984252d908836948d7492deb3f5fd8c3d3d4838a691ba3d4",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "putty.exe",
+    "autoupdate":  {
+                       "url":  "https://the.earth.li/~sgtatham/putty/$version/w64/putty.zip"
+                   }
+}

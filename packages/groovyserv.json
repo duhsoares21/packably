@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.2.0",
+    "description":  "Reduces startup time of the JVM for running Groovy significantly.",
+    "homepage":  "https://kobo.github.io/groovyserv/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://bitbucket.org/kobo/groovyserv-mirror/downloads/groovyserv-1.2.0-bin.zip",
+    "hash":  "88a93e07ce18b7ea33f98dd75ce21550b3a25820dd6eb00ab790f16573317e93",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\groovyclient.exe",
+    "autoupdate":  {
+                       "url":  "https://bitbucket.org/kobo/groovyserv-mirror/downloads/groovyserv-$version-bin.zip"
+                   }
+}

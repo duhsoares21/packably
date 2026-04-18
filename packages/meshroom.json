@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2025.1.0",
+    "description":  "3D Reconstruction Software based on the AliceVision Photogrammetric Computer Vision framework.",
+    "homepage":  "https://alicevision.org",
+    "license":  "MPL-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://zenodo.org/records/16887472/files/Meshroom-2025.1.0-Windows.zip",
+    "hash":  "md5:6af3282e0b6e739a36a2607d8e86fa82",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "meshroom.exe",
+    "autoupdate":  {
+                       "url":  "https://zenodo.org/records/$matchDoi/files/$matchName"
+                   }
+}

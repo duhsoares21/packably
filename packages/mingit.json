@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.53.0.3",
+    "description":  "Minimal Git for Windows (MinGit) is a lightweight distribution intended primarily for application-integration scenarios (such as integrated development environments and graphical visualization tools) where full interactive console capabilities, including colorization and pagination, are not required.",
+    "homepage":  "https://gitforwindows.org",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/git-for-windows/git/releases/download/v2.53.0.windows.3/MinGit-2.53.0.3-64-bit.zip",
+    "hash":  "0d7c85a26e45668b35d0d0aeb763289376cfc039e55e0938a617ed0dfa32e433",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://github.com/git-for-windows/git/releases/download/$matchTag/MinGit-$version-64-bit.zip"
+                   }
+}

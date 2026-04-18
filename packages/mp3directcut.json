@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.39",
+    "description":  "Lossless audio editor and recorder for MP3 files.",
+    "homepage":  "http://mpesch3.de",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.fosshub.com/mp3DirectCut.html/mp3DC239.exe",
+    "hash":  "6bc9cda080266f0dc5d6304712ff35f8227d37acac19bf49e3320836098c80b0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "mp3DirectCut.exe",
+    "autoupdate":  {
+                       "url":  "https://www.fosshub.com/mp3DirectCut.html/mp3DC$cleanVersion.exe"
+                   }
+}

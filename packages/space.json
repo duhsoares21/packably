@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.0.1",
+    "description":  "A fast disk space analyzer and cleaner powered by Rust!",
+    "homepage":  "https://github.com/emilevr/space",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/emilevr/space/releases/download/2.0.1/space-x86_64-pc-windows-msvc.zip",
+    "hash":  "1dc04bac8fd4f436ee337fb4a2e3b1b944e73154e8dedc9b953570f8a058e75e",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "space.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/emilevr/space/releases/download/$version/space-x86_64-pc-windows-msvc.zip"
+                   }
+}

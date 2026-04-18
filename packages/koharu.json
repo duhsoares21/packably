@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.44.6",
+    "description":  "ML-powered manga translator, written in Rust.",
+    "homepage":  "https://koharu.rs/",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/mayocream/koharu/releases/download/0.44.6/koharu_windows_x64.exe#/koharu.exe",
+    "hash":  "a668f46c4960ac12f3b5c65f55c7079d57b1b969bd8b27d845572b79b5fd424b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "koharu.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/mayocream/koharu/releases/download/$version/koharu_windows_x64.exe#/koharu.exe"
+                   }
+}

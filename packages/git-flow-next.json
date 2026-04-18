@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.1.0",
+    "description":  "A modern reimplementation of git-flow in Go that offers greater flexibility while maintaining backward compatibility with the original git-flow and git-flow-avh.",
+    "homepage":  "https://git-flow.sh",
+    "license":  "BSD-2-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/gittower/git-flow-next/releases/download/v1.1.0/git-flow-next-v1.1.0-windows-amd64.zip",
+    "hash":  "efc99c155c2ffd8259b2abbad69551928cbcfecf00c8b5031a12a0c67b3edb25",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "git-flow.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/gittower/git-flow-next/releases/download/v$version/git-flow-next-v$version-windows-amd64.zip"
+                   }
+}

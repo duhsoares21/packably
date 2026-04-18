@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.5.2",
+    "description":  "Manage MEGA.nz account and files from command line.",
+    "homepage":  "https://mega.nz/cmd",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://mega.nz/MEGAcmdSetup.exe#/dl.7z",
+    "hash":  "eb61cafa63ec369ae15a81610e6c67d27398893cae91b64e5fd87d632bf07724",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "MEGAclient.exe",
+    "autoupdate":  {
+                       "url":  "https://mega.nz/MEGAcmdSetup.exe#/dl.7z"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "26.02.116",
+    "description":  "Lisp implementation installer/manager and launcher",
+    "homepage":  "https://github.com/roswell/roswell",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/roswell/roswell/releases/download/v26.02.116/roswell_26.02.116_amd64.zip",
+    "hash":  "a630b5d3027ffb9fb3d25ac29bb620991f323505f10bfce18dbbad2d29dc0021",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ros.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/roswell/roswell/releases/download/v$version/roswell_$version_amd64.zip"
+                   }
+}

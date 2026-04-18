@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.19.0",
+    "description":  "Extends customization of NVIDIA GeForce Driver packages; can also decouple automatic updates from NVIDIA\u0027s servers.",
+    "homepage":  "https://www.techpowerup.com/nvcleanstall/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://us1-dl.techpowerup.com/files/NVCleanstall_1.19.0.exe#/NVCleanstall.exe",
+    "hash":  "9dd36ef956af927cf41fa441f91b329a7973e13965e4e7d70e6fa9c1df1cade6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "NVCleanstall.exe",
+    "autoupdate":  {
+                       "url":  "https://us1-dl.techpowerup.com/files/NVCleanstall_$version.exe#/NVCleanstall.exe"
+                   }
+}

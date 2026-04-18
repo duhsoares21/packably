@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "3.00",
+    "description":  "QuickSFV is a small Windows program that checks file integrity using checksum files such as SFV.",
+    "homepage":  "https://www.quicksfv.org/overview.html",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.quicksfv.org/quicksfv-setup64.msi",
+    "hash":  "7b4ced15746973773882579b2740b3f2c6a76e739511f1fa352babc96b08e79f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "quicksfv.exe",
+    "autoupdate":  {
+                       "url":  "https://www.quicksfv.org/quicksfv-setup64.msi"
+                   }
+}

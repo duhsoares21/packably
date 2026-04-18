@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.3.5",
+    "description":  "A peer-to-peer file transfer tool that sends files directly without using cloud storage.",
+    "homepage":  "https://www.altsendme.com/en",
+    "license":  "AGPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/tonyantony300/alt-sendme/releases/download/v0.3.5/AltSendme_0.3.5_x64-setup.exe#/dl.7z",
+    "hash":  "86430588d52951bdeaae72fc050d410a40a10fbe870bb1802e2dca951cd51799",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "alt-sendme.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/tonyantony300/alt-sendme/releases/download/v$version/AltSendme_$version_x64-setup.exe#/dl.7z"
+                   }
+}

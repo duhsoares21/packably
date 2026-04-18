@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.4",
+    "description":  "join public router. quickly.",
+    "homepage":  "https://jprq.io",
+    "license":  "Shareware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/azimjohn/jprq/releases/download/2.4/jprq-windows-amd64.exe#/jprq.exe",
+    "hash":  "4baf20eb564946af3ce0d6a33bda1a08036728e24e8024388b5595af6859bcc1",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "jprq.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/azimjohn/jprq/releases/download/$version/jprq-windows-amd64.exe#/jprq.exe"
+                   }
+}

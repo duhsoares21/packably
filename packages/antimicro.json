@@ -1,0 +1,18 @@
+﻿{
+    "type":  "msi",
+    "version":  "2.24",
+    "description":  "Graphical program used to map keyboard buttons and mouse controls to a gamepad.",
+    "homepage":  "https://github.com/AntiMicro/antimicro",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/AntiMicro/antimicro/releases/download/2.24-final/antimicro-2.24-win64.msi",
+    "hash":  "6ed60e839281f6802dbbd2221079dcd9cd0562513f4124e8c431ab7a6e8d9af2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "antimicro.exe"
+}

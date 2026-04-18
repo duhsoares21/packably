@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.2.0",
+    "description":  "A Proxifier alternative to redirect any TCP and UDP traffic to HTTP/SOCKS5 proxy.",
+    "homepage":  "https://interceptsuite.com",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/InterceptSuite/ProxyBridge/releases/download/v3.2.0/ProxyBridge-Setup-3.2.0.exe#/dl.7z",
+    "hash":  "d2147b1431b4af2788e28bd07df41862f0fa1bd0d4919c180ede172d9cabe17f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ProxyBridge_CLI.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/InterceptSuite/ProxyBridge/releases/download/v$matchTag/ProxyBridge-Setup-$version.exe#/dl.7z"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.91.1",
+    "description":  "This plugin adds Everything search results to PowerToys Run.",
+    "homepage":  "https://github.com/lin-ycv/EverythingPowerToys",
+    "license":  "EPL-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/lin-ycv/EverythingPowerToys/releases/download/v0.91.1/EverythingPT-0.91.1-x64.zip",
+    "hash":  "1ab45af0a4e8c39dd355a7264629911ab14ab12f3231a49849a69c0570de8790",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://github.com/lin-ycv/EverythingPowerToys/releases/download/v$version/EverythingPT-$version-x64.zip"
+                   }
+}

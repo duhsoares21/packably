@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.2.1",
+    "description":  "Command-line interface to JMESPath",
+    "homepage":  "https://jmespath.org/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/jmespath/jp/releases/download/0.2.1/jp-windows-amd64#/jp.exe",
+    "hash":  "bcda6db77a8069aa720d598dec39d6368a2de7aa76fea8c5e72b1fc80dd09150",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "jp.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/jmespath/jp/releases/download/$version/jp-windows-amd64#/jp.exe"
+                   }
+}

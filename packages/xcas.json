@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "7_2025.07",
+    "description":  "Giac/Xcas is a free computer algebra system.",
+    "homepage":  "https://www-fourier.ujf-grenoble.fr/~parisse/giac.html",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www-fourier.ujf-grenoble.fr/~parisse/giac/xcaswininst.exe#/dl.7z",
+    "hash":  "a6c6e87af75a3bc91759bc6a2d4a8f297f3041dbb8108cc5661be965aa60d3f7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bash.exe",
+    "autoupdate":  {
+                       "url":  "https://www-fourier.ujf-grenoble.fr/~parisse/giac/xcaswininst.exe#/dl.7z"
+                   }
+}

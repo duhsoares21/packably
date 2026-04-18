@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3080",
+    "description":  "A free form data organizer and a replacement for spreadsheets, mind mappers, outliners, PIMs, text editors and small databases.",
+    "homepage":  "https://strlen.com/treesheets",
+    "license":  "ZLIB",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/aardappel/treesheets/releases/download/3080/TreeSheets-3080-winx64.zip",
+    "hash":  "34ee1be191fb0b9969c1878614d611a84bee129f55071b5f0e731d6febc80bc5",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "TreeSheets.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/aardappel/treesheets/releases/download/$version/TreeSheets-$version-winx64.zip"
+                   }
+}

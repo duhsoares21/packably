@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.11.3",
+    "description":  "Command line interface and tools for the regclient Go library (regctl, regbot, regsync).",
+    "homepage":  "https://regclient.org/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/regclient/regclient/releases/download/v0.11.3/regctl-windows-amd64.exe#/regctl.exe",
+    "hash":  "6b5dbf3f920d5ec1b2379592a25680e56dafd86795b73f7f52a3543848dc8e6a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "regctl.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/regclient/regclient/releases/download/v$version/regctl-windows-amd64.exe#/regctl.exe"
+                   }
+}

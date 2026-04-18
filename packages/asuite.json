@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.0.0",
+    "description":  "Portable applications launcher",
+    "homepage":  "http://www.salvadorsoftware.com/asuite",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/asuite/ASuite/2.0.0/asuite_x64-v2.0.0.7z",
+    "hash":  "1366d2325e48d775f772959abd2014bd47b1fdc780033dcffe7b0d5e6712c23a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  ""
+}

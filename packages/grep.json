@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "3.11",
+    "description":  "Print lines matching a pattern.",
+    "homepage":  "https://www.gnu.org/software/grep",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://raw.githubusercontent.com/mbuilov/grep-windows/3.11/grep-3.11-x64.exe#/grep.exe",
+    "hash":  "ef730408456d620399fab0c639d53d0ec0c619a708e2191d220aa0ad9546e77f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "grep.exe",
+    "autoupdate":  {
+                       "url":  "https://raw.githubusercontent.com/mbuilov/grep-windows/$version/grep-$version-x64.exe#/grep.exe"
+                   }
+}

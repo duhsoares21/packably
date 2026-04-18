@@ -1,0 +1,18 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.3.2",
+    "description":  "Windows native port of Mobile Shell (mosh) client.",
+    "homepage":  "https://github.com/jumptrading/mosh-windows-wrappers",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://raw.githubusercontent.com/felixse/FluentTerminal/master/Dependencies/MoshExecutables/x64/mosh-client.exe",
+    "hash":  "5a8d84ff205c6a0711e53b961f909484a892f42648807e52d46d4fa93c05e286",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "mosh.exe"
+}

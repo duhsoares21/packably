@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.19",
+    "description":  "Converts source code to formatted text with syntax highlighting.",
+    "homepage":  "http://www.andre-simon.de/doku/highlight/en/highlight.php",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "http://www.andre-simon.de/zip/highlight-4.19-x64.zip",
+    "hash":  "3006877695fb30feee34abc38c14b54e349826655a2eb1213e98a450caa97d1e",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "highlight.exe",
+    "autoupdate":  {
+                       "url":  "http://www.andre-simon.de/zip/highlight-$version-x64.zip"
+                   }
+}

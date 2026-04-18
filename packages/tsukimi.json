@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.19.4",
+    "description":  "A simple third-party Jellyfin client.",
+    "homepage":  "https://github.com/tsukinaha/tsukimi",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/tsukinaha/tsukimi/releases/download/v0.19.4/tsukimi-x86_64-windows-gnu.7z",
+    "hash":  "sha512:b21bbeff6e18f6bdc038a77b98d219ce00e352ebdcd9e5250e409c0fa11a973e197551697b4e29b4b7efe15bcb4e076abaa62e45549d6cce839a670f1502ee66",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\tsukimi.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/tsukinaha/tsukimi/releases/download/v$version/tsukimi-x86_64-windows-gnu.7z"
+                   }
+}

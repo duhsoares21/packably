@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "11.40b",
+    "description":  "A Windows Explorer shell extension that allows users to easily change file and folder properties with a right-click.",
+    "homepage":  "https://www.petges.lu",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.petges.lu/pubfiles/ac-11_40b.exe",
+    "hash":  "md5:16bf84bb8e68853a05a000140e4ee6b4",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "acmain.exe",
+    "autoupdate":  {
+                       "url":  "https://www.petges.lu/pubfiles/ac-$underscoreVersion.exe"
+                   }
+}

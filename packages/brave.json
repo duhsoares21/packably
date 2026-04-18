@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.89.137",
+    "description":  "Secure, Fast \u0026 Private Web Browser with Adblocker",
+    "homepage":  "https://brave.com",
+    "license":  "Freeware,BSD-3-Clause,GPL-3.0-only,...",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/brave/brave-browser/releases/download/v1.89.137/brave-v1.89.137-win32-x64.zip",
+    "hash":  "dc4571d989a5cf9de681ef687be0e1a8fa6c095ed68efbbc08d4bc1a4913caa5",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "brave.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/brave/brave-browser/releases/download/v$version/brave-v$version-win32-x64.zip"
+                   }
+}

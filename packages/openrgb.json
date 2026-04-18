@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.9",
+    "description":  "RGB lighting control that does not depend on manufacturer software.",
+    "homepage":  "https://openrgb.org",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://openrgb.org/releases/release_0.9/OpenRGB_0.9_Windows_64_b5f46e3.zip",
+    "hash":  "4a42df973bf9e0694268993478f03a71dafbf2ddbcb1512835b4bbabdc6dc6de",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "OpenRGB.exe",
+    "autoupdate":  {
+                       "url":  "https://openrgb.org/releases/release_$version/OpenRGB_$version_Windows_64_$matchCommit.zip"
+                   }
+}

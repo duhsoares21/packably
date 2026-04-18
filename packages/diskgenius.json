@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "6.1.1.1742",
+    "description":  "Utility for data recovery, disk partition management, backup \u0026 restore",
+    "homepage":  "https://www.diskgenius.com",
+    "license":  "Unknown",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download2.eassos.com/DGEng6111742_x64.zip",
+    "hash":  "31590549a0c846b0b3d4f8005476a8eb1a9bdc648e8f02a2e7cbc17465655ca7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "DiskGenius.exe",
+    "autoupdate":  {
+                       "url":  "https://download2.eassos.com/DGEng$cleanVersion_x64.zip"
+                   }
+}

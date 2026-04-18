@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.8.0",
+    "description":  "Force.com CLI tool",
+    "homepage":  "https://force-cli.herokuapp.com/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/ForceCLI/force/releases/download/v1.8.0/force_windows_amd64.zip",
+    "hash":  "d639dc7686b6c76a02e72bb40f32c1f5a70d0848accb7e0b15163adcc01b1a37",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "force.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/ForceCLI/force/releases/download/v$version/force_windows_amd64.zip"
+                   }
+}

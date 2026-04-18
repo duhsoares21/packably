@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "9.6.0",
+    "description":  "Advanced client and code editor for MySQL",
+    "homepage":  "https://dev.mysql.com/downloads/shell/#info-tab",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://dev.mysql.com/get/Downloads/MySQL-Shell/mysql-shell-9.6.0-windows-x86-64bit.msi",
+    "hash":  "md5:36ab52e29560ed4f358b0a8321050102",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\mysqlsh.exe",
+    "autoupdate":  {
+                       "url":  "https://dev.mysql.com/get/Downloads/MySQL-Shell/mysql-shell-$version-windows-x86-64bit.msi"
+                   }
+}

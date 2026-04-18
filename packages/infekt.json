@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.3.0",
+    "description":  "NFO File Viewer",
+    "homepage":  "https://infekt.ws/",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://syndicode.org/infekt/downloads/v1.3.0/iNFekt-v1.3.0-64bit-Portable.rar",
+    "hash":  "673b3af9ed0e3dc42c6c2cd8308a815fcc3141c2d97ee9e4fa88e182ac56898e",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "infekt-cmd.exe",
+    "autoupdate":  {
+                       "url":  "https://syndicode.org/infekt/downloads/v$version/iNFekt-v$version-64bit-Portable.rar"
+                   }
+}

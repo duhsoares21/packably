@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.3.0",
+    "description":  "The Blender Open Data Benchmark launcher command line interface",
+    "homepage":  "https://opendata.blender.org",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.blender.org/release/BlenderBenchmark2.0/launcher/benchmark-launcher-cli-3.3.0-windows.zip",
+    "hash":  "3f00bb68915800f14ddad6877083544aa25c56aac252b77b161bf7962ee67dde",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "benchmark-launcher-cli.exe",
+    "autoupdate":  {
+                       "url":  "https://download.blender.org/release/BlenderBenchmark2.0/launcher/benchmark-launcher-cli-$version-windows.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.14.0",
+    "description":  "Selenium WebDriver for Internet Explorer 11",
+    "homepage":  "https://selenium.dev",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/SeleniumHQ/selenium/releases/download/selenium-4.14.0/IEDriverServer_x64_4.14.0.zip",
+    "hash":  "24ddc5f6b081de05d65367020a6e89bc98146fb19b2abc8fafcde4d3dc3fc31c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "IEDriverServer.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/SeleniumHQ/selenium/releases/download/selenium-$majorVersion.$minorVersion.0/IEDriverServer_x64_$version.zip"
+                   }
+}

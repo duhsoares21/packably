@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "8.45",
+    "description":  "The best freeware resource for PCB related calculations you can find",
+    "homepage":  "https://saturnpcb.com/saturn-pcb-toolkit/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.saturnpcb.com/wp-content/Toolkit/Saturn_PCB_Toolkit_V8.45_Setup_MSI.msi",
+    "hash":  "368457ef7ad374bcedaa1032a2cb970094929b768a49a6e3739a193a423d8032",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "saturn.exe",
+    "autoupdate":  {
+                       "url":  "https://www.saturnpcb.com/wp-content/Toolkit/Saturn_PCB_Toolkit_V$version_Setup_MSI.msi"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.9.4",
+    "description":  "Another Mihomo GUI.",
+    "homepage":  "https://clashparty.org/",
+    "license":  "GPL-3.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/mihomo-party-org/clash-party/releases/download/v1.9.4/clash-party-windows-1.9.4-x64-portable.7z",
+    "hash":  "9dc576b6601f87096bf403966ddb51417fb5a6ec74bcaf03825ac003e69b84ac",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Clash Party.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/mihomo-party-org/clash-party/releases/download/v$version/clash-party-windows-$version-x64-portable.7z"
+                   }
+}

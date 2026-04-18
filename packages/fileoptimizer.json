@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "17.10.2857",
+    "description":  "Lossless file size reduction utility",
+    "homepage":  "https://nikkhokkho.sourceforge.io/static.php?page=FileOptimizer",
+    "license":  "AGPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/nikkhokkho/FileOptimizer/17.10.2857/FileOptimizerFull.7z.exe#/dl.7z",
+    "hash":  "sha1:a083ab1dc34398066e2c081a4177c99ac6860925",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/nikkhokkho/FileOptimizer/$version/FileOptimizerFull.7z.exe#/dl.7z"
+                   }
+}

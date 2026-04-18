@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "5.6.0",
+    "description":  "Terminal emulator for ssh/telnet/serial connection.",
+    "homepage":  "https://teratermproject.github.io/index-en.html",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/TeraTermProject/teraterm/releases/download/v5.6.0/teraterm-5.6.0-x64.zip",
+    "hash":  "2d1f1648c5ee0cd977c7f0d21ced7f8a3d6e70b8e01290111405e5695f159419",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ttermpro.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/TeraTermProject/teraterm/releases/download/v$version/teraterm-$version-x64.zip"
+                   }
+}

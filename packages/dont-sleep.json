@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "10.11",
+    "description":  "A small program to prevent system Shutdown, Stand By, Turn Off, Restart, Hibernate.",
+    "homepage":  "https://www.softwareok.com/?Download=DontSleep",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.softwareok.com/Download/DontSleep_x64.zip",
+    "hash":  "944258e86f6fc39c7a1e6cbfa86755d525a59e60252c0e4cec7080c992003072",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://www.softwareok.com/Download/DontSleep_x64.zip"
+                   }
+}

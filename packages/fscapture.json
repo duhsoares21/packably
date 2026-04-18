@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "11.2",
+    "description":  "A powerful, lightweight, yet full-featured screen capture tool and screen video recorder.",
+    "homepage":  "https://www.faststone.org/FSCaptureDetail.htm",
+    "license":  "Shareware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.faststonesoft.net/DN/FSCapture112.zip",
+    "hash":  "3b6b0d482ec58b8097a072b6ee966078811f5c1a061ec3888b81ca1de4b21d05",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "FSCapture.exe",
+    "autoupdate":  {
+                       "url":  "https://www.faststonesoft.net/DN/FSCapture$cleanVersion.zip"
+                   }
+}

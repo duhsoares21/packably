@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "10.0.6",
+    "description":  "Microsoft .NET Desktop Runtime LTS (Long-term support)",
+    "homepage":  "https://dotnet.microsoft.com/download/dotnet",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://dotnetcli.blob.core.windows.net/dotnet/WindowsDesktop/10.0.6/windowsdesktop-runtime-10.0.6-win-x64.exe",
+    "hash":  "sha512:d4decabfb31ed54898637f01a0c38d5ef581e99926aa448f2378ac40c4362f93b403305e10d8c5e5e764f8ec9c04cf50ff5f3e70ac98f05da2651eb5c85a8cd3",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://dotnetcli.blob.core.windows.net/dotnet/WindowsDesktop/$version/windowsdesktop-runtime-$version-win-x64.exe"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.5.4",
+    "description":  "A cross platform desktop application for devRant",
+    "homepage":  "https://github.com/tahnik/devRantron",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/tahnik/devRantron/releases/download/v1.5.4/devrantron-setup-1.5.4.exe#/dl.7z",
+    "hash":  "sha512:cf4b3bf5950e219098a7a4ce949d585bcbdd77950303a2f5847f71cc73daa80f142bd0d8e5111daff2fc79fd9e51bd6d558ddb5aa5f012078461af350391b207",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "devRantron.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/tahnik/devRantron/releases/download/v$version/devrantron-setup-$version.exe#/dl.7z"
+                   }
+}

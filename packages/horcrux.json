@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.2",
+    "description":  "A tool that splits files into encrypted fragments.",
+    "homepage":  "https://github.com/jesseduffield/horcrux",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/jesseduffield/horcrux/releases/download/v0.2/horcrux_0.2_Windows_x86_64.zip",
+    "hash":  "374ad79d46bd9cf165fb254b5a82836da383cbff86510e16639c99fd084f3efd",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "horcrux.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/jesseduffield/horcrux/releases/download/v$version/horcrux_$version_Windows_x86_64.zip"
+                   }
+}

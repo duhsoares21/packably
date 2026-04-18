@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.0.0.148",
+    "description":  "A Windows console window enhancement.",
+    "homepage":  "https://sourceforge.net/projects/console/",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/console/console-devel/2.00/Console-2.00b148-Beta_64bit.zip",
+    "hash":  "675c3c82695a97dafe164960a50dfbe6c13d0a900b382efb7090090138d22933",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Console.exe"
+}

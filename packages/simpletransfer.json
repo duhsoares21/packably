@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.4.2",
+    "description":  "Transferring photos and vidoes between your iPhone/iPad and your PC.",
+    "homepage":  "https://rambax.com/simpletransfer",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://rambax.com/simpletransfer/desktop/SimpleTransfer%20Desktop%20Setup%203.4.2.exe#/dl.7z",
+    "hash":  "2BE2184479ADD4D667007C6CFF9E66647F8441E664F6A35687280EA920EA6FAC",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "SimpleTransfer Desktop.exe",
+    "autoupdate":  {
+                       "url":  "https://rambax.com/simpletransfer/desktop/SimpleTransfer%20Desktop%20Setup%20$version.exe#/dl.7z"
+                   }
+}

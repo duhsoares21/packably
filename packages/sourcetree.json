@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "3.4.30",
+    "description":  "Simple and powerful Git GUI",
+    "homepage":  "https://www.sourcetreeapp.com",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTree-3.4.30-full.nupkg",
+    "hash":  "sha1:45948315158fba29d056ac4cb484257f3ad9549b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "SourceTree.exe",
+    "autoupdate":  {
+                       "url":  "https://product-downloads.atlassian.com/software/sourcetree/windows/ga/SourceTree-$version-full.nupkg"
+                   }
+}

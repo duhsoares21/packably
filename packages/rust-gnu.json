@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "1.95.0",
+    "description":  "A language empowering everyone to build reliable and efficient software. (GNU toolchain)",
+    "homepage":  "https://www.rust-lang.org",
+    "license":  "MIT|Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://static.rust-lang.org/dist/rust-1.95.0-x86_64-pc-windows-gnu.msi",
+    "hash":  "90c668672b48cdfc2380c43350a328a760a947d67c89bfff624f8273a01d6f50",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\rustc.exe",
+    "autoupdate":  {
+                       "url":  "https://static.rust-lang.org/dist/rust-$version-x86_64-pc-windows-gnu.msi"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.11",
+    "description":  "A professional open source system to create Windows installers.",
+    "homepage":  "https://nsis.sourceforge.io/Main_Page",
+    "license":  "Zlib",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/nsis/NSIS%203/3.11/nsis-3.11.zip",
+    "hash":  "sha1:ef7ff767e5cbd9edd22add3a32c9b8f4500bb10d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\makensis.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/nsis/NSIS%20$majorVersion/$version/nsis-$version.zip"
+                   }
+}

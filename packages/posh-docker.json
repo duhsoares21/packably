@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.7.0",
+    "description":  "Powershell tab completion for Docker",
+    "homepage":  "https://github.com/samneirinck/posh-docker",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/samneirinck/posh-docker/archive/v0.7.0.zip",
+    "hash":  "a28f2b07c63bd5460115565e9ad1a9b5418f39ef305a82b6268f26635111b69b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://github.com/samneirinck/posh-docker/archive/v$version.zip"
+                   }
+}

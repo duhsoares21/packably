@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2025-08-19_19-40",
+    "description":  "x64/x32 debugger",
+    "homepage":  "https://x64dbg.com/",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/x64dbg/snapshots/snapshot_2025-08-19_19-40.zip",
+    "hash":  "sha1:59aceebe442319400e38fa651ceac8df507d9d93",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/x64dbg/snapshots/snapshot_$version.zip"
+                   }
+}

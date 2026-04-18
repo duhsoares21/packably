@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.1.24",
+    "description":  "A simple ssh client with trzsz ( trz / tsz ) support.",
+    "homepage":  "https://trzsz.github.io/ssh",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/trzsz/trzsz-ssh/releases/download/v0.1.24/tssh_0.1.24_windows_x86_64.zip",
+    "hash":  "ed08ed2b7cb3c643b38e413d60e13c622a2829bb3f5b48c988259a1051bc4b2d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "tssh.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/trzsz/trzsz-ssh/releases/download/v$version/tssh_$version_windows_x86_64.zip"
+                   }
+}

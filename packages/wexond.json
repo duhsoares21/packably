@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "5.2.0",
+    "description":  "A privacy-focused, extensible and beautiful web browser",
+    "homepage":  "https://wexond.net",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/wexond/desktop/releases/download/v5.2.0/wexond-5.2.0-x64.nsis.7z",
+    "hash":  "sha512:44731e1cb28aeb575f449e40ebe6ef7471626af821a83c4e955252b8c584fdab3eaf7ae50c13974dff27adbdc17568811ced3ba8c05e09186fe6b9e4aca53c53",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Wexond.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/wexond/desktop/releases/download/v$version/wexond-$version-x64.nsis.7z"
+                   }
+}

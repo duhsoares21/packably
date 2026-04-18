@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.0.28",
+    "description":  "A C library for reading and writing files containing sampled sound through one standard library interface.",
+    "homepage":  "http://www.mega-nerd.com/libsndfile/",
+    "license":  "LGPL-2.1-only|LGPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "http://www.mega-nerd.com/libsndfile/files/libsndfile-1.0.28-w64.zip",
+    "hash":  "b885e97c797c39127d7d252be0da704a8bbdb97948b562d95cd5b8821d2b42ba",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\sndfile-cmp.exe",
+    "autoupdate":  {
+                       "url":  "http://www.mega-nerd.com/libsndfile/files/libsndfile-$version-w64.zip"
+                   }
+}

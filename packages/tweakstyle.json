@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.9.5",
+    "description":  "Integrated Development Environment for Web Development.",
+    "homepage":  "https://tweakstyle.com",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://tweakstyle.com/dl/TweakStyle-win64-0.9.5.zip",
+    "hash":  "2cea370ba8d6e69dcec3026fea619fa7fa38839f1dd389a9e0d8d62edca97cb1",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "TweakStyle.exe",
+    "autoupdate":  {
+                       "url":  "https://tweakstyle.com/dl/TweakStyle-win64-$version.zip"
+                   }
+}

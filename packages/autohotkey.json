@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.0.23",
+    "description":  "The ultimate automation scripting language for Windows.",
+    "homepage":  "https://www.autohotkey.com/",
+    "license":  "GPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/AutoHotkey/AutoHotkey/releases/download/v2.0.23/AutoHotkey_2.0.23.zip",
+    "hash":  "775cf3233a3c176f14222df22bada5ab94b34c4a5dfd55a124ae469e7ed8f6db",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://github.com/AutoHotkey/AutoHotkey/releases/download/v$version/AutoHotkey_$version.zip"
+                   }
+}

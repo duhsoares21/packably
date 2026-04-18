@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "3.27.1",
+    "description":  "Orchestration and agentless IT automation",
+    "homepage":  "https://puppet.com/open-source/bolt",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.puppetlabs.com/windows/puppet6/puppet-bolt-3.27.1-x64.msi",
+    "hash":  "dab8464ed0925e61e1d1236b483e661afc544e26003d6812236394ff62ccf7bb",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bolt.bat",
+    "autoupdate":  {
+                       "url":  "https://downloads.puppetlabs.com/windows/puppet6/puppet-bolt-$version-x64.msi"
+                   }
+}

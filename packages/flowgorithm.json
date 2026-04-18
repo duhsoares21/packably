@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.5",
+    "description":  "A free beginner\u0027s programming language that is based on simple graphical flowcharts.",
+    "homepage":  "http://www.flowgorithm.org",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "http://www.flowgorithm.org/download/files/Flowgorithm-exe-only.zip",
+    "hash":  "50a845f5723d011ac606a2235d914ec05c927497191c7993ff44eccef524f147",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Flowgorithm.exe",
+    "autoupdate":  {
+                       "url":  "http://www.flowgorithm.org/download/files/Flowgorithm-exe-only.zip"
+                   }
+}

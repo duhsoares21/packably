@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.26.1",
+    "description":  "The worlds fastest OpenAPI 3, OpenAPI 2 / Swagger linter and quality analysis tool.",
+    "homepage":  "https://quobix.com/vacuum/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/daveshanley/vacuum/releases/download/v0.26.1/vacuum_0.26.1_windows_x86_64.tar.gz",
+    "hash":  "84d518e42fd436b64deef747e10b14efd54f295fc88af607fa79e78a9dac83aa",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "vacuum.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/daveshanley/vacuum/releases/download/v$version/vacuum_$version_windows_x86_64.tar.gz"
+                   }
+}

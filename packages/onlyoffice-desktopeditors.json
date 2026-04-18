@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "9.3.1",
+    "description":  "Office suite that combines text, spreadsheet and presentation editors allowing to create, view and edit documents.",
+    "homepage":  "https://www.onlyoffice.com/apps.aspx",
+    "license":  "AGPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.3.1/DesktopEditors_x64.exe",
+    "hash":  "855d16844018f0178825dacf88f33d7ab1d1eada51ad992553b39110672ec427",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "DesktopEditors.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v$version/DesktopEditors_x64.exe"
+                   }
+}

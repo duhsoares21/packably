@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.4.434",
+    "description":  "Alternative desktop environment for Windows",
+    "homepage":  "https://cairoshell.com",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/cairoshell/cairoshell/releases/download/v0.4.434/CairoSetup_64bit.exe#/dl.7z",
+    "hash":  "dc22970c3b80af4298aab1a664f0785fcef906adb0eb897a14d814916d0625c5",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "CairoDesktop.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/cairoshell/cairoshell/releases/download/v$version/CairoSetup_64bit.exe#/dl.7z"
+                   }
+}

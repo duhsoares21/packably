@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "26.04-2064",
+    "description":  "Disk usage visualizer",
+    "homepage":  "https://apps.kde.org/filelight",
+    "license":  "GPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://cdn.kde.org/ci-builds/utilities/filelight/release-26.04/windows/filelight-release_26.04-2064-windows-cl-msvc2022-x86_64.7z",
+    "hash":  "2c9c55a0d67fc5373d2caee53f09a5bf118c3ee84dd062fbda8e03da7dd8b689",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\filelight.exe",
+    "autoupdate":  {
+                       "url":  "https://cdn.kde.org/ci-builds/utilities/filelight/release-$matchHead/windows/filelight-release_$version-windows-cl-$matchLib-x86_64.7z"
+                   }
+}

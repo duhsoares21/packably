@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "6.7",
+    "description":  "Free Solutions for CD / DVD / Blu-ray burning and imaging.",
+    "homepage":  "https://www.anyburn.com/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.anyburn.com/anyburn.zip",
+    "hash":  "md5:6f5469b3bba5756849697aa9e19c746f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "AnyBurn.exe",
+    "autoupdate":  {
+                       "url":  "https://www.anyburn.com/anyburn.zip"
+                   }
+}

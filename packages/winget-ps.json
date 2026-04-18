@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "1.12.440",
+    "description":  "A PowerShell Module for the Windows Package Manager Client.",
+    "homepage":  "https://github.com/microsoft/winget-cli/tree/master/src/PowerShell/Microsoft.WinGet.Client",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://cdn.powershellgallery.com/packages/microsoft.winget.client.1.12.440.nupkg",
+    "hash":  "5ad4d9b6f4e125d979bb6988218201cd2e8ca486201a4e1a086f3b74fe982f2d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://cdn.powershellgallery.com/packages/microsoft.winget.client.$version.nupkg"
+                   }
+}

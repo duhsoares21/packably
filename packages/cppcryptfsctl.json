@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.4.4.9",
+    "description":  "cppcryptfs is an implementation of the gocryptfs encrypted overlay filesystem in C++ for Windows.",
+    "homepage":  "https://github.com/bailey27/cppcryptfs",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/bailey27/cppcryptfs/releases/download/v1.4.4.9/cppcryptfsctl.exe",
+    "hash":  "f47de68f211d14f411a2a395633caff882bb3b9b77ce4464e596c595968c0656",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "cppcryptfsctl.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/bailey27/cppcryptfs/releases/download/v$version/cppcryptfsctl.exe"
+                   }
+}

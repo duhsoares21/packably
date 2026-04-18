@@ -1,0 +1,18 @@
+﻿{
+    "type":  "other",
+    "version":  "1.23",
+    "description":  "File archiver for manipulation with \u0027.tar.*\u0027 files.",
+    "homepage":  "https://sourceforge.net/projects/mingw/",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+                         "gzip"
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/mingw/MSYS/Base/tar/tar-1.23-1/tar-1.23-1-msys-1.0.13-bin.tar.lzma",
+    "hash":  "sha1:1791b71ad8573612049a8a4821d93e870fb2ae38",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\tar.exe"
+}

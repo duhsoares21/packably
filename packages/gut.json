@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.3.2",
+    "description":  "An easy to use Git client for the command line",
+    "homepage":  "https://gut-cli.dev",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/julien040/gut/releases/download/0.3.2/gut_Windows_x86_64.zip",
+    "hash":  "3177da1c823c7729e0419cfa9103adb826c9f69f2329710d9681c47a49300690",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "gut.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/julien040/gut/releases/download/$version/gut_Windows_x86_64.zip"
+                   }
+}

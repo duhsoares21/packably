@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.5.1",
+    "description":  "Rust implementation of autojump, a tool that helps navigate your filesystem in the command line, by recording the directories you use the most.",
+    "homepage":  "https://github.com/xen0n/autojump-rs",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/xen0n/autojump-rs/releases/download/0.5.1/autojump-x86_64-pc-windows-msvc.zip",
+    "hash":  "c1543e8991f56cd18311eb11f0a2380d49c4f327ee913d8c502741882d887747",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "autojump.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/xen0n/autojump-rs/releases/download/$version/autojump-x86_64-pc-windows-msvc.zip"
+                   }
+}

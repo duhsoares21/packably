@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.0.9.5",
+    "description":  "EXE analyzer inspired by PEiD. Designed to detect exe signatures, compressor format and dump internal information.",
+    "homepage":  "http://www.exeinfo.xn.pl/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://raw.githubusercontent.com/ExeinfoASL/ASL/master/exeinfope.zip",
+    "hash":  "5d572cc193f7a7286de300392e4df2697d15edb6c1dbb9caaceed6515607c967",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "exeinfope.exe",
+    "autoupdate":  {
+                       "url":  "https://raw.githubusercontent.com/ExeinfoASL/ASL/master/exeinfope.zip"
+                   }
+}

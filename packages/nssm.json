@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.24-103",
+    "description":  "The Non-Sucking Service Manager.",
+    "homepage":  "https://nssm.cc/",
+    "license":  "Public Domain",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://nssm.cc/ci/nssm-2.24-103-gdee49fc.zip",
+    "hash":  "sha1:0722c8a775deb4a1460d1750088916f4f5951773",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "nssm.exe",
+    "autoupdate":  {
+                       "url":  "https://nssm.cc/ci/nssm-$version-$matchBuild.zip"
+                   }
+}

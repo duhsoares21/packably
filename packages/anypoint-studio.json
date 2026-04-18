@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "7.24.0",
+    "description":  "MuleSoft\u0027s Eclipse-based IDE for designing and testing Mule applications.",
+    "homepage":  "https://www.mulesoft.com/platform/studio",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://mule-studio.s3.amazonaws.com/7.24.0-GA/AnypointStudio-7.24.0-win64.zip",
+    "hash":  "e704128554de2ad7f4bfb0519da4220cc5b034e555d3471ed6a2ee29e0add7fb",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "AnypointStudio.exe",
+    "autoupdate":  {
+                       "url":  "https://mule-studio.s3.amazonaws.com/$version-GA/AnypointStudio-$version-win64.zip"
+                   }
+}

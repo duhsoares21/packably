@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.42.1",
+    "description":  "A declarative language for describing and deploying Azure resources",
+    "homepage":  "https://github.com/Azure/bicep",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Azure/bicep/releases/download/v0.42.1/bicep-win-x64.exe#/bicep.exe",
+    "hash":  "dde63bab0d12da761cb75708d53d024a59c5f91a13a883d3e06c4ba951ee50f9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bicep.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Azure/bicep/releases/download/v$version/bicep-win-x64.exe#/bicep.exe"
+                   }
+}

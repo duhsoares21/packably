@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.0.0",
+    "description":  "SSH client",
+    "homepage":  "https://grasshopper.coding.kiwi",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://grasshopper.coding.kiwi/download/2-0-0-grasshopper-Setup-2-0-0-exe#/dl.7z",
+    "hash":  "f646b35f541fc76c42f31e34aaa733ef4b2b25f5416abdeb9843755891d3a5f5",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "graSSHopper.exe",
+    "autoupdate":  {
+                       "url":  "https://grasshopper.coding.kiwi/download/$dashVersion-grasshopper-Setup-$dashVersion-exe#/dl.7z"
+                   }
+}

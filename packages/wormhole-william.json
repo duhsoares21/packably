@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.0.8",
+    "description":  "End-to-end encrypted file transfer. A magic wormhole CLI and API in Go",
+    "homepage":  "https://github.com/psanford/wormhole-william",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/psanford/wormhole-william/releases/download/v1.0.8/wormhole-william-windows-amd64.exe#/wormhole-william.exe",
+    "hash":  "3070dfb895630fc01b4deabeffc3574681bb63f1dbd82f959aa663a6e09891fe",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "wormhole-william.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/psanford/wormhole-william/releases/download/v$version/wormhole-william-windows-amd64.exe#/wormhole-william.exe"
+                   }
+}

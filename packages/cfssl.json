@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.6.5",
+    "description":  "Command line tool and an HTTP API server for signing, verifying, and bundling TLS certificates.",
+    "homepage":  "https://cfssl.org",
+    "license":  "BSD-2-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/cloudflare/cfssl/releases/download/v1.6.5/cfssl_1.6.5_windows_amd64.exe#/cfssl.exe",
+    "hash":  "0b9976147d8e75d907fd0eda136888127874f05e9e18cc20046a8e413122f3e4",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "cfssl.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/cloudflare/cfssl/releases/download/v$version/cfssl_$version_windows_amd64.exe#/cfssl.exe"
+                   }
+}

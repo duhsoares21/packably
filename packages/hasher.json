@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "4.2",
+    "description":  "A hashing utility for verifying integrity of files using a wide range of supported algorithms.",
+    "homepage":  "https://www.den4b.com/products/hasher",
+    "license":  "CC-BY-NC-ND-3.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.den4b.com/download/hasher/portable/4.2?token=scoop#/dl.zip",
+    "hash":  "05eb094105d670f8e3dba454277da2868985f89026009c64282ae77a00565f88",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Hasher.exe",
+    "autoupdate":  {
+                       "url":  "https://www.den4b.com/download/hasher/portable/$version?token=scoop#/dl.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "6.5.2",
+    "description":  "build of the open source portion of Lens",
+    "homepage":  "https://github.com/MuhammedKalkan/OpenLens",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/MuhammedKalkan/OpenLens/releases/download/v6.5.2/OpenLens-6.5.2.exe#/dl.7z",
+    "hash":  "e5942551ae410a504d2a70f9cdf696158c4adaa8f18b4fb1489c4548f6e9e9dd",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "OpenLens.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/MuhammedKalkan/OpenLens/releases/download/v$version/OpenLens-$version.exe#/dl.7z"
+                   }
+}

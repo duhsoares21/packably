@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.0",
+    "description":  "Zip compression utilities",
+    "homepage":  "http://www.info-zip.org/",
+    "license":  "Info-ZIP",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://raw.githubusercontent.com/ScoopInstaller/Binary/master/zip/x64/zip300xn-x64.zip",
+    "hash":  "63f32f1f797680d9c68379d36cff4373674d405527d7fa2b4bbd34edcc3370d2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "zip.exe"
+}

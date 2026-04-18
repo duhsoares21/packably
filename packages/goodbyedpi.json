@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.2.2",
+    "description":  "Bypass Deep Packet Inspection systems found in many Internet Service Providers which block access to certain websites.",
+    "homepage":  "https://github.com/ValdikSS/GoodbyeDPI",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/ValdikSS/GoodbyeDPI/releases/download/0.2.2/goodbyedpi-0.2.2.zip",
+    "hash":  "00a2f8b99cd817f8c7fc4c449033015f039d18af213de78cb66bf202277c0628",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "goodbyedpi.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/ValdikSS/GoodbyeDPI/releases/download/$version/goodbyedpi-$version.zip"
+                   }
+}

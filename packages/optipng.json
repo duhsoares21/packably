@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "7.9.1",
+    "description":  "A PNG optimizer that recompresses image files to a smaller size, without losing any information.",
+    "homepage":  "https://optipng.sourceforge.net/",
+    "license":  "Zlib",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/optipng/OptiPNG/optipng-7.9.1/optipng-7.9.1-win64.zip",
+    "hash":  "sha1:a9ab17ac6cd969b48cdef6225afbfc883978aaad",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "optipng.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/optipng/OptiPNG/optipng-$version/optipng-$version-win64.zip"
+                   }
+}

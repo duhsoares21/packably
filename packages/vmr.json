@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.7.5",
+    "description":  "A general version manager for thousands of SDKs with TUI inspired by lazygit.",
+    "homepage":  "https://vdocs.vmr.dpdns.org",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/gvcgo/version-manager/releases/download/v0.7.5/vmr_windows-amd64.zip",
+    "hash":  "8eee6c8b2e8af68184239cbc5fa3f2a49d1352b4e9e28a74206c5b374a42eef7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "vmr.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/gvcgo/version-manager/releases/download/v$version/vmr_windows-amd64.zip"
+                   }
+}

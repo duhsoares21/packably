@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.4.5",
+    "description":  "A lightweight utility which can automatically switch the display state of the Windows Taskbar.",
+    "homepage":  "https://github.com/Oliviaophia/SmartTaskbar",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Oliviaophia/SmartTaskbar/releases/download/v1.4.5/SmartTaskbar_Setup.exe",
+    "hash":  "a7b08377906a3d41bfd54141f8bba8bd5c81cc07e157d7cdb63b23f71fde9a98",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "SmartTaskbar.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Oliviaophia/SmartTaskbar/releases/download/v$version/SmartTaskbar_Setup.exe"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "18.00.0001",
+    "description":  "The official PostgreSQL ODBC Driver",
+    "homepage":  "https://odbc.postgresql.org/",
+    "license":  "LGPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://ftp.postgresql.org/pub/odbc/releases/REL-18_00_0001/psqlodbc_x64.msi",
+    "hash":  "c9d344829fd0492344e73aa055546f35337ffc742eac3a9f6dab0e3444414503",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://ftp.postgresql.org/pub/odbc/releases/REL-$matchMajor_$matchMinor_$matchPatch/psqlodbc_x64.msi"
+                   }
+}

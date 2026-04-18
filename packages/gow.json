@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.8.0",
+    "description":  "Unix command line utilities installer for Windows.",
+    "homepage":  "https://github.com/bmatzelle/gow",
+    "license":  "MIT,GPL-3.0-or-later,...",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/bmatzelle/gow/releases/download/v0.8.0/Gow-0.8.0.exe#/dl.7z",
+    "hash":  "9b06e0f9471d61d1019bf4d133c0ed23a4ccee27b6b8758a922d681469b82e42",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\awk.exe"
+}

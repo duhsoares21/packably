@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.11",
+    "description":  "Multi system emulator",
+    "homepage":  "https://tasvideos.org/BizHawk.html",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/TASVideos/BizHawk/releases/download/2.11/BizHawk-2.11-win-x64.zip",
+    "hash":  "722b5aac5e1d89f890b2875b0150f4a86f5762d211f7cd47029cac70434955c0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "EmuHawk.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/TASVideos/BizHawk/releases/download/$version/BizHawk-$version-win-x64.zip"
+                   }
+}

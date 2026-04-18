@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "10.6.9103",
+    "description":  "An integrated, powerful, multi-purpose conversion and developer tool.",
+    "homepage":  "https://fishcodelib.com/Convert.htm",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://fishcodelib.com/files/ConvertNet2.zip",
+    "hash":  "b42b96b0458b73f8d99ebc2f91d5f7d2ed1d6abaf85887df297b0291ad5d5a5d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Convert.exe",
+    "autoupdate":  {
+                       "url":  "https://fishcodelib.com/files/ConvertNet2.zip"
+                   }
+}

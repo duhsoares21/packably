@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.1.6",
+    "description":  "Graphical tool for rapidly creating graphs and string diagrams using PGF/TikZ",
+    "homepage":  "https://tikzit.github.io/",
+    "license":  "AGPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/tikzit/tikzit/releases/download/v2.1.6/tikzit-win.zip",
+    "hash":  "e97bc93434b719d891e1c24bafb025d9176b94f24b32d675bc1c73fe4aaf0375",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "tikzit.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/tikzit/tikzit/releases/download/v$version/tikzit-win.zip"
+                   }
+}

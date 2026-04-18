@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "11.0.0",
+    "description":  "A free file archiver utility, based on Open Source technologies",
+    "homepage":  "https://peazip.github.io",
+    "license":  "LGPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/peazip/PeaZip/releases/download/11.0.0/peazip_portable-11.0.0.WIN64.zip",
+    "hash":  "4e3ef7bbfc6607bbb08c29ce0178feb7845444c7d019fa6cfea8fc9081c103da",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "peazip.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/peazip/PeaZip/releases/download/$version/peazip_portable-$version.WIN64.zip"
+                   }
+}

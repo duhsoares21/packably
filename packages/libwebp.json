@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.6.0",
+    "description":  "Encodes and decodes WebP image files.",
+    "homepage":  "https://developers.google.com/speed/webp",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0-windows-x64.zip",
+    "hash":  "48886f506b21f62e4661f0f4cbfca19800897c385128e8902542d29a950c93f1",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\anim_diff.exe",
+    "autoupdate":  {
+                       "url":  "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-$version-windows-x64.zip"
+                   }
+}

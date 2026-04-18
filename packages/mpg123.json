@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.32.10",
+    "description":  "Fast console MPEG Audio Player and decoder library",
+    "homepage":  "https://www.mpg123.org",
+    "license":  "LGPL-2.1",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.mpg123.org/download/win64/1.32.10/mpg123-1.32.10-static-x86-64.zip",
+    "hash":  "768dc31f66f4fdd96e1c7e1e54f44654b7e5de7709a33bea7b992ac17d4c1428",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "mpg123.exe",
+    "autoupdate":  {
+                       "url":  "https://www.mpg123.org/download/win64/$version/mpg123-$version-static-x86-64.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "1.12",
+    "description":  "JMeter Plugins Manager",
+    "homepage":  "https://jmeter-plugins.org",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+                         "jmeter"
+                     ],
+    "url":  "https://repo1.maven.org/maven2/kg/apc/jmeter-plugins-manager/1.12/jmeter-plugins-manager-1.12.jar",
+    "hash":  "sha1:b5a9bdbb8a3b2280b7ae68815e153149ca990b8d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://repo1.maven.org/maven2/kg/apc/jmeter-plugins-manager/$version/jmeter-plugins-manager-$version.jar"
+                   }
+}

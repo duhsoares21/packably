@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.1.422",
+    "description":  "Collection of tools for analyzing open source packages.",
+    "homepage":  "https://github.com/microsoft/OSSGadget",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/microsoft/OSSGadget/releases/download/v0.1.422/OSSGadget_win_0.1.422.zip",
+    "hash":  "7e2bbddbe60a4aff5b9f6ea918c0160c237763d48c1773459bec203a7643adf8",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "oss-characteristic.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/microsoft/OSSGadget/releases/download/v$version/OSSGadget_win_$version.zip"
+                   }
+}

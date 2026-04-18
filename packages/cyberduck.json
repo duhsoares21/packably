@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "9.4.1.44384",
+    "description":  "Libre file transfer client supporting multiple protocols.",
+    "homepage":  "https://cyberduck.io",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://update.cyberduck.io/windows/Cyberduck-Installer-9.4.1.44384.msi",
+    "hash":  "3ac57be6cd3f655ea3c787d47a33f71b84078fd937d90445600998a79c234a46",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Cyberduck.exe",
+    "autoupdate":  {
+                       "url":  "https://update.cyberduck.io/windows/Cyberduck-Installer-$version.msi"
+                   }
+}

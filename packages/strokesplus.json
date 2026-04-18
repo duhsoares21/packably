@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.8.6.4",
+    "description":  "Mouse gesture recognition utility for Windows which allows you to create powerful mouse gestures that save you time.",
+    "homepage":  "https://www.strokesplus.com",
+    "license":  "Unknown",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.strokesplus.com/StrokesPlus_2.8.6.4_x64.zip",
+    "hash":  "c0380db2f51f5000834a8fdc94da110ee70133d666f999044f3b1bb6449811b1",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "StrokesPlus.exe"
+}

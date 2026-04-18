@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "5.6.1",
+    "description":  "SCIntilla based Text Editor",
+    "homepage":  "https://www.scintilla.org/SciTE.html",
+    "license":  "HPND",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.scintilla.org/wscite561.zip",
+    "hash":  "741e3e629acf131bd79402afa00ab012db7b9f5d26354638f6b5380705dd8ced",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "SciTE.exe",
+    "autoupdate":  {
+                       "url":  "https://www.scintilla.org/wscite$cleanVersion.zip"
+                   }
+}

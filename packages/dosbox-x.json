@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2026.01.02",
+    "description":  "Fork of DOSBox, an Intel x86-based PC emulator, complete with sound, graphics, mouse, joystick, modem, etc.",
+    "homepage":  "https://dosbox-x.com",
+    "license":  "GPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/joncampbell123/dosbox-x/releases/download/dosbox-x-v2026.01.02/dosbox-x-vsbuild-win64-20260102233440.zip",
+    "hash":  "4d738794a3b274841b119854457837d90fcc65c406d48eb634f7ceb3c7a9f189",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "dosbox-x.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/joncampbell123/dosbox-x/releases/download/dosbox-x-v$version/dosbox-x-vsbuild-win64-$matchReleasewin64.zip"
+                   }
+}

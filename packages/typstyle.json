@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.14.4",
+    "description":  "Beautiful and reliable typst code formatter.",
+    "homepage":  "https://github.com/typstyle-rs/typstyle",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/typstyle-rs/typstyle/releases/download/v0.14.4/typstyle-x86_64-pc-windows-msvc.exe#/typstyle.exe",
+    "hash":  "b16aebaed0aa296ef3e055d611f1e917f5849d3eb0f953bbcaa6f09f0503fb5b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "typstyle.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/typstyle-rs/typstyle/releases/download/v$version/typstyle-x86_64-pc-windows-msvc.exe#/typstyle.exe"
+                   }
+}

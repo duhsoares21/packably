@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.26.0",
+    "description":  "Microscopic and continuous traffic simulation package designed to handle large networks",
+    "homepage":  "https://www.eclipse.org/sumo/",
+    "license":  "EPL-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://sumo.dlr.de/releases/1.26.0/sumo-win64-1.26.0.zip",
+    "hash":  "17709c062ba420b3ce6a9e8e2fa1925a8f3a6f9ce87b49dd232a21898c660d71",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\activitygen.exe",
+    "autoupdate":  {
+                       "url":  "https://sumo.dlr.de/releases/$version/sumo-win64-$version.zip"
+                   }
+}

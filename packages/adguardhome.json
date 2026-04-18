@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.107.74",
+    "description":  "Network-wide ads \u0026 trackers blocking DNS server",
+    "homepage":  "https://adguard.com/en/adguard-home/overview.html",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/AdguardTeam/AdGuardHome/releases/download/v0.107.74/AdGuardHome_windows_amd64.zip",
+    "hash":  "c7c892e8734d3968d61506f4a3add612513c4779f157b7eb7453fb924ca2e7c8",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "AdGuardHome.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/AdguardTeam/AdGuardHome/releases/download/v$version/AdGuardHome_windows_amd64.zip"
+                   }
+}

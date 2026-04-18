@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.8.1",
+    "description":  "Universal archives extractor.",
+    "homepage":  "https://theunarchiver.com/command-line",
+    "license":  "LGPL-2.1-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://cdn.theunarchiver.com/downloads/unarWindows.zip",
+    "hash":  "61A6B299606282F72F51C278801EAC11D3DCCFAC83E2D68BCCCE33539912E0DD",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "lsar.exe"
+}

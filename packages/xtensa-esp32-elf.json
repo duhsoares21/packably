@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "11_2_0-esp-2022r1",
+    "description":  "Toolchain for Xtensa (ESP32) based on GCC",
+    "homepage":  "https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/windows-setup-scratch.html",
+    "license":  "GPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/espressif/crosstool-NG/releases/download/esp-2022r1/xtensa-esp32-elf-gcc11_2_0-esp-2022r1-win64.zip",
+    "hash":  "f469aff6a71113e3a145466d814184339e02248b158357766970646f5d2a3da7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\xtensa-esp32-elf-addr2line.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/espressif/crosstool-NG/releases/download/esp-$match2/xtensa-esp32-elf-gcc$version-win64.zip"
+                   }
+}

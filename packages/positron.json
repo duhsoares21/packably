@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2026.04.1-10",
+    "description":  "A next-generation data science IDE",
+    "homepage":  "https://positron.posit.co",
+    "license":  "Elastic-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://cdn.posit.co/positron/releases/win/x86_64/Positron-2026.04.1-10-UserSetup-x64.exe",
+    "hash":  "000baba96b1d7b2b07a1856c5ea33de6b9d4a257b0c1f2d9abcbfc25d49b2207",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin/positron.cmd",
+    "autoupdate":  {
+                       "url":  "https://cdn.posit.co/positron/releases/win/x86_64/Positron-$version-UserSetup-x64.exe"
+                   }
+}

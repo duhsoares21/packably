@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "6.0.1",
+    "description":  "The free translation memory tool.",
+    "homepage":  "https://omegat.org/",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/omegat/OmegaT%20-%20Standard/OmegaT%206.0.1/OmegaT_6.0.1_Windows_64_signed.exe",
+    "hash":  "sha1:e6e7bb2d898e54f768aab0d02b101c46785a0236",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "OmegaT.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/omegat/OmegaT%20-%20Standard/OmegaT%20$version/OmegaT_$version_Windows_64_signed.exe"
+                   }
+}

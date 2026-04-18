@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2011.211.170",
+    "description":  "A fork of WinMerge, an open source differencing and merging tool",
+    "homepage":  "https://github.com/datadiode/winmerge2011",
+    "license":  "AGPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/datadiode/winmerge2011/releases/download/0.2011.211.170/WinMerge_0.2011.211.170_x64_setup.cpl#/dl.7z",
+    "hash":  "79e39a9a8cd13e476da3ec69f84be7016473beb5222f3acd16cfbde0b648f57d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "WinMergeU.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/datadiode/winmerge2011/releases/download/0.$version/WinMerge_0.$version_x64_setup.cpl#/dl.7z"
+                   }
+}

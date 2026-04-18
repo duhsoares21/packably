@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.4.0",
+    "description":  "A continuation of GitAhead client, a graphical Git client designed to help you understand and manage your source code history.",
+    "homepage":  "https://murmele.github.io/Gittyup/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Murmele/Gittyup/releases/download/gittyup_v1.4.0/Gittyup-win64-1.4.0.exe#/dl.7z",
+    "hash":  "ab86d29dffd131718d2c2d0149ce90e6ad46e624e205e4feead011a800cd9302",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\gittyup.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Murmele/Gittyup/releases/download/gittyup_v$version/Gittyup-win64-$version.exe#/dl.7z"
+                   }
+}

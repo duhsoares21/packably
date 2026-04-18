@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.5.30",
+    "description":  "The easiest way to use git. On any platform. Anywhere.",
+    "homepage":  "https://github.com/FredrikNoren/ungit",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/FredrikNoren/ungit/releases/download/v1.5.30/ungit-1.5.30-win32-x64.zip",
+    "hash":  "1d4ced7bd645c658a314fbd1f1e4cfbd165ee849f8aac247bf02663dd8f3e2db",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ungit.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/FredrikNoren/ungit/releases/download/v$version/ungit-$version-win32-x64.zip"
+                   }
+}

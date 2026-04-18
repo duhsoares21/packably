@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.53.0",
+    "description":  "Flexible \u0026 Powerful Open Source Multi-Protocol Messaging",
+    "homepage":  "https://artemis.apache.org/components/artemis/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://dlcdn.apache.org/artemis/artemis/2.53.0/apache-artemis-2.53.0-bin.zip",
+    "hash":  "sha512:108e2933f8f896780e1eb594bfc634acd8579a0163f0f36d3e932bb92d9489736a948c95343708c899b1c8fe5e69f1563ea3eb55935f8cc905dd81706bff8dbb",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\artemis.cmd",
+    "autoupdate":  {
+                       "url":  "https://dlcdn.apache.org/artemis/artemis/$version/apache-artemis-$version-bin.zip"
+                   }
+}

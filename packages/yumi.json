@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.0.9.4",
+    "description":  "Multiboot USB Creator. Supports either NTFS or FAT32 format. BIOS USB boot only.",
+    "homepage":  "https://yumiusb.com/yumi-legacy/",
+    "license":  "GPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://yumiusb.com/downloads/YUMI/YUMI-2.0.9.4.exe#/YUMI.exe",
+    "hash":  "168a7fd30817e07efecbd1805ff1e8629a62be137b74d0b77958472f0993d134",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "YUMI.exe",
+    "autoupdate":  {
+                       "url":  "https://yumiusb.com/downloads/YUMI/YUMI-$version.exe#/YUMI.exe"
+                   }
+}

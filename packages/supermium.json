@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "144.0.7559.247-r2",
+    "description":  "Chromium fork for Windows XP/2003 and up",
+    "homepage":  "https://win32subsystem.live/supermium/",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/win32ss/supermium/releases/download/v144-r2/supermium_144_64_setup_win10_11.exe#/dl.zip",
+    "hash":  "378332b3f3e394c2b7c5e16003b1fe3abe6d13ac9269998d2435721543cdffcd",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "chrome.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/win32ss/supermium/releases/download/$matchTag/supermium_$majorVersion_64_setup_win10_11.exe#/dl.zip"
+                   }
+}

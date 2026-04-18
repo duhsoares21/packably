@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.1.0",
+    "description":  "Fast integer versions of trained models for the Tesseract Open Source OCR Engine",
+    "homepage":  "https://github.com/tesseract-ocr/tessdata_fast",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+                         "tesseract"
+                     ],
+    "url":  "https://github.com/tesseract-ocr/tessdata_fast/archive/4.1.0.zip",
+    "hash":  "46ae18d17bd9583392ae7c047b751846233d4e030264a551e71ff4f25e035548",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://github.com/tesseract-ocr/tessdata_fast/archive/$version.zip"
+                   }
+}

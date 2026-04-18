@@ -1,0 +1,18 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.77",
+    "description":  "Windows automation app for recording and repeating actions.",
+    "homepage":  "https://www.tinytask.net",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://raw.githubusercontent.com/ScoopInstaller/Binary/master/tinytask/tinytask_177.exe#/TinyTask.exe",
+    "hash":  "75e06ac5b7c1adb01ab994633466685e3dcef31d635eba1734fe16c7893ffe12",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "TinyTask.exe"
+}

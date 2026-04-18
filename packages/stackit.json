@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.59.0",
+    "description":  "STACKIT Command Line Interface (CLI) to manage STACKIT resources.",
+    "homepage":  "https://stackit.com/en",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/stackitcloud/stackit-cli/releases/download/v0.59.0/stackit-cli_0.59.0_windows_amd64.zip",
+    "hash":  "eeee0e5f4af8b030277b78b43d8952d7ea7bddd8ef7230c5df9b30bca95308ff",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "stackit.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/stackitcloud/stackit-cli/releases/download/v$version/stackit-cli_$version_windows_amd64.zip"
+                   }
+}

@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.0.10",
+    "description":  "A web file server to run on your computer",
+    "homepage":  "https://rejetto.com/hfs",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/rejetto/hfs/releases/download/v3.0.10/hfs-windows-x64-3.0.10.zip",
+    "hash":  "db2439cf96d70a795026e1b859ec823fc31968674d6c90f894c76523838baec5",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "hfs.exe"
+}

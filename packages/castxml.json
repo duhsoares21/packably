@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.6.5",
+    "description":  "C-family abstract syntax tree XML output tool.",
+    "homepage":  "https://github.com/CastXML/CastXML",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://data.kitware.com/api/v1/item/661c93145165b19d36c87da8/download#/castxml-windows.zip",
+    "hash":  "sha512:7c1970ad6f2e5f06a8704606db92df3400c4cd9716f88cac604924430c7e6865f8256a67282d28005714f0ed0a42f7f6e386f24ce80fb075371902d35674c6cc",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "castxml\\bin\\castxml.exe",
+    "autoupdate":  {
+                       "url":  "https://data.kitware.com/api/v1/item/$matchFileid/download#/castxml-windows.zip"
+                   }
+}

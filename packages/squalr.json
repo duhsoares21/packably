@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "3.0.2",
+    "description":  "Memory editor - game hacking tool.",
+    "homepage":  "https://www.squalr.com/",
+    "license":  "Unknown",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Squalr/Squalr-Sharp/releases/download/3.0.2/Squalr-3.0.2-full.nupkg",
+    "hash":  "sha1:f836c2bb96dfcbc3372d6f1bd1ad18aa921a54e0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Squalr.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Squalr/Squalr-Sharp/releases/download/$version/Squalr-$version-full.nupkg"
+                   }
+}

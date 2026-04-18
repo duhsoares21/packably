@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "2.0.0.0",
+    "description":  "Windows Registry editor. Breadcrumb navigation, favorites, dark theme...",
+    "homepage":  "https://regedix.webrox.fr/",
+    "license":  "GPL-3.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://regedix.webrox.fr/download.php?v=2.0.0.0\u0026file=2.0.0.0/Regedix-2.0.0-x64.exe#/regedix.exe",
+    "hash":  "25711db7e9b7396ac535894439ab9c2517a713e65d5cf56204f717d94039c74c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "regedix.exe",
+    "autoupdate":  {
+                       "url":  "https://regedix.webrox.fr/download.php?v=$matchVersion\u0026file=$matchVersion/Regedix-$matchExe-x64.exe#/regedix.exe"
+                   }
+}

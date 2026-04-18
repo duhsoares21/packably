@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.12",
+    "description":  "Adjusts the color temperature of screen according to surroundings.",
+    "homepage":  "http://jonls.dk/redshift",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/jonls/redshift/releases/download/v1.12/redshift-windows-x86_64.zip",
+    "hash":  "9e56e2f88ad13e372ac815f37b6b7dbe0aeba4224a0a8441db9bdfe1ef3a8b8d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "redshift.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/jonls/redshift/releases/download/v$version/redshift-windows-x86_64.zip"
+                   }
+}

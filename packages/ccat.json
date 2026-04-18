@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.1.0",
+    "description":  "Colorizing `cat` utility",
+    "homepage":  "https://github.com/owenthereal/ccat",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/owenthereal/ccat/releases/download/v1.1.0/windows-amd64-1.1.0.tar.gz",
+    "hash":  "45b4bff0f6988c72b876cb832af37cbf21ef6f2cf9871f9e1c1afb39c22122f9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ccat.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/owenthereal/ccat/releases/download/v$version/windows-amd64-$version.tar.gz"
+                   }
+}

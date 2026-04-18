@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.21.0",
+    "description":  "Automated code review tool integrated with any code analysis tools regardless of programming language.",
+    "homepage":  "https://github.com/reviewdog/reviewdog",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/reviewdog/reviewdog/releases/download/v0.21.0/reviewdog_0.21.0_Windows_x86_64.tar.gz",
+    "hash":  "97c733e492dec1fd83b9342c25a384d5ab6ebfa72b6978346e9a436cad1853f6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "reviewdog.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/reviewdog/reviewdog/releases/download/v$version/reviewdog_$version_Windows_x86_64.tar.gz"
+                   }
+}

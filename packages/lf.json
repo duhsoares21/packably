@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "r41",
+    "description":  "A terminal file manager written in Go",
+    "homepage":  "https://godoc.org/github.com/gokcehan/lf",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/gokcehan/lf/releases/download/r41/lf-windows-amd64.zip",
+    "hash":  "d5f2fff9fa02d1e85a3f651df60d5cb0e518d79cc35bf2be43be6b6cab670e67",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "lf.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/gokcehan/lf/releases/download/$version/lf-windows-amd64.zip"
+                   }
+}

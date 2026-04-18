@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "1.8.5",
+    "description":  "A cross platform front-end GUI of the popular youtube-dl written in wxPython.",
+    "homepage":  "https://github.com/oleksis/youtube-dl-gui",
+    "license":  "Unlicense",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/oleksis/youtube-dl-gui/releases/download/v1.8.5/yt-dlg-20230224.1.msi#/dl.ism",
+    "hash":  "32b00b725f6b5068abca5928e55046148173c924c0126d3a9bcd5b0872622030",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "yt-dlg.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/oleksis/youtube-dl-gui/releases/download/v$version/yt-dlg-$matchRelease.msi#/dl.ism"
+                   }
+}

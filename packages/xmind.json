@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "26.02.04171",
+    "description":  "A full-featured mind mapping and brainstorming tool",
+    "homepage":  "https://xmind.app/",
+    "license":  "Shareware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://dl3.xmind.net/Xmind-for-Windows-x64bit-26.02.04171-202602092308.exe#/dl.7z",
+    "hash":  "263513f5ab7094f77c735a44a8a4fcc7fbe96a3b7d3693e0f13b3a5f796f298d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "XMind.exe",
+    "autoupdate":  {
+                       "url":  "https://dl3.xmind.net/Xmind-for-Windows-x64bit-$version-$matchDt.exe#/dl.7z"
+                   }
+}

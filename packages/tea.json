@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.14.0",
+    "description":  "Official command-line tool to interact with Gitea servers",
+    "homepage":  "https://gitea.com/gitea/tea",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://gitea.com/gitea/tea/releases/download/v0.14.0/tea-0.14.0-windows-amd64.exe.xz",
+    "hash":  "f9545b3a58fb2e9a89042906cf9618804d78920c04c7253715d18fcc7fa9baab",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "tea.exe",
+    "autoupdate":  {
+                       "url":  "https://gitea.com/gitea/tea/releases/download/v$version/tea-$version-windows-amd64.exe.xz"
+                   }
+}

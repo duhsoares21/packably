@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.17.2",
+    "description":  "Stupid Fast Scoop Utilities. Incredibly fast replacements for commonly used Scoop commands, written in Rust.",
+    "homepage":  "https://github.com/jewlexx/sfsu",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/jewlexx/sfsu/releases/download/v1.17.2/sfsu-x86_64.exe#/sfsu.exe",
+    "hash":  "b309dd07ebbe4a598a971913b9ae8b3b277cbfc5d9538f05c5b13098ce3820b1",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "sfsu.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/jewlexx/sfsu/releases/download/v$version/sfsu-x86_64.exe#/sfsu.exe"
+                   }
+}

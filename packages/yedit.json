@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "2.0",
+    "description":  "A modern version of the legacy EDIT.COM text editor, from the author of Yori.",
+    "homepage":  "http://www.malsmith.net/yori/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "http://www.malsmith.net/download/?obj=yori/2.0/yori-typical-amd64.cab#/dl.7z",
+    "hash":  "d3757a4ab8f1a8e01d1f710df387555bc31a7bff55776ba7c2ba366140c8ca03",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "yedit.exe",
+    "autoupdate":  {
+                       "url":  "http://www.malsmith.net/download/?obj=yori/$version/yori-typical-amd64.cab#/dl.7z"
+                   }
+}

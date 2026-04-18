@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.2.1",
+    "description":  "Spectacle/Rectangle for Windows: Hotkey-driven window snapping for Windows 10/11.",
+    "homepage":  "https://github.com/ahmetb/RectangleWin",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/ahmetb/RectangleWin/releases/download/v0.2.1/RectangleWin-x64-v0.2.1.exe#/RectangleWin.exe",
+    "hash":  "1168a7ca0fcbc399114fcdbf6beddaa1e71513e9746d08cf10324f90f3f9f480",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "RectangleWin.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/ahmetb/RectangleWin/releases/download/v$version/RectangleWin-x64-v$version.exe#/RectangleWin.exe"
+                   }
+}

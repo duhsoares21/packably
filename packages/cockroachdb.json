@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "26.1.2",
+    "description":  "The SQL database for global cloud services",
+    "homepage":  "https://www.cockroachlabs.com/",
+    "license":  "Freeware,BSL-1.1,MIT,...",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://binaries.cockroachdb.com/cockroach-v26.1.2.windows-6.2-amd64.zip",
+    "hash":  "e2ad0bfea6e746c003e3530a588e834a286827de52e1aeb38770fd7b886858c0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "cockroach.exe",
+    "autoupdate":  {
+                       "url":  "https://binaries.cockroachdb.com/cockroach-v$version.windows-6.2-amd64.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.4.13",
+    "description":  "Satellite receivers settings editor",
+    "homepage":  "https://www.dreamset-editor.com/index.php",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.dreamset-editor.com/files/dreamset2413x64.zip",
+    "hash":  "e61dc8125941076eb56c0db452be1b750f9fa20b78ccd3f62f35d05c6b980e82",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "dreamset.exe",
+    "autoupdate":  {
+                       "url":  "https://www.dreamset-editor.com/files/dreamset$cleanVersionx64.zip"
+                   }
+}

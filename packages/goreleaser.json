@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.15.3",
+    "description":  "Release automation tool for Go projects.",
+    "homepage":  "https://goreleaser.com",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/goreleaser/goreleaser/releases/download/v2.15.3/goreleaser_Windows_x86_64.zip",
+    "hash":  "8722fdebfc23e10a36356ddd59af0c1f52c4120ca847afd091bd34e09d8aae8c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "goreleaser.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/goreleaser/goreleaser/releases/download/v$version/goreleaser_Windows_x86_64.zip"
+                   }
+}

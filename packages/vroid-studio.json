@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.11.0",
+    "description":  "3D character maker",
+    "homepage":  "https://vroid.com/en/studio",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.vroid.com/dist/tEuggsKrtY/VRoidStudio-v2.11.0-win.exe",
+    "hash":  "6d5887a8682ff6012a8e9ba9de11b20c42922e8d6a83a5388dcd80dfb5667280",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "VRoidStudio.exe",
+    "autoupdate":  {
+                       "url":  "https://download.vroid.com/dist/$matchDistid/VRoidStudio-v$version-win.exe"
+                   }
+}

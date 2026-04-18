@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.1.0",
+    "description":  "A static detector of security mitigations in executables",
+    "homepage":  "https://trailofbits.github.io/winchecksec/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/trailofbits/winchecksec/releases/download/v3.1.0/windows.x64.Release.zip",
+    "hash":  "487c14d941f94d8c1098f0da85144f1ecb40fc3e7f39dbaad16c8eab909fff25",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "winchecksec.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/trailofbits/winchecksec/releases/download/v$version/windows.x64.Release.zip"
+                   }
+}

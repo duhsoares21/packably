@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.7.1",
+    "description":  "Transform JSON into discrete assignments to make it easier to grep and see the absolute \u0027path\u0027.",
+    "homepage":  "https://github.com/tomnomnom/gron",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/tomnomnom/gron/releases/download/v0.7.1/gron-windows-amd64-0.7.1.zip",
+    "hash":  "5ed427a4a504d8e03a1770b71d4ad16a3764179e085b5ae84e51a57b299f300d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "gron.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/tomnomnom/gron/releases/download/v$version/gron-windows-amd64-$version.zip"
+                   }
+}

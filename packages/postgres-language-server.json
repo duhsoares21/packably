@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.24.0",
+    "description":  "A collection of language tools and a Language Server Protocol (LSP) implementation for Postgres.",
+    "homepage":  "https://pg-language-server.com/latest/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/supabase-community/postgres-language-server/releases/download/0.24.0/postgres-language-server_x86_64-pc-windows-msvc.exe#/postgres-language-server.exe",
+    "hash":  "6e9dfd69ddddf683fe5af6f3288cfa3f48f58b377471383b655a87e3148481bd",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "postgres-language-server.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/supabase-community/postgres-language-server/releases/download/$version/postgres-language-server_x86_64-pc-windows-msvc.exe#/postgres-language-server.exe"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.16.0",
+    "description":  "The Community Manifest Creator for WinGet",
+    "homepage":  "https://github.com/russellbanks/Komac",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/russellbanks/Komac/releases/download/v2.16.0/komac-2.16.0-x86_64-pc-windows-msvc.exe#/Komac.exe",
+    "hash":  "bdc45baf028f750da7519cc8a5f2eab5dfef46dfe88650eeb0d0a9bf51446e4f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Komac.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/russellbanks/Komac/releases/download/v$version/komac-$version-x86_64-pc-windows-msvc.exe#/Komac.exe"
+                   }
+}

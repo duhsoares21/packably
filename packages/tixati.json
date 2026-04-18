@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.42",
+    "description":  "BitTorrent client with advanced features",
+    "homepage":  "https://tixati.com",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.tixati.com/tixati-3.42-1.win64-install.exe#/dl.7z",
+    "hash":  "a5eccc9095a9c077f7570714eac265f176058f3a86af9cd0afdf64336254e62f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "tixati.exe",
+    "autoupdate":  {
+                       "url":  "https://download.tixati.com/tixati-$version-1.win64-install.exe#/dl.7z"
+                   }
+}

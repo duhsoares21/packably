@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.8.1",
+    "description":  "Lightweight and flexible command-line JSON processor",
+    "homepage":  "https://jqlang.github.io/jq/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/jqlang/jq/releases/download/jq-1.8.1/jq-windows-amd64.exe#/jq.exe",
+    "hash":  "23cb60a1354eed6bcc8d9b9735e8c7b388cd1fdcb75726b93bc299ef22dd9334",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "jq.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/jqlang/jq/releases/download/jq-$version/jq-windows-amd64.exe#/jq.exe"
+                   }
+}

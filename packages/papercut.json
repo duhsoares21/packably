@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "7.7.2",
+    "description":  "The Simple SMTP Desktop Email Receiver",
+    "homepage":  "https://github.com/ChangemakerStudios/Papercut-SMTP",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/ChangemakerStudios/Papercut-SMTP/releases/download/7.7.2/PapercutSMTP-win-x64-stable-Portable.zip",
+    "hash":  "4250217e0d7c62fc1999959b2f6638e0786b4984a91986c94c8a0a05749e211e",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Papercut SMTP.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/ChangemakerStudios/Papercut-SMTP/releases/download/$version/PapercutSMTP-win-x64-stable-Portable.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.2.1",
+    "description":  "Taking screenshots without bloatware features",
+    "homepage":  "https://github.com/henrypp/freeshooter",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/henrypp/freeshooter/releases/download/v.2.2.1/freeshooter-2.2-bin.7z",
+    "hash":  "561c44c6f949b1265109561ff30bd2f6c9cf07ca1e6758e0edaba04e6e77d9d1",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "freeshooter.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/henrypp/freeshooter/releases/download/v.$version/freeshooter-$matchShort-bin.7z"
+                   }
+}

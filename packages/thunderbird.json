@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "149.0.2",
+    "description":  "A free email application thatâ€™s easy to set up and customize.",
+    "homepage":  "https://www.thunderbird.net",
+    "license":  "MPL-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://archive.mozilla.org/pub/thunderbird/releases/149.0.2/win64/en-US/Thunderbird%20Setup%20149.0.2.exe#/dl.7z",
+    "hash":  "sha512:af7f4f6772a3077e1783978875298afa80504fc5731eef89b6aecc42f58aac3cbb57adb3781a31897ffee2cf82614321735c4d72589251318fc78b45df18f5da",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "thunderbird.exe",
+    "autoupdate":  {
+                       "url":  "https://archive.mozilla.org/pub/thunderbird/releases/$version/win64/en-US/Thunderbird%20Setup%20$version.exe#/dl.7z"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "23.9.0.25.07",
+    "description":  "Connect to a local or remote Oracle Database for development and production deployment.",
+    "homepage":  "https://www.oracle.com/database/technologies/instant-client.html",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.oracle.com/otn_software/nt/instantclient/2390000/instantclient-basic-windows.x64-23.9.0.25.07.zip",
+    "hash":  "8ff61b58e810c91b0c340559aabe8b057f0a308ad80c94aba57920ca4a6e1736",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://download.oracle.com/otn_software/nt/instantclient/$majorVersion$minorVersion$patchVersion000/instantclient-basic-windows.x64-$version.zip"
+                   }
+}

@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.7.13",
+    "description":  "An extremely light-weight, open source media player for Windows.",
+    "homepage":  "https://mpc-hc.org",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/mpc-hc/mpc-hc/releases/download/1.7.13/MPC-HC.1.7.13.x64.7z",
+    "hash":  "1ce281b255ba4cd0762aed63c59e0cfa5be471422bd89676af07f2e3bfc6a5c4",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  ""
+}

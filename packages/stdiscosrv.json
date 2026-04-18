@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.0.16",
+    "description":  "The Syncthing global discovery server",
+    "homepage":  "https://syncthing.net/",
+    "license":  "MPL-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/syncthing/discosrv/releases/download/v2.0.16/stdiscosrv-windows-amd64-v2.0.16.zip",
+    "hash":  "f43f4bb9d4e6548af321f90b7aff38bc1c399811ac8f7e8168280a9c0fbb28aa",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "stdiscosrv.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/syncthing/discosrv/releases/download/v$version/stdiscosrv-windows-amd64-v$version.zip"
+                   }
+}

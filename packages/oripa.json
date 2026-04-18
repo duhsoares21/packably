@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "1.78",
+    "description":  "Drawing software dedicated to designing the crease patterns of origami",
+    "homepage":  "http://mitani.cs.tsukuba.ac.jp/oripa/",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/oripa/oripa/releases/download/v1.78_release/oripa-1.78-all.jar#/oripa.jar",
+    "hash":  "dc3c4b2dede7213e08e3610fe068d041d7ab1266042caf1428e642c8e748070b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "oripa.jar",
+    "autoupdate":  {
+                       "url":  "https://github.com/oripa/oripa/releases/download/v$version_release/oripa-$version-all.jar#/oripa.jar"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "2.8.87",
+    "description":  "VNC-Compatible Remote Control / Remote Desktop",
+    "homepage":  "https://tightvnc.com",
+    "license":  "GPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.tightvnc.com/download/2.8.87/tightvnc-2.8.87-gpl-setup-64bit.msi",
+    "hash":  "aa256612c5b8bb387355e9c4bce6068bf9ba77ef849f54efcf6087d86b86f52a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "tvnviewer.exe",
+    "autoupdate":  {
+                       "url":  "https://www.tightvnc.com/download/$version/tightvnc-$version-gpl-setup-64bit.msi"
+                   }
+}

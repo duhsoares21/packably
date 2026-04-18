@@ -1,17 +1,21 @@
-{
-    "type": "executable",
-    "version": "25.01",
-    "description": "7-Zip is a free and open-source file archiver with a high compression ratio.",
-    "homepage": "https://www.7-zip.org/",
-    "license": "GNU LGPL",
-    "dependencies": [],
-    "url": "https://www.7-zip.org/a/7z2501-x64.msi",
-    "hash": "e7eb0b7ed5efa4e087b7b17f191797f7af5b7f442d1290c66f3a21777005ef57",
-    "installer": {
-        "args": []
-    },
-    "bin": "7z.exe"
+﻿{
+    "type":  "msi",
+    "version":  "26.00",
+    "description":  "A multi-format file archiver with high compression ratios.",
+    "homepage":  "https://www.7-zip.org",
+    "license":  "BSD-2-Clause, BSD-3-Clause, LGPL-2.1-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/ip7z/7zip/releases/download/26.00/7z2600-x64.msi",
+    "hash":  "c388d0444871ca11b21237001af158cfddad7e137851795e5b65cee69b518495",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "7z.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/ip7z/7zip/releases/download/$version/7z$cleanVersion-x64.msi"
+                   }
 }
-
-
-

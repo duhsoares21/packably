@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.3.41",
+    "description":  "Hash calculator with unicode support",
+    "homepage":  "https://ov2.eu/programs/rapidcrc-unicode",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "http://dl.ov2.eu/programs/rapidcrc-unicode/rapidcrc_0.3.41_x64.zip",
+    "hash":  "93f57f2c7382d7c7b6703330b7cc4dac966265da0c9c6f8e14325e0b19d55842",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "RapidCRC.exe",
+    "autoupdate":  {
+                       "url":  "http://dl.ov2.eu/programs/rapidcrc-unicode/rapidcrc_$version_x64.zip"
+                   }
+}

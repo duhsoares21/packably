@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.5.9331.26720",
+    "description":  "Steam Account Manager / Switcher",
+    "homepage":  "https://github.com/rex706/SAM",
+    "license":  "Unlicense",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/rex706/SAM/releases/download/v1.5.9331.26720/SAM.exe",
+    "hash":  "8144f3ee314de14a028a816280b66f1ce6e4b4ca0e38a1767032273649ceaf08",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "SAM.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/rex706/SAM/releases/download/v$version/SAM.exe"
+                   }
+}

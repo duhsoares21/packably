@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.1",
+    "description":  "Windows Countdown Timer",
+    "homepage":  "https://dan.hersam.com/software/snaptimer/index.php",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://cdn.hersam.com/software/snaptimer/SnapTimer.zip",
+    "hash":  "sha1:7131f4c79038b8059f8ef16601077f075cfad2dc",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "SnapTimer.exe"
+}

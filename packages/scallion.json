@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.1",
+    "description":  "GPU-based Onion Hash generator",
+    "homepage":  "https://github.com/lachesis/scallion",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/lachesis/scallion/releases/download/v2.1/scallion-v2.1.zip",
+    "hash":  "ed258e34193dd56bb87d1893399c0014b16a0759109ccd9eeac494000ad21778",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "scallion.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/lachesis/scallion/releases/download/v$version/scallion-v$version.zip"
+                   }
+}

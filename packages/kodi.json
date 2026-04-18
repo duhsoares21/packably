@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "21.3",
+    "description":  "Open source home theater/media center software and entertainment hub for digital media",
+    "homepage":  "https://kodi.tv/",
+    "license":  "GPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://mirrors.kodi.tv/releases/windows/win64/kodi-21.3-Omega-x64.exe#/dl.7z",
+    "hash":  "2c46c2bd60b38bb60eb0a5e3468bfd43e9235521eae2910b8c81455e46335c5c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "kodi.exe",
+    "autoupdate":  {
+                       "url":  "https://mirrors.kodi.tv/releases/windows/win64/kodi-$version-$matchName-x64.exe#/dl.7z"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.4.1",
+    "description":  "A high-level dynamically typed programming language",
+    "homepage":  "https://nekovm.org",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/HaxeFoundation/neko/releases/download/v2-4-1/neko-2.4.1-win64.zip",
+    "hash":  "3902933da42320e8bc04dbee07959ee9ff09a7848e9af48072396400cc3618c9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "neko.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/HaxeFoundation/neko/releases/download/v$dashVersion/neko-$version-win64.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.6.0",
+    "description":  "Utility for tweaking AMD Ryzen laptops.",
+    "homepage":  "https://ryzencontroller.com/",
+    "license":  "CC0-1.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://gitlab.com/ryzen-controller-team/ryzen-controller/-/jobs/3178939815/artifacts/raw/dist/win/Ryzen%20Controller%20Setup%202.6.0.exe#/dl.7z",
+    "hash":  "b54b8f0b73cd967a2ae8f346f71c025c5582f2c8d9bf14ef0630e2f53263852d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Ryzen Controller.exe",
+    "autoupdate":  {
+                       "url":  "https://gitlab.com/ryzen-controller-team/ryzen-controller/-/jobs/$matchJob/artifacts/raw/dist/win/Ryzen%20Controller%20Setup%20$version.exe#/dl.7z"
+                   }
+}

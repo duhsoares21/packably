@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "52.9.8194",
+    "description":  "E-mail client",
+    "homepage":  "https://binaryoutcast.com/projects/interlink/",
+    "license":  "MPL-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "http://projects.binaryoutcast.com/interlink/releases/latest/interlink-52.9.8194.WINNT_x86_64-msvc.7z",
+    "hash":  "1bd8824c335c6d72269cba016b96e5543b5eeba2e12ec58b6847f34670642c6d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "interlink.exe",
+    "autoupdate":  {
+                       "url":  "http://projects.binaryoutcast.com/interlink/releases/latest/interlink-$version.WINNT_x86_64-msvc.7z"
+                   }
+}

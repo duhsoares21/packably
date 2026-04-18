@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "4.1.1",
+    "description":  "A fast, easy, and free BitTorrent client.",
+    "homepage":  "https://transmissionbt.com/",
+    "license":  "GPL-2.0-only|GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/transmission/transmission/releases/download/4.1.1/transmission-4.1.1-x64.msi",
+    "hash":  "f3d2c0164adb38086710ed6c3297ef9f9c8d7d674bab898f9d71c3ecfdd0d4e6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "transmission-qt.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/transmission/transmission/releases/download/$version/transmission-$version-x64.msi"
+                   }
+}

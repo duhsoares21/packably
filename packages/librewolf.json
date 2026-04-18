@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "149.0.2-2",
+    "description":  "A fork of Firefox, focused on privacy, security and freedom.",
+    "homepage":  "https://librewolf.net/",
+    "license":  "MPL-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://codeberg.org/api/packages/librewolf/generic/librewolf/149.0.2-2/librewolf-149.0.2-2-windows-x86_64-portable.zip",
+    "hash":  "70ef03e6e5c07bba2bc83beda4868725d3b33e7e0fbf9eb042ca5e1af06c245a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "LibreWolf-Portable.exe",
+    "autoupdate":  {
+                       "url":  "https://codeberg.org/api/packages/librewolf/generic/librewolf/$version/librewolf-$version-windows-x86_64-portable.zip"
+                   }
+}

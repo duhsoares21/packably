@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.8.0",
+    "description":  "Windows service wrapper for arbitrary commands",
+    "homepage":  "https://github.com/mtkennerly/shawl",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/mtkennerly/shawl/releases/download/v1.8.0/shawl-v1.8.0-win64.zip",
+    "hash":  "ec9bd229a1bcf800509cee731c6a0324d925ca328598085dc743ab200b781678",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "shawl.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/mtkennerly/shawl/releases/download/v$version/shawl-v$version-win64.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "3.5.1-85",
+    "description":  "An extension for PHP to assist with debugging and development. (Thread Safe)",
+    "homepage":  "https://xdebug.org/",
+    "license":  "Xdebug-1.03",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://xdebug.org/files/php_xdebug-3.5.1-8.5-ts-vs17-x86_64.dll#/php_xdebug.dll",
+    "hash":  "a7a73122c4189457c6272759ff7f0c82e1aef677f014e06ccb6bd2f028a9ad77",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://xdebug.org/files/$matchName#/php_xdebug.dll"
+                   }
+}

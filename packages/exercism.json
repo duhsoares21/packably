@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.5.8",
+    "description":  "A Go based command line tool for exercism.io",
+    "homepage":  "https://exercism.org/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/exercism/cli/releases/download/v3.5.8/exercism-3.5.8-windows-x86_64.zip#/dl.7z",
+    "hash":  "5c8990828ff50406891140b53e300e11e9d9ce8cdad25b95545b7bae6e83563b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "exercism.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/exercism/cli/releases/download/v$version/exercism-$version-windows-x86_64.zip#/dl.7z"
+                   }
+}

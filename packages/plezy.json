@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.33.1",
+    "description":  "Modern Plex client built with Flutter.",
+    "homepage":  "https://plezy.app",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/edde746/plezy/releases/download/1.33.1/plezy-windows-x64-portable.7z",
+    "hash":  "67b81d31a7fec93b3b93118362ce53ee990a48a50ddef1fd6db5592ae90df6d1",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "plezy.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/edde746/plezy/releases/download/$version/plezy-windows-x64-portable.7z"
+                   }
+}

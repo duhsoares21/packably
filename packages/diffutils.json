@@ -1,0 +1,18 @@
+﻿{
+    "type":  "exe",
+    "version":  "3.6",
+    "description":  "A package of several programs related to finding differences between files",
+    "homepage":  "https://www.gnu.org/software/diffutils/",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://steffen.gulpe.de/gnu-tools-for-windows/i686-w64-mingw32/cmp.exe",
+    "hash":  "d61bc5653d4f9a462413fdf2c19dfb464924e44db8547ec41257293f34e91513",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "cmp.exe"
+}

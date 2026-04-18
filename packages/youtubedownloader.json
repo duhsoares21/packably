@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.16.3",
+    "description":  "Download videos from YouTube.",
+    "homepage":  "https://github.com/Tyrrrz/YoutubeDownloader",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Tyrrrz/YoutubeDownloader/releases/download/1.16.3/YoutubeDownloader.win-x64.zip",
+    "hash":  "7768a499ca07591c28982d7f3cd2dd8dbe811783a3a6fcb6303e2a019aa2c019",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "YoutubeDownloader.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Tyrrrz/YoutubeDownloader/releases/download/$version/YoutubeDownloader.win-x64.zip"
+                   }
+}

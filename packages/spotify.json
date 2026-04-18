@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.2.87.415.g88652836",
+    "description":  "A digital music service that gives you access to millions of songs.",
+    "homepage":  "https://www.spotify.com/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.scdn.co/SpotifyFullSetupX64.exe",
+    "hash":  "c82b19e0f74df1f274e104cb1c8f6c241319ca7e43c78ff789029fcd0fc4db33",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Spotify.exe",
+    "autoupdate":  {
+                       "url":  "https://download.scdn.co/SpotifyFullSetupX64.exe"
+                   }
+}

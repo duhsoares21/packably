@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "1.2.5",
+    "description":  "A whitespace reformatter and code cleaner for Windows PowerShell and PowerShell Core",
+    "homepage":  "https://github.com/DTW-DanWard/PowerShell-Beautifier",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://cdn.powershellgallery.com/packages/powershell-beautifier.1.2.5.nupkg",
+    "hash":  "3ec3d76a2b303136bc73f91d278f03b748cf5cc6aa6287aa3ea180adf39c6ff3",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://cdn.powershellgallery.com/packages/powershell-beautifier.$version.nupkg"
+                   }
+}

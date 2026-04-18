@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.28.0",
+    "description":  "Connects to mattermost or slack using IRC-client.",
+    "homepage":  "https://github.com/42wim/matterircd",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/42wim/matterircd/releases/download/v0.28.0/matterircd-0.28.0-windows-amd64.exe#/matterircd.exe",
+    "hash":  "46fce9186934ff141b6f23d4e1d9df81a944d6bbbc59f4da21c5c61bd8ab19c9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "matterircd.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/42wim/matterircd/releases/download/v$version/matterircd-$version-windows-amd64.exe#/matterircd.exe"
+                   }
+}

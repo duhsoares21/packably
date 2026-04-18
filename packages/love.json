@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "11.5",
+    "description":  "A framework you can use to make 2D games in Lua.",
+    "homepage":  "https://love2d.org",
+    "license":  "Zlib",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/love2d/love/releases/download/11.5/love-11.5-win64.zip",
+    "hash":  "BA6E56BE2685E53C817749C4A5007F51137136FE5A3AB64920508BABC2E74369",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "love.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/love2d/love/releases/download/$version/love-$version-win64.zip"
+                   }
+}

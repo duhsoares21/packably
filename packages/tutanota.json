@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "340.260326.1",
+    "description":  "The official desktop client for Tuta Mail (formerly Tutanota), the email service with a strong focus on security and privacy.",
+    "homepage":  "https://tuta.com/",
+    "license":  "GPL-3.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://app.tuta.com/desktop/tutanota-desktop-win.exe#/dl.7z",
+    "hash":  "e89f003bd7179362ee8f6c0816f6b78c169962b97fc229181df2b06af4ef5ac6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Tuta Mail.exe",
+    "autoupdate":  {
+                       "url":  "https://app.tuta.com/desktop/tutanota-desktop-win.exe#/dl.7z"
+                   }
+}

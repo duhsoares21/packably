@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.19",
+    "description":  "System information software",
+    "homepage":  "https://www.cpuid.com/softwares/cpu-z.html",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.cpuid.com/cpu-z/cpu-z_2.19-en.zip",
+    "hash":  "9f7a60be1be3dfe0d79eb5dab03517aeb767c5eb95e56909badbb1fe05083c16",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://download.cpuid.com/cpu-z/cpu-z_$version-en.zip"
+                   }
+}

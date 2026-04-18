@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.104.0",
+    "description":  "All-in-one repack for latest Microsoft Visual C++ Redistributable Runtimes, without the original setup bloat payload.",
+    "homepage":  "https://github.com/abbodi1406/vcredist",
+    "license":  "Unlicense",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/abbodi1406/vcredist/releases/download/v0.104.0/VisualCppRedist_AIO_x86_x64.exe#/vcredist-aio.exe",
+    "hash":  "bfde422ac0f3428c311c173bce42a7fb6699c628f05876633b3a0f8a94fcc332",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "vcredist-aio.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/abbodi1406/vcredist/releases/download/v$version/VisualCppRedist_AIO_x86_x64.exe#/vcredist-aio.exe"
+                   }
+}

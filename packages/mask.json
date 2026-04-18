@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.11.7",
+    "description":  "A CLI task runner defined by a simple markdown file.",
+    "homepage":  "https://github.com/jacobdeichert/mask",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/jacobdeichert/mask/releases/download/mask/0.11.7/mask-0.11.7-x86_64-pc-windows-msvc.zip",
+    "hash":  "e2240d00f1663d5a39ba7658dc9d4f8273e70c6c7f3144c1fc37eb94448e0deb",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "mask.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/jacobdeichert/mask/releases/download/mask/$version/mask-$version-x86_64-pc-windows-msvc.zip"
+                   }
+}

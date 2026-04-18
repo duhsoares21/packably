@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "1.24.3",
+    "description":  "Media server for comics/mangas/BDs with API and OPDS support",
+    "homepage":  "https://komga.org/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/gotson/komga/releases/download/1.24.3/komga-1.24.3.jar#/komga.jar",
+    "hash":  "f8c67646bfd0609b8a059750b6e41aab572b451a813e8dcb1911e3925d46ba9a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "komga.jar",
+    "autoupdate":  {
+                       "url":  "https://github.com/gotson/komga/releases/download/$version/komga-$version.jar#/komga.jar"
+                   }
+}

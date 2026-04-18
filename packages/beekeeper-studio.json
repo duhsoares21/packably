@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "5.6.5",
+    "description":  "SQL editor and database management",
+    "homepage":  "https://www.beekeeperstudio.io",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v5.6.5/Beekeeper-Studio-Setup-5.6.5.exe#/dl.7z",
+    "hash":  "sha512:ca17f473b5211e587d8444445d6a3236c0d77a274440727b70d77691a695ab09fc53a97f2bbc47bb8cc9e971e97cda76b6cc6cdfefe1b0d4f4929f7220a7b02a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Beekeeper Studio.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v$version/Beekeeper-Studio-Setup-$version.exe#/dl.7z"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.9.0",
+    "description":  "A fully featured, cross-platform desktop and cast client for Jellyfin",
+    "homepage":  "https://github.com/jellyfin/jellyfin-mpv-shim",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/jellyfin/jellyfin-mpv-shim/releases/download/v2.9.0/jellyfin-mpv-shim_2.9.0_installer.exe",
+    "hash":  "0890e51411199c8e4fa73f3843214b0766767f5b3e4e0020b8ce74021bb27b41",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "run.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/jellyfin/jellyfin-mpv-shim/releases/download/v$version/jellyfin-mpv-shim_$version_installer.exe"
+                   }
+}

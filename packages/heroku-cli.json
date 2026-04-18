@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "11.3.0",
+    "description":  "An essential part of using Heroku, which can perform nearly any Heroku-related task right from your terminal.",
+    "homepage":  "https://devcenter.heroku.com/articles/heroku-cli",
+    "license":  "ISC",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://cli-assets.heroku.com/versions/11.3.0/1debe53/heroku-v11.3.0-1debe53-win32-x64.tar.xz#/dl.xz",
+    "hash":  "4ee6a96ab50ffac1b14fd154a28f99c0760a7666e59d9b00bcfb6c964527b811",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\heroku.cmd",
+    "autoupdate":  {
+                       "url":  "https://cli-assets.heroku.com/versions/$version/$matchCommit/heroku-v$version-$matchCommit-win32-x64.tar.xz#/dl.xz"
+                   }
+}

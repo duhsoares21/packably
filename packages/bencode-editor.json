@@ -1,0 +1,18 @@
+﻿{
+    "type":  "other",
+    "version":  "0.7.1.0",
+    "description":  "BEncoded files editor",
+    "homepage":  "https://sites.google.com/site/ultimasites/bencode-editor",
+    "license":  "Unknown",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://drive.google.com/uc?id=1Ngp66elk8TLX-Cwyn9DcNYk-_VQi-hxE\u0026export=download#/bencode-editor.0710x.zip",
+    "hash":  "02c4e36834236021a0dbbbf4145355ea307843e8e5cc0c0e0b713da991ed6433",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "BEncode Editor.exe"
+}

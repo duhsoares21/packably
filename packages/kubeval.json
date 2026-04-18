@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.16.1",
+    "description":  "Kubernetes resource files linter",
+    "homepage":  "https://kubeval.instrumenta.dev",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/garethr/kubeval/releases/download/v0.16.1/kubeval-windows-amd64.zip",
+    "hash":  "3732bd6874f5f508a2f2faa2e47d117562195a94bf2dd20c22036968f26e416a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "kubeval.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/garethr/kubeval/releases/download/v$version/kubeval-windows-amd64.zip"
+                   }
+}

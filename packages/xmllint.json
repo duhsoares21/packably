@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.9.3",
+    "description":  "The command line XML tool that parses one or more XML files and prints various types of output, depending upon the options selected.",
+    "homepage":  "http://xmlsoft.org/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "http://xmlsoft.org/sources/win32/64bit/iconv-1.14-win32-x86_64.7z",
+    "hash":  "789ff211527bdeb80003b39b67c57742c23286db33c1b3d1622f52fc67612f60",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\xmllint.exe"
+}

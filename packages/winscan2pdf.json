@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "9.66",
+    "description":  "Documents to PDF scanner",
+    "homepage":  "https://www.softwareok.com/?seite=Microsoft/WinScan2PDF",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.softwareok.com/Download/WinScan2PDF_Portable.zip",
+    "hash":  "a7629f1d71c22c0b9d9de76220f46ceae2a900269c97a216e8a499c543123bcb",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "WinScan2PDF_p.exe",
+    "autoupdate":  {
+                       "url":  "https://www.softwareok.com/Download/WinScan2PDF_Portable.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.9.11",
+    "description":  "A powerful and easy-to-use multimedia player, formerly known as CMPlayer.",
+    "homepage":  "https://bomi-player.github.io/",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "http://master.dl.sourceforge.net/project/bomi/windows/latest/bomi-64bit.7z",
+    "hash":  "sha1:d16ec385d3b0124c22118b4c7b0347162ef4c625",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bomi.exe",
+    "autoupdate":  {
+                       "url":  "http://master.dl.sourceforge.net/project/bomi/windows/latest/bomi-64bit.7z"
+                   }
+}

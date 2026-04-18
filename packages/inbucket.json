@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.1.1",
+    "description":  "Inbucket is an email testing application; it will accept messages for any email address and make them available to view via a web interface.",
+    "homepage":  "https://www.inbucket.org/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/inbucket/inbucket/releases/download/v3.1.1/inbucket_3.1.1_windows_amd64.zip",
+    "hash":  "232fb49c92f88505be1feceb4be90b70ca59bb7853216dee7c8b2814c85235d0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "inbucket.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/inbucket/inbucket/releases/download/v$version/inbucket_$version_windows_amd64.zip"
+                   }
+}

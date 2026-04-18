@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.54.3",
+    "description":  "Simple and powerful kanban board built on top of plain text markdown files or code.",
+    "homepage":  "https://imdone.io/",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://imdone.io/downloads/imdone-1.54.3-x64-portable.exe#/dl.7z",
+    "hash":  "c2665cdcc378bac6ab3bd8a7a83ffa76a09793029eebad2d08c385d35346caa3",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "imdone.exe",
+    "autoupdate":  {
+                       "url":  "https://imdone.io/downloads/imdone-$version-x64-portable.exe#/dl.7z"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.5.2",
+    "description":  "Software synthesizer based on the SoundFont 2 specifications.",
+    "homepage":  "https://www.fluidsynth.org",
+    "license":  "LGPL-2.1-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/FluidSynth/fluidsynth/releases/download/v2.5.2/fluidsynth-v2.5.2-win10-x64-cpp11.zip",
+    "hash":  "0edc3b084d7ea0c9ad5706022ef37cf09b941bb2d4384814189e9b7fde8c194c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://github.com/FluidSynth/fluidsynth/releases/download/$matchTag/$matchPrefix-x64$matchSuffix.zip"
+                   }
+}

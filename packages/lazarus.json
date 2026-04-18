@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "4.6",
+    "description":  "A Delphi compatible cross-platform IDE for Rapid Application Development.",
+    "homepage":  "https://www.lazarus-ide.org",
+    "license":  "GPL-2.0-or-later | FPC-modified-LGPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/lazarus/Lazarus%20Windows%2064%20bits/Lazarus%204.6/lazarus-4.6-fpc-3.2.2-win64.exe",
+    "hash":  "e53ef697644bfa9588cee833edd2c76af42f79331fff2eb9f730fef86fbda00f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "lazbuild.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/lazarus/Lazarus%20Windows%2064%20bits/Lazarus%20$version/lazarus-$version-fpc-$matchFpc-win64.exe"
+                   }
+}

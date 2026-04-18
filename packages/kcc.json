@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "9.7.2",
+    "description":  "Comic and manga converter for ebook readers.",
+    "homepage":  "https://github.com/ciromattia/kcc",
+    "license":  "ISC",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/ciromattia/kcc/releases/download/v9.7.2/KCC_9.7.2.exe#/KCC.exe",
+    "hash":  "c4bca95428e128fcf754a69a9398c7ac23c611fbff6278caa57d9bfb6e1eedd3",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "kcc-c2e.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/ciromattia/kcc/releases/download/v$version/KCC_$version.exe#/KCC.exe"
+                   }
+}

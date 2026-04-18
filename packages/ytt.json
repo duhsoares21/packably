@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.53.2",
+    "description":  "YAML templating tool that works on YAML structure instead of text",
+    "homepage":  "https://carvel.dev/ytt",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/carvel-dev/ytt/releases/download/v0.53.2/ytt-windows-amd64.exe#/ytt.exe",
+    "hash":  "641f84d65af7459ccaaa83694666bc9e5deb92b2b2dd94c34f51ddd94f0c69d2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ytt.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/carvel-dev/ytt/releases/download/v$version/ytt-windows-amd64.exe#/ytt.exe"
+                   }
+}

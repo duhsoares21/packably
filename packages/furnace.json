@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.6.8.3",
+    "description":  "A multi-system chiptune tracker compatible with DefleMask modules",
+    "homepage":  "https://github.com/tildearrow/furnace",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/tildearrow/furnace/releases/download/v0.6.8.3/furnace-0.6.8.3-win64.zip",
+    "hash":  "040c30cb522c9446d76bf2f17995c8ad3f21b34e4984b4cca6db8e2a9bf0fd87",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "furnace.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/tildearrow/furnace/releases/download/v$version/furnace-$version-win64.zip"
+                   }
+}

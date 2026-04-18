@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.9.100",
+    "description":  "An easy to use on-screen annotation software (fork of gInk).",
+    "homepage":  "https://github.com/pubpub-zz/ppInk",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/pubpub-zz/ppInk/releases/download/v1.9.100/ppInk.1.9.100.zip",
+    "hash":  "3d7317bee4dd396b3b088bd116008b605938902512d1246a5dcb9df7a735b2ff",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ppInk.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/pubpub-zz/ppInk/releases/download/v$version/ppInk.$version.zip"
+                   }
+}

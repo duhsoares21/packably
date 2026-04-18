@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.9.4",
+    "description":  "Finite element analysis framework",
+    "homepage":  "https://tlcfem.github.io/suanPan/",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/TLCFEM/suanPan/releases/download/suanPan-v3.9.4/suanPan-win-mkl-vtk.zip",
+    "hash":  "71765d93efb56e9c06e46888382780856c0f43aa2fbc231b9108e6b10837eb5c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "suanPan.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/TLCFEM/suanPan/releases/download/suanPan-v$version/suanPan-win-mkl-vtk.zip"
+                   }
+}

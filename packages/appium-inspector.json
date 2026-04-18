@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2026.2.1",
+    "description":  "A GUI inspector for mobile apps and more, powered by a (separately installed) Appium server",
+    "homepage":  "https://github.com/appium/appium-inspector",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/appium/appium-inspector/releases/download/v2026.2.1/Appium-Inspector-2026.2.1-win-x64.zip",
+    "hash":  "99d4e0759e9893094bad78827ba008ad7130af2ad06f5c974b5b7bb962d6b293",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Appium Inspector.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/appium/appium-inspector/releases/download/v$version/Appium-Inspector-$version-win-x64.zip"
+                   }
+}

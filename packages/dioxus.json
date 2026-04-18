@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.7.5",
+    "description":  "A fullstack app framework for web, desktop, mobile, and more.",
+    "homepage":  "https://dioxuslabs.com",
+    "license":  "Apache-2.0|MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/DioxusLabs/dioxus/releases/download/v0.7.5/dx-x86_64-pc-windows-msvc.zip",
+    "hash":  "07321ffab4749149e589fd07a1ed0d703486471c89587fa2d506258ffbf4c894",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "dx.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/DioxusLabs/dioxus/releases/download/v$version/dx-x86_64-pc-windows-msvc.zip"
+                   }
+}

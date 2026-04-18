@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.31",
+    "description":  "Console version of Resource Tuner, a resource editor for EXE/DLL files.",
+    "homepage":  "https://www.restuner.com/",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.heaventools.com/download/rtc_setup.exe",
+    "hash":  "3c7f67d7f415a48599d6792fa10d9d41f5912f98892917644e12e4fb92c00a7f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "rtc.exe",
+    "autoupdate":  {
+                       "url":  "https://www.heaventools.com/download/rtc_setup.exe"
+                   }
+}

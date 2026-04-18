@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.1.0",
+    "description":  "SQL client with inline data visualization",
+    "homepage":  "https://plot.ly/free-sql-client-download",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/plotly/falcon-sql-client/releases/download/v4.1.0/win-falcon-v4.1.0.zip",
+    "hash":  "eef03189f908bcc5a6b4562adccbfb6184f4965b3fdbd205c60927c4fbec0f7b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Falcon SQL Client.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/plotly/falcon-sql-client/releases/download/v$version/win-falcon-v$version.zip"
+                   }
+}

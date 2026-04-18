@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "53.2.2",
+    "description":  "The API Traffic Viewer for Kubernetes",
+    "homepage":  "https://kubeshark.co",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/kubeshark/kubeshark/releases/download/v53.2.2/kubeshark.exe",
+    "hash":  "ca1b415cf49174b31f77b9c2410a51133c452776d617b9ab98b7078711b749f7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "kubeshark.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/kubeshark/kubeshark/releases/download/v$version/kubeshark.exe"
+                   }
+}

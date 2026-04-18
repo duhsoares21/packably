@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.53.0.3",
+    "description":  "Minimal Git for Windows (MinGit) is a reduced sized package designed to support application integration (like integrated development environments, graph visualizers, etc.) where full console support (colorization, pagniation, etc.) is not needed.(BusyBox-backed MinGit, experimental, smaller version of MinGit)",
+    "homepage":  "https://git-for-windows.github.io/",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/git-for-windows/git/releases/download/v2.53.0.windows.3/MinGit-2.53.0.3-busybox-64-bit.zip",
+    "hash":  "cab3a8dfb2bdd7328d79c0f8dbc934d038f755573ab22d4f72bcdd8ff9f86c26",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "cmd\\git.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/git-for-windows/git/releases/download/v$matchTag/MinGit-$version-busybox-64-bit.zip"
+                   }
+}

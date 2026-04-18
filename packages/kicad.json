@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "10.0.1",
+    "description":  "Electronics Design Automation Suite",
+    "homepage":  "https://www.kicad.org",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/KiCad/kicad-source-mirror/releases/download/10.0.1/kicad-10.0.1-x86_64.exe#/dl.7z",
+    "hash":  "ac2a7669220ab61e85db245065d9f6c95c39c8f03c592fe82e2f3a89206c6ff4",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\kicad-cli.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/KiCad/kicad-source-mirror/releases/download/$matchHead/kicad-$version-x86_64.exe#/dl.7z"
+                   }
+}

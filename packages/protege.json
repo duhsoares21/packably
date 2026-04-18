@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "5.6.9",
+    "description":  "Protege is a free, open-source ontology editor that supports the latest OWL 2.0 standard. Protege has a pluggable architecture, and many plugins for different functionalities are available.",
+    "homepage":  "https://protege.stanford.edu/",
+    "license":  "BSD-2-Clause-Views",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/protegeproject/protege-distribution/releases/download/protege-5.6.9/Protege-5.6.9-win.zip",
+    "hash":  "656db16bbaa93ea8ac25f553e86c4ab0f2e58edd3470301d9c79452facc7a01c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Protege.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/protegeproject/protege-distribution/releases/download/$matchPrefix$version/Protege-$version-win.zip"
+                   }
+}

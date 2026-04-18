@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "20260308",
+    "description":  "Split screen video comparison tool using FFmpeg and SDL2.",
+    "homepage":  "https://github.com/pixop/video-compare",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/pixop/video-compare/releases/download/20260308/video-compare-20260308-win10-x86_64.zip",
+    "hash":  "5f3f150c65dfc47620fb83b4e90b691f7b804a51d6766d90c20b81d4fbd15dd2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "video-compare.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/pixop/video-compare/releases/download/$version/video-compare-$version-win10-x86_64.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "3.5.2.0",
+    "description":  "Fast, simple, secure remote computer access for individuals and teams",
+    "homepage":  "https://www.splashtop.com/business",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://d17kmd0va0f0mp.cloudfront.net/winclient/STB/Splashtop_Business_Win_PORTABLE_v3.5.2.0.exe#/splashtop.exe",
+    "hash":  "c00b6e4eb0af6634eb22830b656ae7b2b83a3ec06ea6df05651f10ced0ff316b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "splashtop.exe",
+    "autoupdate":  {
+                       "url":  "https://d17kmd0va0f0mp.cloudfront.net/winclient/STB/Splashtop_Business_Win_PORTABLE_v$version.exe#/splashtop.exe"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.11",
+    "description":  "DFU is intended to download and upload firmware to/from devices connected over USB",
+    "homepage":  "https://dfu-util.sourceforge.net/",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://dfu-util.sourceforge.net/releases/dfu-util-0.11-binaries.tar.xz",
+    "hash":  "6450de30a7dcd8d8c1273f43f0b153f054fd24d85f7f38296b1ad8edbd2ddb25",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\dfu-prefix.exe",
+    "autoupdate":  {
+                       "url":  "https://dfu-util.sourceforge.net/releases/dfu-util-$version-binaries.tar.xz"
+                   }
+}

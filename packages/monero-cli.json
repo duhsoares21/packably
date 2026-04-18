@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.18.4.6",
+    "description":  "The secure, private, untraceable cryptocurrency (CLI)",
+    "homepage":  "https://getmonero.org/",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://dlsrc.getmonero.org/cli/monero-win-x64-v0.18.4.6.zip",
+    "hash":  "566601fde2c0c4684a7e99e5274100edea3c73ef3ca9de72d32ccd1c64fdea47",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "monerod.exe",
+    "autoupdate":  {
+                       "url":  "https://dlsrc.getmonero.org/cli/monero-win-x64-v$version.zip"
+                   }
+}

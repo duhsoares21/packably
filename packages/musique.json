@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.12",
+    "description":  "A music player built for speed, simplicity and style.",
+    "homepage":  "https://flavio.tordini.org/musique",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://flavio.tordini.org/files/musique/musique.exe#/dl.7z",
+    "hash":  "7116c1c9285f5eff154b2e00b862b0efec99be84a18a96db3a8d4ce69428a2c9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "musique.exe",
+    "autoupdate":  {
+                       "url":  "https://flavio.tordini.org/files/musique/musique.exe#/dl.7z"
+                   }
+}

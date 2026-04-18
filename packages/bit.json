@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.1.2",
+    "description":  "Modernized git CLI",
+    "homepage":  "https://github.com/chriswalz/bit",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/chriswalz/bit/releases/download/v1.1.2/bit_1.1.2_Windows_amd64.tar.gz",
+    "hash":  "d9203188a9564c04c1cfc4f2985ca36124bcf2f4ab993a93fe05d6ee96e948f4",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bit.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/chriswalz/bit/releases/download/v$version/bit_$version_Windows_amd64.tar.gz"
+                   }
+}

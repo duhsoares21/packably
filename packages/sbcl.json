@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "2.6.3",
+    "description":  "A high performance Common Lisp compiler.",
+    "homepage":  "https://www.sbcl.org/",
+    "license":  "BSD-3-Clause,MIT,Public Domain",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/sbcl/sbcl/2.6.3/sbcl-2.6.3-x86-64-windows-binary.msi",
+    "hash":  "sha1:950d8d93f607906f56cf751942f4300381929e84",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "sbcl.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/sbcl/sbcl/$version/sbcl-$version-x86-64-windows-binary.msi"
+                   }
+}

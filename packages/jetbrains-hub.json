@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2025.1.82518",
+    "description":  "YouTrack, TeamCity, and Upsource Connector by JetBrains.",
+    "homepage":  "https://www.jetbrains.com/hub/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.jetbrains.com/hub/hub-2025.1.82518.zip",
+    "hash":  "17e7a05953a786268e93a2d7ec7f124e1d76669056a745dd39d44a8ea2e3bbb2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "jetbrains-hub.ps1",
+    "autoupdate":  {
+                       "url":  "https://download.jetbrains.com/hub/hub-$version.zip"
+                   }
+}

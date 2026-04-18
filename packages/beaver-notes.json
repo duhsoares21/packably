@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.3.0",
+    "description":  "A privacy-focused note-taking application",
+    "homepage":  "https://beavernotes.com/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Beaver-Notes/Beaver-Notes/releases/download/4.3.0/Beaver.Notes-4.3.0-portable.exe#/dl.7z",
+    "hash":  "60f31fc70feffc739c4c51ea70a4c4c8d40b03c38fbabbf792275c6057002cc7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Beaver Notes.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Beaver-Notes/Beaver-Notes/releases/download/$version/Beaver.Notes-$version-portable.exe#/dl.7z"
+                   }
+}

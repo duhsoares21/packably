@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "8.1",
+    "description":  "A complete, cross-platform solution to record, convert and stream audio and video.",
+    "homepage":  "https://ffmpeg.org",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/GyanD/codexffmpeg/releases/download/8.1/ffmpeg-8.1-full_build.7z",
+    "hash":  "4dcbe10fa72bffa3e976d09cf3335f53a2716a8041af7a047609898fe6019069",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\ffmpeg.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/GyanD/codexffmpeg/releases/download/$version/ffmpeg-$version-full_build.7z"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "5.17.1",
+    "description":  "Helps Symfony developers manage projects, from local code to remote infrastructure",
+    "homepage":  "https://symfony.com",
+    "license":  "AGPL-3.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/symfony-cli/symfony-cli/releases/download/v5.17.1/symfony-cli_windows_amd64.zip",
+    "hash":  "232a4e8c314804ed4fa59f957ab6764172d8d07e30cc3bfa6427e708b029f959",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "symfony.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/symfony-cli/symfony-cli/releases/download/v$version/symfony-cli_windows_amd64.zip"
+                   }
+}

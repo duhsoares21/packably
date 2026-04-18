@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.9.3",
+    "description":  "cURL like utility for gRPC",
+    "homepage":  "https://github.com/fullstorydev/grpcurl",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/fullstorydev/grpcurl/releases/download/v1.9.3/grpcurl_1.9.3_windows_x86_64.zip",
+    "hash":  "895335dfa7be74803eeb5acf3ec5d3b06c1e9483fdda3c7622bdef9ad388f32a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "grpcurl.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/fullstorydev/grpcurl/releases/download/v$version/grpcurl_$version_windows_x86_64.zip"
+                   }
+}

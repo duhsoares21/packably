@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "3.3.5",
+    "description":  "Connect to the Sentry API and manage projects related data.",
+    "homepage":  "https://docs.sentry.io/cli/",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/getsentry/sentry-cli/releases/download/3.3.5/sentry-cli-Windows-x86_64.exe#/sentry.exe",
+    "hash":  "74f88d12c1909797bda612dcac07b2f25e7419d7c06404f3a0ca94747c03892d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "sentry.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/getsentry/sentry-cli/releases/download/$version/sentry-cli-Windows-x86_64.exe#/sentry.exe"
+                   }
+}

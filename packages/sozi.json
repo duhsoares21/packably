@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "23.7.25",
+    "description":  "Zooming presentation editor and player.",
+    "homepage":  "https://sozi.baierouge.fr/",
+    "license":  "MPL-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/sozi-projects/Sozi/releases/download/v23.07/Sozi.Setup.23.7.25-1690311612.exe#/dl.7z",
+    "hash":  "d38d2f7a36d784d2b515f887dc31fde408cdf390397d23987294cb25a1ce0367",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "sozi.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/sozi-projects/Sozi/releases/download/v$matchTag/Sozi.Setup.$version-$matchBuild.exe#/dl.7z"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.18.1",
+    "description":  "A simple, fast container image builder for Go applications",
+    "homepage":  "https://ko.build/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/ko-build/ko/releases/download/v0.18.1/ko_0.18.1_Windows_x86_64.tar.gz",
+    "hash":  "d15c5e391279a2222d4d659ac53047e08d70e21fea54b2133f0a5c25a1f1f694",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ko.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/ko-build/ko/releases/download/v$version/ko_$version_Windows_x86_64.tar.gz"
+                   }
+}

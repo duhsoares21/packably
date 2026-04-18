@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.18.14",
+    "description":  "A Go web development eco-system, designed to make the life of a Go web developer easier.",
+    "homepage":  "https://gobuffalo.io/en",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/gobuffalo/cli/releases/download/v0.18.14/buffalo_0.18.14_windows_x86_64.tar.gz",
+    "hash":  "1717c5e7e79df8ef46f740e7d89d6035845cbbb5e2103d55acf55589cb6d7440",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "buffalo.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/gobuffalo/cli/releases/download/v$version/buffalo_$version_windows_x86_64.tar.gz"
+                   }
+}

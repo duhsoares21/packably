@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "3.0.1",
+    "description":  "A tool for reverse engineering Android apk files",
+    "homepage":  "https://ibotpeaches.github.io/Apktool/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/iBotPeaches/Apktool/releases/download/v3.0.1/apktool_3.0.1.jar#/apktool.jar",
+    "hash":  "b947b945b4bc455609ba768d071b64d9e63834079898dbaae15b67bf03bcd362",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "apktool.jar",
+    "autoupdate":  {
+                       "url":  "https://github.com/iBotPeaches/Apktool/releases/download/v$version/apktool_$version.jar#/apktool.jar"
+                   }
+}

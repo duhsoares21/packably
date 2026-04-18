@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.6",
+    "description":  "A simple app that allows for easy changes to the hosts file.",
+    "homepage":  "https://www.sordum.org/bluelifehosts-editor",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.sordum.org/files/download/host-editor/HostsEditor.zip",
+    "hash":  "4995c93e0f712d299116cbdb2db8a6a933796784d497f93e8a0136f3d26102f8",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "hEdit.exe",
+    "autoupdate":  {
+                       "url":  "https://www.sordum.org/files/download/host-editor/HostsEditor.zip"
+                   }
+}

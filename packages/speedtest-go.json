@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.7.10",
+    "description":  "Full-featured Command Line Interface to Test Internet Speed using speedtest.net.",
+    "homepage":  "https://github.com/showwin/speedtest-go",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/showwin/speedtest-go/releases/download/v1.7.10/speedtest-go_1.7.10_Windows_x86_64.tar.gz",
+    "hash":  "c16d736a8371f08857d2f25c0f55e17cb1294b3d647a17c9d2bdef45ff338b35",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "speedtest-go.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/showwin/speedtest-go/releases/download/v$version/speedtest-go_$version_Windows_x86_64.tar.gz"
+                   }
+}

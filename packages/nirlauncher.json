@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "1.30.22",
+    "description":  "More than 200 portable freeware utilities for Windows, all of them developed for NirSoft Web site during the last few years",
+    "homepage":  "https://launcher.nirsoft.net/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.nirsoft.net/nirsoft_package_enc_1.30.22.zip#/nirlauncher.enc",
+    "hash":  "c057afcf3094b407597c86209500c2f85dc41b81404372fc28ca215fc5ba4a04",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://download.nirsoft.net/nirsoft_package_enc_$version.zip#/nirlauncher.enc"
+                   }
+}

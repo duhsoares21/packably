@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.1.55",
+    "description":  "GitKraken CLI",
+    "homepage":  "https://www.gitkraken.com/cli",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/gitkraken/gk-cli/releases/download/v3.1.55/gk_3.1.55_windows_amd64.zip",
+    "hash":  "f09a59cb408ad58f37978846cc9c3e09965ba51286147058ebfba19f1316691f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "gk.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/gitkraken/gk-cli/releases/download/v$version/gk_$version_windows_amd64.zip"
+                   }
+}

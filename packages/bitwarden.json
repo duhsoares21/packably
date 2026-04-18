@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2026.3.1",
+    "description":  "Password management solutions for individuals, teams, and business organizations",
+    "homepage":  "https://bitwarden.com",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/bitwarden/clients/releases/download/desktop-v2026.3.1/Bitwarden-Portable-2026.3.1.exe",
+    "hash":  "28adb7011203385d90ce1d82b47d0bf3aaff7f4e5807166a6e539cf6aefe6453",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Bitwarden.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/bitwarden/clients/releases/download/desktop-v$version/Bitwarden-Portable-$version.exe"
+                   }
+}

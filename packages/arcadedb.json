@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "26.3.2",
+    "description":  "Multi-model database, one DBMS that supports SQL, Cypher, Gremlin, HTTP/JSON, MongoDB and Redis",
+    "homepage":  "https://arcadedb.com",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/ArcadeData/arcadedb/releases/download/26.3.2/arcadedb-26.3.2.tar.gz",
+    "hash":  "315cf1644eff3e1ab993ebde735f2121e1377997a92341fd589235d84cefb50f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\console.bat",
+    "autoupdate":  {
+                       "url":  "https://github.com/ArcadeData/arcadedb/releases/download/$version/arcadedb-$version.tar.gz"
+                   }
+}

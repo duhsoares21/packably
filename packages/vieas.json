@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "5.4.6.0",
+    "description":  "An image viewer and converter with combination of two window forms.",
+    "homepage":  "https://www.vieas.com/en/software/vieas.html",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.vieas.com/software/dl/Vieas5460_64.zip",
+    "hash":  "0bddd11fbf873dbaa6b66dfa8a0f03a950ef1c4f7235a7a2687e072dd6f17d89",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Vieas.exe",
+    "autoupdate":  {
+                       "url":  "https://www.vieas.com/software/dl/Vieas$cleanVersion_64.zip"
+                   }
+}

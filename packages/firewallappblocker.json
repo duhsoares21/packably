@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.9",
+    "description":  "Use Windows Firewall to block or unblock certain applications.",
+    "homepage":  "https://www.sordum.org/firewall-app-blocker",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.sordum.org/files/download/firewall-app-blocker/fab.zip",
+    "hash":  "a3ba4fd717e892eea3ca627ffe84056eb392f3541aa85e43a57b83436e752803",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://www.sordum.org/files/download/firewall-app-blocker/fab.zip"
+                   }
+}

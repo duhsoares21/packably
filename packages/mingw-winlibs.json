@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "15.2.0-14.0.0-r7",
+    "description":  "GNU Compiler Collection (WinLibs build)",
+    "homepage":  "https://winlibs.com",
+    "license":  "GPL-3.0-or-later,ZPL-2.1,BSD-2-Clause,...",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/brechtsanders/winlibs_mingw/releases/download/15.2.0posix-14.0.0-ucrt-r7/winlibs-x86_64-posix-seh-gcc-15.2.0-mingw-w64ucrt-14.0.0-r7.7z",
+    "hash":  "a914feafd7462126637d4b8196a31f3fb856ad929768ceb092c99969b43675b3",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://github.com/brechtsanders/winlibs_mingw/releases/download/$matchGccposix$matchLlvm-$matchMingw-ucrt-r$matchRelease/winlibs-x86_64-posix-seh-gcc-$matchGcc-mingw-w64ucrt-$matchMingw-r$matchRelease.7z"
+                   }
+}

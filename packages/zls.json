@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.16.0",
+    "description":  "Zig language LSP server",
+    "homepage":  "https://github.com/zigtools/zls",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/zigtools/zls/releases/download/0.16.0/zls-x86_64-windows.zip",
+    "hash":  "35cbb7163224e8cf92d21099c1b1391f2aba927f25d389f021b13a21d40b96dd",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "zls.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/zigtools/zls/releases/download/$version/zls-x86_64-windows.zip"
+                   }
+}

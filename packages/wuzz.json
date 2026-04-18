@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.5.0",
+    "description":  "Interactive cli tool for HTTP inspection",
+    "homepage":  "https://github.com/asciimoo/wuzz",
+    "license":  "AGPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/asciimoo/wuzz/releases/download/v0.5.0/wuzz_windows_amd64.exe#/wuzz.exe",
+    "hash":  "c23d9fa911eef513d7cdda239f3c79bed0a263d4c206250786aa8e00983691bd",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "wuzz.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/asciimoo/wuzz/releases/download/v$version/wuzz_windows_amd64.exe#/wuzz.exe"
+                   }
+}

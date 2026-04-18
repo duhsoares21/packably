@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.6.3.0",
+    "description":  "Hierarchical note taking application, featuring rich text and syntax highlighting.",
+    "homepage":  "https://www.giuspen.com/cherrytree/",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.giuspen.com/software/cherrytree_1.6.3.0_win64_portable.7z",
+    "hash":  "417d8a86cb852f988d005ead13df646c35178ad2691ca9bb36c4413a77b89c56",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://www.giuspen.com/software/cherrytree_$version_win64_portable.7z"
+                   }
+}

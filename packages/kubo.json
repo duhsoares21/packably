@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.40.1",
+    "description":  "A peer-to-peer hypermedia protocol to make the web faster, safer, and more open.",
+    "homepage":  "https://ipfs.tech/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://dist.ipfs.tech/kubo/v0.40.1/kubo_v0.40.1_windows-amd64.zip",
+    "hash":  "sha512:456f8938d7dc64fdd95ac7897af0f15249265bf2d742b6776b883c8534981f2e85e13b00f8d42fce908671e44fee08b810a8afa858f2e649e6fee9c174373591",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ipfs.exe",
+    "autoupdate":  {
+                       "url":  "https://dist.ipfs.tech/kubo/v$version/kubo_v$version_windows-amd64.zip"
+                   }
+}

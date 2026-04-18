@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.0.16",
+    "description":  "Interactive post-processing tool for scanned pages",
+    "homepage":  "https://github.com/4lex4/scantailor-advanced",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/4lex4/scantailor-advanced/releases/download/v1.0.16/scantailor-advanced-1.0.16-win64.exe#!/dl.7z",
+    "hash":  "ce3c1bae867ccaf020c759efad463ae0b937fac5ea3ef8fc4ce559ddd1ae8fc9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "scantailor.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/4lex4/scantailor-advanced/releases/download/v$version/scantailor-advanced-$version-win64.exe#!/dl.7z"
+                   }
+}

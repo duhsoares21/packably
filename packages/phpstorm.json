@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2026.1-261.22158.283",
+    "description":  "Cross-Platform IDE for PHP by JetBrains.",
+    "homepage":  "https://www.jetbrains.com/phpstorm/",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.jetbrains.com/webide/PhpStorm-2026.1.win.zip",
+    "hash":  "360e36d89fb57a8cdba0b9a2fb03fd41ede9bb735b506e03d481b7324fada0a7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://download.jetbrains.com/webide/PhpStorm-$matchVer.win.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.4.0",
+    "description":  "A nicer \u0027git pull\u0027",
+    "homepage":  "https://github.com/msiemens/PyGitUp",
+    "license":  "MIT",
+    "dependencies":  [
+                         "python"
+                     ],
+    "url":  "https://github.com/msiemens/PyGitUp/archive/v2.4.0.zip",
+    "hash":  "f8dd9a2f1457623d0ee93192f2a92df343ed125fadf2083f138b72ca20c865a1",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://github.com/msiemens/PyGitUp/archive/v$version.zip"
+                   }
+}

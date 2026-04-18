@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.6.2",
+    "description":  "Tool and library to extract CAB files from InstallShield installers.",
+    "homepage":  "https://github.com/twogood/unshield",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://raw.githubusercontent.com/ScoopInstaller/Binary/master/unshield/unshield-1.6.2-x64.7z",
+    "hash":  "662fefefc6988a3744ddc6b5b8d2e96ac21876d532f7d23a597c4ca797764a6b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "unshield.exe"
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.11.1",
+    "description":  "Open source monitoring and visualization UI for the TICK stack.",
+    "homepage":  "https://www.influxdata.com/time-series-platform/chronograf/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://dl.influxdata.com/chronograf/releases/chronograf-1.11.1_windows_amd64.zip",
+    "hash":  "2fbcd25f65d6c477fb108efa517c222255172bf29914c64c8b53a0696c5ddf99",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "chronoctl.exe",
+    "autoupdate":  {
+                       "url":  "https://dl.influxdata.com/chronograf/releases/chronograf-$version_windows_amd64.zip"
+                   }
+}

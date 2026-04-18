@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "9.0.2",
+    "description":  "A simple disk benchmark software",
+    "homepage":  "https://crystalmark.info/en/software/crystaldiskmark/",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://sourceforge.net/projects/crystaldiskmark/files/9.0.2/CrystalDiskMark9_0_2.zip",
+    "hash":  "sha1:30d078b3e59be1d81b4d9f4bc99e2adaa9574449",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://sourceforge.net/projects/crystaldiskmark/files/$version/CrystalDiskMark$underscoreVersion.zip"
+                   }
+}

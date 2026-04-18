@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.102.2",
+    "description":  "Build your personal knowledge base with Trilium Notes",
+    "homepage":  "https://github.com/TriliumNext/Trilium",
+    "license":  "AGPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/TriliumNext/Trilium/releases/download/v0.102.2/TriliumNotes-v0.102.2-windows-x64.zip",
+    "hash":  "12506f0adf203800005c396924b18c9c3c687110dd438f88d1182a05b23f30b3",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "trilium.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/TriliumNext/Trilium/releases/download/v$version/TriliumNotes-v$version-windows-x64.zip"
+                   }
+}

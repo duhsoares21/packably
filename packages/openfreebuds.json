@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.17.3",
+    "description":  "Manage wireless headphones from HUAWEI/Honor",
+    "homepage":  "https://mmk.pw/en/openfreebuds/",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://st.mmk.pw/openfreebuds/openfreebuds_0.17.3_win32_portable.exe#/openfreebuds.exe",
+    "hash":  "0f3bf24a63d2dbcc4cbebe4bd86d167321352d9b9ef39d770333a5f832d2b3a4",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "openfreebuds.exe",
+    "autoupdate":  {
+                       "url":  "https://st.mmk.pw/openfreebuds/openfreebuds_$version_win32_portable.exe#/openfreebuds.exe"
+                   }
+}

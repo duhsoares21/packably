@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.13.0",
+    "description":  "A Discord and Fosscord web-based client.",
+    "homepage":  "https://github.com/SpacingBat3/WebCord",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/SpacingBat3/WebCord/releases/download/v4.13.0/WebCord-win32-x64-4.13.0.zip",
+    "hash":  "feff1c6f10db1e5af28476212f1d49424a9d35a7e0ed23420b3a80125ce5f0c7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "webcord.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/SpacingBat3/WebCord/releases/download/v$version/WebCord-win32-x64-$version.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.12.3",
+    "description":  "Graphical process/system monitor",
+    "homepage":  "https://clementtsang.github.io/bottom/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/ClementTsang/bottom/releases/download/0.12.3/bottom_x86_64-pc-windows-msvc.zip",
+    "hash":  "567879fd7210f8a692cd2657b41eda43c7713bef74dd025b240247accdda14fb",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "btm.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/ClementTsang/bottom/releases/download/$version/bottom_x86_64-pc-windows-msvc.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.5.1",
+    "description":  "Create backups of profiles from Mozilla software.",
+    "homepage":  "http://mozbackup.jasnapaka.com",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "http://mozbackup.jasnapaka.com/files/1.5.1/MozBackup-1.5.1-EN.zip",
+    "hash":  "md5:f60407f0cc23cb683bec7fb2c67c6b05",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "MozBackup.exe",
+    "autoupdate":  {
+                       "url":  "http://mozbackup.jasnapaka.com/files/$version/MozBackup-$version-EN.zip"
+                   }
+}

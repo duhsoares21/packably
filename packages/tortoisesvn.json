@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "1.14.9.29743",
+    "description":  "An Apacheâ„¢ Subversion (SVN)Â® client, implemented as a Windows shell extension.",
+    "homepage":  "https://tortoisesvn.net",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://sourceforge.net/projects/tortoisesvn/files/1.14.9/Application/TortoiseSVN-1.14.9.29743-x64-svn-1.14.5.msi",
+    "hash":  "sha1:68608ab7f1e52a66556b6affb01e9ce7f0023a09",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\svn.exe",
+    "autoupdate":  {
+                       "url":  "https://sourceforge.net/projects/tortoisesvn/files/$matchHead/Application/TortoiseSVN-$version-x64-svn-$matchSvn.msi"
+                   }
+}

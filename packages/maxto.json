@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "2.2.1",
+    "description":  "A window manager to divide your screen, increase your productivity.",
+    "homepage":  "https://maxto.net",
+    "license":  "Shareware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://files.maxto.net/releases/2.2.1/MaxTo-2.2.1-full.nupkg",
+    "hash":  "sha1:27992b86b6fef4f53ccca676105551a3ec2fb2db",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "MaxTo.exe",
+    "autoupdate":  {
+                       "url":  "https://files.maxto.net/releases/$version/MaxTo-$version-full.nupkg"
+                   }
+}

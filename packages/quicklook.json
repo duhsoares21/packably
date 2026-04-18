@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.5.0",
+    "description":  "Bring macOS \u0027Quick Look\u0027 feature to Windows",
+    "homepage":  "https://github.com/QL-Win/QuickLook",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/QL-Win/QuickLook/releases/download/4.5.0/QuickLook-4.5.0.zip",
+    "hash":  "852d8bcccd984e416fc8491ccedb848f0c3472e930ee0d292188b2ea3df524e0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "QuickLook.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/QL-Win/QuickLook/releases/download/$version/QuickLook-$version.zip"
+                   }
+}

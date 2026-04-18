@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.0.1",
+    "description":  "A SimpleHTTPServer written in Go, enhanced with features and with a nice design.",
+    "homepage":  "https://goshs.de",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/patrickhener/goshs/releases/download/v2.0.1/goshs_windows_x86_64.tar.gz",
+    "hash":  "2876ead0d00288ecd61c65139a9cd886b4296e2bad527fcf208bf0f22fe544d9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "goshs.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/patrickhener/goshs/releases/download/$matchTag/goshs_windows_x86_64.tar.gz"
+                   }
+}

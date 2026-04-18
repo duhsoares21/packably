@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.7.0",
+    "description":  "An easy, intuitive tool to make 2D hand-drawn animations.",
+    "homepage":  "https://www.pencil2d.org",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/pencil2d/pencil/releases/download/v0.7.0/pencil2d-win64-0.7.0.zip",
+    "hash":  "2e9fb154cb2fc103de7a136267732cf86c9419170152a3b6f00f6b9498cdcb17",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "pencil2d.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/pencil2d/pencil/releases/download/v$version/pencil2d-win64-$version.zip"
+                   }
+}

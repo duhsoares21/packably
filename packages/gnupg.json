@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.5.18",
+    "description":  "A complete and free implementation of the OpenPGP standard.",
+    "homepage":  "https://www.gnupg.org/",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.gnupg.org/ftp/gcrypt/binary/gnupg-w32-2.5.18_20260224.exe#/dl.7z",
+    "hash":  "sha1:d199e450cd49834e8fd15878f8f67b70a00fff01",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://www.gnupg.org/ftp/gcrypt/binary/gnupg-w32-$version_$matchDate.exe#/dl.7z"
+                   }
+}

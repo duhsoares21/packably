@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "8.3",
+    "description":  "FastStone Image Viewer is a fast, stable, user-friendly image browser, converter and editor",
+    "homepage":  "https://www.faststone.org/FSViewerDetail.htm",
+    "license":  "Unknown",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.faststonesoft.net/DN/FSViewer83.zip",
+    "hash":  "b058f328601d1739094893d18874fe77bbdf5992c2b533dc7878f17fb4d5fdc4",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "FSViewer.exe",
+    "autoupdate":  {
+                       "url":  "https://www.faststonesoft.net/DN/FSViewer$cleanVersion.zip"
+                   }
+}

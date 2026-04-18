@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.63.0",
+    "description":  "A command-line tool for updating multiple repositories with a single command.",
+    "homepage":  "https://github.com/lindell/multi-gitter",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/lindell/multi-gitter/releases/download/v0.63.0/multi-gitter_0.63.0_Windows_x86_64.tar.gz",
+    "hash":  "981c17431bccb9b863b7936da420e0b922c584ab08dc81bbc4b6c7c3b6863f72",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "multi-gitter.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/lindell/multi-gitter/releases/download/v$version/multi-gitter_$version_Windows_x86_64.tar.gz"
+                   }
+}

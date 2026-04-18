@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.67.0",
+    "description":  "Package management made easy",
+    "homepage":  "https://pixi.sh",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/prefix-dev/pixi/releases/download/v0.67.0/pixi-x86_64-pc-windows-msvc.zip",
+    "hash":  "db27ce2161d01f00c1405ebb5e90a520fec8a3558ae26eb746961a14a0798b27",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "pixi.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/prefix-dev/pixi/releases/download/v$version/pixi-x86_64-pc-windows-msvc.zip"
+                   }
+}

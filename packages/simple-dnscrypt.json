@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "0.7.1",
+    "description":  "An easy to use GUI for dnscrypt-proxy",
+    "homepage":  "https://simplednscrypt.org/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/bitbeans/SimpleDnsCrypt/releases/download/0.7.1/SimpleDNSCrypt64.msi",
+    "hash":  "5ba0c94774acd7ade18446b4351e7d28a948c490aefc50dc6c08c13551f19f7f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "SimpleDnsCrypt.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/bitbeans/SimpleDnsCrypt/releases/download/$version/SimpleDNSCrypt64.msi"
+                   }
+}

@@ -1,0 +1,18 @@
+﻿{
+    "type":  "other",
+    "version":  "1.3.0",
+    "description":  "Lunarvim is a community-driven framework for neovim, written in lua. It is a full-featured IDE, with a focus on simplicity and ease of use.",
+    "homepage":  "https://www.lunarvim.org/",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://raw.githubusercontent.com/LunarVim/LunarVim/master/utils/installer/install.ps1",
+    "hash":  "fc6f0ebc6104cd085c58e35ce737a367afcda2e10080a506212762eae5294d52",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "install.ps1"
+}

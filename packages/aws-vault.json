@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "7.9.15",
+    "description":  "Securely store and access AWS credentials in development environments (Maintained fork)",
+    "homepage":  "https://github.com/ByteNess/aws-vault",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/ByteNess/aws-vault/releases/download/v7.9.15/aws-vault-windows-amd64.exe#/aws-vault.exe",
+    "hash":  "7d9ddf6a2998465d2f67b91b6770e67ce35a85e799483b9565ff838f538bfcbe",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "aws-vault.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/ByteNess/aws-vault/releases/download/v$version/aws-vault-windows-amd64.exe#/aws-vault.exe"
+                   }
+}

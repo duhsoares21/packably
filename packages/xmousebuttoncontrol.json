@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.20.5",
+    "description":  "Windows tool that allows re-configuration and expand the capabilities of mouse.",
+    "homepage":  "https://www.highrez.co.uk/downloads/xmousebuttoncontrol.htm",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://vps2.highrez.co.uk/downloads/XMouseButtonControl%202.20.5%20Portable.zip",
+    "hash":  "383079c809a50d1c375c5751e085efa871905adc775817c27d75eb471d70f4e3",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "XMouseButtonControl.exe",
+    "autoupdate":  {
+                       "url":  "https://vps2.highrez.co.uk/downloads/XMouseButtonControl%20$version%20Portable.zip"
+                   }
+}

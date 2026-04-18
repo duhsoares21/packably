@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "5.3.7",
+    "description":  ".srt .ass .vtt file translator",
+    "homepage":  "https://tern.1c7.me",
+    "license":  "Shareware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/1c7/Translate-Subtitle-File/releases/download/v5.3.7/Windows-win32-x64-5.3.7.zip",
+    "hash":  "78ae47eaa1669579613def311f74600d66bac8835b2103570f545ccbbc5daf1b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Tern-Subtitle File Translator.exe"
+}

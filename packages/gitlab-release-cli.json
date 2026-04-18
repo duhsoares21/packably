@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.24.0",
+    "description":  "Interacts with GitLab\u0027s Releases API through the command line and through GitLab CI/CD\u0027s configuration file, .gitlab-ci.yml",
+    "homepage":  "https://gitlab.com/gitlab-org/release-cli",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://gitlab.com/gitlab-org/release-cli/-/releases/v0.24.0/downloads/bin/release-cli-windows-amd64.exe#/release-cli.exe",
+    "hash":  "b1f76019b9fe36f1afb8d6413894d11c9d9dc25d88d47a7d3f1ecbe38955590d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "release-cli.exe",
+    "autoupdate":  {
+                       "url":  "https://gitlab.com/gitlab-org/release-cli/-/releases/v$version/downloads/bin/release-cli-windows-amd64.exe#/release-cli.exe"
+                   }
+}

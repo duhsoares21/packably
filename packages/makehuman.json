@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.3.0",
+    "description":  "Open source tools for making 3D characters.",
+    "homepage":  "http://www.makehumancommunity.org/",
+    "license":  "AGPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://files.makehumancommunity.org/releases/makehuman-community-1.3.0-windows.zip",
+    "hash":  "md5:12d41ef6738a0a092272583b2bff09fe",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "makehuman.ps1",
+    "autoupdate":  {
+                       "url":  "https://files.makehumancommunity.org/releases/makehuman-community-$version-windows.zip"
+                   }
+}

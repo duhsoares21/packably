@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "7.1.5",
+    "description":  "Sophia Script for Windows is the largest PowerShell module on GitHub for Windows 10 and Windows 11 fine-tuning and automating the routine tasks.",
+    "homepage":  "https://github.com/farag2/Sophia-Script-for-Windows",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/farag2/Sophia-Script-for-Windows/releases/download/7.1.5/Sophia.Script.for.Windows.11.v7.1.5.zip",
+    "hash":  "06796ad3eabd5fcb5230ad6f30638a6fa0959b2bc748611db93b11ad87eeda56",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Sophia.ps1",
+    "autoupdate":  {
+                       "url":  "https://github.com/farag2/Sophia-Script-for-Windows/releases/download/$version/Sophia.Script.for.Windows.11.v$version.zip"
+                   }
+}

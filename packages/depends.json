@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.2",
+    "description":  "A free utility that scans any 32-bit or 64-bit Windows module (exe, dll, ocx, sys, etc.) and builds a hierarchical tree diagram of all dependent modules.",
+    "homepage":  "https://www.dependencywalker.com/",
+    "license":  "Unknown",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.dependencywalker.com/depends22_x64.zip",
+    "hash":  "35db68a613874a2e8c1422eb0ea7861f825fc71717d46dabf1f249ce9634b4f1",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "depends.exe",
+    "autoupdate":  {
+                       "url":  "https://www.dependencywalker.com/depends$majorVersion$minorVersion_x64.zip"
+                   }
+}

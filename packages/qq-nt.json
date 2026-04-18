@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "9.9.29.260401",
+    "description":  "An instant messaging software service developed by Tencent",
+    "homepage":  "https://im.qq.com/pcqq/index.shtml",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_9.9.29_260401_x64_01.exe#/dl.7z",
+    "hash":  "d52601a3224d29364f03f4948a487ecd2710db1921383730801d795397e0a808",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "QQ.exe",
+    "autoupdate":  {
+                       "url":  "https://dldir1.qq.com/qqfile/qq/QQNT/Windows/QQ_$match1_$match2_x64_01.exe#/dl.7z"
+                   }
+}

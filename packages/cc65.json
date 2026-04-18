@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "24079295832",
+    "description":  "cc65 - a freeware C compiler for 6502 based systems",
+    "homepage":  "https://cc65.github.io/",
+    "license":  "zlib-acknowledgement",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/cc65/cc65-snapshot-win64.zip",
+    "hash":  "sha1:64c877bf878138277f8439303c37312c56e03533",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin/ar65.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/cc65/cc65-snapshot-win64.zip"
+                   }
+}

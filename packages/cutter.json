@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.4.1",
+    "description":  "A Qt and C++ GUI for Rizin reverse engineering framework.",
+    "homepage":  "https://cutter.re",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/rizinorg/cutter/releases/download/v2.4.1/cutter-v2.4.1-Windows-x86_64.zip",
+    "hash":  "7156882b79870355f25fb273f36a313b71e0e76cd97e5a5765db4d163da39175",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "cutter.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/rizinorg/cutter/releases/download/v$version/cutter-v$version-Windows-x86_64.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.22.5",
+    "description":  "SIP softphone for Windows based on PJSIP stack",
+    "homepage":  "https://www.microsip.org",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.microsip.org/download/MicroSIP-3.22.5.zip",
+    "hash":  "c7b60f2890a620b84cb1e6c029f80f5803cfaa155d34d120a11320b8a3f48800",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "MicroSIP.exe",
+    "autoupdate":  {
+                       "url":  "https://www.microsip.org/download/MicroSIP-$version.zip"
+                   }
+}

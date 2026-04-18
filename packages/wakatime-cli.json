@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.3.1",
+    "description":  "Command line interface to WakaTime used by all WakaTime text editor plugins.",
+    "homepage":  "https://wakatime.com/",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/wakatime/wakatime-cli/releases/download/v2.3.1/wakatime-cli-windows-amd64.zip",
+    "hash":  "f969615ac925f3a704deb3d0db6a072305517048d4960d84ab7c0c1407b077a1",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "wakatime-cli.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/wakatime/wakatime-cli/releases/download/v$version/wakatime-cli-windows-amd64.zip"
+                   }
+}

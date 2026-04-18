@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.14.0",
+    "description":  "Gradle/Maven wrapper",
+    "homepage":  "https://github.com/kordamp/gm",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/kordamp/gm/releases/download/v0.14.0/gm-0.14.0-windows-amd64.zip",
+    "hash":  "sha512:4a49a4e6626390f7440b19dec01c4d880576ff0c2947e15c5c9eae81d7be5e79c4ffe9f84f3aedbbf05487ef94ab65ae0a568fcea51e6abe4e47161551023c76",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\gm.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/kordamp/gm/releases/download/v$version/gm-$version-windows-amd64.zip"
+                   }
+}

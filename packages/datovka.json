@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.29.0",
+    "description":  "Datovka is a multiplatform desktop application for accessing DatovÃ¡ schrÃ¡nka. The application\u0027s user interface is inspired by mail clients. Datovka is free software protected by the GNU GPL version 3 license.",
+    "homepage":  "https://www.datovka.cz/",
+    "license":  "GPL-3",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://datovka.nic.cz/4.29.0/datovka-portable-4.29.0-windows-x64.zip",
+    "hash":  "97a152d90f7e0856201fdd46be8e724ca8967e72fcf4bccb1a0e59223168cffd",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "datovka-portable.exe",
+    "autoupdate":  {
+                       "url":  "https://datovka.nic.cz/$version/datovka-portable-$version-windows-x64.zip"
+                   }
+}

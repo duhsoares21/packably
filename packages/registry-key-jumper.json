@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.3",
+    "description":  "A tool that helps the user navigate to a user-defined registry key with minimal effort.",
+    "homepage":  "https://www.sordum.org/registry-key-jumper",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.sordum.org/files/download/registry-key-jumper/RegJump.zip",
+    "hash":  "7177acdaa93c4f5169104d93170bbc229a59ba51987bd74ba6eea1d4992cfea2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "RegJump.exe",
+    "autoupdate":  {
+                       "url":  "https://www.sordum.org/files/download/registry-key-jumper/RegJump.zip"
+                   }
+}

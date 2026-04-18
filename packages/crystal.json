@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.19.1",
+    "description":  "The Crystal Programming Language",
+    "homepage":  "https://www.crystal-lang.org/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/crystal-lang/crystal/releases/download/1.19.1/crystal-1.19.1-windows-x86_64-msvc-unsupported.zip",
+    "hash":  "c01932aab890c442d7d66de67c7a51d9c815b3b8529fc4adbb1907205fea138a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "crystal.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/crystal-lang/crystal/releases/download/$version/crystal-$version-windows-x86_64-msvc-unsupported.zip"
+                   }
+}

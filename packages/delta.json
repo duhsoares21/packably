@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.19.2",
+    "description":  "A syntax-highlighter for git and diff output",
+    "homepage":  "https://github.com/dandavison/delta",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/dandavison/delta/releases/download/0.19.2/delta-0.19.2-x86_64-pc-windows-msvc.zip",
+    "hash":  "ac8ebb4a9f1cbee8b9ea897ba119808a244181adae6f3bed1f3b6b923c50b557",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "delta.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/dandavison/delta/releases/download/$version/delta-$version-x86_64-pc-windows-msvc.zip"
+                   }
+}

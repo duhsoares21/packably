@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.5.2",
+    "description":  "A batch GUI for mkvpropedit (part of MKVToolNix) written in Java",
+    "homepage":  "https://github.com/BrunoReX/jmkvpropedit",
+    "license":  "BSD-2-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/BrunoReX/jmkvpropedit/releases/download/v1.5.2/jmkvpropedit-v1.5.2.zip",
+    "hash":  "1a3998ee7ad343852b0f8e669278b03a88d546a7335dec166cead96c33fc27b9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "JMkvpropedit.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/BrunoReX/jmkvpropedit/releases/download/v$version/jmkvpropedit-v$version.zip"
+                   }
+}

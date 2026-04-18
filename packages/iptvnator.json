@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.19.0",
+    "description":  "Cross-platform IPTV player",
+    "homepage":  "https://github.com/4gray/iptvnator",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/4gray/iptvnator/releases/download/v0.19.0/iptvnator-0.19.0-windows-x64-setup.exe#/dl.7z",
+    "hash":  "ffeb0db4f996612fa6b8512d5360786630373de739157f503fcf80fffed10771",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "iptvnator.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/4gray/iptvnator/releases/download/v$version/iptvnator-$version-windows-x64-setup.exe#/dl.7z"
+                   }
+}

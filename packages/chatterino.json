@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.5.5",
+    "description":  "Twitch chat client",
+    "homepage":  "https://chatterino.com",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://chatterino.fra1.digitaloceanspaces.com/bin/2.5.5/Chatterino.Portable.zip",
+    "hash":  "b17a484952486b5e10094430f30896dc9b719969ce0b31c5b82bf3c9b4ff8afa",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "chatterino.exe",
+    "autoupdate":  {
+                       "url":  "https://chatterino.fra1.digitaloceanspaces.com/bin/$version/Chatterino.Portable.zip"
+                   }
+}

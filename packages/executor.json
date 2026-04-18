@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.2.11",
+    "description":  "Multipurpose launcher and more advanced and customizable freeware Windows run replacement and more.",
+    "homepage":  "https://executor.dk/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/executordk/executor-community/releases/download/v2.2.11/Executor_v2.2.11_64bit.zip",
+    "hash":  "573f79f0a9dcce8039ce13662585dbc59b3298f1e411d5b356f002c50a7b5591",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Executor.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/executordk/executor-community/releases/download/v$version/Executor_v$version_64bit.zip"
+                   }
+}

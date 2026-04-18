@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.2.1.0",
+    "description":  "A free and open-source software that allows users to set animated desktop wallpapers and screensavers. ",
+    "homepage":  "https://livelywallpaper.net/",
+    "license":  "GPL-3.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/rocksdanister/lively/releases/download/v2.2.1.0/lively_setup_x86_full_v2210.exe",
+    "hash":  "98f4e96bb8e2c416384eeaf48016eadaea9dce8263b8d212052775ebcf2d7e34",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Lively.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/rocksdanister/lively/releases/download/v$version/lively_setup_x86_full_v$cleanVersion.exe"
+                   }
+}

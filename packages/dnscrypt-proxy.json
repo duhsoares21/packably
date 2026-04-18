@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.1.15",
+    "description":  "A flexible DNS proxy, with support for encrypted DNS protocols",
+    "homepage":  "https://dnscrypt.info",
+    "license":  "ISC",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/DNSCrypt/dnscrypt-proxy/releases/download/2.1.15/dnscrypt-proxy-win64-2.1.15.zip",
+    "hash":  "5aa02cb30eda8b2dc64b910793b86cbdba436f3b53db79b048421c35f1f10550",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "dnscrypt-proxy.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/DNSCrypt/dnscrypt-proxy/releases/download/$version/dnscrypt-proxy-win64-$version.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "1.1.14",
+    "description":  "z lets you quickly navigate the file system in PowerShell based on your cd command history.",
+    "homepage":  "https://github.com/badmotorfinger/z",
+    "license":  "Unknown",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://cdn.powershellgallery.com/packages/z.1.1.14.nupkg",
+    "hash":  "c3f808b1f63fe2ed8252126a82d882c6250f97ae9d07f7126c90c013f21f51ce",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://cdn.powershellgallery.com/packages/z.$version.nupkg"
+                   }
+}

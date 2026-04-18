@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "5.2.8",
+    "description":  "Resource compiler \u0026 decompiler for Windows applications",
+    "homepage":  "https://www.angusj.com/resourcehacker/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.angusj.com/resourcehacker/resource_hacker.zip",
+    "hash":  "52f81ee4778070d6aa72d8719a1a68fea2f288005deb02667542754f747776f8",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ResourceHacker.exe",
+    "autoupdate":  {
+                       "url":  "https://www.angusj.com/resourcehacker/resource_hacker.zip"
+                   }
+}

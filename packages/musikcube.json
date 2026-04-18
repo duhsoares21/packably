@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.0.5",
+    "description":  "Terminal-based music player, audio engine, metadata indexer, and server.",
+    "homepage":  "https://musikcube.com",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/clangen/musikcube/releases/download/3.0.5/musikcube_3.0.5_win64.zip",
+    "hash":  "9c908eacc4b3d0bf494bc0a72048a9f3bb59ed6471c4571da8f5441e277fc883",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "musikcube-cmd.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/clangen/musikcube/releases/download/$version/musikcube_$version_win64.zip"
+                   }
+}

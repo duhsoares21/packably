@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "25.6.0.0",
+    "description":  "A video player forked from MPV. It can also play Youtube videos, search and download subtitles, and includes other features like a thumbnail generator and audio and video filters.",
+    "homepage":  "https://www.smplayer.info",
+    "license":  "GPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/smplayer-dev/smplayer/releases/download/v25.6.0/smplayer-portable-25.6.0.0-x64.7z",
+    "hash":  "cff6152744a90080c0ccba29fe54239a7a77037c308bb3866f6451d882787e6d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "smplayer.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/smplayer-dev/smplayer/releases/download/v$matchHead/smplayer-portable-$version-x64.7z"
+                   }
+}

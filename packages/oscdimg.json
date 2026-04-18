@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.56",
+    "description":  "Command-line tool to create an image (.iso) file of a customized 32-bit or 64-bit version of Windows Preinstallation Environment (Windows PE).",
+    "homepage":  "https://learn.microsoft.com/windows-hardware/manufacture/desktop/oscdimg-command-line-options",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.microsoft.com/download/1/f/d/1fd2291e-c0e9-4ae0-beae-fbbe0fe41a5a/adk/Installers/5d984200acbde182fd99cbfbe9bad133.cab#/dl.7z",
+    "hash":  "957e11ab029f9e872f08cdd664cd7d206618d51ba716106655ea3d1499ceaf11",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "oscdimg.exe"
+}

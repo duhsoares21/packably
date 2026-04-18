@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.13.0",
+    "description":  "SkyWalking CLI is a command interaction tool for the SkyWalking user or OPS team",
+    "homepage":  "https://skywalking.apache.org/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.apache.org/skywalking/cli/0.13.0/skywalking-cli-0.13.0-bin.tgz",
+    "hash":  "sha512:474bd32e5b3e6ad073238715151670df44173e5cfcd5a88ff29259b4a12a751e36310af42b4b61b2352dcf4131ebfb6ea74379190399f3b6630236d7bdc0f1d5",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\swctl.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.apache.org/skywalking/cli/$version/skywalking-cli-$version-bin.tgz"
+                   }
+}

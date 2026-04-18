@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.7.70",
+    "description":  "(Yet another) graphical user interface for FFMpeg with comprehensive support for both the basic features but also the more advanced features like filtergraphs.",
+    "homepage":  "https://ffqueue.bruchhaus.dk/",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.videohelp.com/download/FFQueue_1_7_70.7z",
+    "hash":  "9b32d2abeb8ac2cd101cbf687c70e4c491fbae3d35462c68202e379f3fa9655f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "FFQueue.exe",
+    "autoupdate":  {
+                       "url":  "https://www.videohelp.com/download/FFQueue_$underscoreVersion.7z"
+                   }
+}

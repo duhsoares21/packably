@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "2020.1.1992",
+    "description":  "Code Review and Project Analytics tool by JetBrains.",
+    "homepage":  "https://jetbrains.com/upsource/",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.jetbrains.com/upsource/upsource-2020.1.1992.zip",
+    "hash":  "b1c575c1d7dc931ec163986454b0dba587268807fa0648984d62e737289cf0bf",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "upsource.ps1"
+}

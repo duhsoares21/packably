@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "6.2.0",
+    "description":  "Connect to a Service Bus namespace and efficiently administer messaging entities.",
+    "homepage":  "https://github.com/paolosalvatori/ServiceBusExplorer",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/paolosalvatori/ServiceBusExplorer/releases/download/6.2.0/servicebusexplorer.6.2.0.nupkg",
+    "hash":  "e5377aa0eb818989b99eb474a51cbdb1d7216a671384857c1e726438c0436725",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "tools\\servicebusexplorer.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/paolosalvatori/ServiceBusExplorer/releases/download/$version/servicebusexplorer.$version.nupkg"
+                   }
+}

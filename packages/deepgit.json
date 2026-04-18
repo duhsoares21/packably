@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.4",
+    "description":  "Git Archaeology Tool.",
+    "homepage":  "https://www.syntevo.com/deepgit/",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.syntevo.com/downloads/deepgit/deepgit-portable-4_4.7z",
+    "hash":  "sha1:90aa41f31b2fea8e0c6cc2ce6dca6bcd0d3647a0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://www.syntevo.com/downloads/deepgit/deepgit-portable-$underscoreVersion.7z"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.2",
+    "description":  "A simple app that allows users to backup and restore their Desktop Icon layout.",
+    "homepage":  "https://www.sordum.org/reicon",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.sordum.org/files/download/restore-desktop-icon-layouts/ReIcon.zip",
+    "hash":  "da10ebd224d15898c9aef827a95a80e7400ed17659e70ccbf9267110654a36d1",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ReIcon.exe",
+    "autoupdate":  {
+                       "url":  "https://www.sordum.org/files/download/restore-desktop-icon-layouts/ReIcon.zip"
+                   }
+}

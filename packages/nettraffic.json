@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.65.1",
+    "description":  "Essential network bandwidth usage monitor",
+    "homepage":  "https://www.venea.net/web/nettraffic",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://files02.tchspt.com/storage2/temp/NetTraffic1.65.1.zip",
+    "hash":  "55031b1ff67452ea156c7f26458dfc7c07e1a5804d53636267492045d7b148a7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "NetTraffic.exe",
+    "autoupdate":  {
+                       "url":  "https://files02.tchspt.com/storage2/temp/NetTraffic$version.zip"
+                   }
+}

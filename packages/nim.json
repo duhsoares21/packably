@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.2.8",
+    "description":  "A statically typed compiled systems programming language, which combines successful concepts from mature languages like Python, Ada and Modula.",
+    "homepage":  "https://nim-lang.org/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://nim-lang.org/download/nim-2.2.8_x64.zip",
+    "hash":  "11fe2415a64a791b899cc78e2eeacdde93b5f122f2fabc447db36d38002bfb8c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\atlas.exe",
+    "autoupdate":  {
+                       "url":  "https://nim-lang.org/download/nim-$version_x64.zip"
+                   }
+}

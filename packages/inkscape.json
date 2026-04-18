@@ -1,15 +1,21 @@
-{
-    "type": "executable",
-    "version": "1.4.2",
-    "description": "Inkscape is a free and open-source vector graphics editor used to create vector images, primarily in SVG format.",
-    "homepage": "https://inkscape.org/",
-    "license": "GPL-3.0-or-later",
-    "dependencies": [],
-    "url": "https://inkscape.org/gallery/item/56341/inkscape-1.4.2_2025-05-13_f4327f4-x64.exe",
-    "hash": "55b0ab13bb3ef77fb9cff80e6cbe02913d6149e60ef4e9d86534ba3208a99bba",
-    "installer": {
-        "args": ["/VERYSILENT", "/NORESTART"]
-    },
-    "bin": "bin\\inkscape.exe"
-}
+﻿{
+    "type":  "zip",
+    "version":  "1.4.3",
+    "description":  "Professional vector graphics editor",
+    "homepage":  "https://inkscape.org",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
 
+                     ],
+    "url":  "https://media.inkscape.org/dl/resources/file/inkscape-1.4.3_2025-12-25_0d15f75-x64.7z",
+    "hash":  "466c58b10f239e87a72f4ec9eac34e30285c249685e32c3bfe7f969cba44a9f4",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\inkscape.com",
+    "autoupdate":  {
+                       "url":  "https://media.inkscape.org/dl/resources/file/$matchCleanfilename-x64.7z"
+                   }
+}

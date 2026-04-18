@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "25.09.11",
+    "description":  "A video and audio player which can play most formats and codecs.",
+    "homepage":  "https://github.com/zaps166/QMPlay2",
+    "license":  "LGPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/zaps166/QMPlay2/releases/download/25.09.11/QMPlay2-Win64-25.09.11.exe#/dl.7z",
+    "hash":  "19db4ef7a4cce857d38b9631e527d0fbfd25c36716155cc5450baf7da9383459",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "QMPlay2.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/zaps166/QMPlay2/releases/download/$version/QMPlay2-Win64-$version.exe#/dl.7z"
+                   }
+}

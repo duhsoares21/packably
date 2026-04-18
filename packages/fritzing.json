@@ -1,0 +1,18 @@
+﻿{
+    "type":  "other",
+    "version":  "0.9.3b",
+    "description":  "Document hardware prototypes and layout PCBs.",
+    "homepage":  "https://fritzing.org/home/",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://raw.githubusercontent.com/ScoopInstaller/Binary/master/fritzing/fritzing_0.9.3b_64bit.7z.001",
+    "hash":  "9f4ae8a316e1c70d0212e7304ea212740ccd0bbddbc56cd5a10799cbfc7c4c97",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Fritzing.exe"
+}

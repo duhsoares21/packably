@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "10.0.2-1",
+    "description":  "Comprehensive free Prolog environment.",
+    "homepage":  "https://www.swi-prolog.org/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.swi-prolog.org/download/stable/bin/swipl-10.0.2-1.x64.exe#/dl.7z",
+    "hash":  "2ec1f25be0eafb92e559004782b130774c12573fb4b7e8a917e534754a641ad6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\swipl.exe",
+    "autoupdate":  {
+                       "url":  "https://www.swi-prolog.org/download/stable/bin/swipl-$version.x64.exe#/dl.7z"
+                   }
+}

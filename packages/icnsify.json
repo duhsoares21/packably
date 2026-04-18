@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.2.7",
+    "description":  "CLI to easily convert .jpg and .png to .icns and vice versa",
+    "homepage":  "https://github.com/JackMordaunt/icns",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/JackMordaunt/icns/releases/download/v2.2.7/icns_2.2.7_Windows_amd64.zip",
+    "hash":  "a7cda0a607e0e3d1c4c29e1d8262010e4b9fc929328bba5246a74bff1aeaa2c7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "icnsify.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/JackMordaunt/icns/releases/download/v$version/icns_$version_Windows_amd64.zip"
+                   }
+}

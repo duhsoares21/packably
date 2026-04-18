@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.15.3",
+    "description":  "Git subcommand for tracking package dependencies across git history. Analyzes your repository to show when dependencies were added, modified, or removed, who made those changes, and why.",
+    "homepage":  "https://git-pkgs.dev/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/git-pkgs/git-pkgs/releases/download/v0.15.3/git-pkgs_0.15.3_windows_amd64.tar.gz",
+    "hash":  "dd93995ffc094fd2ce21f9ec001baddd9a31296174546bde4290e8163bfecbb7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "git-pkgs.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/git-pkgs/git-pkgs/releases/download/v$version/git-pkgs_$version_windows_amd64.tar.gz"
+                   }
+}

@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "2007.03.01",
+    "description":  "GNU utilities for Win32.",
+    "homepage":  "https://unxutils.sourceforge.net/",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/unxutils/unxutils/current/UnxUtils.zip",
+    "hash":  "b8c694072723a417194022a2ba265750eec61e15d1725e39449df1763e224b45",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\sh.exe"
+}

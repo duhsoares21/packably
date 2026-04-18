@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.48.0",
+    "description":  "A desktop client for IPFS",
+    "homepage":  "https://ipfs.tech/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/ipfs/ipfs-desktop/releases/download/v0.48.0/ipfs-desktop-setup-0.48.0-win-x64.exe#/dl.7z",
+    "hash":  "sha512:010c9a75d608099959c6939e05e04a480ec26b30dccc975be479cc1b99852be231a92e894b6a54abd338795652d673f8683e81e1dd1a087eb59fcf8a8d5d06af",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "resources\\app.asar.unpacked\\node_modules\\kubo\\kubo\\ipfs.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/ipfs/ipfs-desktop/releases/download/v$version/ipfs-desktop-setup-$version-win-x64.exe#/dl.7z"
+                   }
+}

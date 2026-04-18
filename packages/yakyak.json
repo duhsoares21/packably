@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.5.11.5",
+    "description":  "Unofficial chat client for Google Hangouts",
+    "homepage":  "https://github.com/yakyak/yakyak",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/yakyak/yakyak/releases/download/v1.5.11.5/yakyak-1.5.11.5-win32-x64.zip",
+    "hash":  "c26c916fce875fd03b76454cac093f15f395d9821f7ef9015e03a30f15659356",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "yakyak.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/yakyak/yakyak/releases/download/v$version/yakyak-$version-win32-x64.zip"
+                   }
+}

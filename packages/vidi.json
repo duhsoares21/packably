@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.2.5.5",
+    "description":  "A tool for static analysis of PE files, based on bearparser \u0026 capstone",
+    "homepage":  "https://hshrzd.wordpress.com/vidi-visual-disassembler/",
+    "license":  "BSD-2-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/hasherezade/ViDi/releases/download/0.2.5.5/vidi_0.2.5.5_x64_win.zip",
+    "hash":  "487f27e9df14c4da167caab3556a45cc0900028adde3100433be9cf0a64439d9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "vidi.exe"
+}

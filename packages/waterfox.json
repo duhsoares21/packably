@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "6.6.11",
+    "description":  "The 100% fresh, free-range, ethical browser",
+    "homepage":  "https://www.waterfox.net",
+    "license":  "MPL-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://cdn1.waterfox.net/waterfox/releases/6.6.11/WINNT_x86_64/Waterfox%20Setup%206.6.11.exe#/dl.7z",
+    "hash":  "sha512:e2697959844a81d97d744a977f2ebe621a3869d370d3008b7b975aa4fdb0f59f09a78015f75d73413a9a305cdee3e708aafe67fd1db341ebd52741ff893b03cd",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "waterfox.exe",
+    "autoupdate":  {
+                       "url":  "https://cdn1.waterfox.net/waterfox/releases/$version/WINNT_x86_64/Waterfox%20Setup%20$version.exe#/dl.7z"
+                   }
+}

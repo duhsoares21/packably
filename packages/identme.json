@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.6.0",
+    "description":  "Public IP address lookup",
+    "homepage":  "https://www.ident.me",
+    "license":  "0BSD",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/pcarrier/ident.me/releases/download/v0.6.0/identme.x64.exe#/identme.exe",
+    "hash":  "d84e3c28532245568267b6ca0aed0c7f6c233902da31573e6ae40dadc4aff752",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "identme.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/pcarrier/ident.me/releases/download/v$version/identme.x64.exe#/identme.exe"
+                   }
+}

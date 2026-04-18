@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.0.0",
+    "description":  "A secure boot compatible in-memory UxTheme patcher",
+    "homepage":  "https://github.com/namazso/SecureUxTheme",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/namazso/SecureUxTheme/releases/download/v3.0.0/SecureUxTheme-amd64.zip",
+    "hash":  "9B170FC59D6EFC3097A165735AA2641564C2445805A9E534E4C887B00A1D85D7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ThemeTool.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/namazso/SecureUxTheme/releases/download/v$version/SecureUxTheme-amd64.zip"
+                   }
+}

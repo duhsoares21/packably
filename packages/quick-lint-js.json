@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.2.0",
+    "description":  "Find bugs in JavaScript programs.",
+    "homepage":  "https://quick-lint-js.com/",
+    "license":  "GPL-3.0-or-later,MIT,BSL-1.0,Apache-2.0,ZPL-2.1,Public Domain,Unknown,ISC,BSD-2-Clause,MIT-CMU,LGPL-2.1-or-later,GPL-2.0-or-later,BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://c.quick-lint-js.com/releases/3.2.0/manual/windows.zip",
+    "hash":  "aaf429fb9de9135b7f5f78e113fca6c6806617ec0015e107c97cfc1e062e7e87",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\quick-lint-js.exe",
+    "autoupdate":  {
+                       "url":  "https://c.quick-lint-js.com/releases/$version/manual/windows.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "8.19.0_7",
+    "description":  "Command line tool and library for transferring data with URLs",
+    "homepage":  "https://curl.se/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://curl.se/windows/dl-8.19.0_7/curl-8.19.0_7-win64-mingw.tar.xz",
+    "hash":  "a1679d51d6343c39aef9ab4a2401aea2df0d827f5e98a7637abe6a33a9fbb5cf",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\curl.exe",
+    "autoupdate":  {
+                       "url":  "https://curl.se/windows/dl-$version/curl-$version-win64-mingw.tar.xz"
+                   }
+}

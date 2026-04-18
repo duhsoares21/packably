@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "6.1.0",
+    "description":  "Desktop app for the HTML5 2D+3D game maker",
+    "homepage":  "http://superpowers-html5.com",
+    "license":  "ISC",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/superpowers/superpowers-app/releases/download/v6.1.0/superpowers-v6.1.0-win-x64.zip",
+    "hash":  "12c11d8ea32fc4283c6b16ff18477a1af29980131d71e98daf7f9d0516045337",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Superpowers.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/superpowers/superpowers-app/releases/download/v$version/superpowers-v$version-win-x64.zip"
+                   }
+}

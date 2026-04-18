@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.7.0",
+    "description":  "Help identify why your PC isn\u0027t Windows 11 Ready.",
+    "homepage":  "https://github.com/rcmaehl/WhyNotWin11",
+    "license":  "LGPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/rcmaehl/WhyNotWin11/releases/download/2.7.0/WhyNotWin11.exe",
+    "hash":  "433bca5da906c35029a7cdf55f0739553602649f58acd2b9cdebafdeaba23edb",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "WhyNotWin11.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/rcmaehl/WhyNotWin11/releases/download/$version/WhyNotWin11.exe"
+                   }
+}

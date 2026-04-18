@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.8",
+    "description":  "Exact Audio Copy using standard drives",
+    "homepage":  "https://www.exactaudiocopy.de",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.exactaudiocopy.de/eac-1.8.exe#/dl.7z",
+    "hash":  "sha1:cadb6987808dfa4f54ccd41205d7ef5236f29362",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "EAC.exe",
+    "autoupdate":  {
+                       "url":  "https://www.exactaudiocopy.de/eac-$version.exe#/dl.7z"
+                   }
+}

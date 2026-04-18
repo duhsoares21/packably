@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "7.2.25.542",
+    "description":  "Foxmail like you\u0027ve never seen it before.",
+    "homepage":  "https://www.foxmail.com/",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.foxmail.com/win/download#/dl.7z",
+    "hash":  "999ec18f7336adb9eaf562456abf49dc1e112e01df558b565f39e1e0a233a896",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Foxmail.exe",
+    "autoupdate":  {
+                       "url":  "https://www.foxmail.com/win/download#/dl.7z"
+                   }
+}

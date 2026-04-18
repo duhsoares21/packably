@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.0.10",
+    "description":  "Manage multiple SDK versions with a single CLI tool, extendable via plugins",
+    "homepage":  "https://vfox.dev/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/version-fox/vfox/releases/download/v1.0.10/vfox_1.0.10_windows_x86_64.zip",
+    "hash":  "01a69f172ffdf2c91948544f36b88362ede42d86f2e36e774bd654674a1f79dd",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "vfox.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/version-fox/vfox/releases/download/v$version/vfox_$version_windows_x86_64.zip"
+                   }
+}

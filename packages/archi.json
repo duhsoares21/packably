@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "5.9.0",
+    "description":  "A tool and editor to create ArchiMate models",
+    "homepage":  "https://www.archimatetool.com",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/archimatetool/archi.io/releases/download/5.9.0/Archi-Win64-5.9.0.zip",
+    "hash":  "sha1:4fe62f27db5c6b6bca836a20ba4b450926e15474",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "archi.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/archimatetool/archi.io/releases/download/$version/Archi-Win64-$version.zip"
+                   }
+}

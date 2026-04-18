@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.12.0",
+    "description":  "A highly customizable Changelog Generator that follows Conventional Commit specifications",
+    "homepage":  "https://git-cliff.org",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/orhun/git-cliff/releases/download/v2.12.0/git-cliff-2.12.0-x86_64-pc-windows-msvc.zip",
+    "hash":  "f2b8c692d9488c3313d7786e2099976151c10fd8f76580b12d045bb9683a8379",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "git-cliff.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/orhun/git-cliff/releases/download/v$version/git-cliff-$version-x86_64-pc-windows-msvc.zip"
+                   }
+}

@@ -1,0 +1,18 @@
+﻿{
+    "type":  "other",
+    "version":  "3.50a",
+    "description":  "A free file finding and text searching tool",
+    "homepage":  "https://www.baremetalsoft.com/baregrep/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.baremetalsoft.com/baregrep/download.php?p=m#/baregrep.exe",
+    "hash":  "1ad56390fe51d75e36d4aad4fd1511eb295a82e9e3a8dd21c2eaa9814eb4ceb6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "baregrep.exe"
+}

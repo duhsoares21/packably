@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.60.1",
+    "description":  "Manages a local OpenShift 4.x cluster optimized for testing and development purposes.",
+    "homepage":  "https://crc.dev/blog/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://developers.redhat.com/content-gateway/rest/mirror/pub/openshift-v4/clients/crc/2.60.1/crc-windows-installer.zip",
+    "hash":  "61040e67139f5eb426946105759b7b35cd8302be387ed9aeee0d48c7bbc031d9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "crc.exe",
+    "autoupdate":  {
+                       "url":  "https://developers.redhat.com/content-gateway/rest/mirror/pub/openshift-v4/clients/crc/$matchHead/crc-windows-installer.zip"
+                   }
+}

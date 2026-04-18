@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.9.9",
+    "description":  "An open source editor for plain text. It is designed to be a small and fast.",
+    "homepage":  "https://sourceforge.net/projects/akelpad/",
+    "license":  "BSD-2-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/akelpad/AkelPad%204/4.9.9/x64/AkelPad-4.9.9-x64-bin-eng.zip",
+    "hash":  "sha1:b7e8d19c320559165b45c990167d30911465f8a0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "AkelPad.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/akelpad/AkelPad%20$majorVersion/$version/x64/AkelPad-$version-x64-bin-eng.zip"
+                   }
+}

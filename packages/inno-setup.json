@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "6.7.1",
+    "description":  "An open-source installation builder for Windows applications.",
+    "homepage":  "https://www.jrsoftware.org/isinfo.php",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/jrsoftware/issrc/releases/download/is-6_7_1/innosetup-6.7.1.exe",
+    "hash":  "4d11e8050b6185e0d49bd9e8cc661a7a59f44959a621d31d11033124c4e8a7b0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "iscc.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/jrsoftware/issrc/releases/download/is-$underscoreVersion/innosetup-$version.exe"
+                   }
+}

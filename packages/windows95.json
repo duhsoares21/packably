@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "5.0.1",
+    "description":  "Windows 95 emulator",
+    "homepage":  "https://github.com/felixrieseberg/windows95",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/felixrieseberg/windows95/releases/download/v5.0.1/windows95-win32-x64-5.0.1.zip",
+    "hash":  "319c5a05561fe2f020540d37152be765acfc2cdcfe332b46fce7a3285956338c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "windows95.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/felixrieseberg/windows95/releases/download/v$version/windows95-win32-x64-$version.zip"
+                   }
+}

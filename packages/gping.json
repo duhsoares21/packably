@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.20.1",
+    "description":  "Ping, but with a graph",
+    "homepage":  "https://github.com/orf/gping",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/orf/gping/releases/download/gping-v1.20.1/gping-Windows-msvc-x86_64.zip",
+    "hash":  "f08559444bcd7af8d629cbad6a972dea4033a116ff9aaf0b1b2bef2a3cabb0af",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "gping.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/orf/gping/releases/download/gping-v$version/gping-Windows-msvc-x86_64.zip"
+                   }
+}

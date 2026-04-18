@@ -1,15 +1,21 @@
-{
-    "type": "executable",
-    "version": "1.103.1",
-    "description": "Visual Studio Code is a free source-code editor made by Microsoft for Windows, Linux and macOS.",
-    "homepage": "https://code.visualstudio.com/",
-    "license": "MIT",
-    "dependencies": [],
-    "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/VSCodeUserSetup-x64-1.103.1.exe",
-    "hash": "cd365bcec1ae4723dcf88f722226d52d4ef6d87898afaef1edf406f966688e6e",
-    "installer": {
-        "args": ["/VERYSILENT", "/NORESTART"]
-    },
-    "bin": "Code.exe"
-}
+﻿{
+    "type":  "zip",
+    "version":  "1.116.0",
+    "description":  "Lightweight but powerful source code editor",
+    "homepage":  "https://code.visualstudio.com/",
+    "license":  "Freeware",
+    "dependencies":  [
 
+                     ],
+    "url":  "https://update.code.visualstudio.com/1.116.0/win32-x64-archive/stable#/dl.7z",
+    "hash":  "365c3d275deb3a1c0a1aa626f274824b8db15ee150d567a7323b8dbce2cdfa8f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "code.exe",
+    "autoupdate":  {
+                       "url":  "https://update.code.visualstudio.com/$version/win32-x64-archive/stable#/dl.7z"
+                   }
+}

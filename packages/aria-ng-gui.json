@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.1.2",
+    "description":  "An Aria2 GUI for Windows \u0026 Linux \u0026 MacOS.",
+    "homepage":  "https://aria-ng.xmader.com/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Xmader/aria-ng-gui/releases/download/v3.1.2/AriaNgGUI-win32-x64.zip",
+    "hash":  "39e3ee0ba99fb1c4b13dde8c7924ddcd06faaeb16a840d58c565a4abd403859f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "AriaNgGUI.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Xmader/aria-ng-gui/releases/download/v$version/AriaNgGUI-win32-x64.zip"
+                   }
+}

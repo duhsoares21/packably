@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.18.1",
+    "description":  "Compose with Mutagen integration",
+    "homepage":  "https://mutagen.io/documentation/orchestration/compose",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/mutagen-io/mutagen-compose/releases/download/v0.18.1/mutagen-compose_windows_amd64_v0.18.1.zip",
+    "hash":  "ce266f8798b74d2040fd01a0513832f2501974f707aa99b61374d901cca2437d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "mutagen-compose.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/mutagen-io/mutagen-compose/releases/download/v$version/mutagen-compose_windows_amd64_v$version.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "9.2.937",
+    "description":  "Environment variables editor.",
+    "homepage":  "https://www.rapidee.com/en/about",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.rapidee.com/download/RapidEEx64.zip",
+    "hash":  "099f40873b1376e5d0f8b4917a63776e2528af0bc4c83a887e2bedcfc275a3ad",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "rapidee.exe",
+    "autoupdate":  {
+                       "url":  "https://www.rapidee.com/download/RapidEEx64.zip"
+                   }
+}

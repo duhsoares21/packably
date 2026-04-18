@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "10.8.4.409",
+    "description":  "A small, fast, and feature-rich PDF viewer/editor.",
+    "homepage":  "https://www.pdf-xchange.com/product/pdf-xchange-editor",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.pdf-xchange.com/10.8.4.409/PDFXEdit10_Portable_x64.zip",
+    "hash":  "681cf23b96825e63169f54f024e69ae15b15d9499ab2162e034abcf58b6f0f5d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "PDFXEdit.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.pdf-xchange.com/$version/PDFXEdit10_Portable_x64.zip"
+                   }
+}

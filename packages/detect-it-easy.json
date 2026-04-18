@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.10",
+    "description":  "Program for determining types of files",
+    "homepage":  "https://horsicq.github.io",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/horsicq/DIE-engine/releases/download/3.10/die_win64_portable_3.10_x64.zip",
+    "hash":  "6e84ac8d3abdfba60078a36fa7f6b492b20c2af2c502e0a4579f41367ac37c80",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "die.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/horsicq/DIE-engine/releases/download/$version/die_win64_portable_$version_x64.zip"
+                   }
+}

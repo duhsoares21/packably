@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.12.9",
+    "description":  "Command-line tool for building and testing Emacs Lisp packages",
+    "homepage":  "https://emacs-eask.github.io/",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/emacs-eask/cli/releases/download/0.12.9/eask_0.12.9_win-x64.zip",
+    "hash":  "56bebbda140bb3ccc3c996495623668f39ab4812682e7c3f1d3afe6ccf5218fd",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "eask.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/emacs-eask/cli/releases/download/$version/eask_$version_win-x64.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.2.3",
+    "description":  "An open and reliable container runtime",
+    "homepage":  "https://containerd.io",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/containerd/containerd/releases/download/v2.2.3/containerd-2.2.3-windows-amd64.tar.gz",
+    "hash":  "81314dd5e3baad958acae0e4d1ff21eb27b7c8f8809232ab06c9f397cd221e02",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\containerd.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/containerd/containerd/releases/download/v$version/containerd-$version-windows-amd64.tar.gz"
+                   }
+}

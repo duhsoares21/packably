@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.16.0",
+    "description":  "Theorem prover from Microsoft Research.",
+    "homepage":  "https://github.com/Z3Prover/z3",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Z3Prover/z3/releases/download/z3-4.16.0/z3-4.16.0-x64-win.zip",
+    "hash":  "de4d813e47202394a093547dbdb5699ee076529aa853463e007539775cd7e836",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\z3.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Z3Prover/z3/releases/download/z3-$version/z3-$version-x64-win.zip"
+                   }
+}

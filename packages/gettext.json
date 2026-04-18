@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.0-v1.19",
+    "description":  "Gettext is an internationalization and localization (i18n) system commonly used for writing multilingual programs on Unix-like computer operating systems.",
+    "homepage":  "https://mlocati.github.io/articles/gettext-iconv-windows.html",
+    "license":  "Unknown",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/mlocati/gettext-iconv-windows/releases/download/v1.0-v1.19/gettext1.0-iconv1.19-shared-64.zip",
+    "hash":  "c2f195fc4ed3df4070fb08ff88c2f724afd1eed4e28f859efae1000bb7ba1152",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\iconv.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/mlocati/gettext-iconv-windows/releases/download/v$version/gettext$matchGettext-iconv$matchIconv-shared-64.zip"
+                   }
+}

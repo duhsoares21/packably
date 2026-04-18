@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.1.7",
+    "description":  "Audio converter and CD ripper with support for various popular formats and encoders",
+    "homepage":  "https://www.freac.org",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/enzo1982/freac/releases/download/v1.1.7/freac-1.1.7-windows-x64.zip",
+    "hash":  "ef45665aae6c1c0eb4c0ecd8ecc6bed24f02f3cddf6cfd72d8e5c9bc858bf110",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "freaccmd.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/enzo1982/freac/releases/download/v$version/freac-$version-windows-x64.zip"
+                   }
+}

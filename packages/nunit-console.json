@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "3.20.1",
+    "description":  "NUnit Console runner for NUnit, the most popular and widely used unit testing framework for .NET",
+    "homepage":  "https://nunit.org/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://packages.chocolatey.org/nunit-console-runner.3.20.1.nupkg",
+    "hash":  "3020911c61245511bc0ca3a274d9ba2c7d460f5451fa51cd030311e5fd540a15",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "nunit3-console.exe",
+    "autoupdate":  {
+                       "url":  "https://packages.chocolatey.org/nunit-console-runner.$version.nupkg"
+                   }
+}

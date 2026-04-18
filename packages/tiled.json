@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "1.12.1",
+    "description":  "A free and open source, easy to use, and flexible level editor.",
+    "homepage":  "https://www.mapeditor.org/",
+    "license":  "GPL-2.0-only|BSD-2-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/mapeditor/tiled/releases/download/v1.12.1/Tiled-1.12.1_Windows-10+_x86_64.msi",
+    "hash":  "6617fb91fbf09b079d835d1c1ecdbae4b227163ba9495bf28e3ef89f96a10f20",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "tiled.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/mapeditor/tiled/releases/download/v$version/Tiled-$version_Windows-10+_x86_64.msi"
+                   }
+}

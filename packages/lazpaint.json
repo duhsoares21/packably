@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "7.3",
+    "description":  "Graphic editor with many tools and filters",
+    "homepage":  "https://lazpaint.github.io/",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/bgrabitmap/lazpaint/releases/download/v7.3/lazpaint7.3_win64_no_install.zip",
+    "hash":  "3d79ac4c822437c327be44417968d2e027f072c42211691b40198cbd78a24b51",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "lazpaint.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/bgrabitmap/lazpaint/releases/download/v$version/lazpaint$version_win64_no_install.zip"
+                   }
+}

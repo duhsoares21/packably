@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.5.0",
+    "description":  "Argyll Color Management System",
+    "homepage":  "https://www.argyllcms.com/",
+    "license":  "AGPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.argyllcms.com/Argyll_V3.5.0_win64_exe.zip",
+    "hash":  "c80f78ba30e715079a00a14c2e7c9f533c58e6c8fdbc27f2d32b3d7813f9d132",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\applycal.exe",
+    "autoupdate":  {
+                       "url":  "https://www.argyllcms.com/Argyll_V$version_win64_exe.zip"
+                   }
+}

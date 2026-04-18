@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.7.5",
+    "description":  "Open a web search in your terminal.",
+    "homepage":  "https://github.com/zquestz/s",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/zquestz/s/releases/download/v0.7.5/s-windows_amd64.zip",
+    "hash":  "57e29ee1516ea15a120d4bef2bfe8b889845f1292a3c10f241b83a96b108d0d5",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "s.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/zquestz/s/releases/download/v$version/s-windows_amd64.zip"
+                   }
+}

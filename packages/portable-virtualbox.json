@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "6.4.10",
+    "description":  "A portable VirtualBox downloader and launcher written by Runar Buvik",
+    "homepage":  "https://www.vbox.me/",
+    "license":  "GPL-2.0-only,CC-BY-NC-SA-3.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "http://files.vbox.me/files/Portable-VirtualBox_v5.1.22-Starter_v6.4.10-Win_all.exe#/dl.7z",
+    "hash":  "9db4741b83fe24b9d047c7a18e0eec751585693f544a4abd443200ba39d49c6f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Portable-VirtualBox.exe",
+    "autoupdate":  {
+                       "url":  "http://files.vbox.me/files/Portable-VirtualBox_v$matchVbox-Starter_v$matchVersion-Win_all.exe#/dl.7z"
+                   }
+}

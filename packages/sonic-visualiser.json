@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "5.2.1",
+    "description":  "Visualisation, analysis, and annotation of music audio recordings.",
+    "homepage":  "https://www.sonicvisualiser.org",
+    "license":  "GPL-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/sonic-visualiser/sonic-visualiser/releases/download/sv_v5.2.1/sonic-visualiser-5.2.1-win64.msi",
+    "hash":  "fb421363db474de2161ef5e73d5a5a1f548d2df0624d811ad0713e76bdae43b1",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Sonic Visualiser.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/sonic-visualiser/sonic-visualiser/releases/download/sv_v$version/sonic-visualiser-$version-win64.msi"
+                   }
+}

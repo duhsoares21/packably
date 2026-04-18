@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.121.0",
+    "description":  "OpenAI\u0027s Codex AI coding assistant",
+    "homepage":  "https://github.com/openai/codex",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/openai/codex/releases/download/rust-v0.121.0/codex-x86_64-pc-windows-msvc.exe#/codex.exe",
+    "hash":  "e0af363469eb24105e535435bc9715202375242aaf0366c408987ba142a58b74",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "codex.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/openai/codex/releases/download/rust-v$version/codex-x86_64-pc-windows-msvc.exe#/codex.exe"
+                   }
+}

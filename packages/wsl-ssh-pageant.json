@@ -1,0 +1,18 @@
+﻿{
+    "type":  "exe",
+    "version":  "20201121.2",
+    "description":  "A Pageant -\u003e TCP bridge for use with WSL, allowing for Pageant to be used as an ssh-ageant within the WSL environment.",
+    "homepage":  "https://github.com/benpye/wsl-ssh-pageant",
+    "license":  "BSD-2-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/benpye/wsl-ssh-pageant/releases/download/20201121.2/wsl-ssh-pageant-amd64.exe#/wsl-ssh-pageant.exe",
+    "hash":  "d2979bed31d7fe09fbd0186a45ae029e1311eb44cc432cb88d232fd3a4f4c1e0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "wsl-ssh-pageant.exe"
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "5.5.1",
+    "description":  "A text editor for developers",
+    "homepage":  "http://www.pspad.com",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.pspad.com/files/pspad/pspad551en_x64.zip",
+    "hash":  "sha1:9a7e6fb31ac389b78f255fcbccff89b32b0ff319",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "PSPad.exe",
+    "autoupdate":  {
+                       "url":  "https://www.pspad.com/files/pspad/pspad$cleanVersionen_x64.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.17.0",
+    "description":  "Easily switch between windows of the same app with Alt+` (Backtick), also switch between apps with Alt+Tab.",
+    "homepage":  "https://github.com/sigoden/window-switcher",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/sigoden/window-switcher/releases/download/v1.17.0/window-switcher-v1.17.0-windows-64.zip",
+    "hash":  "32111fef117598d4114e0e7cedf6d1ef78a074be84001d36461b4015d90c85d7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "window-switcher.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/sigoden/window-switcher/releases/download/v$version/window-switcher-v$version-windows-64.zip"
+                   }
+}

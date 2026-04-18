@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2026-01-18T07.54.37",
+    "description":  "Community-created themes for Spicetify.",
+    "homepage":  "https://github.com/spicetify/spicetify-themes",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/spicetify/spicetify-themes/archive/master.zip",
+    "hash":  "c533bb8efa8e40ce39d10b024c91c44f30f3ab35a7c09bbf792912d543850fcd",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://github.com/spicetify/spicetify-themes/archive/master.zip"
+                   }
+}

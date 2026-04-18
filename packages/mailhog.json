@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.0.1",
+    "description":  "Web and API based SMTP testing",
+    "homepage":  "https://github.com/mailhog/MailHog",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/mailhog/MailHog/releases/download/v1.0.1/MailHog_windows_amd64.exe#/MailHog.exe",
+    "hash":  "b217990446e97a60ff09ec21d3f86e54415595148904a7f7737f5019d01671ce",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "MailHog.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/mailhog/MailHog/releases/download/v$version/MailHog_windows_amd64.exe#/MailHog.exe"
+                   }
+}

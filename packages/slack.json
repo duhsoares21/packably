@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.49.81",
+    "description":  "Collaboration software",
+    "homepage":  "https://slack.com",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.slack-edge.com/desktop-releases/windows/x64/4.49.81/Slack.msix#/dl.zip",
+    "hash":  "e0470d9217e34bf7375b991895f4ae77e6b33650aba2f6c7870397eab7820847",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "slack.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.slack-edge.com/desktop-releases/windows/x64/$version/Slack.msix#/dl.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2025.12.25",
+    "description":  "Professional archiving, cataloging, and library management suite providing connectivity to PostgreSQL and SQLite.",
+    "homepage":  "https://textbrowser.github.io/biblioteq/",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/textbrowser/biblioteq/releases/download/2025.12.25/BiblioteQ-2025.12.25.zip",
+    "hash":  "29e415cf2d4632123c75c59a755f66f9f07bd15eb8d128713f170ecc8f39407f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "BiblioteQ.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/textbrowser/biblioteq/releases/download/$version/BiblioteQ-$version.zip"
+                   }
+}

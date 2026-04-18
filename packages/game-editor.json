@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.4.0",
+    "description":  "The open source game design software that gives you the power to create the games of your dreams in a simple interface and a basic version of the C language.",
+    "homepage":  "http://game-editor.com/",
+    "license":  "GPL-3.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://sourceforge.net/projects/game-editor/files/gameEditor.zip",
+    "hash":  "md5:2694994ba093d99703c1a7a5e96f4d62",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "gameEditor.exe",
+    "autoupdate":  {
+                       "url":  "https://sourceforge.net/projects/game-editor/files/gameEditor.zip"
+                   }
+}

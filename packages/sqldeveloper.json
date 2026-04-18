@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "24.3.1.347.1826",
+    "description":  "A graphical tool for working with SQL in Oracle databases",
+    "homepage":  "https://www.oracle.com/database/sqldeveloper/",
+    "license":  "Oracle Free Use License",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.oracle.com/otn_software/java/sqldeveloper/sqldeveloper-24.3.1.347.1826-no-jre.zip",
+    "hash":  "3390ef58972f1f255077c49e66b171b8664773bb16e37570a7ca16acc5afb8cb",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "sqldeveloper.exe",
+    "autoupdate":  {
+                       "url":  "https://download.oracle.com/otn_software/java/sqldeveloper/sqldeveloper-$version-no-jre.zip"
+                   }
+}

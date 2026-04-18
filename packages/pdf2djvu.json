@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.9.19",
+    "description":  "PDF to DjVu converter",
+    "homepage":  "https://jwilk.net/software/pdf2djvu",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/jwilk/pdf2djvu/releases/download/0.9.19/pdf2djvu-win32-0.9.19.zip",
+    "hash":  "1050bbbe1427e7005106e7e744bf1a2ae38de18ef49726a951ba164a426f4568",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "pdf2djvu.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/jwilk/pdf2djvu/releases/download/$version/pdf2djvu-win32-$version.zip"
+                   }
+}

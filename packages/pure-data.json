@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.56-2",
+    "description":  "The \"vanilla\" distribution of Pure Data (aka Pd Vanilla) is an open source visual programming language for multimedia.",
+    "homepage":  "https://puredata.info/",
+    "license":  "Standard-Improved-BSD",
+    "dependencies":  [
+
+                     ],
+    "url":  "http://msp.ucsd.edu/Software/pd-0.56-2.msw.zip",
+    "hash":  "3b85c673d3e2ae706f7066773a42b188bf7f98b50d7af113f728017242ad07b0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\pd.com",
+    "autoupdate":  {
+                       "url":  "http://msp.ucsd.edu/Software/pd-$version.msw.zip"
+                   }
+}

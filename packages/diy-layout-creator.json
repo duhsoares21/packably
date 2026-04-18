@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "5.13.0",
+    "description":  "Multi platform circuit layout and schematic drawing tool.",
+    "homepage":  "https://bancika.github.io/diy-layout-creator/",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/bancika/diy-layout-creator/releases/download/v5.13.0/diylc-5.13.0-win64.zip",
+    "hash":  "a02c07d9ad4ef2b232a09676b6ffd19f42d917a19ecaadcffb6780f9d1dea7c2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "diylc.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/bancika/diy-layout-creator/releases/download/v$version/diylc-$version-win64.zip"
+                   }
+}

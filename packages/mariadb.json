@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "12.2.2",
+    "description":  "Community developed fork of MySQL server.",
+    "homepage":  "https://mariadb.org",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://archive.mariadb.org/mariadb-12.2.2/winx64-packages/mariadb-12.2.2-winx64.zip",
+    "hash":  "b34bb91f0dd4bd184f420288a12aace2b5fcb20734f2b880075c36150d4641c6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\aria_chk.exe",
+    "autoupdate":  {
+                       "url":  "https://archive.mariadb.org/mariadb-$version/winx64-packages/mariadb-$version-winx64.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "1.95.0",
+    "description":  "A language empowering everyone to build reliable and efficient software. (MSVC toolchain)",
+    "homepage":  "https://www.rust-lang.org",
+    "license":  "MIT|Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://static.rust-lang.org/dist/rust-1.95.0-x86_64-pc-windows-msvc.msi",
+    "hash":  "08d228850565cfe421da6faeac029fb1f0c8341219d0dd9490d42a8355aa0703",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\rustc.exe",
+    "autoupdate":  {
+                       "url":  "https://static.rust-lang.org/dist/rust-$version-x86_64-pc-windows-msvc.msi"
+                   }
+}

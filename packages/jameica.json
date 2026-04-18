@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.12.0",
+    "description":  "A free runtime environment for Java applications that can be implemented as plugins.",
+    "homepage":  "https://www.willuhn.de/products/jameica/",
+    "license":  "GPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.willuhn.de/products/jameica/releases/current/jameica/jameica-win64-2.12.0.zip",
+    "hash":  "sha1:6890e196be839f22bfc1ba20c310f86f69057e38",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://www.willuhn.de/products/jameica/releases/current/jameica/jameica-win64-$version.zip"
+                   }
+}

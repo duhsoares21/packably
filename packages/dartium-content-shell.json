@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.24.2",
+    "description":  "A headless version of Dartium",
+    "homepage":  "https://dart.dev",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://storage.googleapis.com/dart-archive/channels/stable/release/1.24.2/dartium/content_shell-windows-ia32-release.zip",
+    "hash":  "a6422160fa382dab9e4e70aacb7abcc00a7a9d6abbbde37410f3d675a8636753",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "content_shell.exe"
+}

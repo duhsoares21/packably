@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.14.0",
+    "description":  "Ohayou(ãŠã¯ã‚ˆã†), HTTP load generator, inspired by rakyll/hey with tui animation",
+    "homepage":  "https://github.com/hatoo/oha",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/hatoo/oha/releases/download/v1.14.0/oha-windows-amd64.exe#/oha.exe",
+    "hash":  "a45fdab9d18684b7f974872663df3395a518aefa01954c53b6c6e480e8a1dae0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "oha.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/hatoo/oha/releases/download/v$version/oha-windows-amd64.exe#/oha.exe"
+                   }
+}

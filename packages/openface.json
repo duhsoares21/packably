@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.2.0",
+    "description":  "Facial behavior analysis toolkit",
+    "homepage":  "https://github.com/TadasBaltrusaitis/OpenFace",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/TadasBaltrusaitis/OpenFace/releases/download/OpenFace_2.2.0/OpenFace_2.2.0_win_x64.zip",
+    "hash":  "4201e96f3bc561a0e3a7fa50d2e12ce782b8a685746d63062572cd5296478dec",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "FeatureExtraction.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/TadasBaltrusaitis/OpenFace/releases/download/OpenFace_$version/OpenFace_$version_win_x64.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "5.9.7",
+    "description":  "Allows USB devices to be used remotely over a network just as if they were locally connected (server-side app)",
+    "homepage":  "https://www.virtualhere.com/usb_client_software",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.virtualhere.com/sites/default/files/usbclient/vhui64.exe#/vhui.exe",
+    "hash":  "sha1:27b4c0d67aa5033fac2cb5157043d81fa017e68a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "vhui.exe",
+    "autoupdate":  {
+                       "url":  "https://www.virtualhere.com/sites/default/files/usbclient/vhui64.exe#/vhui.exe"
+                   }
+}

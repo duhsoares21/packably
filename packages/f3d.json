@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.5.0",
+    "description":  "A fast and minimalist 3D viewer",
+    "homepage":  "https://f3d.app",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/f3d-app/f3d/releases/download/v3.5.0/F3D-3.5.0-Windows-x86_64-raytracing.zip",
+    "hash":  "6d28e9dd55f32429496a758c92191f805f8bb054a1866eb98921791748752594",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\f3d.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/f3d-app/f3d/releases/download/v$version/F3D-$version-Windows-x86_64-raytracing.zip"
+                   }
+}

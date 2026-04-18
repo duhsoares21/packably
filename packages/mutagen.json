@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.18.1",
+    "description":  "Fast, cross-platform, continuous, multidirectional file synchronization for remote development",
+    "homepage":  "https://mutagen.io/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/mutagen-io/mutagen/releases/download/v0.18.1/mutagen_windows_amd64_v0.18.1.zip",
+    "hash":  "76f8223d5e6b607efdd9516473669ae5492e4f142887352d59bc6934d1f07a2d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "mutagen.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/mutagen-io/mutagen/releases/download/v$version/mutagen_windows_amd64_v$version.zip"
+                   }
+}

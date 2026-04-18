@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.24.0",
+    "description":  "SDL_ttf is a library that provides support for TrueType (.ttf) font files with Simple Directmedia Layer.",
+    "homepage":  "https://github.com/libsdl-org/SDL_ttf",
+    "license":  "Zlib",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/libsdl-org/SDL_ttf/releases/download/release-2.24.0/SDL2_ttf-devel-2.24.0-VC.zip",
+    "hash":  "2dea8ea01e04756ead27e196a681034ed71342562a75b512ea279fcdfde83307",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://github.com/libsdl-org/SDL_ttf/releases/download/release-$version/SDL2_ttf-devel-$version-VC.zip"
+                   }
+}

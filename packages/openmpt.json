@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.32.09.00",
+    "description":  "Music tracker",
+    "homepage":  "https://openmpt.org",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.openmpt.org/archive/openmpt/1.32/OpenMPT-1.32.09.00-portable-amd64.zip",
+    "hash":  "3d1ccb86a7de6dfd8bd8ac76872e40c4aaac72fecce696b004ff2fdcf6f066f6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "OpenMPT.exe",
+    "autoupdate":  {
+                       "url":  "https://download.openmpt.org/archive/openmpt/$majorVersion.$minorVersion/OpenMPT-$version-portable-amd64.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.31",
+    "description":  "A digital logic designer and circuit simulator",
+    "homepage":  "https://github.com/hneemann/Digital",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/hneemann/Digital/releases/download/v0.31/Digital.zip",
+    "hash":  "12f014c8b99140554f8f7464ebc771bbe3de6af39c83c20463492bcb892afc69",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Digital.bat",
+    "autoupdate":  {
+                       "url":  "https://github.com/hneemann/Digital/releases/download/v$version/Digital.zip"
+                   }
+}

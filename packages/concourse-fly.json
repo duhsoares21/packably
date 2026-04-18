@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "8.1.1",
+    "description":  "Concourse CI/CD manager and controller",
+    "homepage":  "https://concourse-ci.org/fly.html",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/concourse/concourse/releases/download/v8.1.1/fly-8.1.1-windows-amd64.zip",
+    "hash":  "sha1:12ea22ed91e0a9c8e79ca190960f18d978b358c9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "fly.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/concourse/concourse/releases/download/v$version/fly-$version-windows-amd64.zip"
+                   }
+}

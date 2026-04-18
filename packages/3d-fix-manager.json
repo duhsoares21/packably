@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.82",
+    "description":  "Tool for Installing Nvidia 3D Vision Fixes and changing 3D related settings such as 3D depth and convergence while gaming.",
+    "homepage":  "https://helixmod.blogspot.com/2017/05/3d-fix-manager.html",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://duselpaul86.s3.amazonaws.com/fix_manager_1.82.zip",
+    "hash":  "ed3a1903f1a56f2fc10dc5d8361a5a69e6bf436ba3799ccbcd9429775b72794f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "3DFixManager.exe",
+    "autoupdate":  {
+                       "url":  "https://duselpaul86.s3.amazonaws.com/fix_manager_$version.zip"
+                   }
+}

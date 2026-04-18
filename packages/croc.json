@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "10.4.2",
+    "description":  "Easily and securely send things from one computer to another.",
+    "homepage":  "https://schollz.com/software/croc6",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/schollz/croc/releases/download/v10.4.2/croc_v10.4.2_Windows-64bit.zip",
+    "hash":  "aac93803a887b0f10891f68f57edbf496c7d034d3cc721f9fc6cc193d0165386",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "croc.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/schollz/croc/releases/download/v$version/croc_v$version_Windows-64bit.zip"
+                   }
+}

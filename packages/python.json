@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "3.14.4",
+    "description":  "A programming language that lets you work quickly and integrate systems more effectively.",
+    "homepage":  "https://www.python.org/",
+    "license":  "Python-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.python.org/ftp/python/3.14.4/python-3.14.4-amd64.exe#/setup.exe",
+    "hash":  "b571567bd11ea98fd7a2cf85791d2c8557a63b1e04e9d1dae665a275cac87f1b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "python.exe",
+    "autoupdate":  {
+                       "url":  "https://www.python.org/ftp/python/$version/python-$version-amd64.exe#/setup.exe"
+                   }
+}

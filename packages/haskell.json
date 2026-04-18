@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "9.12.1",
+    "description":  "An advanced, purely functional programming language.",
+    "homepage":  "https://www.haskell.org",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.haskell.org/~ghc/9.12.1/ghc-9.12.1-x86_64-unknown-mingw32.tar.xz",
+    "hash":  "22dc942be1b968d5e28e75c06aba52829d0c52d9234bc9941df9ab2a0e2a610d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\ghc.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.haskell.org/~ghc/$version/ghc-$version-x86_64-unknown-mingw32.tar.xz"
+                   }
+}

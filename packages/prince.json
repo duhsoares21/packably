@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "16.2",
+    "description":  "Convert HTML to PDF with CSS",
+    "homepage":  "https://www.princexml.com",
+    "license":  "Non-commercial",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.princexml.com/download/prince-16.2-win64.zip",
+    "hash":  "830029d0abd5899605f7e4de90b6bdc6ba5044859f3e0d57e024c781c5be9f38",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\prince.exe",
+    "autoupdate":  {
+                       "url":  "https://www.princexml.com/download/prince-$version-win64.zip"
+                   }
+}

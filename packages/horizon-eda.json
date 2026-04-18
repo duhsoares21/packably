@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "2.7.2",
+    "description":  "Horizon is a free EDA package",
+    "homepage":  "https://horizon-eda.org/",
+    "license":  "GPL-3.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/horizon-eda/horizon/releases/download/v2.7.2/horizon-eda-2.7.2-x64.msi",
+    "hash":  "7a226e9423bdca53cd3de46280267b0abeca757ffbb637f01e05bd574f9b0476",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin/horizon-eda.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/horizon-eda/horizon/releases/download/v$version/horizon-eda-$version-x64.msi"
+                   }
+}

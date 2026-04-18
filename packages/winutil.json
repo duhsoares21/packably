@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "26.04.02",
+    "description":  "Chris Titus Tech\u0027s Windows Utility - Install Programs, Tweaks, Fixes, and Updates.",
+    "homepage":  "https://github.com/ChrisTitusTech/winutil",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/ChrisTitusTech/winutil/releases/download/26.04.02/winutil.ps1",
+    "hash":  "ee93b5fae2ff36d23e46308517e6001eebfe8dbf3d551d099806ffdca88fc244",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "winutil.ps1",
+    "autoupdate":  {
+                       "url":  "https://github.com/ChrisTitusTech/winutil/releases/download/$version/winutil.ps1"
+                   }
+}

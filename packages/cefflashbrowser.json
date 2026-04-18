@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.1.7",
+    "description":  "Flash Browser",
+    "homepage":  "https://github.com/Mzying2001/CefFlashBrowser",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Mzying2001/CefFlashBrowser/releases/download/1.1.7/FlashBrowser_x64_v1.1.7.zip",
+    "hash":  "b590beffbc6f7f6efe70c37143d99cdfb9716d3e19b5ce8364396a914a17f309",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "CefFlashBrowser.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Mzying2001/CefFlashBrowser/releases/download/$matchTag/FlashBrowser_x64_v$version.zip"
+                   }
+}

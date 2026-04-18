@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.0.0.5",
+    "description":  "Polsedit is a utility to modify user policies such as user account rights and user privileges on a local or remote system",
+    "homepage":  "https://www.southsoftware.com/polsedit.html",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.southsoftware.com/polsedit.zip",
+    "hash":  "149c3578103f43482f013238cd4fc0db354a862d9acffdbe9c2c2f0e80a8f794",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  ""
+}

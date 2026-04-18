@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.6.1",
+    "description":  "Recursively searches/replaces directories for a regex pattern.",
+    "homepage":  "https://github.com/dalance/amber",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/dalance/amber/releases/download/v0.6.1/amber-v0.6.1-x86_64-win.zip",
+    "hash":  "ad3aa89d7751a1e8cbced749aa47d891aceffc55528eee852e631be392341abb",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ambs.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/dalance/amber/releases/download/v$version/amber-v$version-x86_64-win.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.3.12",
+    "description":  "SIP softphone software",
+    "homepage":  "http://tomeko.net/software/SIPclient/",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/tomek-o/tSIP/releases/download/v0.3.12/tSIP_0_3_12_bin.zip",
+    "hash":  "8afcf9cc3f61f2bcfd4cf68c64f9f04e99c0318199b25e1d2a310c3438dcc116",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "tSIP.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/tomek-o/tSIP/releases/download/v$version/tSIP_$underscoreVersion_bin.zip"
+                   }
+}

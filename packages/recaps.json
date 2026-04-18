@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.9.0.3850",
+    "description":  "Switch keyboard layouts using Caps Lock (or other keys)",
+    "homepage":  "https://recaps.sourceforge.io/",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/recaps/0.9.0.3480/ReCaps_V0.9.0.3480.exe#/dl.exe",
+    "hash":  "sha1:bd7c935f177f12848262809753d2133ea4245013",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "recaps.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/recaps/0.9.0.3480/ReCaps_V0.9.0.3480.exe#/dl.exe"
+                   }
+}

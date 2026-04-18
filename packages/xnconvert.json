@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.106.0",
+    "description":  "Batch photo resizer and image converter to crop, convert, compress, resize images.",
+    "homepage":  "https://www.xnview.com/en/xnconvert/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.xnview.com/old_versions/XnConvert/XnConvert-1.106.0-win-x64.zip",
+    "hash":  "bbd69831d134004de375205db6e57c50fc34f518c3805cb797ec5af02d2e4201",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "xnconvert.exe",
+    "autoupdate":  {
+                       "url":  "https://download.xnview.com/old_versions/XnConvert/XnConvert-$version-win-x64.zip"
+                   }
+}

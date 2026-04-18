@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.14",
+    "description":  "Checks CPU Vendor, Model, Internal speed, and L1 cache mode settings.",
+    "homepage":  "http://web.inter.nl.net/hcc/J.Steunebrink/chkcpu.htm",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "http://web.inter.nl.net/hcc/J.Steunebrink/ckcpu215.zip",
+    "hash":  "f896e42cfef67bbac90c4c51eb9791401455ad9b02edbf65de05f84a96d88897",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "chkcpu32.exe"
+}

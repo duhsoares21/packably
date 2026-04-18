@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.3.0",
+    "description":  "A package manager for local and remote Typst packages.",
+    "homepage":  "https://github.com/typst-community/utpm",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/typst-community/utpm/releases/download/v0.3.0/utpm-x86_64-pc-windows-msvc.tar.gz",
+    "hash":  "88337427c8d1f7228dbf873d80113c231a55070f9ebc4fa409b3dd36a3db34d5",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "utpm.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/typst-community/utpm/releases/download/v$version/utpm-x86_64-pc-windows-msvc.tar.gz"
+                   }
+}

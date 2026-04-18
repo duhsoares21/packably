@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.3.16.1",
+    "description":  "Scripting language designed for automating the Windows GUI and general scripting",
+    "homepage":  "https://www.autoitscript.com/site/autoit/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.autoitscript.com/files/autoit3/autoit-v3.zip",
+    "hash":  "ceb666a993a9f62621c3a0d4ee602774b2e7f543de1f08ec0380632ee3f89beb",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://www.autoitscript.com/files/autoit3/autoit-v3.zip"
+                   }
+}

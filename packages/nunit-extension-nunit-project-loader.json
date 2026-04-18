@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "3.8.0",
+    "description":  "NUnit Project Loader Extension",
+    "homepage":  "https://nunit.org/",
+    "license":  "MIT",
+    "dependencies":  [
+                         "nunit-console"
+                     ],
+    "url":  "https://packages.chocolatey.org/nunit-extension-nunit-project-loader.3.8.0.nupkg",
+    "hash":  "be01b9d7c04f0518c97d82d3fe08ce3881f3aed68ea9edeb5c5fb809ab27b623",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://packages.chocolatey.org/nunit-extension-nunit-project-loader.$version.nupkg"
+                   }
+}

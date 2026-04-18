@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2026.1.2.1",
+    "description":  "A time tracking software",
+    "homepage":  "https://www.manictime.com",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://cdn.manictime.com/setup/v2026_1_2_1/manictime-portable-2026.1.2.1-win-x64.zip",
+    "hash":  "d23ccfa516164b5234e966045c4afc5fd0c199550da16a41d0902a1a55fb4d00",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ManicTimeClient.exe",
+    "autoupdate":  {
+                       "url":  "https://cdn.manictime.com/setup/v$underscoreVersion/manictime-portable-$version-win-x64.zip"
+                   }
+}

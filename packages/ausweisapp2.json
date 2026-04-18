@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "2.5.1",
+    "description":  "Authenticate to websites with german ID.",
+    "homepage":  "https://www.ausweisapp.bund.de/",
+    "license":  "EUPL-1.2",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Governikus/AusweisApp/releases/download/2.5.1/AusweisApp-2.5.1.msi",
+    "hash":  "a5c6f914a8d0b00061b4f700ae750a46d3ceb930129444cf314d0664fb0469ff",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "AusweisApp.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Governikus/AusweisApp/releases/download/$version/AusweisApp-$version.msi"
+                   }
+}

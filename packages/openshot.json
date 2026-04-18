@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "3.5.1",
+    "description":  "Easy to use video editor",
+    "homepage":  "https://www.openshot.org/",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/OpenShot/openshot-qt/releases/download/v3.5.1/OpenShot-v3.5.1-x86_64.exe",
+    "hash":  "f7894bbf87ec77f37ea46407fef0ae444cd8db52dfc9fd52d969b8a8bde55685",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "openshot-qt.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/OpenShot/openshot-qt/releases/download/v$version/OpenShot-v$version-x86_64.exe"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.4.10",
+    "description":  "The open source AI coding agent.",
+    "homepage":  "https://opencode.ai/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/anomalyco/opencode/releases/download/v1.4.10/opencode-desktop-windows-x64.exe#/dl.7z",
+    "hash":  "010e2591065a3ce2bc73b9943f43677add0519c206855e209a33c3daccbd5c40",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "opencode-cli.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/anomalyco/opencode/releases/download/v$version/opencode-desktop-windows-x64.exe#/dl.7z"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.13.0",
+    "description":  "Free chemical drawing software with IUPAC InChI support",
+    "homepage":  "https://bkchem.zirael.org/",
+    "license":  "GPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://bkchem.zirael.org/download/bkchem-0.13.0.exe",
+    "hash":  "1b90a4c21462ac11014c3470e793f5f90ae393fac9a7d3927865ec0ecd5a34ce",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bkchem\\bkchem.exe",
+    "autoupdate":  {
+                       "url":  "https://bkchem.zirael.org/download/bkchem-$version.exe"
+                   }
+}

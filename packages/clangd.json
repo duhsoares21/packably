@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "22.1.0",
+    "description":  "Language server for C/C++, by the LLVM project",
+    "homepage":  "https://clangd.llvm.org/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/clangd/clangd/releases/download/22.1.0/clangd-windows-22.1.0.zip",
+    "hash":  "e31e271fe11f6dcd7cf87ca74be4a12788ff8ce5a0b07762583e335c058e939a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\clangd.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/clangd/clangd/releases/download/$version/clangd-windows-$version.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.1.2",
+    "description":  "An open-source message broker that implements the MQTT protocol.",
+    "homepage":  "https://mosquitto.org/",
+    "license":  "EPL-1.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://mosquitto.org/files/binary/win64/mosquitto-2.1.2-install-windows-x64.exe#dl.7z",
+    "hash":  "58008ad7a22ada0b4073afa415801746e027c5f583e4fa52d0f4e9193b98d6aa",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "mosquitto.exe",
+    "autoupdate":  {
+                       "url":  "https://mosquitto.org/files/binary/win64/mosquitto-$version-install-windows-x64.exe#dl.7z"
+                   }
+}

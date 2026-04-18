@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.5.3",
+    "description":  "GUI for rclone \u0026 S3",
+    "homepage":  "https://rcloneui.com",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/rclone-ui/rclone-ui/releases/download/v3.5.3/Rclone.UI_x64.exe#/dl.7z",
+    "hash":  "533331b920b5f3dcac9eca7bc55eec79ff92a9dd3ed73a794260d3b108b81310",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Rclone UI.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/rclone-ui/rclone-ui/releases/download/v$version/Rclone.UI_x64.exe#/dl.7z"
+                   }
+}

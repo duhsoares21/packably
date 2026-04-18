@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.39",
+    "description":  "Operates similarly to \u0027ping\u0027, but works over a TCP port.",
+    "homepage":  "https://www.elifulkerson.com/projects/tcping.php",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.elifulkerson.com/files/tcping/0.39/x64/tcping64.exe#/tcping.exe",
+    "hash":  "sha512:1e80cef7f5db6007ff83a2b7d5425fe74ed505b5af8612271b2353370151afa101be7e5a90333e7c029d20ae0be0c3557b6b7b5e440a8f5c4ee6118f242febd7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "tcping.exe",
+    "autoupdate":  {
+                       "url":  "https://download.elifulkerson.com/files/tcping/$version/x64/tcping64.exe#/tcping.exe"
+                   }
+}

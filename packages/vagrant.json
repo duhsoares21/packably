@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "2.4.9",
+    "description":  "A tool for building and managing virtual machine environments in a single workflow.",
+    "homepage":  "https://www.vagrantup.com/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://releases.hashicorp.com/vagrant/2.4.9/vagrant_2.4.9_windows_amd64.msi",
+    "hash":  "3bdd967927705872a70c7c98e0576afd5acd9dd73b527695f4d9dd75dd26cbe3",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\vagrant.exe",
+    "autoupdate":  {
+                       "url":  "https://releases.hashicorp.com/vagrant/$version/vagrant_$version_windows_amd64.msi"
+                   }
+}

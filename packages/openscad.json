@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2021.01",
+    "description":  "The Programmers Solid 3D CAD Modeller",
+    "homepage":  "https://www.openscad.org/",
+    "license":  "GPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://files.openscad.org/OpenSCAD-2021.01-x86-64.zip",
+    "hash":  "fb0caabf5bbc89f8f2f80c10b79ae64d697aaff6efd58b2756f5d6270edb7ba7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://files.openscad.org/OpenSCAD-$version-x86-64.zip"
+                   }
+}

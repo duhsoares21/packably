@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.83",
+    "description":  "A PuTTY-like wrapper program for Windows command prompts (or anything else running in a Windows console) that is not included in putty all-in-one archive/installer",
+    "homepage":  "https://www.chiark.greenend.org.uk/~sgtatham/putty/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://the.earth.li/~sgtatham/putty/0.83/w64/pterm.exe",
+    "hash":  "sha512:3c2f3c77e77aafa687bf9763431f27f12a337849b9956bf8af9f1e616aeef4a247214fc49c68d4710779083891b44618d836acae95fb303de181085c66692199",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "pterm.exe",
+    "autoupdate":  {
+                       "url":  "https://the.earth.li/~sgtatham/putty/$version/w64/pterm.exe"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "12.0.0.0",
+    "description":  "Data backup and synchronization software",
+    "homepage":  "https://www.2brightsparks.com/download-syncbackfree.html",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.2brightsparks.com/assets/software/SyncBack_Setup.exe",
+    "hash":  "b8acf34c2733c76a0c4dda574fdefc9235b3376145386fc637732f5cc4972d93",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "SyncBackFree.exe",
+    "autoupdate":  {
+                       "url":  "https://www.2brightsparks.com/assets/software/SyncBack_Setup.exe"
+                   }
+}

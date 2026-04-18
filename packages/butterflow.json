@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.2.4a4",
+    "description":  "Video manipulation tool",
+    "homepage":  "https://github.com/dthpham/butterflow",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/dthpham/butterflow/releases/download/0.2.4.alpha4/butterflow-0.2.4a4-win64.zip",
+    "hash":  "856ad05bafaeb9d084d6b1cbf0bdec17defeef438e610f6a3a772087acea301b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "butterflow.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/dthpham/butterflow/releases/download/$matchRel/butterflow-$version-win64.zip"
+                   }
+}

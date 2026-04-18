@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.134",
+    "description":  "Makes the color of your computer\u0027s display adapt to the time of day, warm at night and like sunlight during the day.",
+    "homepage":  "https://justgetflux.com",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://justgetflux.com/flux-setup4-134.exe#/dl.7z",
+    "hash":  "b53390dba0e0c227341f3c688be3aef91455c4f926e6527af6ce1e4acf74a7b3",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "flux.exe",
+    "autoupdate":  {
+                       "url":  "https://justgetflux.com/flux-setup$dashVersion.exe#/dl.7z"
+                   }
+}

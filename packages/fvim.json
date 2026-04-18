@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.3.549",
+    "description":  "Neovim front-end UI",
+    "homepage":  "https://github.com/yatli/fvim",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/yatli/fvim/releases/download/v0.3.549%2Bee4316c/fvim-win-x64-v0.3.548%2Bg2e4087d-2-gee4316c.zip",
+    "hash":  "96bdaa15a7557dfc70b984777d15b05caa25c1924847ea46bd7740f4fe4162c1",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "fvim.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/yatli/fvim/releases/download/$matchUrlx64"
+                   }
+}

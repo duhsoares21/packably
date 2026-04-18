@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "17.10.1",
+    "description":  "Free database schema discovery and comprehension tool",
+    "homepage":  "https://www.schemacrawler.com/",
+    "license":  "EPL-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/schemacrawler/SchemaCrawler-Installers/releases/download/v17.10.1/SchemaCrawler-17.10.1.msi",
+    "hash":  "061b484be6f303023d2d4de47b86b658ee9bb324b59dbbf1f1d30e61102ae571",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "SchemaCrawler.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/schemacrawler/SchemaCrawler-Installers/releases/download/v$version/SchemaCrawler-$version.msi"
+                   }
+}

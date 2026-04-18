@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "2021.01.12.01",
+    "description":  "A high-performance build tool.",
+    "homepage":  "https://buck.build/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+                         "versions/python27"
+                     ],
+    "url":  "https://packages.chocolatey.org/buck.2021.01.12.01.nupkg",
+    "hash":  "6623ab85184b7f0e0afad2e504423f33c803ada6ce1606886e78ae0565777dd4",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "buck.bat",
+    "autoupdate":  {
+                       "url":  "https://packages.chocolatey.org/buck.$version.nupkg"
+                   }
+}

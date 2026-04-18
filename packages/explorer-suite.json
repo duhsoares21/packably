@@ -1,0 +1,18 @@
+﻿{
+    "type":  "exe",
+    "version":  "III",
+    "description":  "A suite of tools including a PE editor called CFF Explorer and a process viewer.",
+    "homepage":  "https://ntcore.com/?page_id=388",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://ntcore.com/files/ExplorerSuite.exe",
+    "hash":  "94f4348ec573b05990b1e19542986e46dc30a87870739f5d5430b60072d5144d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "CFF Explorer.exe"
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.43.1",
+    "description":  "Tool for customizing the Spotify client.",
+    "homepage":  "https://spicetify.app/",
+    "license":  "LGPL-2.1-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/spicetify/cli/releases/download/v2.43.1/spicetify-2.43.1-windows-x64.zip",
+    "hash":  "c9b5e677d5b3046d14da09a3f713bd7b864b67b0c4c4b7ea2ab53c261e63b491",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "spicetify.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/spicetify/cli/releases/download/v$version/spicetify-$version-windows-x64.zip"
+                   }
+}

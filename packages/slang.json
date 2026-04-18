@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2026.5.2",
+    "description":  "A new language and compiler for shader development.",
+    "homepage":  "https://shader-slang.com/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/shader-slang/slang/releases/download/v2026.5.2/slang-2026.5.2-windows-x86_64.zip",
+    "hash":  "8751a5c897dacc3d05bb5bb063abf4200b2bd91052e893abd48cd941219a1549",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin/slangc.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/shader-slang/slang/releases/download/v$version/slang-$version-windows-x86_64.zip"
+                   }
+}

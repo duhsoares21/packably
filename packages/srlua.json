@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "5.5.0",
+    "description":  "A tool for building self-running Lua programs",
+    "homepage":  "https://github.com/LuaDist/srlua",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://joedf.github.io/LuaBuilds/hdata/srlua-5.5.0_Win64_bin.zip",
+    "hash":  "a578698486a8421051da74deb6addf95c7a1694ec62c6b4485ac94b3891eefde",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "srlua.exe",
+    "autoupdate":  {
+                       "url":  "https://joedf.github.io/LuaBuilds/hdata/srlua-$version_Win64_bin.zip"
+                   }
+}

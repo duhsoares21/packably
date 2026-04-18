@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.8.25",
+    "description":  "A command-line cd replacement that accelerates directory navigation by learning user access patterns.",
+    "homepage":  "https://github.com/skywind3000/z.lua",
+    "license":  "MIT",
+    "dependencies":  [
+                         "lua"
+                     ],
+    "url":  "https://github.com/skywind3000/z.lua/archive/refs/tags/v1.8.25.zip",
+    "hash":  "eb873632e37bbf96fb0255db9a9e27b14b3e06e0264b1e69bc30da13e912dbc8",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://github.com/skywind3000/z.lua/archive/refs/tags/$matchTag.zip"
+                   }
+}

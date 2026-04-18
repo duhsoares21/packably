@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "5.4.0.0",
+    "description":  "Speed test PC in less than a minute.",
+    "homepage":  "https://www.userbenchmark.com/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.userbenchmark.com/resources/download/UserBenchmark.zip",
+    "hash":  "83c827c1caa52c4dda69f92b42f397315a2ebbd51ce7f1637a3d2b4f46735ad2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "UserBenchmark.exe",
+    "autoupdate":  {
+                       "url":  "https://www.userbenchmark.com/resources/download/UserBenchmark.zip"
+                   }
+}

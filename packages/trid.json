@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.47-26.04.17",
+    "description":  "A utility designed to identify file types from their binary signatures.",
+    "homepage":  "https://www.mark0.net/soft-trid-e.html",
+    "license":  "Shareware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://mark0.net/download/triddefs.zip",
+    "hash":  "486c8a58b14e1396d2d0f81e89562d04ae313a64588f56eec5dd0f5aa40d1eaf",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "trid.exe",
+    "autoupdate":  {
+                       "url":  "https://mark0.net/download/triddefs.zip"
+                   }
+}

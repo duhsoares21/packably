@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.9.1.0",
+    "description":  "A lightweight Universal Windows proxy app based on Leaf.",
+    "homepage":  "https://github.com/YtFlow/Maple",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/YtFlow/Maple/releases/download/v0.9.1/Maple.App_0.9.1.0_x64_Test.zip",
+    "hash":  "5df4584744fcd9e267ac678554627a0c6d16ff36c749f96409e2600f5f8d2261",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://github.com/YtFlow/Maple/releases/download/v$matchHead/Maple.App_$version_x64_Test.zip"
+                   }
+}

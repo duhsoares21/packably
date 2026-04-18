@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.22.995",
+    "description":  "Speed up your PC with quick \u0026 easy defragmentation.",
+    "homepage":  "https://www.ccleaner.com/defraggler",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.ccleaner.com/dfsetup222.exe#/dl.7z",
+    "hash":  "167b7192937b39e657def16ffb0fdbbab326f007747505d5c8785811d6b03ab8",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://download.ccleaner.com/dfsetup$majorVersion$minorVersion.exe#/dl.7z"
+                   }
+}

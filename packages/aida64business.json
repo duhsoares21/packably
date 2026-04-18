@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "8.25.8200",
+    "description":  "System information, diagnostics, and auditing application",
+    "homepage":  "https://www.aida64.com/products/aida64-business",
+    "license":  "Shareware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.aida64.com/aida64business825.zip",
+    "hash":  "03cb63dbd707896f7c1c221c0e1c0b50ab7a55c7bb8ead865f90932f73b87b5a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "aida64.exe",
+    "autoupdate":  {
+                       "url":  "https://download.aida64.com/aida64business$majorVersion$minorVersion.zip"
+                   }
+}

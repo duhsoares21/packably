@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.4.14",
+    "description":  "Uncomplicated, modern HTTP server",
+    "homepage":  "https://github.com/labstack/armor",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/labstack/armor/releases/download/v0.4.14/armor_0.4.14_windows_64-bit.zip",
+    "hash":  "2d40455b4978987923106a6a5d67fc7555dc74cd339edb5d05ed318d2dbc8ecd",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "armor.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/labstack/armor/releases/download/v$version/armor_$version_windows_64-bit.zip"
+                   }
+}

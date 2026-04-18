@@ -1,0 +1,18 @@
+﻿{
+    "type":  "other",
+    "version":  "2022.2.5",
+    "description":  "Multi-connections download manager",
+    "homepage":  "https://github.com/firedm/FireDM",
+    "license":  "LGPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://raw.githubusercontent.com/ScoopInstaller/Binary/master/firedm/FireDM_2022.2.5.7z.001",
+    "hash":  "056b0fb5a0af2920ba2fd17146ceac93dc000771fff795f4a987c29da6507f58",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "firedm.exe"
+}

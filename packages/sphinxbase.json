@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "5prealpha",
+    "description":  "Basic libraries shared by the CMU Sphinx trainer and all the Sphinx decoders.",
+    "homepage":  "https://cmusphinx.github.io/",
+    "license":  "BSD-2-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/cmusphinx/sphinxbase/5prealpha/sphinxbase-5prealpha-win32.zip",
+    "hash":  "sha1:1aba8c1438dfbc1522d9e521240d314e56aeeb4e",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "sphinx_cepview.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/cmusphinx/sphinxbase/$version/sphinxbase-$version-win32.zip"
+                   }
+}

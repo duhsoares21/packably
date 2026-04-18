@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.11.0",
+    "description":  "Unofficial YouTube Music Desktop App bundled with custom plugins.",
+    "homepage":  "https://github.com/pear-devs/pear-desktop",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/pear-devs/pear-desktop/releases/download/v3.11.0/YouTube-Music-3.11.0.exe#/dl.7z",
+    "hash":  "cfb3f06d62f786a0aa839b44dbb6da30e579a01d9bbfbb7ad6336ff0f83c52eb",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "YouTube Music.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/pear-devs/pear-desktop/releases/download/v$version/YouTube-Music-$version.exe#/dl.7z"
+                   }
+}

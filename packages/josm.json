@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "19555",
+    "description":  "An extensible editor for OpenStreetMap (OSM)",
+    "homepage":  "https://josm.openstreetmap.de",
+    "license":  "GPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://josm.openstreetmap.de/download/josm-snapshot-19555.jar#/josm.jar",
+    "hash":  "3afa6435ea696da4a76416d1907aa821511584ac61b89613143666d67e6b7a29",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "JOSM.bat",
+    "autoupdate":  {
+                       "url":  "https://josm.openstreetmap.de/download/josm-snapshot-$version.jar#/josm.jar"
+                   }
+}

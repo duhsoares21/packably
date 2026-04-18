@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.4.8",
+    "description":  "Win32 console application for manipulating program windows.",
+    "homepage":  "https://ritchielawrence.github.io/cmdow/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/ritchielawrence/cmdow/archive/v1.4.8.zip",
+    "hash":  "f5c5289a6c26aff63dd27af321ba0392ce3f5c2ed0e6bfcd07d8c7952c468ac9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\Release\\cmdow.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/ritchielawrence/cmdow/archive/v$version.zip"
+                   }
+}

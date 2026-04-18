@@ -1,0 +1,18 @@
+﻿{
+    "type":  "msi",
+    "version":  "0.2.0",
+    "description":  "Open source image editor based on the GNU Image Manipulation Program",
+    "homepage":  "https://glimpse-editor.github.io/",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/glimpse-editor/Glimpse/releases/download/v0.2.0/glimpse-0.2.0-x64.msi",
+    "hash":  "420dbbe11fef2a1d741083eb72f99732b9aec620d1d8274f9fb7a30e650030ff",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\glimpse-console-0.2.exe"
+}

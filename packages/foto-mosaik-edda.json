@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "7.8.23025.1",
+    "description":  "Photo mosaic picture maker",
+    "homepage":  "https://fmedda.com/en/home",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://fmedda.com/ext/download/Foto-Mosaik-Edda-Portable.zip",
+    "hash":  "da6d00e0c1848a4f8bcb6e1a3cfe266b1c7789b6e69a3a06df566b23248b1eb6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Foto-Mosaik-Edda.exe",
+    "autoupdate":  {
+                       "url":  "https://fmedda.com/ext/download/Foto-Mosaik-Edda-Portable.zip"
+                   }
+}

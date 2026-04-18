@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.3.0",
+    "description":  "An extensive, fast, and accurate command-line image dithering tool.",
+    "homepage":  "https://github.com/makew0rld/didder",
+    "license":  "GPL-3.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/makew0rld/didder/releases/download/v1.3.0/didder_1.3.0_windows_64-bit.exe#/didder.exe",
+    "hash":  "57366bfb4e8affd965e365ab9d9b78e95e79680a7c513b89c359ba409f4a204c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "didder.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/makew0rld/didder/releases/download/v$version/didder_$version_windows_64-bit.exe#/didder.exe"
+                   }
+}

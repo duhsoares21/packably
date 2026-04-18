@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.2.30",
+    "description":  "Unofficial CLI for Cloudflare Warp (Wireguard VPN service)",
+    "homepage":  "https://github.com/ViRb3/wgcf",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/ViRb3/wgcf/releases/download/v2.2.30/wgcf_2.2.30_windows_amd64.exe#/wgcf.exe",
+    "hash":  "a4439dc6cf18ce482ca0d6e264427d6d2ca17237666dcfd64e15fa48e1147de2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "wgcf.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/ViRb3/wgcf/releases/download/v$version/wgcf_$version_windows_amd64.exe#/wgcf.exe"
+                   }
+}

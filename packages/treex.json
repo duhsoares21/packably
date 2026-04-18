@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.0.3",
+    "description":  "Treex is a powerful command-line tool for directory structure visualization with filters in various formats.",
+    "homepage":  "https://github.com/shiquda/treex",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/shiquda/treex/releases/download/v0.0.3/treex-v0.0.3-windows-amd64.zip",
+    "hash":  "42bf45b3413e5f72fff19da2ce1789cfad725de24c212a524970712b1fba0fa4",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "treex.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/shiquda/treex/releases/download/v$version/treex-v$version-windows-amd64.zip"
+                   }
+}

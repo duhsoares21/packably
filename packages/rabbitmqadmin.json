@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "3.8.9",
+    "description":  "A command line tool shipped with the management plugin of RabbitMQ, which can perform some of the same actions as the Web-based UI.",
+    "homepage":  "https://www.rabbitmq.com/management-cli.html",
+    "license":  "MPL-1.1",
+    "dependencies":  [
+                         "python27"
+                     ],
+    "url":  "https://raw.githubusercontent.com/rabbitmq/rabbitmq-management/v3.8.9/bin/rabbitmqadmin",
+    "hash":  "c18706fda8de9e547cc882c14ddefe61f32835f7ca219229f7078fca3d17f459",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "rabbitmqadmin.ps1",
+    "autoupdate":  {
+                       "url":  "https://raw.githubusercontent.com/rabbitmq/rabbitmq-management/v$version/bin/rabbitmqadmin"
+                   }
+}

@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.2.6",
+    "description":  "W3C\u0027s HTTP 1.1 server implementation in Java",
+    "homepage":  "https://www.w3.org/Jigsaw",
+    "license":  "W3C-20150513",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://jigsaw.w3.org/Distrib/jigsaw_2.2.6.zip",
+    "hash":  "md5:7c186587db6daf5e1802a7b8e588bec6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "scripts\\jigadmin.bat"
+}

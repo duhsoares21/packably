@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "10.32.0",
+    "description":  "Collaborative tool for designs\u0027 and styleguides\u0027 handoff with specs, assets and code snippets",
+    "homepage":  "https://zeplin.io",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://pkg.zeplin.io/windows/latestv2/x64/Zeplin-10.32.0-full.nupkg",
+    "hash":  "sha1:1ae8ea69ea78857c9d32edcc398a83d582cc0ab1",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Zeplin.exe",
+    "autoupdate":  {
+                       "url":  "https://pkg.zeplin.io/windows/latestv2/x64/Zeplin-$version-full.nupkg"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.26",
+    "description":  "A Powerline style prompt for your shell",
+    "homepage":  "https://github.com/justjanne/powerline-go",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/justjanne/powerline-go/releases/download/v1.26/powerline-go-windows-amd64.exe#/powerline-go.exe",
+    "hash":  "c90aa3c99b1cd2f17058bd77e5414c4fe4b504954d3e9bbfd611dcfca14efa4e",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "powerline-go.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/justjanne/powerline-go/releases/download/v$version/powerline-go-windows-amd64.exe#/powerline-go.exe"
+                   }
+}

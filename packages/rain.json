@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.24.3",
+    "description":  "A development workflow tool for working with AWS CloudFormation.",
+    "homepage":  "https://github.com/aws-cloudformation/rain",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/aws-cloudformation/rain/releases/download/v1.24.3/rain-v1.24.3_windows-amd64.zip",
+    "hash":  "d088e66b7ac1347a27106c1675ea03e86a9133423ba69ab103e5ebf07e729b1d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "rain.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/aws-cloudformation/rain/releases/download/v$version/rain-v$version_windows-amd64.zip"
+                   }
+}

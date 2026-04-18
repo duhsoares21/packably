@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "15.0.0.3047",
+    "description":  "the most popular font editor",
+    "homepage":  "https://www.high-logic.com/font-editor/fontcreator",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.high-logic.com/FontCreatorSetup-x64.exe",
+    "hash":  "c1015a1f74490fd7338910cbd3633f4ad37328be7e53aa0143d782b0370fb872",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "FontCreator.exe",
+    "autoupdate":  {
+                       "url":  "https://www.high-logic.com/FontCreatorSetup-x64.exe"
+                   }
+}

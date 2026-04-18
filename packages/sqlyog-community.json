@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "13.3.1",
+    "description":  "GUI for MySQL database",
+    "homepage":  "https://www.webyog.com/product/sqlyog",
+    "license":  "GPL-2.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://s3.amazonaws.com/SQLyog_Community/SQLyog+13.3.1/SQLyog-13.3.1-0.x64Community.exe#/dl.7z",
+    "hash":  "d9f2bd343558f6f2907c53464f84c5ddb3a749cc6df41a023f9e63ec07462fc5",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "SQLyogCommunity.exe",
+    "autoupdate":  {
+                       "url":  "https://s3.amazonaws.com/SQLyog_Community/SQLyog+$version/SQLyog-$version-0.x64Community.exe#/dl.7z"
+                   }
+}

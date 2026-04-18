@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.47.1",
+    "description":  "Exports Discord chat logs to a file",
+    "homepage":  "https://github.com/Tyrrrz/DiscordChatExporter",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Tyrrrz/DiscordChatExporter/releases/download/2.47.1/DiscordChatExporter.win-x64.zip",
+    "hash":  "9300860f3e2913490f897b330188eb0c597d346d0ed944c426d8b5d5288d1b5a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "DiscordChatExporter.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Tyrrrz/DiscordChatExporter/releases/download/$version/DiscordChatExporter.win-x64.zip"
+                   }
+}

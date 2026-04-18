@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.78",
+    "description":  "Image-to-material converter for video game development",
+    "homepage":  "http://www.boundingboxsoftware.com/materialize/",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "http://www.boundingboxsoftware.com/materialize/download/Materialize_1.78.zip",
+    "hash":  "b0f6e3a905781e85dcd7db2383646bce51b8984ab93d1e3d13be42d5bea8904a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Materialize.exe"
+}

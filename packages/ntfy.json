@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.21.0",
+    "description":  "Send push notifications to your phone or desktop via PUT/POST",
+    "homepage":  "https://ntfy.sh",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/binwiederhier/ntfy/releases/download/v2.21.0/ntfy_2.21.0_windows_amd64.zip",
+    "hash":  "a42c55df316ac446ff049e42f11a8aca0b3e9ec6f04f3bea1a7a1e897b63da72",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ntfy.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/binwiederhier/ntfy/releases/download/v$version/ntfy_$version_windows_amd64.zip"
+                   }
+}

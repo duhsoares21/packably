@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2026.1-261.22158.340",
+    "description":  "Cross-Platform IDE for Python by JetBrains. (Deprecated, please use `extras/pycharm` instead)",
+    "homepage":  "https://www.jetbrains.com/pycharm/",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.jetbrains.com/python/pycharm-2026.1.win.zip",
+    "hash":  "031778800f21bc19f51f356237519dc92109d595df00f4a6183b83fd5927d02a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://download.jetbrains.com/python/pycharm-$matchVer.win.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "12.3.2",
+    "description":  "A command-line program that does structural, content-preserving transformations on PDF files.",
+    "homepage":  "https://qpdf.sourceforge.io",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/qpdf/qpdf/releases/download/v12.3.2/qpdf-12.3.2-msvc64.zip",
+    "hash":  "8941870a604e7c87ed24566b038d46c24ce76616254d2383c578f60c0677f202",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\qpdf.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/qpdf/qpdf/releases/download/v$version/qpdf-$version-msvc64.zip"
+                   }
+}

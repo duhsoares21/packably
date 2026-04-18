@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.1.4.1",
+    "description":  "A JPEG image codec that uses SIMD instructions",
+    "homepage":  "https://libjpeg-turbo.org/",
+    "license":  "IJG,BSD-3-Clause,Zlib",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/libjpeg-turbo/libjpeg-turbo/releases/download/3.1.4.1/libjpeg-turbo-3.1.4.1-vc-x64.exe#/dl.7z",
+    "hash":  "2bb347f106473c12635bdd414b1f289de9f4d6dea4a496d3f9dd212db9eda0dc",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin/cjpeg.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/libjpeg-turbo/libjpeg-turbo/releases/download/$version/libjpeg-turbo-$version-vc-x64.exe#/dl.7z"
+                   }
+}

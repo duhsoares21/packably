@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "12.2.2",
+    "description":  "A free and open source interactive HTTPS proxy",
+    "homepage":  "https://mitmproxy.org/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://snapshots.mitmproxy.org/12.2.2/mitmproxy-12.2.2-windows-x86_64.zip",
+    "hash":  "115377b98708434765b01b7b40e94e756aed166d9b803436c7ef593739fbb1d5",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "mitmproxy.exe",
+    "autoupdate":  {
+                       "url":  "https://snapshots.mitmproxy.org/$version/mitmproxy-$version-windows-x86_64.zip"
+                   }
+}

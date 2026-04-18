@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "1.3109.0",
+    "description":  "Next generation AI assistant built by Anthropic.",
+    "homepage":  "https://claude.com/product/overview",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.claude.ai/releases/win32/x64/AnthropicClaude-1.3109.0-full.nupkg",
+    "hash":  "sha1:1d76a6a1ed70000a9dac267a8bb254b85a846b16",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "claude.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.claude.ai/releases/win32/x64/AnthropicClaude-$version-full.nupkg"
+                   }
+}

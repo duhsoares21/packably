@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.8.4",
+    "description":  "High-performance inference of OpenAI\u0027s Whisper automatic speech recognition (ASR) model",
+    "homepage":  "https://github.com/ggml-org/whisper.cpp",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/ggml-org/whisper.cpp/releases/download/v1.8.4/whisper-bin-x64.zip",
+    "hash":  "74f973345cb52ef5ba3ec9e7e7af8e48cc8c71722d1528603b80588a11f82e3e",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "whisper-bench.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/ggml-org/whisper.cpp/releases/download/v$version/whisper-bin-x64.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.87",
+    "description":  "Execute various system wide tasks.",
+    "homepage":  "https://www.nirsoft.net/utils/nircmd.html",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.nirsoft.net/utils/nircmd-x64.zip",
+    "hash":  "51e34ed379dd099a96bbf0a2266003361e2864fe3ef2f8baed76634909763a7c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://www.nirsoft.net/utils/nircmd-x64.zip"
+                   }
+}

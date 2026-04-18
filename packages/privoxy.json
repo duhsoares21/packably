@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.0.0",
+    "description":  "a non-caching web proxy with advanced filtering capabilities for enhancing privacy, modifying web page data and HTTP headers, controlling access, and removing ads and other obnoxious Internet junk.",
+    "homepage":  "https://www.privoxy.org",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/ijbswa/Win32/4.0.0%20%28stable%29/privoxy_setup_4.0.0.exe#/dl.7z",
+    "hash":  "sha1:40c705e2cb6954a0deaa9ca6a08a4c1126847862",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "privoxy.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/ijbswa/Win32/$version%20%28stable%29/privoxy_setup_$version.exe#/dl.7z"
+                   }
+}

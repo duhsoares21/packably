@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "6.4.124-20260324061927",
+    "description":  "A popular framework used for penetration testing.",
+    "homepage":  "https://www.metasploit.com/",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://windows.metasploit.com/metasploit-framework-6.4.124-20260324061927-1rapid7-1-x64.msi",
+    "hash":  "1a5fbfd194b946185949a05119922f24f82c788e7cb10dc712da42c35416208a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://windows.metasploit.com/metasploit-framework-$version-1rapid7-1-x64.msi"
+                   }
+}

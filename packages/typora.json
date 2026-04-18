@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.13.4",
+    "description":  "A minimal Markdown editor and reader",
+    "homepage":  "https://typora.io",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.typora.io/windows/typora-setup-x64-1.13.4.exe",
+    "hash":  "4f38ae1a7a7a56160d62a9779c1c90c5b5ff87e764faec1dc3e1a75c2fb98ea9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Typora.exe",
+    "autoupdate":  {
+                       "url":  "https://download.typora.io/windows/typora-setup-x64-$version.exe"
+                   }
+}

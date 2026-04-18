@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2026.1.2-261.23567.23",
+    "description":  "Cross-Platform IDE for Databases \u0026 SQL by JetBrains.",
+    "homepage":  "https://www.jetbrains.com/datagrip/",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.jetbrains.com/datagrip/datagrip-2026.1.2.win.zip",
+    "hash":  "d76994c8e41a6aa81f6d8f5dc7c006fec294e090c935414b93b99987d78aaee1",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://download.jetbrains.com/datagrip/datagrip-$matchVer.win.zip"
+                   }
+}

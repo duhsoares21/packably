@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "565.0.0",
+    "description":  "Command-line interface for Google Cloud Platform products and services.",
+    "homepage":  "https://cloud.google.com/sdk/",
+    "license":  "Proprietary",
+    "dependencies":  [
+                         "7zip19.00-helper"
+                     ],
+    "url":  "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-565.0.0-windows-x86_64-bundled-python.zip#/dl.zip_",
+    "hash":  "0cb8936144cf335c50723943223be5f76a632baff8702af5ec13b867bd8a1607",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\gcloud.cmd",
+    "autoupdate":  {
+                       "url":  "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-$version-windows-x86_64-bundled-python.zip#/dl.zip_"
+                   }
+}

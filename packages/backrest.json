@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.12.1",
+    "description":  "Web UI and orchestrator for restic backup.",
+    "homepage":  "https://github.com/garethgeorge/backrest",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+                         "restic"
+                     ],
+    "url":  "https://github.com/garethgeorge/backrest/releases/download/v1.12.1/backrest_Windows_x86_64.zip",
+    "hash":  "b0158390f7e54742c380d27d515d05db5a0dbb5d45bc4101af7b27989cac35c0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "backrest.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/garethgeorge/backrest/releases/download/v$version/backrest_Windows_x86_64.zip"
+                   }
+}

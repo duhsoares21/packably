@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.90.0",
+    "description":  "Boost C++ Libraries",
+    "homepage":  "https://www.boost.org/",
+    "license":  "BSL-1.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/boost/boost-binaries/1.90.0/boost_1_90_0-msvc-14.3-64.exe",
+    "hash":  "sha1:9e9c0eaed2d4ede92f9842726383cb9f23232d2a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/boost/boost-binaries/$version/boost_$underscoreVersion-msvc-$matchMsvc-64.exe"
+                   }
+}

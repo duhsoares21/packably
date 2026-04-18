@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.26.2",
+    "description":  "Manage Podman and other container engines from a single UI and tray",
+    "homepage":  "https://github.com/containers/podman-desktop",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/containers/podman-desktop/releases/download/v1.26.2/podman-desktop-1.26.2.exe#/dl.7z",
+    "hash":  "18420bb771bdd6ec1885b6044cad986aa4937ed794b0ef51182116b71c92aa6c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://github.com/containers/podman-desktop/releases/download/v$version/podman-desktop-$version.exe#/dl.7z"
+                   }
+}

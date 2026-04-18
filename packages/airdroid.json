@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.8.0.4",
+    "description":  "An application for transferring files across devices, remote control Android devices, mirror screen, and manage SMS \u0026 notifications on your computer.",
+    "homepage":  "https://www.airdroid.com",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://dl.airdroid.com/download/AirDroid/Win/v3.8.0.4/20250311152551/AirDroid_Desktop_Client_3.8.0.4.exe#/dl.7z",
+    "hash":  "ce7f2dfa2ed42b0013c9342d52b5b870fab1a2ecda4d114c12074887806de60e",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "AirDroid.exe",
+    "autoupdate":  {
+                       "url":  "https://dl.airdroid.com/download/AirDroid/Win/v$version/$matchDatetime/AirDroid_Desktop_Client_$version.exe#/dl.7z"
+                   }
+}

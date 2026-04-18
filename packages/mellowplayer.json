@@ -1,0 +1,18 @@
+﻿{
+    "type":  "other",
+    "version":  "3.6.6",
+    "description":  "Music player designed for listening to music streaming sites.",
+    "homepage":  "https://colinduquesnoy.gitlab.io/MellowPlayer/",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://raw.githubusercontent.com/ScoopInstaller/Binary/master/mellowplayer/MellowPlayer_3.6.6.7z.001",
+    "hash":  "2cf94abccfa5bc99ddc91f37eed6cc16e240ffd966f8c153d11eb5fdb2f9e230",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "MellowPlayer.exe"
+}

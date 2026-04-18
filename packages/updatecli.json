@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.116.1",
+    "description":  "A tool used to apply file update strategies. Designed to be used from everywhere, each application \u0027run\u0027 detects if a value needs to be updated using a custom strategy then apply changes according to the strategy.",
+    "homepage":  "https://www.updatecli.io/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/updatecli/updatecli/releases/download/v0.116.1/updatecli_Windows_x86_64.zip",
+    "hash":  "41188e0dec610e2d79383f37cf99a3d3b02cff51ce62e218e60c15742367278e",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://github.com/updatecli/updatecli/releases/download/v$version/updatecli_Windows_x86_64.zip"
+                   }
+}

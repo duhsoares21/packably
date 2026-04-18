@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.44.0",
+    "description":  "A comprehensive project and package management solution for Python",
+    "homepage":  "https://rye.astral.sh/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/astral-sh/rye/releases/download/0.44.0/rye-x86_64-windows.exe#/rye.exe",
+    "hash":  "f48d3f3e4eddcaf39c4665e7953e177589006e8ed86772ce782f2b1c4ffb4c0f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://github.com/astral-sh/rye/releases/download/$version/rye-x86_64-windows.exe#/rye.exe"
+                   }
+}

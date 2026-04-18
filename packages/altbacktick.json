@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.5.1",
+    "description":  "Switch between windows using ALT+backtick.",
+    "homepage":  "https://github.com/akiver/AltBacktick",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/akiver/AltBacktick/releases/download/v1.5.1/AltBacktick.exe",
+    "hash":  "6cbd1c80e5e222b0c17223af6b3134d5ad8b3604675b70fafb31f5c74946d243",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "AltBacktick.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/akiver/AltBacktick/releases/download/v$version/AltBacktick.exe"
+                   }
+}

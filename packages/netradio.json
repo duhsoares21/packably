@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "2.5.10",
+    "description":  "Plays internet radio streams and manages your favorite stations.",
+    "homepage":  "https://www.netradio.info/app/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.netradio.info/?sdm_process_download=1\u0026download_id=212#/NetRadioSetup.exe",
+    "hash":  "b01aa972ab4a41dea1df6a95835853191baebda555e5c4c5e6f193f1e9ea83a2",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "NetRadio.exe",
+    "autoupdate":  {
+                       "url":  "https://www.netradio.info/?sdm_process_download=1\u0026download_id=$matchId#/NetRadioSetup.exe"
+                   }
+}

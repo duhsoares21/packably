@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "3.7.0",
+    "description":  "A high-quality tool for creating stunning three-dimensional graphics.",
+    "homepage":  "https://www.povray.org/",
+    "license":  "AGPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.povray.org/ftp/pub/povray/Official/povwin-3.7-agpl3-setup.exe",
+    "hash":  "2b1331641b6f96113c2dba951be80d99eb548639480399cabb5e3a60dce5bdc8",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://www.povray.org/ftp/pub/povray/Official/povwin-$majorVersion.$minorVersion-agpl3-setup.exe"
+                   }
+}

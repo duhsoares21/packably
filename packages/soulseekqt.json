@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2024.6.30",
+    "description":  "File sharing network.",
+    "homepage":  "https://www.slsknet.org/news/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://f004.backblazeb2.com/file/SoulseekQt/SoulseekQt-2024-6-30-64bit.exe",
+    "hash":  "b2db0e41afe444ad597045d06df4d4672fa6cf2be8ce3474cd61e8118f3cd4d6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "SoulseekQt.exe",
+    "autoupdate":  {
+                       "url":  "https://f004.backblazeb2.com/file/SoulseekQt/SoulseekQt-$dashVersion-64bit.exe"
+                   }
+}

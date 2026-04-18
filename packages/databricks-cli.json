@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.297.1",
+    "description":  "CLI for interacting with the Databricks platform.",
+    "homepage":  "https://docs.databricks.com/aws/en/dev-tools/cli",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/databricks/cli/releases/download/v0.297.1/databricks_cli_0.297.1_windows_amd64.zip",
+    "hash":  "6b256a5220c86ef7d5873d99e2208a7ca63b132f275b23cd3c5ea883038839b4",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "databricks.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/databricks/cli/releases/download/v$version/databricks_cli_$version_windows_amd64.zip"
+                   }
+}

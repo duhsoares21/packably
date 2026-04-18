@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.2.2",
+    "description":  "Free and easy to use retro adventure game creator for Game Boy.",
+    "homepage":  "https://www.gbstudio.dev",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/chrismaltby/gb-studio/releases/download/v4.2.2/gb-studio-windows-64bit-standalone.zip",
+    "hash":  "6b4f3297379f9adb979aa9a7db28c739623c231d081b6d2dba26c910a34de2ba",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "gb-studio.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/chrismaltby/gb-studio/releases/download/v$version/gb-studio-windows-64bit-standalone.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "7.69",
+    "description":  "Digital Audio Workstation",
+    "homepage":  "https://www.reaper.fm",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.reaper.fm/files/7.x/reaper769_x64-install.exe#/dl.7z",
+    "hash":  "cf9573133c9338fef70dd027790d64d7b1a73665898f4b8bad03449da0cde661",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "reaper.exe",
+    "autoupdate":  {
+                       "url":  "https://www.reaper.fm/files/$majorVersion.x/reaper$cleanVersion_x64-install.exe#/dl.7z"
+                   }
+}

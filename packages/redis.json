@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "8.6.2",
+    "description":  "In-memory data structure store, used as a database, cache and message broker",
+    "homepage":  "https://redis.io",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/redis-windows/redis-windows/releases/download/8.6.2/Redis-8.6.2-Windows-x64-msys2.zip",
+    "hash":  "c2bcaa8ce0f4b942f749c491327dcf126a98169e0bde59013251e179d6f86b8b",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "redis-benchmark.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/redis-windows/redis-windows/releases/download/$version/Redis-$matchHead-Windows-x64-msys2.zip"
+                   }
+}

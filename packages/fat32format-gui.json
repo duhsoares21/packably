@@ -1,0 +1,18 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.01",
+    "description":  "A GUI FAT32 format tool that supports volumes greater than 32 GB.",
+    "homepage":  "http://ridgecrop.co.uk",
+    "license":  "Unknown",
+    "dependencies":  [
+
+                     ],
+    "url":  "http://ridgecrop.co.uk/guiformat-x64.Exe#/guiformat.exe",
+    "hash":  "13d045f582d559c830f2e30f835ac56803844825fe6152d2d5f78367b19edb9a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "guiformat.exe"
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "other",
+    "version":  "8.7.1",
+    "description":  "Free Adware Cleaner \u0026 Removal tool",
+    "homepage":  "https://www.malwarebytes.com/adwcleaner",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://adwcleaner.malwarebytes.com/adwcleaner?channel=release",
+    "hash":  "611e57ff31c19668ebac54d39c54292f5d321fa9743ae8f6d88ec6b6b3e850e0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "adwcleaner.exe",
+    "autoupdate":  {
+                       "url":  "https://adwcleaner.malwarebytes.com/adwcleaner?channel=release"
+                   }
+}

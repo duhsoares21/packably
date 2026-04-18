@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "3.0.5-beta",
+    "description":  "Protects privacy and security when using Bit Torrent by blocking a list of potentially malicious peers.",
+    "homepage":  "https://www.ipfilter.app/",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/DavidMoore/ipfilter/releases/download/3.0.5-beta/IPFilter.msi",
+    "hash":  "78326c970df93226c5b57f25873e38e05be848cddfeaab9ec88ddaedb68e9144",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ipfilter.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/DavidMoore/ipfilter/releases/download/$version/IPFilter.msi"
+                   }
+}

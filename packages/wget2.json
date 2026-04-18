@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.2.1",
+    "description":  "GNU Wget2 is the successor of GNU Wget, a file and recursive website downloader.",
+    "homepage":  "https://github.com/rockdaboot/wget2",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/rockdaboot/wget2/releases/download/v2.2.1/wget2.exe",
+    "hash":  "c65f66842888b878d1fad48294d1372553985b86613f279cf4ed9612c4f80428",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "wget2.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/rockdaboot/wget2/releases/download/v$version/wget2.exe"
+                   }
+}

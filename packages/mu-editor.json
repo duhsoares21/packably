@@ -1,0 +1,21 @@
+﻿{
+    "type":  "msi",
+    "version":  "1.2.0",
+    "description":  "A small, simple editor for beginner Python programmers.",
+    "homepage":  "https://codewith.mu",
+    "license":  "GPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/mu-editor/mu/releases/download/v1.2.0/MuEditor-win64-1.2.0.msi",
+    "hash":  "8bef34673998ca5644f9d222fc4a13e24a64023a72940e685bcec27827cd765e",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Python\\pythonw.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/mu-editor/mu/releases/download/v$version/MuEditor-win64-$version.msi"
+                   }
+}

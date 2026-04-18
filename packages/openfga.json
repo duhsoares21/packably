@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.7.12",
+    "description":  "Relationship-based access control made fast, scalable, and easy to use",
+    "homepage":  "https://openfga.dev",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/openfga/cli/releases/download/v0.7.12/fga_0.7.12_windows_amd64.tar.gz",
+    "hash":  "1bce03bdd2db02ff754fde471a8fd5cf74950899d9722d7a775cdbe5c888097a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "fga.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/openfga/cli/releases/download/v$version/fga_$version_windows_amd64.tar.gz"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.30",
+    "description":  "A graphics and text mode web browser.",
+    "homepage":  "http://links.twibright.com/",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "http://links.twibright.com/download/binaries/win32/Links-2.30-64bit-install.exe#/dl.7z",
+    "hash":  "7b67f64462c9d914409839d43079186733e33a31d7f81adf32578ee2fb537c09",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "links.exe",
+    "autoupdate":  {
+                       "url":  "http://links.twibright.com/download/binaries/win32/Links-$version-64bit-install.exe#/dl.7z"
+                   }
+}

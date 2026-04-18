@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.4.4",
+    "description":  "An open source, non-custodial, and private multi-currency crypto wallet.",
+    "homepage":  "https://stackwallet.com/",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/cypherstack/stack_wallet/releases/download/build_301/stack_wallet-v2.4.4-windows.zip",
+    "hash":  "3b8b2cb9361a273ca2f2e0a86b102262a1cc2e8f3195639cf3d2d97c9f090322",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "stack_wallet.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/cypherstack/stack_wallet/releases/download/$matchTag/stack_wallet-v$version-windows.zip"
+                   }
+}

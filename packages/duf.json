@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.9.1",
+    "description":  "Disk Usage/Free Utility - a better \u0027df\u0027 alternative",
+    "homepage":  "https://github.com/muesli/duf",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/muesli/duf/releases/download/v0.9.1/duf_0.9.1_Windows_x86_64.zip",
+    "hash":  "503934be81f847d9ddb1b739834217480633435ad16515dd199e372c0b2e1afc",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "duf.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/muesli/duf/releases/download/v$version/duf_$version_Windows_x86_64.zip"
+                   }
+}

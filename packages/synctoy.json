@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.1",
+    "description":  "Synchronizes files and folders between two locations.",
+    "homepage":  "https://web.archive.org/web/20210126020258/https://www.microsoft.com/en-US/download/details.aspx?id=15155",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://raw.githubusercontent.com/ScoopInstaller/Binary/master/synctoy/SyncToy_2.1_64bit.7z",
+    "hash":  "06d16984f4dc9013cbc71412b674314c772743cb2944c9d9b9a979dd47d0aaa9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "SyncToyCmd.exe"
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2026.1.0.1",
+    "description":  "Free .NET Decompiler and Assembly Browser",
+    "homepage":  "https://www.jetbrains.com/decompiler/",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.jetbrains.com/resharper/dotUltimate.2026.1.0.1/dotPeek64.2026.1.0.1.exe#/dotpeek.exe",
+    "hash":  "a1f26f285570d8e50d6535a4421c49b4806a54780e1517c015f2e9ca88c9c302",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "dotpeek.exe",
+    "autoupdate":  {
+                       "url":  "https://download.jetbrains.com/resharper/dotUltimate.$version/dotPeek64.$version.exe#/dotpeek.exe"
+                   }
+}

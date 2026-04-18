@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.29.0",
+    "description":  "Manage multiple rust installations with ease",
+    "homepage":  "https://rustup.rs",
+    "license":  "MIT|Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe",
+    "hash":  "86478e53f769379d7f0ebfa7c9aa97cb76ca92233f79aa2cc0dbee2efaac73c7",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe"
+                   }
+}

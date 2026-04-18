@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "5.0.6",
+    "description":  "LLVM to WebAssembly compiler. Compiles C/C++ to WebAssembly that can be run on most web browsers.",
+    "homepage":  "https://emscripten.org/",
+    "license":  "MIT|NCSA",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/emscripten-core/emsdk/archive/refs/tags/5.0.6.zip",
+    "hash":  "08135b67c40969cb476c6634b764f8e8934b11b2694457d075f2919591a260ff",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "emcmdprompt.bat",
+    "autoupdate":  {
+                       "url":  "https://github.com/emscripten-core/emsdk/archive/refs/tags/$version.zip"
+                   }
+}

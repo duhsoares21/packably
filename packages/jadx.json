@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.5.5",
+    "description":  "Dex to Java decompiler",
+    "homepage":  "https://github.com/skylot/jadx",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/skylot/jadx/releases/download/v1.5.5/jadx-1.5.5.zip",
+    "hash":  "38a5766d3c8170c41566b4b13ea0ede2430e3008421af4927235c2880234d51a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "bin\\jadx.bat",
+    "autoupdate":  {
+                       "url":  "https://github.com/skylot/jadx/releases/download/v$version/jadx-$version.zip"
+                   }
+}

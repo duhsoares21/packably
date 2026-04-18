@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "26.3.1.5062",
+    "description":  "An easy, no-cost messenger that transcends standard chat.",
+    "homepage":  "https://www.kakaocorp.com/service/KakaoTalk",
+    "license":  "Unknown",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://lk.kakaocdn.net/talkpc/talk/win32/x64/KakaoTalk_Setup.exe#/dl.7z",
+    "hash":  "0f318ae094d7d5376099b0b461e514ec1e73755eb40463f776297c7503541040",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "KakaoTalk.exe",
+    "autoupdate":  {
+                       "url":  "https://lk.kakaocdn.net/talkpc/talk/win32/x64/KakaoTalk_Setup.exe#/dl.7z"
+                   }
+}

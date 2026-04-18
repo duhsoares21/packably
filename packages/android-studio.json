@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2025.3.3.7",
+    "description":  "The official IDE for Android development, which includes everything you need to build Android apps.",
+    "homepage":  "https://developer.android.com/studio",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://edgedl.me.gvt1.com/android/studio/ide-zips/2025.3.3.7/android-studio-panda3-patch1-windows.zip",
+    "hash":  "fefbe64533ad1ac1c4c3066f2b78b636ef5b6aef74c40564a4d88cb07b1d440c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://edgedl.me.gvt1.com/android/studio/ide-zips/$version/$matchFilename"
+                   }
+}

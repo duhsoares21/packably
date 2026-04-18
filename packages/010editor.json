@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "16.0.4",
+    "description":  "Professional text and hex editor with Binary Templates technology.",
+    "homepage":  "https://www.sweetscape.com/010editor/",
+    "license":  "Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.sweetscape.com/010EditorWin64Portable16.0.4.zip",
+    "hash":  "f4512b246c5629fd080d41b5c866ced86a1400480c10fda0f5240008b2cd2675",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "AppData\\010Editor.exe",
+    "autoupdate":  {
+                       "url":  "https://download.sweetscape.com/010EditorWin64Portable$version.zip"
+                   }
+}

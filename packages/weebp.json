@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.6.1",
+    "description":  "A wallpaper engine, set any window as your wallpaper.",
+    "homepage":  "https://github.com/Francesco149/weebp",
+    "license":  "Unlicense",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Francesco149/weebp/releases/download/0.6.1/weebp-0.6.1-windows-x64.zip",
+    "hash":  "753e6c4e0a9227f7c80141c495e422723f6c799eebacc106665aff07cc2b3cbb",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "wp.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Francesco149/weebp/releases/download/$version/weebp-$version-windows-x64.zip"
+                   }
+}

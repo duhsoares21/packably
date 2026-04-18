@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.49.2",
+    "description":  "A free and easy-to-use offline browser utility.",
+    "homepage":  "https://www.httrack.com/",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://mirror.httrack.com/httrack_x64-noinst-3.49.2.zip",
+    "hash":  "sha1:35da7efe02a89e4b9ffac21550712218d119dbc0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "httrack.exe",
+    "autoupdate":  {
+                       "url":  "https://mirror.httrack.com/httrack_x64-noinst-$version.zip"
+                   }
+}

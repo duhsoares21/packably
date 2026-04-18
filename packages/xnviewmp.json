@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.10.5",
+    "description":  "Photo viewer, image resizer \u0026 batch converter",
+    "homepage":  "https://www.xnview.com/en/xnview-mp/",
+    "license":  "Freeware|Proprietary",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://download.xnview.com/XnViewMP-win-x64.zip",
+    "hash":  "110be647646d7b81e2f1538cbd47ea27659fefba99112962de2186abb0e11422",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "xnviewmp.exe",
+    "autoupdate":  {
+                       "url":  "https://download.xnview.com/XnViewMP-win-x64.zip"
+                   }
+}

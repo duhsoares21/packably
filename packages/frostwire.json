@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "7.0.3-build-330",
+    "description":  "An easy to use Cloud Downloader, BitTorrent Client and Media Player. Search, Download, Play, Share",
+    "homepage":  "https://www.frostwire.com",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://sourceforge.net/projects/frostwire/files/frostwire-desktop-7.0.3-build-330/frostwire-7.0.3.windows.exe#/dl.7z",
+    "hash":  "sha1:5d818b301c6ff64b31fef79f5583cd17bf5a422c",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "FrostWire.exe",
+    "autoupdate":  {
+                       "url":  "https://sourceforge.net/projects/frostwire/files/frostwire-desktop-$matchHead-build-$matchBuild/frostwire-$matchHead.windows.exe#/dl.7z"
+                   }
+}

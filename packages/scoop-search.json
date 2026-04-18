@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "2.1.0",
+    "description":  "Fast scoop search drop-in replacement",
+    "homepage":  "https://github.com/shilangyu/scoop-search",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/shilangyu/scoop-search/releases/download/v2.1.0/scoop-search.exe",
+    "hash":  "387ef78ad8c212a36bb38077e67b51adaec1cee8bbcdc50f35d1107d1fe70705",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "scoop-search.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/shilangyu/scoop-search/releases/download/v$version/scoop-search.exe"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.71.0",
+    "description":  "Safely and easily create a secured and encrypted user name/password list.",
+    "homepage":  "https://pwsafe.org/",
+    "license":  "Artistic-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://downloads.sourceforge.net/project/passwordsafe/Windows/3.71.0/pwsafe64-3.71.0-bin.zip",
+    "hash":  "sha1:cc8c6908c9719f744bb9a98fb97bb9d30d005496",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "pwsafe.exe",
+    "autoupdate":  {
+                       "url":  "https://downloads.sourceforge.net/project/passwordsafe/Windows/$version/pwsafe64-$version-bin.zip"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.5.8",
+    "description":  "Seelen UI is a fully customizable desktop environment for Windows 10/11.",
+    "homepage":  "https://seelen.io/apps/seelen-ui",
+    "license":  "AGPL-3.0-or-later",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/eythaann/Seelen-UI/releases/download/v2.5.8/Seelen.UI_2.5.8_x64-setup.exe#/dl.7z",
+    "hash":  "644a15728c8336d68db84adf041fc7d49986312f23edea5647cc6b5be191b125",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "seelen-ui.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/eythaann/Seelen-UI/releases/download/v$version/Seelen.UI_$version_x64-setup.exe#/dl.7z"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "12.0.0.0",
+    "description":  "Backup up and synchronize files to several resources, including an internal or external drive, to different media (USB thumb drive, CD, DVD), to a remote server (NAS, FTP, Windows server) and to a cloud storage provider.",
+    "homepage":  "https://www.2brightsparks.com/syncback/sbpro.html",
+    "license":  "Shareware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://www.2brightsparks.com/assets/software/SyncBackPro64_Setup_NI.zip",
+    "hash":  "b57549405cd4e4e9006efe40d1d54a5a1074dfe5e4147dcabf2de7f55af2c7d6",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "SyncBackPro.exe",
+    "autoupdate":  {
+                       "url":  "https://www.2brightsparks.com/assets/software/SyncBackPro64_Setup_NI.zip"
+                   }
+}

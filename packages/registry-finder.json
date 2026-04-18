@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.61.1.0",
+    "description":  "Registry Finder is an improved replacement for the built-in Windows registry editor",
+    "homepage":  "https://registry-finder.com/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://registry-finder.com/bin/2.61.1.0/RegistryFinder64.zip",
+    "hash":  "1161ec1a50404d10a39591d30993c222c56eb9af06ca1d12713ec790a2658fa0",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "registryfinder.exe",
+    "autoupdate":  {
+                       "url":  "https://registry-finder.com/bin/$version/RegistryFinder64.zip"
+                   }
+}

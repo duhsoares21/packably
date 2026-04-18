@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.5.4.9",
+    "description":  "Video calls and chat software",
+    "homepage":  "https://imo.im/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://static-web.imoim.net/as/indigo-static/winapp/1.5.4.9/ImoSetup_1.5.4.9_Release.exe",
+    "hash":  "a3dbe97ed77539f784b532e39717a6defb6a2ed7b83bbb9fae71ef9e5d72c960",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "ImoDesktopApp.exe",
+    "autoupdate":  {
+                       "url":  "https://static-web.imoim.net/as/indigo-static/winapp/$version/ImoSetup_$version_Release.exe"
+                   }
+}

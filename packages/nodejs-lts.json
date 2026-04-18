@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "24.15.0",
+    "description":  "As an asynchronous event driven JavaScript runtime, Node is designed to build scalable network applications. (Long Term Support)",
+    "homepage":  "https://nodejs.org",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://nodejs.org/dist/v24.15.0/node-v24.15.0-win-x64.7z",
+    "hash":  "38edda3e8f02841bc336c8c1a85626e8e1f8f0da9ef981110863451ed5ae3a5f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://nodejs.org/dist/v$version/node-v$version-win-x64.7z"
+                   }
+}

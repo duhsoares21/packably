@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.0.6666",
+    "description":  "A text-mode files and archives manager",
+    "homepage":  "https://farmanager.com/",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://farmanager.com/files/Far30b6666.x64.20260324.7z",
+    "hash":  "e534e5577713357a77b7c9bdbe65be4022929c418ab1d75529594482a3a825d1",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "far.exe",
+    "autoupdate":  {
+                       "url":  "https://farmanager.com/files/Far$majorVersion$minorVersionb$patchVersion.x64.$matchDate.7z"
+                   }
+}

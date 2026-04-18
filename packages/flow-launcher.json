@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.1.1",
+    "description":  "Quick file searcher and app launcher with community-made plugins",
+    "homepage":  "https://www.flowlauncher.com",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Flow-Launcher/Flow.Launcher/releases/download/v2.1.1/Flow-Launcher-Portable.zip",
+    "hash":  "95e20cb86f0839837e2d56b9e640157092b898c38085a8a039aa5ca031762997",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Flow.Launcher.exe"
+}

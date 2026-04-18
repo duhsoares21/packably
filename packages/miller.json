@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "6.17.0",
+    "description":  "Like awk, sed, cut, join, and sort for data formats such as CSV, TSV, JSON, JSON Lines, and positionally-indexed.",
+    "homepage":  "https://miller.readthedocs.io",
+    "license":  "BSD-2-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/johnkerl/miller/releases/download/v6.17.0/miller-6.17.0-windows-amd64.zip",
+    "hash":  "97780a3d3a89798a6dcced5a8930815fe44159a0fa47b9a355a0430e18c8adf8",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "mlr.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/johnkerl/miller/releases/download/v$version/miller-$version-windows-amd64.zip"
+                   }
+}

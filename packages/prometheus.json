@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "3.11.2",
+    "description":  "Systems monitoring and alerting toolkit",
+    "homepage":  "https://prometheus.io",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/prometheus/prometheus/releases/download/v3.11.2/prometheus-3.11.2.windows-amd64.tar.gz",
+    "hash":  "41323c09ba33784fd866dfa9a984f1a38d7d04c52601df099c6615e1a4c87cae",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "prometheus.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/prometheus/prometheus/releases/download/v$version/prometheus-$version.windows-amd64.tar.gz"
+                   }
+}

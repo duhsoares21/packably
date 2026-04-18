@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "2.3.1",
+    "description":  "All-in-one ebook reader.",
+    "homepage":  "https://www.koodoreader.com",
+    "license":  "AGPL-3.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://dl.koodoreader.com/v2.3.1/Koodo-Reader-2.3.1-x64.exe#/dl.7z",
+    "hash":  "sha512:23767ad43e573d6b91b9340f0ef9cfb1a8dc4279e34130eab6fc3ca34515e7301c011020b861cf454635ce9fbc04cacd9a585ff2e565b7863889f03c5a75ab8d",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Koodo Reader.exe",
+    "autoupdate":  {
+                       "url":  "https://dl.koodoreader.com/v$version/Koodo-Reader-$version-x64.exe#/dl.7z"
+                   }
+}

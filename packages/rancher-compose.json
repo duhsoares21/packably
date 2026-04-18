@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.12.5",
+    "description":  "A complete software stack for teams adopting containers.",
+    "homepage":  "https://rancher.com/",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/rancher/rancher-compose/releases/download/v0.12.5/rancher-compose-windows-amd64-v0.12.5.zip",
+    "hash":  "465e651c5fedcdd91417a7e25bcab351c9e99732192263afbcb91496138ef7d9",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "rancher-compose.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/rancher/rancher-compose/releases/download/v$version/rancher-compose-windows-amd64-v$version.zip"
+                   }
+}

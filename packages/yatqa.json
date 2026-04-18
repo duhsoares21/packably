@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "3.9.9b",
+    "description":  "Manage TeamSpeak 3 servers and instances using a query interface",
+    "homepage":  "https://yat.qa/",
+    "license":  "Freeware",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://dl.yat.qa/stable/YaTQA-Setup_3.9.9b.exe",
+    "hash":  "6695d89c716c34c849f301f627671fd76e93c84404c83de75664821d39a23524",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "yatqa.exe",
+    "autoupdate":  {
+                       "url":  "https://dl.yat.qa/stable/YaTQA-Setup_$version.exe"
+                   }
+}

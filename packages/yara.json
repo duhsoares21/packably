@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "4.5.5",
+    "description":  "A malware samples pattern matching tool.",
+    "homepage":  "https://virustotal.github.io/yara/",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/VirusTotal/yara/releases/download/v4.5.5/yara-4.5.5-2368-win64.zip",
+    "hash":  "352396c8a3d9b31b157a4820abd3b9347fc934a2314cdda8a4f566a5570163e4",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://github.com/VirusTotal/yara/releases/download/v$version/yara-$version-$matchBuild-win64.zip"
+                   }
+}

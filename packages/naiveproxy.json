@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "147.0.7727.49-1",
+    "description":  "A proxy using Chrome\u0027s network stack to camouflage traffic with strong censorship resistence and low detectablility.",
+    "homepage":  "https://github.com/klzgrad/naiveproxy",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/klzgrad/naiveproxy/releases/download/v147.0.7727.49-1/naiveproxy-v147.0.7727.49-1-win-x64.zip",
+    "hash":  "2de2cf78bec5d1cd58e5f57d1aa3b6c03b62039aaff1937f427a2dc466b46cbd",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "naive.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/klzgrad/naiveproxy/releases/download/v$version/naiveproxy-v$version-win-x64.zip"
+                   }
+}

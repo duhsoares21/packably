@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.3.1",
+    "description":  "witr (\u0027Why Is This Running\u0027) is a tool that explains the causal chain behind running processes with additional insights.",
+    "homepage":  "https://github.com/pranshuparmar/witr",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/pranshuparmar/witr/releases/download/v0.3.1/witr-windows-amd64.zip",
+    "hash":  "c64a3c6496fe7eb2376e4e8632dc686171c0eeed575aaab7d2f8435d65426f67",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "witr.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/pranshuparmar/witr/releases/download/v$version/witr-windows-amd64.zip"
+                   }
+}

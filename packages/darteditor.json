@@ -1,0 +1,18 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.6.0",
+    "description":  "Tool for editing, debugging, and running Dart applications.",
+    "homepage":  "https://www.dartlang.org",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://storage.googleapis.com/dart-archive/channels/stable/release/39553/editor/darteditor-windows-x64.zip",
+    "hash":  "42fd2ab3e5a63483e3751ab19b7ab68e3e97d542fee76608a7d950fff4ac3e67",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "DartEditor.exe"
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "1.12",
+    "description":  "Read and write from/to network connections",
+    "homepage":  "https://eternallybored.org/misc/netcat/",
+    "license":  "GPL-2.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://eternallybored.org/misc/netcat/netcat-win32-1.12.zip",
+    "hash":  "413f85a1dbac60ab5516742d76beff4f4da22b8ef1a424f10f36ec77e6d274b1",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://eternallybored.org/misc/netcat/netcat-win32-$version.zip"
+                   }
+}

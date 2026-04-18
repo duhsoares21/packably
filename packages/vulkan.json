@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "1.4.341.1",
+    "description":  "SDK for new generation graphics and compute API",
+    "homepage":  "https://www.vulkan.org",
+    "license":  "MIT,...",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://sdk.lunarg.com/sdk/download/1.4.341.1/windows/vulkansdk-windows-X64-1.4.341.1.exe",
+    "hash":  "bcf2d75aa9556889ab974858666e20b3655b6055a0db704ccb47279ff33b5bfe",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "Bin\\vkconfig-gui.exe",
+    "autoupdate":  {
+                       "url":  "https://sdk.lunarg.com/sdk/download/$version/windows/vulkansdk-windows-X64-$version.exe"
+                   }
+}

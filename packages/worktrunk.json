@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.38.0",
+    "description":  "A CLI for Git worktree management, designed for parallel AI agent workflows.",
+    "homepage":  "https://worktrunk.dev",
+    "license":  "MIT|Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/max-sixty/worktrunk/releases/download/v0.38.0/worktrunk-x86_64-pc-windows-msvc.zip",
+    "hash":  "2ed3afd2ae4ac0603f83405b219d2b50c5c9605d677cc94d4286ca999dbf1612",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "git-wt.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/max-sixty/worktrunk/releases/download/v$version/worktrunk-x86_64-pc-windows-msvc.zip"
+                   }
+}

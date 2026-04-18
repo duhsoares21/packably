@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.14.1",
+    "description":  "Real-time logging dashboard for Kubernetes",
+    "homepage":  "https://github.com/kubetail-org/kubetail",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/kubetail-org/kubetail/releases/download/cli%2Fv0.14.1/kubetail-windows-amd64#/kubetail.exe",
+    "hash":  "71e85588c3a6b62c7beab3ec2381517c29ffc9045440a45612e4cd3b6785314f",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "kubetail.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/kubetail-org/kubetail/releases/download/cli%2Fv$version/kubetail-windows-amd64#/kubetail.exe"
+                   }
+}

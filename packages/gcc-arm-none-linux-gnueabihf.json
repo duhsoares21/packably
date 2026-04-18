@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "15.2.rel1",
+    "description":  "Pre-built GNU Toolchain for the Arm Architecture",
+    "homepage":  "https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain",
+    "license":  "GPL-3.0-only",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://developer.arm.com/-/media/Files/downloads/gnu/15.2.rel1/binrel/arm-gnu-toolchain-15.2.rel1-mingw-w64-i686-arm-none-linux-gnueabihf.zip",
+    "hash":  "1ae2b1abdae0c37869c92526f5d3533fc7e6d47c242a593f374674d45d0a5152",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "",
+    "autoupdate":  {
+                       "url":  "https://developer.arm.com/-/media/Files/downloads/gnu/$version/binrel/arm-gnu-toolchain-$version-mingw-w64-i686-arm-none-linux-gnueabihf.zip"
+                   }
+}

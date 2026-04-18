@@ -1,0 +1,21 @@
+﻿{
+    "type":  "exe",
+    "version":  "0.2.0",
+    "description":  "Reduce audio latency on Windows 10.",
+    "homepage":  "https://github.com/miniant-git/REAL",
+    "license":  "MIT",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/miniant-git/REAL/releases/download/updater-v2/REAL.exe",
+    "hash":  "d9767fd0e29a9fcdd274282de81c82d7b8fb16f268fa2a7cec50c01d0dd3c4ad",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "REAL.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/miniant-git/REAL/releases/download/updater-v2/REAL.exe"
+                   }
+}

@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.3.0",
+    "description":  "A terminal-based SSH manager.",
+    "homepage":  "https://github.com/adembc/lazyssh",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Adembc/lazyssh/releases/download/v0.3.0/lazyssh_Windows_x86_64.zip",
+    "hash":  "ca4353a910e453deb5de68c95d83aa8738ff0e52c4bff919f6d74dc27560a1df",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "lazyssh.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Adembc/lazyssh/releases/download/v$version/lazyssh_Windows_x86_64.zip"
+                   }
+}

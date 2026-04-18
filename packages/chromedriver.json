@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "147.0.7727.57",
+    "description":  "An open source tool for automated testing of webapps across many browsers",
+    "homepage":  "https://chromedriver.chromium.org/",
+    "license":  "BSD-3-Clause",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://storage.googleapis.com/chrome-for-testing-public/147.0.7727.57/win64/chromedriver-win64.zip",
+    "hash":  "962592cfdd17fa0b331dba6f8ae8d50fb0c45461b98994fe0b83ba123fae5147",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "chromedriver.exe",
+    "autoupdate":  {
+                       "url":  "https://storage.googleapis.com/chrome-for-testing-public/$version/win64/chromedriver-win64.zip"
+                   }
+}

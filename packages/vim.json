@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "9.2.0323",
+    "description":  "A highly configurable text editor",
+    "homepage":  "https://www.vim.org",
+    "license":  "Vim",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/vim/vim-win32-installer/releases/download/v9.2.0323/gvim_9.2.0323_x64_signed.zip",
+    "hash":  "34e3a80a30dc11b87fa2984ac368b33aaa60761082c0a3c1a1b2b45a170f1d7a",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "vim.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/vim/vim-win32-installer/releases/download/v$version/gvim_$version_x64_signed.zip"
+                   }
+}

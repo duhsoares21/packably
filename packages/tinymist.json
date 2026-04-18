@@ -1,0 +1,21 @@
+﻿{
+    "type":  "zip",
+    "version":  "0.14.16",
+    "description":  "A brand-new language server for Typst",
+    "homepage":  "https://github.com/Myriad-Dreamin/tinymist",
+    "license":  "Apache-2.0",
+    "dependencies":  [
+
+                     ],
+    "url":  "https://github.com/Myriad-Dreamin/tinymist/releases/download/v0.14.16/tinymist-x86_64-pc-windows-msvc.zip",
+    "hash":  "dc4ccb2729b48d19e85dd2ce63123ea59f1048424de9d9df44e592eccc072a60",
+    "installer":  {
+                      "args":  [
+
+                               ]
+                  },
+    "bin":  "tinymist.exe",
+    "autoupdate":  {
+                       "url":  "https://github.com/Myriad-Dreamin/tinymist/releases/download/v$version/tinymist-x86_64-pc-windows-msvc.zip"
+                   }
+}
