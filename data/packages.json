@@ -7,7 +7,7 @@
                          "originalName":  "packl-tui",
                          "displayName":  "Packl TUI",
                          "command":  "packl install packl-tui",
-                         "type":  "zip",
+                         "type":  "portable exe",
                          "version":  "0.1.0",
                          "description":  "Packbly TUI",
                          "homepage":  "https://packably.com.br/",
