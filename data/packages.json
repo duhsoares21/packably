@@ -26799,6 +26799,17 @@
                          "manifestPath":  "packages/pladoo-draw.json"
                      },
                      {
+                         "name":  "pladoo-writer",
+                         "originalName":  "pladoo-writer",
+                         "displayName":  "Pladoo Writer",
+                         "command":  "packl install pladoo-writer",
+                         "type":  "portable exe",
+                         "version":  "1.0.0",
+                         "description":  "Pladoo Writer - Um editor de texto básico inspirado pelo Notepad.",
+                         "homepage":  "https://github.com/duhsoares21/PladooWrite",
+                         "manifestPath":  "packages/pladoo-write.json"
+                     },
+                     {
                          "name":  "plakar",
                          "originalName":  "plakar",
                          "displayName":  "Plakar",
