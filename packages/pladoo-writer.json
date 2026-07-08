@@ -4,8 +4,8 @@
     "description": "Pladoo Writer - Um editor de texto básico inspirado no Notepad.",
     "homepage": "https://github.com/duhsoares21/PladooWriter",
     "license": "PDSAL1.0",
-    "url": "https://github.com/duhsoares21/PladooWriter/releases/download/1.0/Pladoo.Writer.exe",
-    "hash": "sha256:98978c34b9583550e958da9ecea6d06aa544b4d97889005b9ac541b93033a3e1",
+    "url": "https://github.com/duhsoares21/PladooWriter/releases/download/1.1/Pladoo.Writer.exe",
+    "hash": "sha256:da2f48616707fbb0f8efd94079b5ef3729f49b2b9e27825de8280f02e31eed8b",
     "dependencies": [
     ],
     "installer": {
